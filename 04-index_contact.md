@@ -1,18 +1,14 @@
 ---
 layout: page
-title: Home
-permalink: "index.html"
+title: Contact
+permalink: "contact.html"
 group: basepages
-hlgroup: home
+hlgroup: contact
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
-<p class="emphnext"></p>
-Welcome! <img src="{{ BASE_PATH }}/assets/images/Tejaswi_picture.jpg" style="width:263px;height:272px" hspace="20" vspace="20" align="right">
 
-I am a graduate student in Physics at Caltech. My Ph.D advisor is [Chris Hirata](http://www.tapir.caltech.edu/~chirata/web/). As a member of the TAPIR research group, I am interested in a variety of topics in theoretical astrophysics, with particular emphasis on cosmology.
-
-    This is a test.
+Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
