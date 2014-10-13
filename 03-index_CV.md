@@ -3,6 +3,7 @@ layout: page
 title: CV
 permalink: "CV.html"
 group: basepages
+hlgroup: CV
 tagline: Supporting tagline
 ---
 {% include JB/setup %}

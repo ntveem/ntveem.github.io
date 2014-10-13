@@ -3,6 +3,7 @@ layout: page
 title: Publications
 permalink: "publications.html"
 group: basepages
+hlgroup: publications 
 tagline: Supporting tagline
 ---
 {% include JB/setup %}

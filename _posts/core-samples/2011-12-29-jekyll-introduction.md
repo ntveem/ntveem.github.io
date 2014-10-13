@@ -1,6 +1,7 @@
 ---
 layout: post
 category : lessons
+hlgroup : home
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
 ---

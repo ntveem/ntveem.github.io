@@ -3,6 +3,7 @@ layout: page
 title: Home
 permalink: "index.html"
 group: basepages
+hlgroup: home
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
