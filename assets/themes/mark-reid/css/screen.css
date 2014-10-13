@@ -215,6 +215,7 @@ ul.compact li a {
 }
 
 #header ul {
+	/*position: relative;*/
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -224,12 +225,18 @@ ul.compact li a {
 	margin: 0;
 	width: 50%;
 	text-align: right;
+	/* text-align: left; */
 }
 #header ul li { display: inline; }
 #header ul li a {
 	padding: 0.4em 0.3em 0 0.3em;
 	display: inline;
 }
+
+#header ul li a.active {
+	color: black;
+}
+
 #header ul li a:hover {
 	color: blue;
 	border-bottom: 2px solid blue;

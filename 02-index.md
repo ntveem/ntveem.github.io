@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Hello World!
+title: Publications
+permalink: "publications.html"
+group: basepages
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
