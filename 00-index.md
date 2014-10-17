@@ -8,13 +8,20 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 <p class="emphnext"></p>
-Welcome! <img src="{{ BASE_PATH }}/assets/images/Tejaswi_picture.jpg" style="width:263px;height:272px" hspace="20" vspace="20" align="right">
+Welcome! <img src="{{ BASE_PATH }}/assets/images/Tejaswi_picture.jpg" hspace="20" vspace="20" align="right">
 
-I am a graduate student in Physics at Caltech. My Ph.D advisor is [Chris Hirata](http://www.tapir.caltech.edu/~chirata/web/). As a member of the TAPIR research group, I am interested in a variety of topics in theoretical astrophysics, with particular emphasis on cosmology.
+I am a graduate student in Physics at Caltech. My Ph.D advisor is [Chris Hirata](http://www.tapir.caltech.edu/~chirata/web/). As a member of the TAPIR research group, I work on a variety of topics in theoretical astrophysics, with particular emphasis on cosmology.
 
-    This is a test.
+Contact information: 
+	
+	Tejaswi Venumadhav
+	MC 350-17, Caltech,
+	1200 E California Blvd,
+	Pasadena, CA, USA 91125
+	email: tejaswi@caltech.edu
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+
+<!--Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
 ## Update Author Attributes
 
@@ -48,6 +55,6 @@ Here's a sample "posts list".
 ## To-Do
 
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+We need to clean up the themes, make theme usage guides with theme-specific markup examples.-->
 
 
