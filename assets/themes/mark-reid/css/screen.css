@@ -353,6 +353,7 @@ pre {
 	border: 1px solid #ddc;
 	padding: 0.5em 1em;
 	overflow: hidden;
+	display: inline-block;
 
 	/* Experimental CSS3 stuff */
 	box-shadow: 1px 1px 6px #ccc;
@@ -361,7 +362,7 @@ pre {
 }
 pre:hover {
 	border-right: none;
-	overflow: visible;
+	overflow: hidden;
 }
 code {
 	font-size: 1em;

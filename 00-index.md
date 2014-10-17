@@ -20,7 +20,6 @@ Contact information:
 	Pasadena, CA, USA 91125
 	email: tejaswi@caltech.edu
 
-
 <!--Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
 ## Update Author Attributes
