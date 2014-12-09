@@ -8,19 +8,28 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 <p class="emphnext"></p>
-Welcome! <img src="{{ BASE_PATH }}/assets/images/Tejaswi_picture.jpg" hspace="20" vspace="20" align="right">
+Welcome!  <img style="width:100%; height:auto;"  src="{{ BASE_PATH }}/assets/images/Tejaswi_picture.jpg" hspace="20" vspace="20" align="right">
 
-I am a graduate student in Physics at Caltech. My Ph.D advisor is [Chris Hirata](http://www.tapir.caltech.edu/~chirata/web/). As a member of the TAPIR research group, I work on a variety of topics in theoretical astrophysics, with particular emphasis on cosmology.
+<!--![Profile picture]({{ BASE_PATH }}/assets/images/Tejaswi_picture.jpg)-->
 
-Contact information: 
+I am a graduate student in Physics at Caltech. My Ph.D advisor is [Chris Hirata](http://www.tapir.caltech.edu/~chirata/web/). As a member of the TAPIR research group, I work on a variety of topics in theoretical astrophysics, with an emphasis on physical cosmology.
+
+On this website, you can find the details of my past and current [research topics]({{ BASE_PATH }}/research.html), my [publication list]({{ BASE_PATH }}/publications.html) and my [CV]({{ BASE_PATH }}/CV.html). If you are interested in learning more about my work, contact me at:
 	
 	Tejaswi Venumadhav
 	MC 350-17, Caltech,
 	1200 E California Blvd,
 	Pasadena, CA, USA 91125
-	email: tejaswi@caltech.edu
+	email: tejaswi AT caltech.edu
+
 
 <!--Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+
+<ul class="tag_box inline">
+  {% assign tags_list = site.tags %}
+  {% include JB/tags_list %}
+</ul>
+
 
 ## Update Author Attributes
 

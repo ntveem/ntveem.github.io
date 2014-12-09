@@ -113,7 +113,7 @@ My other research interests include weak interactions of neutrinos in the early 
   </FONT></B></TD></TR>
 </TABLE></U>
 
-</div>
+<div>
 <p style="float: left">
 Robert A. Millikan Fellowship 2010
 <BR>
@@ -381,7 +381,7 @@ Collaborators: de Putter, R., Dor&#233;, O.,  Hirata, C.&nbsp;M. (planned 2015)
   </FONT></B></TD></TR>
 </TABLE></U>
 
-<P>
+</P>
  
 	
 <UL>
@@ -391,7 +391,6 @@ Collaborators: de Putter, R., Dor&#233;, O.,  Hirata, C.&nbsp;M. (planned 2015)
 Report at <TT><A NAME="tex2html1"
   HREF="http://www.its.caltech.edu/~tnerella/draft_v7.pdf">http://www.its.caltech.edu/~tnerella/draft_v7.pdf</A></TT>  
 
-<P>
 </LI>
 <LI>Wave plate modeling, SURF (2007) 
 <BR>		<I>Mentor</I>: Andrew Lange 
@@ -400,8 +399,6 @@ Report at <TT><A NAME="tex2html2"
   HREF="http://www.its.caltech.edu/~tnerella/waveplate_07.pdf">http://www.its.caltech.edu/~tnerella/waveplate_07.pdf</A></TT>
 </LI>
 </UL>
-	
-<P>
 
 
 <P>
@@ -412,25 +409,33 @@ Report at <TT><A NAME="tex2html2"
 </TABLE></U>
 
 <P>
- 
-	
 <UL>
-<LI>(Invited talk) Special seminar, KICP, University of Chicago. 2014
+<LI>(Upcoming) Talk, The Primordial Universe after Planck, IAP, Paris. 2014
+</LI>
+<LI>Seminar, McGill University, Montreal. 2014
+</LI>
+<LI>Seminar, CITA, Toronto. 2014
+</LI>
+<LI>ITC Seminar, Harvard University, Boston. 2014
+</LI>
+<LI>Cosmology lunch, joint w/ IAS and Princeton University, Princeton. 2014
+</LI>
+<LI>Talk, Theoretical Astrophysics in Southern California (TASC), UCSD, San Diego. 2014
+</LI>
+<LI>Special seminar, KICP, University of Chicago. 2014
 </LI>
 <LI>Cosmology Lunch talk, CCAPP, Ohio State University. 2014
 </LI>
 <LI>Poster, Gravitational Wave Physics and Astronomy Workshop (GWPAW) at IUCAA, Pune. 2013
 </LI>
-<LI>(Invited talk) Seminar, Inter University Center for Astronomy and Astrophysics, Pune. 2013
+<LI>Seminar, Inter University Center for Astronomy and Astrophysics, Pune. 2013
 </LI>
 <LI>Talk, Theoretical Astrophysics in Southern California (TASC), Carnegie Observatories, Pasadena. 2012
 </LI>
 <LI>Poster, Summer school on cosmology, ICTP, Trieste. 2012
-	
 </LI>
-</UL>
-	
-<P>
+</UL>	
+</P>
 
 
 <P>

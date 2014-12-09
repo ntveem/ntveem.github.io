@@ -1,6 +1,10 @@
 ---
 # Remember to set production_url in your _config.yml file!
+#layout : page
 title : Sitemap
+#permalink : "sitemap.html"
+#group : basepages
+#hlgroup : sitemap
 ---
 {% for page in site.pages %}
 {{site.production_url}}{{ page.url }}{% endfor %}

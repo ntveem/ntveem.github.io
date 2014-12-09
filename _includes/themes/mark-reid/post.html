@@ -5,9 +5,10 @@
   {% assign tags_list = page.tags %}
   {% include JB/tags_list %}
   </ul>
-
+  <br>
   {{ content }}
 
+  {% if page.group != 'research_pages' %}
   <address class="signature">
     <a class="author" href="{{ HOME_PATH }}">{{ site.author.name }}</a> 
     <span class="date">{{ page.date | date_to_long_string }}</span>
@@ -22,7 +23,10 @@
     <a href="{{ page.previous.url }}" class="prev" title="{{ page.previous.title }}">&larr; Earlier Post</a>
   {% endif %}
   </div>
+  {% endif %}
   
 </div><!-- End Page -->
 
+{% if page.group != 'research_pages' %}
 {% include JB/comments %}
+{% endif %}
