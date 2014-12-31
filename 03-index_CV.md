@@ -410,7 +410,7 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
-<LI>(Upcoming) Talk, The Primordial Universe after Planck, IAP, Paris. 2014
+<LI>Talk, The Primordial Universe after Planck, IAP, Paris. 2014
 </LI>
 <LI>Seminar, McGill University, Montreal. 2014
 </LI>
