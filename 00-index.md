@@ -12,7 +12,7 @@ Welcome!  <img style="width:100%; height:auto;"  src="{{ BASE_PATH }}/assets/ima
 
 <!--![Profile picture]({{ BASE_PATH }}/assets/images/Tejaswi_picture.jpg)-->
 
-I am a member of the [School of Natural Sciences](http://www.sns.ias.edu/) at the Institute for Advanced Study. I work on a variety of topics in theoretical astrophysics, with an emphasis on physical cosmology. 
+I am a Schmidt fellow and member of the [School of Natural Sciences](http://www.sns.ias.edu/) at the Institute for Advanced Study. I work on a variety of topics in theoretical astrophysics, with an emphasis on physical cosmology. 
 
 Prior to this, I was a graduate student in Physics at Caltech with [Chris Hirata](http://www.tapir.caltech.edu/~chirata/web/). 
 

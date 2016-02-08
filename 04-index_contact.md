@@ -10,9 +10,9 @@ tagline: Supporting tagline
 
 Find me at:
 
-	Tejaswi Venumadhav
-	MC 350-17, Caltech,
-	1200 E California Blvd, 
-	Pasadena, CA, USA 91125
-	email: tejaswi AT caltech.edu
-
+	Tejaswi Venumadhav Nerella
+	1 Einstein Drive
+	School of Natural Sciences
+	Institute for Advanced Study
+	Princeton, NJ, USA 08540
+	email: tejaswi AT sns.ias.edu

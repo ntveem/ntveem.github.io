@@ -20,13 +20,15 @@ and in (*sigh*) HTML format below:
 
 <div>
 <P style="float:left">
-Member, School of Natural Sciences
+Graduate Student, Department of Physics
 <BR>
-1 Einstein Drive
+MC 350-17
 <BR>
-Institute for Advanced Study
+California Institute of Technology  
 <BR>
-Princeton, NJ 08540
+1200 E California Blvd 
+<BR>
+Pasadena, CA 91125 
 <BR>	
 </P>
 
@@ -35,7 +37,7 @@ Contact:
 <BR>
 Phone: (626) 826-3571
 <BR>
-email: tejaswi@sns.ias.edu
+email: tejaswi@caltech.edu
 <BR>
 </P>
 
@@ -52,14 +54,14 @@ email: tejaswi@sns.ias.edu
 
 <div>
 <P style="float:left">
-	<B>California Institute of technology</B>
+	<B>California Institute of technology</B> 2010-present
 <BR>
 Ph.D. in Physics, 
 <BR>	<I>Advisor:</I> Christopher Hirata
 <BR>
 <P>
 <P style="float:right">
-2010-2015
+2010-present
 </P>
 </div>
 <div style="clear: both;"></div>
@@ -92,7 +94,7 @@ M.Sc (Integrated) in Physics, <I>GPA: 10.0/10.0</I>
 My research area is astrophysics, with a primary focus on cosmology. I have research interests in a number of areas, including but not limited to the pre-atomic era of the very early universe, recombination, reionization, and binary systems. 
 
 <P>
-I am interested in doing cosmology with the 21-cm signal from neutral hydrogen during the reionization epoch. My current work in this area focuses on developing new methods to study observables such as primordial magnetic fields and gravitational waves using high-resolution maps of the 21-cm line. I also enjoy thinking about radio interferometry, and have previously worked on its application to studying the global 21-cm signal. In a broader sense, I also think about aspects of cosmic structure formation in the dark-ages, and its implications for observables in the later universe.
+I am interested in doing cosmology with the 21-cm signal from neutral hydrogen during the reionization epoch. My current work in this area focuses on developing new methods to study observables such as primordial magnetic fields and gravitational waves using high-resolution maps of the 21-cm line. 
 
 <P>
 I am also interested in the use of the Cosmic Microwave Background (CMB), and Large Scale Structure (LSS) as probes of curvature fluctuations in the primordial universe. I am currently developing a computer-algebra system to perform non-linear evolution of stochastically seeded fields from first-principles. I plan to use it to evaluate all lowest-order corrections to the two-, three- and four-point correlation functions of the CMB. 
@@ -110,18 +112,6 @@ My other research interests include weak interactions of neutrinos in the early 
     <B><FONT SIZE="+2">Academic Honors
   </FONT></B></TD></TR>
 </TABLE></U>
-
-<div>
-<p style="float: left">
-Schmidt Fellowship
-<BR>
-Institute for Advanced Study
-</p>
-<p style="float: right">
-2015
-</p>
-</div>
-<div style="clear: both;"></div>
 
 <div>
 <p style="float: left">
@@ -289,12 +279,8 @@ May-August 2007
 
 <P>
  
-
+	
 <UL>
-<LI><B>Venumadhav, T.</B>, &amp; Hirata, C.&nbsp;M. (2015), Physical Review D, 91, 123009 
-<BR>
-Title: Stability of small-scale baryon perturbations during cosmological recombination
-</LI>
 <LI><B> Venumadhav, T.</B>, Zimmerman, A., &amp; Hirata, C.&nbsp;M.  (2014),  Astrophysical Journal, 781, 23 
 <BR>
 Title: The stability of tidally deformed neutron stars to three- and four-mode coupling
@@ -319,25 +305,16 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 
 <P>
 
+
 <UL>
-<LI><B>Venumadhav, T.</B>, Chang, T.-C., Dor&#233;, O., &amp; Hirata, C.&nbsp;M. (2015), arXiv:1512.05248 
-<BR>
-Title: A practical theorem on using interferometry to measure the global 21-cm signal 
-<BR>
-Submitted to ApJ
-</LI>
-<LI><B>Venumadhav, T.</B>, Cyr-Racine, F.-Y., Abazajian, K.&nbsp;N., &amp; Hirata, C.&nbsp;M. (2015), arXiv:1507.06655 
-<BR>
-Title: Sterile neutrino dark matter: A tale of weak interactions in the strong coupling epoch 
-<BR>
-Submitted to Physical Review D	          
-</LI>
 <LI><B>Venumadhav, T.</B>, Oklopcic, A., Gluscevic, V., Mishra, A., &amp; Hirata, C.&nbsp;M. (2014), arXiv:1410.2250 
 <BR>
-Title: A new probe of magnetic fields in the pre-reionization epoch: I. Formalism 
+Title: A new probe of magnetic fields in the pre-reionization epoch: I. Formalism
+</LI>
+<LI><B>Venumadhav, T.</B>, &amp; Hirata, C.&nbsp;M. (2014), arXiv:1409.1240 
 <BR>
-Submitted to Physical Review D
-
+Title: Stability of small-scale baryon perturbations during cosmological recombination
+	
 </LI>
 </UL>
 	
@@ -363,6 +340,10 @@ Title: A new probe of magnetic fields in the pre-reionization epoch: II. Detecta
 <LI>Hirata, C.&nbsp;M., <B>Venumadhav, T.</B>, Gluscevic, V., Mishra, A., &amp; Oklopcic, A. (2014) 
 <BR>
 Title: Primordial gravitational waves and circular polarization in the redshifted 21 cm line
+</LI>
+<LI><B>Venumadhav, T.</B>, Cyr-Racine, F.-Y., Abazajian, K., Dor&#233;, O., &amp; de Putter, R. (2014) 
+<BR>
+Title: Weak interactions of active neutrinos in the early universe, and their effect on the production of sterile neutrinos
 	
 </LI>
 </UL>
@@ -429,12 +410,6 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
-<LI>Cosmology lunch, joint w/ IAS and Princeton University. 2016
-</LI>
-<LI>Seminar, Inter University Center for Astronomy and Astrophysics, Pune. 2015
-</LI>
-<LI>Seminar, National Center for Radio Astronomy, Pune. 2015
-</LI>
 <LI>Talk, The Primordial Universe after Planck, IAP, Paris. 2014
 </LI>
 <LI>Seminar, McGill University, Montreal. 2014
