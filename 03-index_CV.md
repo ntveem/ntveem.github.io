@@ -10,8 +10,8 @@ tagline: Supporting tagline
 
 You can find a copy of my CV in a few formats below:
 
-* [PDF format](http://www.its.caltech.edu/~tnerella/Tejaswi_CV.pdf)
-* [PS format](http://www.its.caltech.edu/~tnerella/Tejaswi_CV.ps)
+* [PDF format]({{ BASE_PATH }}/assets/files/Tejaswi_CV.pdf)
+* [PS format]({{ BASE_PATH }}/assets/files/Tejaswi_CV.ps)
 
 and in (*sigh*) HTML format below: 
 
