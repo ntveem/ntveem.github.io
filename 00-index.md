@@ -12,15 +12,18 @@ Welcome!  <img style="width:100%; height:auto;"  src="{{ BASE_PATH }}/assets/ima
 
 <!--![Profile picture]({{ BASE_PATH }}/assets/images/Tejaswi_picture.jpg)-->
 
-I am a graduate student in Physics at Caltech. My Ph.D advisor is [Chris Hirata](http://www.tapir.caltech.edu/~chirata/web/). As a member of the TAPIR research group, I work on a variety of topics in theoretical astrophysics, with an emphasis on physical cosmology.
+I am a member at the [School of Natural Sciences](http://www.sns.ias.edu/) at the Institute for Advanced Study. I work on a variety of topics in theoretical astrophysics, with an emphasis on physical cosmology. 
+
+Prior to this, I was a graduate student in Physics at Caltech with [Chris Hirata](http://www.tapir.caltech.edu/~chirata/web/). 
 
 On this website, you can find the details of my past and current [research topics]({{ BASE_PATH }}/research.html), my [publication list]({{ BASE_PATH }}/publications.html) and my [CV]({{ BASE_PATH }}/CV.html). If you are interested in learning more about my work, contact me at:
 	
-	Tejaswi Venumadhav
-	MC 350-17, Caltech,
-	1200 E California Blvd,
-	Pasadena, CA, USA 91125
-	email: tejaswi AT caltech.edu
+	Tejaswi Venumadhav Nerella
+	1 Einstein Drive,
+	School of Natural Sciences,
+	Institute for Advanced Study,
+	Princeton, NJ, USA 08540
+	email: tejaswi AT sns.ias.edu
 
 
 <!--Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
