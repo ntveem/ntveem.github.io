@@ -433,6 +433,8 @@ Report at <TT><A NAME="tex2html2"
 </LI>
 <LI>Cosmology lunch, joint w/ IAS and Princeton University. 2016
 </LI>
+<LI>Astrophysics informal seminar, IAS. 2016
+</LI>
 <LI>Seminar, Inter University Center for Astronomy and Astrophysics, Pune. 2015
 </LI>
 <LI>Seminar, National Center for Radio Astronomy, Pune. 2015
