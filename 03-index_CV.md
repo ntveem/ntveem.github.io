@@ -429,6 +429,8 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Cosmology seminar, Perimeter Institute. 2016
+</LI>
 <LI>Cosmology lunch, joint w/ IAS and Princeton University. 2016
 </LI>
 <LI>Seminar, Inter University Center for Astronomy and Astrophysics, Pune. 2015
