@@ -320,6 +320,14 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <P>
 
 <UL>
+<LI>Dai, L., <B>Venumadhav, T.</B>, Sigurdson, K. (2016), arXiv:1605.09398
+<BR>
+Title: The effect of lensing magnification on the apparent distribution of black hole mergers
+</LI>
+<LI>Gluscevic, V., <B>Venumadhav, T.</B>, Fang, X., Hirata, C.M., Oklopcic, A., & Mishra, A. (2016), arXiv:1604.06327
+</BR>
+Title: A new probe of magnetic fields in the pre-reionization epoch: II. Detectability
+</LI>
 <LI><B>Venumadhav, T.</B>, Chang, T.-C., Dor&#233;, O., &amp; Hirata, C.&nbsp;M. (2015), arXiv:1512.05248 
 <BR>
 Title: A practical theorem on using interferometry to measure the global 21-cm signal 
