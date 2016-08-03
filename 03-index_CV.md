@@ -289,8 +289,11 @@ May-August 2007
 
 <P>
  
-
 <UL>
+<LI><B>Venumadhav, T.</B>, Chang, T.-C., Dor&#233;, O., &amp; Hirata, C.&nbsp;M. (2016), Astrophysical Journal, 826, 116 
+<BR>
+Title: A practical theorem on using interferometry to measure the global 21-cm signal
+</LI>
 <LI><B>Venumadhav, T.</B>, &amp; Hirata, C.&nbsp;M. (2015), Physical Review D, 91, 123009 
 <BR>
 Title: Stability of small-scale baryon perturbations during cosmological recombination
@@ -301,8 +304,7 @@ Title: The stability of tidally deformed neutron stars to three- and four-mode c
 </LI>
 <LI><B> Venumadhav, T.</B>, Haque, M., &amp; Moessner, R. (2010), Physical Review B, 81, 054305 
 <BR>
-Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
-	
+Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer	
 </LI>
 </UL>
 	
@@ -328,17 +330,11 @@ Title: The effect of lensing magnification on the apparent distribution of black
 </BR>
 Title: A new probe of magnetic fields in the pre-reionization epoch: II. Detectability
 </LI>
-<LI><B>Venumadhav, T.</B>, Chang, T.-C., Dor&#233;, O., &amp; Hirata, C.&nbsp;M. (2015), arXiv:1512.05248 
-<BR>
-Title: A practical theorem on using interferometry to measure the global 21-cm signal 
-<BR>
-Submitted to ApJ
-</LI>
 <LI><B>Venumadhav, T.</B>, Cyr-Racine, F.-Y., Abazajian, K.&nbsp;N., &amp; Hirata, C.&nbsp;M. (2015), arXiv:1507.06655 
 <BR>
 Title: Sterile neutrino dark matter: A tale of weak interactions in the strong coupling epoch 
 <BR>
-Submitted to Physical Review D	          
+Accepted; to appear in Physical Review D	          
 </LI>
 <LI><B>Venumadhav, T.</B>, Oklopcic, A., Gluscevic, V., Mishra, A., &amp; Hirata, C.&nbsp;M. (2014), arXiv:1410.2250 
 <BR>
