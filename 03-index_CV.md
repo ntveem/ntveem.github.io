@@ -433,6 +433,10 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Talk, CMB Spectral Distortions From Cosmic Baryon Evolution, RRI, Bengaluru. 2016
+</LI>
+<LI>Seminar, International Centre for Theoretical Sciences, TIFR. 2016
+</LI>
 <LI>Cosmology seminar, Perimeter Institute. 2016
 </LI>
 <LI>Cosmology lunch, joint w/ IAS and Princeton University. 2016
