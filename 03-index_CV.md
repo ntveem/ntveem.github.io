@@ -118,7 +118,7 @@ Schmidt Fellowship
 Institute for Advanced Study
 </p>
 <p style="float: right">
-2015
+2015-present
 </p>
 </div>
 <div style="clear: both;"></div>
@@ -433,6 +433,8 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Talk, Tianlai Collaboration Meeting, Fermilab, Batavia. 2016
+</LI>
 <LI>Talk, CMB Spectral Distortions From Cosmic Baryon Evolution, RRI, Bengaluru. 2016
 </LI>
 <LI>Seminar, International Centre for Theoretical Sciences, TIFR. 2016
