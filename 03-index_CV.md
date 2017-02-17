@@ -83,7 +83,7 @@ M.Sc (Integrated) in Physics, <I>GPA: 10.0/10.0</I>
   <TABLE  WIDTH="2">
 
     <B><FONT SIZE="+2">Research Interests
-  </FONT></B></TD></TR>
+  </FONT></B>
 </TABLE></U>
 
 <P>
@@ -108,7 +108,7 @@ My other research interests include weak interactions of neutrinos in the early 
   <TABLE  WIDTH="2">
 
     <B><FONT SIZE="+2">Academic Honors
-  </FONT></B></TD></TR>
+  </FONT></B>
 </TABLE></U>
 
 <div>
@@ -236,7 +236,7 @@ National Council of Educational Research and Training, Govt. of India
   <TABLE  WIDTH="2">
 
     <B><FONT SIZE="+2">Work Experience
-  </FONT></B></TD></TR>
+  </FONT></B>
 </TABLE></U>
 
 <div>
@@ -284,7 +284,7 @@ May-August 2007
   <TABLE  WIDTH="2">
 
     <B><FONT SIZE="+2">Refereed publications
-  </FONT></B></TD></TR>
+  </FONT></B>
 </TABLE></U>
 
 <P>
@@ -324,7 +324,7 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
   <TABLE  WIDTH="2">
 
     <B><FONT SIZE="+2">Preprints
-  </FONT></B></TD></TR>
+  </FONT></B>
 </TABLE></U>
 
 <P>
@@ -355,7 +355,7 @@ Submitted to Physical Review D
   <TABLE  WIDTH="2">
 
     <B><FONT SIZE="+2">Manuscripts in Preparation
-  </FONT></B></TD></TR>
+  </FONT></B>
 </TABLE></U>
 
 <P>
@@ -381,7 +381,7 @@ Title: Primordial gravitational waves and circular polarization in the redshifte
   <TABLE  WIDTH="2">
 
     <B><FONT SIZE="+2">Work in Progress
-  </FONT></B></TD></TR>
+  </FONT></B>
 </TABLE></U>
 
 <P>
@@ -403,7 +403,7 @@ Collaborators: de Putter, R., Dor&#233;, O.,  Hirata, C.&nbsp;M. (planned 2015)
   <TABLE  WIDTH="2">
 
     <B><FONT SIZE="+2">Other work
-  </FONT></B></TD></TR>
+  </FONT></B>
 </TABLE></U>
 
 </P>
@@ -430,7 +430,7 @@ Report at <TT><A NAME="tex2html2"
 <U>
   <TABLE  WIDTH="2">
     <B><FONT SIZE="+2">Talks and poster presentations
-  </FONT></B></TD></TR>
+  </FONT></B>
 </TABLE></U>
 
 <P>
@@ -483,7 +483,7 @@ Report at <TT><A NAME="tex2html2"
 <U>
   <TABLE  WIDTH="2">
     <B><FONT SIZE="+2">Teaching Experience and outreach
-  </FONT></B></TD></TR>
+  </FONT></B>
 </TABLE></U>
 
 <P>
@@ -504,7 +504,7 @@ Report at <TT><A NAME="tex2html2"
 <U>
   <TABLE  WIDTH="2">
     <B><FONT SIZE="+2">References
-  </FONT></B></TD></TR>
+  </FONT></B>
 </TABLE></U>
 
 <P>
