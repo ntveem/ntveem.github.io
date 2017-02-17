@@ -50,7 +50,7 @@ email: tejaswi@sns.ias.edu
   </FONT></B>
 </TABLE></U>
 
-<div>
+
 <P style="float:left">
 	<B>California Institute of technology</B>
 <BR>
@@ -61,10 +61,9 @@ Ph.D. in Physics,
 <P style="float:right">
 2010-2015
 </P>
-</div>
 <div style="clear: both;"></div>
 
-<div>
+
 <p style="float:left">
 <B>Indian Institute of Technology, Kanpur</B>
 <BR>
@@ -74,7 +73,6 @@ M.Sc (Integrated) in Physics, <I>GPA: 10.0/10.0</I>
 <p style="float:right">
 2005-2010
 </p>
-</div>
 <div style="clear: both;"></div>
 
 
@@ -335,7 +333,7 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 Title: On the waveforms of gravitationally lensed gravitational waves
 </LI>
 <LI>Gluscevic, V., <B>Venumadhav, T.</B>, Fang, X., Hirata, C.M., Oklopcic, A., & Mishra, A. (2016), arXiv:1604.06327
-</BR>
+<BR>
 Title: A new probe of magnetic fields in the pre-reionization epoch: II. Detectability
 </LI>
 <LI><B>Venumadhav, T.</B>, Oklopcic, A., Gluscevic, V., Mishra, A., &amp; Hirata, C.&nbsp;M. (2014), arXiv:1410.2250 
