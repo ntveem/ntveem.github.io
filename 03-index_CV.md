@@ -61,7 +61,7 @@ Ph.D. in Physics,
 <P style="float:right">
 2010-2015
 </P>
-<div style="clear: both;"></div>
+<!--div style="clear: both;"></div-->
 
 
 <p style="float:left">
@@ -73,7 +73,7 @@ M.Sc (Integrated) in Physics, <I>GPA: 10.0/10.0</I>
 <p style="float:right">
 2005-2010
 </p>
-<div style="clear: both;"></div>
+<!--div style="clear: both;"></div-->
 
 
 <P>
