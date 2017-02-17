@@ -47,7 +47,7 @@ email: tejaswi@sns.ias.edu
   <TABLE  WIDTH="2">
 
     <B><FONT SIZE="+2">Education
-  </FONT></B></TD></TR>
+  </FONT></B>
 </TABLE></U>
 
 <div>
