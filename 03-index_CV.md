@@ -433,6 +433,8 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Talk, Fundamental Physics with the Square Kilometer Array, Mauritius. 2017
+</LI>
 <LI>Talk, Tianlai Collaboration Meeting, Fermilab, Batavia. 2016
 </LI>
 <LI>Talk, CMB Spectral Distortions From Cosmic Baryon Evolution, RRI, Bengaluru. 2016
