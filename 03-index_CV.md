@@ -288,6 +288,14 @@ May-August 2007
 <P>
  
 <UL>
+<LI>Gluscevic, V., <B>Venumadhav, T.</B>, Fang, X., Hirata, C.M., Oklopcic, A., & Mishra, A. (2017), Physical Review D, 95, 083011
+<BR>
+Title: A new probe of magnetic fields in the pre-reionization epoch: II. Detectability
+</LI>
+<LI><B>Venumadhav, T.</B>, Oklopcic, A., Gluscevic, V., Mishra, A., &amp; Hirata, C.&nbsp;M. (2017), Physical Review D, 95, 083010
+<BR>
+Title: A new probe of magnetic fields in the pre-reionization epoch: I. Formalism
+</LI>
 <LI>Dai, L., <B>Venumadhav, T.</B>, Sigurdson, K. (2017), Physical Review D, 95, 044011
 <BR>
 Title: The effect of lensing magnification on the apparent distribution of black hole mergers
@@ -332,69 +340,75 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <BR>
 Title: On the waveforms of gravitationally lensed gravitational waves
 </LI>
-<LI>Gluscevic, V., <B>Venumadhav, T.</B>, Fang, X., Hirata, C.M., Oklopcic, A., & Mishra, A. (2016), arXiv:1604.06327
-<BR>
-Title: A new probe of magnetic fields in the pre-reionization epoch: II. Detectability
-</LI>
-<LI><B>Venumadhav, T.</B>, Oklopcic, A., Gluscevic, V., Mishra, A., &amp; Hirata, C.&nbsp;M. (2014), arXiv:1410.2250 
-<BR>
-Title: A new probe of magnetic fields in the pre-reionization epoch: I. Formalism 
-<BR>
-Submitted to Physical Review D
-
-</LI>
 </UL>
 	
 <P>
 
+(*<P>*)
+(*<U>*)
+  (*<TABLE  WIDTH="2">*)
 
-<P>
-<U>
-  <TABLE  WIDTH="2">
+    (*<B><FONT SIZE="+2">Manuscripts in Preparation*)
+  (*</FONT></B>*)
+(*</TABLE></U>*)
 
-    <B><FONT SIZE="+2">Manuscripts in Preparation
-  </FONT></B>
-</TABLE></U>
-
-<P>
+(*<P>*)
 
 
-<UL>
-<LI>Gluscevic, V., Mishra, A., <B>Venumadhav, T.</B>, Oklopcic, A., &amp; Hirata, C.&nbsp;M. (2014) 
-<BR>
-Title: A new probe of magnetic fields in the pre-reionization epoch: II. Detectability
-</LI>
-<LI>Hirata, C.&nbsp;M., <B>Venumadhav, T.</B>, Gluscevic, V., Mishra, A., &amp; Oklopcic, A. (2014) 
-<BR>
-Title: Primordial gravitational waves and circular polarization in the redshifted 21 cm line
+(*<UL>*)
+(*<LI>Gluscevic, V., Mishra, A., <B>Venumadhav, T.</B>, Oklopcic, A., &amp; Hirata, C.&nbsp;M. (2014) *)
+(*<BR>*)
+(*Title: A new probe of magnetic fields in the pre-reionization epoch: II. Detectability*)
+(*</LI>*)
+(*<LI>Hirata, C.&nbsp;M., <B>Venumadhav, T.</B>, Gluscevic, V., Mishra, A., &amp; Oklopcic, A. (2014) *)
+(*<BR>*)
+(*Title: Primordial gravitational waves and circular polarization in the redshifted 21 cm line*)
 	
-</LI>
-</UL>
+(*</LI>*)
+(*</UL>*)
 	
-<P>
+(*<P>*)
 
 
-<P>
-<U>
-  <TABLE  WIDTH="2">
+(*<P>*)
+(*<U>*)
+  (*<TABLE  WIDTH="2">*)
 
-    <B><FONT SIZE="+2">Work in Progress
-  </FONT></B>
-</TABLE></U>
+    (*<B><FONT SIZE="+2">Work in Progress*)
+  (*</FONT></B>*)
+(*</TABLE></U>*)
 
-<P>
+(*<P>*)
  
 	
-<UL>
-<LI>Computing all the lowest-order corrections to the CMB power spectrum due to non-linear evolution 
-<BR>
-Collaborators: de Putter, R., Dor&#233;, O.,  Hirata, C.&nbsp;M. (planned 2015)
+(*<UL>*)
+(*<LI>Computing all the lowest-order corrections to the CMB power spectrum due to non-linear evolution *)
+(*<BR>*)
+(*Collaborators: de Putter, R., Dor&#233;, O.,  Hirata, C.&nbsp;M. (planned 2015)*)
 	
-</LI>
-</UL>
+(*</LI>*)
+(*</UL>*)
 	
+(*<P>*)
+
+<P>
+<U>
+  <TABLE  WIDTH="2">
+
+    <B><FONT SIZE="+2">Professional service
+  </FONT></B>
+</TABLE></U>
+
+</P>
+
 <P>
 
+<UL>
+<LI> Referee for Astroparticle Physics
+<LI> Referee for Astrophysical Journal
+</UL>
+
+<P>
 
 <P>
 <U>
