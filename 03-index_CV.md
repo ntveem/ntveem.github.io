@@ -344,53 +344,6 @@ Title: On the waveforms of gravitationally lensed gravitational waves
 	
 <P>
 
-<!--P>
-<U>
-  <TABLE  WIDTH="2">
-
-    <B><FONT SIZE="+2">Manuscripts in Preparation
-  </FONT></B>
-</TABLE></U>
-
-<P>
-
-
-<UL>
-<LI>Gluscevic, V., Mishra, A., <B>Venumadhav, T.</B>, Oklopcic, A., &amp; Hirata, C.&nbsp;M. (2014) 
-<BR>
-Title: A new probe of magnetic fields in the pre-reionization epoch: II. Detectability
-</LI>
-<LI>Hirata, C.&nbsp;M., <B>Venumadhav, T.</B>, Gluscevic, V., Mishra, A., &amp; Oklopcic, A. (2014) 
-<BR>
-Title: Primordial gravitational waves and circular polarization in the redshifted 21 cm line
-	
-</LI>
-</UL>
-	
-<P>
-
-
-<P>
-<U>
-  <TABLE  WIDTH="2">
-
-    <B><FONT SIZE="+2">Work in Progress
-  </FONT></B>
-</TABLE></U>
-
-<P>
- 
-	
-<UL>
-<LI>Computing all the lowest-order corrections to the CMB power spectrum due to non-linear evolution 
-<BR>
-Collaborators: de Putter, R., Dor&#233;, O.,  Hirata, C.&nbsp;M. (planned 2015)
-	
-</LI>
-</UL>
-	
-<P-->
-
 <P>
 <U>
   <TABLE  WIDTH="2">
