@@ -358,7 +358,9 @@ Title: On the waveforms of gravitationally lensed gravitational waves
 
 <UL>
 <LI> Referee for Astroparticle Physics
+</LI>
 <LI> Referee for Astrophysical Journal
+</LI>
 </UL>
 
 <P>
