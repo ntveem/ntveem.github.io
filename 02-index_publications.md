@@ -16,7 +16,7 @@ List of my publications on online databases:
 
 Individual links to articles, in reverse chronological order:
 
-1. **Venumadhav, T.**, Dai, L., & Miralda-Escud&#233;, J., (2017) <br>
+1. **Venumadhav, T.**, Dai, L., & Miralda-Escud&#233;, J. (2017) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;*Gravitational microlensing during caustic crossings* <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[ADS](http://adsabs.harvard.edu/abs/arXiv:1707.00003) [arxiv](https://arxiv.org/abs/1707.00003) [INSPIRE](https://inspirehep.net/record/1608328)
 2. Dai, L., & **Venumadhav, T.** (2017) <br>
