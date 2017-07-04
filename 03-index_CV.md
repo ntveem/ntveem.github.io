@@ -336,7 +336,11 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <P>
 
 <UL>
-<LI>Dai, L., <B>Venumadhav, T.</B> (2017), arXiv:1702.04724
+<LI><B>Venumadhav, T.</B>, Dai, L., Miralda-Escud&#233; (2017), arXiv:1707.00003
+<BR>
+Title: Gravitational microlensing during caustic crossings
+</LI>
+<LI>Dai, L., &amp; <B>Venumadhav, T.</B> (2017), arXiv:1702.04724
 <BR>
 Title: On the waveforms of gravitationally lensed gravitational waves
 </LI>
