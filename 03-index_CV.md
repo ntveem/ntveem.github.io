@@ -336,6 +336,10 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <P>
 
 <UL>
+<LI>Hirata, C. M., Mishra, A., <B>Venumadhav, T.</B>, (2017), arXiv:1707.03513
+<BR>
+Title: Detecting primordial gravitational waves with circular polarization of the redshifted 21 cm line: I. Formalism
+</LI>
 <LI><B>Venumadhav, T.</B>, Dai, L., &amp; Miralda-Escud&#233;, J., (2017), arXiv:1707.00003
 <BR>
 Title: Gravitational microlensing during caustic crossings
@@ -363,6 +367,7 @@ Title: On the waveforms of gravitationally lensed gravitational waves
 <UL>
 <LI> Referee for Astroparticle Physics</LI>
 <LI> Referee for Astrophysical Journal</LI>
+<LI> Referee for Monthly Notices of the Royal Astronomical Society Letters</LI>
 </UL>
 
 <P>
