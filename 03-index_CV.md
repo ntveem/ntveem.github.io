@@ -409,6 +409,8 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Seminar, CITA, Toronto. 2017
+</LI>
 <LI>Talk, Fundamental Physics with the Square Kilometer Array, Mauritius. 2017
 </LI>
 <LI>Talk, Tianlai Collaboration Meeting, Fermilab, Batavia. 2016
