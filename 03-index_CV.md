@@ -356,6 +356,25 @@ Title: On the waveforms of gravitationally lensed gravitational waves
 <U>
   <TABLE  WIDTH="2">
 
+    <B><FONT SIZE="+2">n-th author papers
+  </FONT></B>
+</TABLE></U>
+
+<P>
+
+<UL>
+<LI>Dor&#233;, O., et. al., (2014), arXiv:1412.4872
+<BR>
+Title: Cosmology with the SPHEREX All-Sky Spectral Survey
+</LI>
+</UL>
+	
+<P>
+
+<P>
+<U>
+  <TABLE  WIDTH="2">
+
     <B><FONT SIZE="+2">Professional service
   </FONT></B>
 </TABLE></U>
