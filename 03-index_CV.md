@@ -428,6 +428,8 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Cosmology seminar, JHU, Baltimore. 2017
+</LI>
 <LI>Seminar, CITA, Toronto. 2017
 </LI>
 <LI>Talk, Fundamental Physics with the Square Kilometer Array, Mauritius. 2017
