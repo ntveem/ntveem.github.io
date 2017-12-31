@@ -20,7 +20,7 @@ Individual links to articles, in reverse chronological order:
 &nbsp;&nbsp;&nbsp;&nbsp;*Detecting primordial gravitational waves with circular polarization of the redshifted 21 cm line: I. Formalism* <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[ADS](http://adsabs.harvard.edu/abs/arXiv:1707.03513) [arxiv](https://arxiv.org/abs/1707.03513) [INSPIRE](https://inspirehep.net/record/1609623)
 2. **Venumadhav, T.**, Dai, L., & Miralda-Escud&#233;, J. (2017) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;*Gravitational microlensing during caustic crossings* <br>
+&nbsp;&nbsp;&nbsp;&nbsp;*Microlensing of extremely magnified stars near caustics of galaxy clusters* <br>
 &nbsp;&nbsp;&nbsp;&nbsp;[ADS](http://adsabs.harvard.edu/abs/arXiv:1707.00003) [arxiv](https://arxiv.org/abs/1707.00003) [INSPIRE](https://inspirehep.net/record/1608328)
 3. Dai, L., & **Venumadhav, T.** (2017) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;*On the waveforms of gravitationally lensed gravitational waves* <br>

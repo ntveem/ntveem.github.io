@@ -288,6 +288,10 @@ May-August 2007
 <P>
  
 <UL>
+<LI><B>Venumadhav, T.</B>, Dai, L., &amp; Miralda-Escud&#233;, J., (2017), Astrophysical Journal, 850, 49
+<BR>
+Title: Microlensing of extremely magnified stars near caustics of galaxy clusters
+</LI>
 <LI>Gluscevic, V., <B>Venumadhav, T.</B>, Fang, X., Hirata, C.M., Oklopcic, A., & Mishra, A. (2017), Physical Review D, 95, 083011
 <BR>
 Title: A new probe of magnetic fields in the pre-reionization epoch: II. Detectability
@@ -339,10 +343,6 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <LI>Hirata, C. M., Mishra, A., <B>Venumadhav, T.</B>, (2017), arXiv:1707.03513
 <BR>
 Title: Detecting primordial gravitational waves with circular polarization of the redshifted 21 cm line: I. Formalism
-</LI>
-<LI><B>Venumadhav, T.</B>, Dai, L., &amp; Miralda-Escud&#233;, J., (2017), arXiv:1707.00003
-<BR>
-Title: Gravitational microlensing during caustic crossings
 </LI>
 <LI>Dai, L., &amp; <B>Venumadhav, T.</B> (2017), arXiv:1702.04724
 <BR>
