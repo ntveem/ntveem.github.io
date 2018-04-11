@@ -340,7 +340,7 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <P>
 
 <UL>
-<LI>Dai, L., &amp; <B>Venumadhav, T.</B>, Kaurov, A., Miralda-Escud&#233;, J., (2018), arXiv:submit/2222425
+<LI>Dai, L., &amp; <B>Venumadhav, T.</B>, Kaurov, A., Miralda-Escud&#233;, J., (2018), arXiv:1804.03149
 <BR>
 Title: Probing Dark Matter Subhalos in Galaxy Clusters Using Highly Magnified Stars
 </LI>
