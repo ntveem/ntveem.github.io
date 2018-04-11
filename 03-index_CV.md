@@ -90,10 +90,10 @@ M.Sc (Integrated) in Physics, <I>GPA: 10.0/10.0</I>
 My research area is astrophysics, with a primary focus on cosmology. I have research interests in a number of areas, including but not limited to the pre-atomic era of the very early universe, recombination, reionization, and binary systems. 
 
 <P>
-I am interested in doing cosmology with the 21-cm signal from neutral hydrogen during the reionization epoch. My current work in this area focuses on developing new methods to study observables such as primordial magnetic fields and gravitational waves using high-resolution maps of the 21-cm line. I also enjoy thinking about radio interferometry, and have previously worked on its application to studying the global 21-cm signal. In a broader sense, I also think about aspects of cosmic structure formation in the dark-ages, and its implications for observables in the later universe.
+I am interested in doing cosmology with the 21-cm signal from neutral hydrogen during the reionization epoch. My current work in this area focuses on developing new methods to study observables such as primordial magnetic fields and gravitational waves using high-resolution maps of the 21-cm line. I also enjoy thinking about radio interferometry, and have previously worked on its application to studying the global 21-cm signal. I have also worked on the thermal evolution of the intergalactic medium during the cosmic dawn era, when the global 21-cm signal is expected to be observable. In a broader sense, I also think about aspects of cosmic structure formation in the dark-ages, and its implications for observables in the later universe.
 
 <P>
-I am also interested in the use of the Cosmic Microwave Background (CMB), and Large Scale Structure (LSS) as probes of curvature fluctuations in the primordial universe. I am currently developing a computer-algebra system to perform non-linear evolution of stochastically seeded fields from first-principles. I plan to use it to evaluate all lowest-order corrections to the two-, three- and four-point correlation functions of the CMB. 
+A second theme of my research is astrophysical applications of strong gravitational lensing. Along with collaborators, I worked on one of the first theoretical papers about highly magnified stars within background galaxies behind massive galaxy clusters. Our predictions for the observational appearance of the stars, including both the image distribution and the lightcurve, were borne out by the first detection in the lensing cluster MACSJ1149. I am working on several applications of such systems to detecting low-mass dark matter substructure inside lensing clusters. I have also worked on the predictions for strongly lensed and multiply imaged gravitational wave mergers that will be seen by LIGO.
 
 <P>
 My other research interests include weak interactions of neutrinos in the early universe, and the secular evolution of binary systems. Previously, I have worked on tidal deformation of neutron stars, and its consequence for their internal oscillatory modes. Apart from these topics, at various periods, I have worked on orbital resonances in eccentric binaries, optics design for CMB experiments and, very briefly dabbled in X-ray fluorescence from kilonovae.
@@ -340,6 +340,14 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <P>
 
 <UL>
+<LI>Dai, L., &amp; <B>Venumadhav, T.</B>, Kaurov, A., Miralda-Escud&#233;, J., (2018), arXiv:submit/2222425
+<BR>
+Title: Probing Dark Matter Subhalos in Galaxy Clusters Using Highly Magnified Stars
+</LI>
+<LI><B>Venumadhav, T.</B>, Dai, L., Kaurov, A., Zaldarriaga, M., (2018), arXiv:1804.02406
+<BR>
+Title: Heating of the intergalactic medium by the cosmic microwave background during cosmic dawn
+</LI>
 <LI>Hirata, C. M., Mishra, A., <B>Venumadhav, T.</B>, (2017), arXiv:1707.03513
 <BR>
 Title: Detecting primordial gravitational waves with circular polarization of the redshifted 21 cm line: I. Formalism
@@ -428,6 +436,8 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Talk, Shedding Light on the Dark Universe with Extremely Large Telescopes, UCLA. 2018
+</LI>
 <LI>Cosmology seminar, JHU, Baltimore. 2017
 </LI>
 <LI>Seminar, CITA, Toronto. 2017
