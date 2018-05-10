@@ -340,6 +340,10 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <P>
 
 <UL>
+<LI>Kaurov, A., <B>Venumadhav, T.</B>, Dai, L., Zaldarriaga, M., (2018), arXiv:1805.03254
+<BR>
+Title: Implication of the Shape of the EDGES Signal for the 21 cm Power Spectrum
+</LI>
 <LI>Dai, L., &amp; <B>Venumadhav, T.</B>, Kaurov, A., Miralda-Escud&#233;, J., (2018), arXiv:1804.03149
 <BR>
 Title: Probing Dark Matter Subhalos in Galaxy Clusters Using Highly Magnified Stars
