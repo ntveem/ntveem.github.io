@@ -23,7 +23,8 @@ So far, I have worked/am working on the following subjects:
   * Tidal effects in neutron star binaries
   * Sterile neutrino production in the early universe
   * Evolution of cosmological perturbations
-  * Strong gravitational lensing 
+  * Strong gravitational lensing
+  * Gravitational wave data analysis
 
 <!--The links above lead to slightly detailed introductions to my work in each area. Alternatively, this page lists my work according to a semi-arbitrary system of tags, roughly corresponding to the physics involved in each.-->
 

@@ -340,6 +340,14 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <P>
 
 <UL>
+<LI>Zackay, B., Dai, L., &amp; <B>Venumadhav, T.</B>, (2018), arXiv:1806.08792
+<BR>
+Title: Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation 
+</LI>
+<LI>Dai, L., &amp; <B>Venumadhav, T.</B>, Zackay, B., (2018), arXiv:1806.08793
+<BR>
+Title: Parameter Estimation for GW170817 using Relative Binning 
+</LI>
 <LI>Kaurov, A., <B>Venumadhav, T.</B>, Dai, L., Zaldarriaga, M., (2018), arXiv:1805.03254
 <BR>
 Title: Implication of the Shape of the EDGES Signal for the 21 cm Power Spectrum
