@@ -344,23 +344,23 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <BR>
 Title: Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation 
 </LI>
-<LI>Dai, L., &amp; <B>Venumadhav, T.</B>, Zackay, B., (2018), arXiv:1806.08793
+<LI>Dai, L., <B>Venumadhav, T.</B>, &amp; Zackay, B., (2018), arXiv:1806.08793
 <BR>
 Title: Parameter Estimation for GW170817 using Relative Binning 
 </LI>
-<LI>Kaurov, A., <B>Venumadhav, T.</B>, Dai, L., Zaldarriaga, M., (2018), arXiv:1805.03254
+<LI>Kaurov, A., <B>Venumadhav, T.</B>, Dai, L., &amp; Zaldarriaga, M., (2018), arXiv:1805.03254
 <BR>
 Title: Implication of the Shape of the EDGES Signal for the 21 cm Power Spectrum
 </LI>
-<LI>Dai, L., &amp; <B>Venumadhav, T.</B>, Kaurov, A., Miralda-Escud&#233;, J., (2018), arXiv:1804.03149
+<LI>Dai, L., <B>Venumadhav, T.</B>, Kaurov, A., &amp; Miralda-Escud&#233;, J., (2018), arXiv:1804.03149
 <BR>
 Title: Probing Dark Matter Subhalos in Galaxy Clusters Using Highly Magnified Stars
 </LI>
-<LI><B>Venumadhav, T.</B>, Dai, L., Kaurov, A., Zaldarriaga, M., (2018), arXiv:1804.02406
+<LI><B>Venumadhav, T.</B>, Dai, L., Kaurov, A., &amp; Zaldarriaga, M., (2018), arXiv:1804.02406
 <BR>
 Title: Heating of the intergalactic medium by the cosmic microwave background during cosmic dawn
 </LI>
-<LI>Hirata, C. M., Mishra, A., <B>Venumadhav, T.</B>, (2017), arXiv:1707.03513
+<LI>Hirata, C. M., Mishra, A., &amp; <B>Venumadhav, T.</B>, (2017), arXiv:1707.03513
 <BR>
 Title: Detecting primordial gravitational waves with circular polarization of the redshifted 21 cm line: I. Formalism
 </LI>
