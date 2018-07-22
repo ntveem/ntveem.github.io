@@ -340,6 +340,10 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <P>
 
 <UL>
+<LI>Haris, K., Mehta, A. K., Kumar, S., <B>Venumadhav, T.</B>, &amp; Parameswaran, A., (2018), arXiv:1807.07062
+<BR>
+Title: Identifying stringly lensed gravitational wave signals from binary black hole mergers
+</LI>
 <LI>Zackay, B., Dai, L., &amp; <B>Venumadhav, T.</B>, (2018), arXiv:1806.08792
 <BR>
 Title: Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation 
