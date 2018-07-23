@@ -452,6 +452,8 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Invited talk, Thermal history of the Universe at intermediate redshift: progress with 21cm absorption measurements, CERN. 2018
+</LI>
 <LI>Talk, Shedding Light on the Dark Universe with Extremely Large Telescopes, UCLA. 2018
 </LI>
 <LI>Cosmology seminar, JHU, Baltimore. 2017
