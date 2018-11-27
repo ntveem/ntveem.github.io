@@ -111,12 +111,24 @@ My other research interests include weak interactions of neutrinos in the early 
 
 <div>
 <p style="float: left">
+Friends of the Institute Membership
+<BR>
+Institute for Advanced Study
+</p>
+<p style="float: right">
+2018-present
+</p>
+</div>
+<div style="clear: both;"></div>
+
+<div>
+<p style="float: left">
 Schmidt Fellowship
 <BR>
 Institute for Advanced Study
 </p>
 <p style="float: right">
-2015-present
+2015-2018
 </p>
 </div>
 <div style="clear: both;"></div>
@@ -288,6 +300,22 @@ May-August 2007
 <P>
  
 <UL>
+<LI><B>Venumadhav, T.</B>, Dai, L., Kaurov, A., &amp; Zaldarriaga, M., (2018), Physical Review D, 98, 103513 (Editor's suggestion)
+<BR>
+Title: Heating of the intergalactic medium by the cosmic microwave background during cosmic dawn
+</LI>
+<LI>Kaurov, A., <B>Venumadhav, T.</B>, Dai, L., &amp; Zaldarriaga, M., (2018), Astrophys. J. Lett., 864, 1
+<BR>
+Title: Implication of the Shape of the EDGES Signal for the 21 cm Power Spectrum
+</LI>
+<LI>Dai, L., <B>Venumadhav, T.</B>, Kaurov, A., &amp; Miralda-Escud&#233;, J., (2018), Astrophysical Journal, 867, 24
+<BR>
+Title: Probing Dark Matter Subhalos in Galaxy Clusters Using Highly Magnified Stars
+</LI>
+<LI>Hirata, C. M., Mishra, A., &amp; <B>Venumadhav, T.</B>, (2017), Physical Review D, 97, 103521
+<BR>
+Title: Detecting primordial gravitational waves with circular polarization of the redshifted 21 cm line: I. Formalism
+</LI>
 <LI><B>Venumadhav, T.</B>, Dai, L., &amp; Miralda-Escud&#233;, J., (2017), Astrophysical Journal, 850, 49
 <BR>
 Title: Microlensing of extremely magnified stars near caustics of galaxy clusters
@@ -352,22 +380,6 @@ Title: Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Pa
 <BR>
 Title: Parameter Estimation for GW170817 using Relative Binning 
 </LI>
-<LI>Kaurov, A., <B>Venumadhav, T.</B>, Dai, L., &amp; Zaldarriaga, M., (2018), arXiv:1805.03254
-<BR>
-Title: Implication of the Shape of the EDGES Signal for the 21 cm Power Spectrum
-</LI>
-<LI>Dai, L., <B>Venumadhav, T.</B>, Kaurov, A., &amp; Miralda-Escud&#233;, J., (2018), arXiv:1804.03149
-<BR>
-Title: Probing Dark Matter Subhalos in Galaxy Clusters Using Highly Magnified Stars
-</LI>
-<LI><B>Venumadhav, T.</B>, Dai, L., Kaurov, A., &amp; Zaldarriaga, M., (2018), arXiv:1804.02406
-<BR>
-Title: Heating of the intergalactic medium by the cosmic microwave background during cosmic dawn
-</LI>
-<LI>Hirata, C. M., Mishra, A., &amp; <B>Venumadhav, T.</B>, (2017), arXiv:1707.03513
-<BR>
-Title: Detecting primordial gravitational waves with circular polarization of the redshifted 21 cm line: I. Formalism
-</LI>
 <LI>Dai, L., &amp; <B>Venumadhav, T.</B> (2017), arXiv:1702.04724
 <BR>
 Title: On the waveforms of gravitationally lensed gravitational waves
@@ -411,6 +423,8 @@ Title: Cosmology with the SPHEREX All-Sky Spectral Survey
 <LI> Referee for Astroparticle Physics</LI>
 <LI> Referee for Astrophysical Journal</LI>
 <LI> Referee for Monthly Notices of the Royal Astronomical Society Letters</LI>
+<LI> Referee for Monthly Notices of the Royal Astronomical Society</LI>
+<LI> Referee for Physical Review D</LI>
 </UL>
 
 <P>
@@ -452,23 +466,27 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Lecturer, Summer School on Gravitational-Wave Astronomy, ICTS, Bangalore. 2018
+</LI>
+<LI>Invited panelist, Physics and Astrophysics at the eXtreme, IUCAA, Pune. 2018
+</LI>
 <LI>Invited talk, Thermal history of the Universe at intermediate redshift: progress with 21cm absorption measurements, CERN. 2018
 </LI>
 <LI>Talk, Shedding Light on the Dark Universe with Extremely Large Telescopes, UCLA. 2018
 </LI>
-<LI>Cosmology seminar, JHU, Baltimore. 2017
+<LI>Invited cosmology seminar, JHU, Baltimore. 2017
 </LI>
-<LI>Seminar, CITA, Toronto. 2017
+<LI>Invited seminar, CITA, Toronto. 2017
 </LI>
 <LI>Talk, Fundamental Physics with the Square Kilometer Array, Mauritius. 2017
 </LI>
-<LI>Talk, Tianlai Collaboration Meeting, Fermilab, Batavia. 2016
+<LI>Invited talk, Tianlai Collaboration Meeting, Fermilab, Batavia. 2016
 </LI>
-<LI>Talk, CMB Spectral Distortions From Cosmic Baryon Evolution, RRI, Bengaluru. 2016
+<LI>Invited talk, CMB Spectral Distortions From Cosmic Baryon Evolution, RRI, Bengaluru. 2016
 </LI>
-<LI>Seminar, International Centre for Theoretical Sciences, TIFR. 2016
+<LI>Invited seminar, International Centre for Theoretical Sciences, TIFR. 2016
 </LI>
-<LI>Cosmology seminar, Perimeter Institute. 2016
+<LI>Invited cosmology seminar, Perimeter Institute. 2016
 </LI>
 <LI>Cosmology lunch, joint w/ IAS and Princeton University. 2016
 </LI>
