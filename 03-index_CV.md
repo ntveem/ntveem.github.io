@@ -123,6 +123,18 @@ Institute for Advanced Study
 
 <div>
 <p style="float: left">
+Associate
+<BR>
+International Center for Theoretical Sciences, Bangalore
+</p>
+<p style="float: right">
+2019-present
+</p>
+</div>
+<div style="clear: both;"></div>
+
+<div>
+<p style="float: left">
 Schmidt Fellowship
 <BR>
 Institute for Advanced Study
