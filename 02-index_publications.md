@@ -73,5 +73,10 @@ n-th author papers:
 
 1. Dor&#233;, O., et. al., (2014) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;*Cosmology with the SPHEREX All-Sky Spectral Survey* <br>
-&nbsp;&nbsp;&nbsp;&nbsp;[ADS](http://adsabs.harvard.edu/abs/2014arXiv1412.4872D) [arxiv](https://arxiv.org/abs/1412.4872) [INSPIRE](https://inspirehep.net/record/1334478)
+&nbsp;&nbsp;&nbsp;&nbsp;[ADS](http://adsabs.harvard.edu/abs/2014arXiv1412.4872D) [arxiv](https://arxiv.org/abs/1412.4872) [INSPIRE](https://inspirehep.net/record/1334478)<br>
+2. Bull, P., et. al., (2018) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;*Fundamental Physics with the Square Kilometer Array* <br>
+&nbsp;&nbsp;&nbsp;&nbsp;[ADS](http://adsabs.harvard.edu/abs/2018arXiv181002680B) [arxiv](https://arxiv.org/abs/1810.02680) [INSPIRE](https://inspirehep.net/record/1697132)<br>
+
+
 
