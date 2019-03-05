@@ -380,9 +380,21 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <P>
 
 <UL>
+<LI><B>Venumadhav, T.</B>, Zackay, B., Roulet, J., Dai, L., &amp; Zaldarriaga, M., \ (2019), arXiv:1902.10341
+<BR>
+Title: A New Search Pipeline for Compact Binary Mergers: Results for Binary Black Holes in the First Observing Run of Advanced LIGO
+</LI>
+<LI>Zackay, B., <B>Venumadhav, T.</B>, Dai, L., Roulet, J., &amp; Zaldarriaga, M., \ (2019), arXiv:1902.10331
+<BR>
+Title: A Highly Spinning and Aligned Binary Black Hole Merger in the Advanced LIGO First Observing Run
+</LI>
+<LI>Kaurov, A., Dai, L., <B>Venumadhav, T.</B>, Miralda-Escud&#233;, J., &amp; Frye, B., \ (2019), arXiv:1902.10090
+<BR>
+Title: Highly Magnified Stars in Lensing Clusters: New Evidence in a Galaxy Lensed by MACS J0416.1-2403
+</LI>
 <LI>Haris, K., Mehta, A. K., Kumar, S., <B>Venumadhav, T.</B>, &amp; Parameswaran, A., (2018), arXiv:1807.07062
 <BR>
-Title: Identifying stringly lensed gravitational wave signals from binary black hole mergers
+Title: Identifying strongly lensed gravitational wave signals from binary black hole mergers
 </LI>
 <LI>Zackay, B., Dai, L., &amp; <B>Venumadhav, T.</B>, (2018), arXiv:1806.08792
 <BR>
@@ -478,7 +490,9 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
-<LI>Lecturer, Summer School on Gravitational-Wave Astronomy, ICTS, Bangalore. 2018
+<LI>Invited Seminar, Astronomy and Astrophysics, UC Santa Barbara. 2019
+</LI>
+<LI>Invited Colloquium, Department of Physics, UC Santa Barbara. 2019
 </LI>
 <LI>Invited panelist, Physics and Astrophysics at the eXtreme, IUCAA, Pune. 2018
 </LI>
@@ -547,11 +561,11 @@ Report at <TT><A NAME="tex2html2"
 
 
 <UL>
+<LI>Lecturer, Summer School on Gravitational-Wave Astronomy, ICTS, Bangalore. 2018</LI>
+<LI>Teaching assistant for Ph 12a: Waves, taught by Jeff Kimble. Fall 2012</LI>
+<LI>Volunteer for event on occasion of partial solar eclipse. Oct 2014</LI>
 <LI>Volunteer for public viewing of Supernova SN2014J. Jan 2014</LI>
-<LI>Teaching assistant for Ph 12a: Waves, taught by Jeff Kimble. Fall 2012
-</LI>
-<LI>Volunteer for public event on the occasion of Venus transit. May 2012
-</LI>
+<LI>Volunteer for public event on the occasion of Venus transit. May 2012</LI>
 </UL>
 	
 <P>
@@ -580,19 +594,29 @@ Columbus, OH 43210, USA
 </TABLE></TD>
 <TD STYLE="FLOAT: RIGHT"><TABLE  WIDTH="100%">
 <TR><TD> 
-			 Christian D. Ott 
+			 Matias Zaldarriaga
 <BR>
-California Institute of Technology 
+Institute for Advanced Study
 <BR>
-MC 350-17 
+1 Einstein Drive 
 <BR>
-1200 E California Blvd 
-<BR>
-Pasadena, CA 91125, USA 
-<BR>		 	<I>email</I>: cott@tapir.caltech.edu 
+Princeton, NJ 08540, USA
+<BR>		 	<I>email</I>: matiasz@ias.edu
 <BR>		</TD></TR>
 </TABLE></TD>
 </TR>
+<TR><TD STYLE="FLOAT: LEFT"><TABLE  WIDTH="100%">
+<TR><TD> 
+			Jordi Miralda-Escud&#233; 
+<BR>
+Institut de Ciències del Cosmos
+<BR>
+Universitat de Barcelona
+<BR>
+08028 Barcelona, Catalonia, Spain
+<BR>		 	<I>email</I>: miralda@icc.ub.edu
+<BR>		</TD></TR>
+</TABLE></TD>
 <TR><TD ALIGN="LEFT"><TABLE  WIDTH="100%">
 <TR><TD>  
 		 	Olivier Dor&#233; 
