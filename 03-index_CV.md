@@ -380,6 +380,10 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <P>
 
 <UL>
+<LI>Coleman, M., <B>Venumadhav, T.</B>, &amp; Zackay, B., \ (2019), arXiv:1903.04978
+<BR>
+Title: Gravitational-wave-moderated Accretion: The Case of ES Ceti
+</LI>
 <LI><B>Venumadhav, T.</B>, Zackay, B., Roulet, J., Dai, L., &amp; Zaldarriaga, M., \ (2019), arXiv:1902.10341
 <BR>
 Title: A New Search Pipeline for Compact Binary Mergers: Results for Binary Black Holes in the First Observing Run of Advanced LIGO
@@ -490,6 +494,8 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Invited Seminar, Center for Cosmology and Particle Physics, NYU. 2019
+</LI>
 <LI>Invited Seminar, Astronomy and Astrophysics, UC Santa Barbara. 2019
 </LI>
 <LI>Invited Colloquium, Department of Physics, UC Santa Barbara. 2019
