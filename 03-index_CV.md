@@ -380,6 +380,10 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <P>
 
 <UL>
+<LI>Roulet, J., Dai, L., <B>Venumadhav, T.</B>, Zackay, B., &amp; Zaldarriaga, M., \ (2019), arXiv:1904.01683
+<BR>
+Title: Template Bank for Compact Binary Coalescence Searches in Gravitational Wave Data: A General Geometric Placement Algorithm
+</LI>
 <LI>Coleman, M., <B>Venumadhav, T.</B>, &amp; Zackay, B., \ (2019), arXiv:1903.04978
 <BR>
 Title: Gravitational-wave-moderated Accretion: The Case of ES Ceti
