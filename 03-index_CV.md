@@ -380,6 +380,10 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <P>
 
 <UL>
+<LI><B>Venumadhav, T.</B>, Zackay, B., Roulet, J., Dai, L., &amp; Zaldarriaga, M., \ (2019), arXiv:1904.07214
+<BR>
+Title: New Binary Black Hole Mergers in the Second Observing Run of Advanced LIGO and Advanced Virgo
+</LI>
 <LI>Roulet, J., Dai, L., <B>Venumadhav, T.</B>, Zackay, B., &amp; Zaldarriaga, M., \ (2019), arXiv:1904.01683
 <BR>
 Title: Template Bank for Compact Binary Coalescence Searches in Gravitational Wave Data: A General Geometric Placement Algorithm
@@ -498,6 +502,8 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Invited Seminar, Albert Einstein Institute, Potsdam. 2019
+</LI>
 <LI>Invited Seminar, Center for Cosmology and Particle Physics, NYU. 2019
 </LI>
 <LI>Invited Seminar, Astronomy and Astrophysics, UC Santa Barbara. 2019
