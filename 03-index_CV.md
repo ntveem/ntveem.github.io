@@ -312,6 +312,22 @@ May-August 2007
 <P>
  
 <UL>
+<LI><B>Venumadhav, T.</B>, Zackay, B., Roulet, J., Dai, L., &amp; Zaldarriaga, M., \ (2019), Physical Review D, 100, 023011
+<BR>
+Title: A New Search Pipeline for Compact Binary Mergers: Results for Binary Black Holes in the First Observing Run of Advanced LIGO
+</LI>
+<LI>Zackay, B., <B>Venumadhav, T.</B>, Dai, L., Roulet, J., &amp; Zaldarriaga, M., \ (2019), Physical Review D, 100, 023007 (Editor's suggestion)
+<BR>
+Title: A Highly Spinning and Aligned Binary Black Hole Merger in the Advanced LIGO First Observing Run
+</LI>
+<LI>Roulet, J., Dai, L., <B>Venumadhav, T.</B>, Zackay, B., &amp; Zaldarriaga, M., \ (2019), Physical Review D, 99, 123022
+<BR>
+Title: Template Bank for Compact Binary Coalescence Searches in Gravitational Wave Data: A General Geometric Placement Algorithm
+</LI>
+<LI>Kaurov, A., Dai, L., <B>Venumadhav, T.</B>, Miralda-Escud&#233;, J., &amp; Frye, B., \ (2019), Astrophysical Journal, 880, 1
+<BR>
+Title: Highly Magnified Stars in Lensing Clusters: New Evidence in a Galaxy Lensed by MACS J0416.1-2403
+</LI>
 <LI><B>Venumadhav, T.</B>, Dai, L., Kaurov, A., &amp; Zaldarriaga, M., (2018), Physical Review D, 98, 103513 (Editor's suggestion)
 <BR>
 Title: Heating of the intergalactic medium by the cosmic microwave background during cosmic dawn
@@ -384,25 +400,9 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <BR>
 Title: New Binary Black Hole Mergers in the Second Observing Run of Advanced LIGO and Advanced Virgo
 </LI>
-<LI>Roulet, J., Dai, L., <B>Venumadhav, T.</B>, Zackay, B., &amp; Zaldarriaga, M., \ (2019), arXiv:1904.01683
-<BR>
-Title: Template Bank for Compact Binary Coalescence Searches in Gravitational Wave Data: A General Geometric Placement Algorithm
-</LI>
 <LI>Coleman, M., <B>Venumadhav, T.</B>, &amp; Zackay, B., \ (2019), arXiv:1903.04978
 <BR>
 Title: Gravitational-wave-moderated Accretion: The Case of ES Ceti
-</LI>
-<LI><B>Venumadhav, T.</B>, Zackay, B., Roulet, J., Dai, L., &amp; Zaldarriaga, M., \ (2019), arXiv:1902.10341
-<BR>
-Title: A New Search Pipeline for Compact Binary Mergers: Results for Binary Black Holes in the First Observing Run of Advanced LIGO
-</LI>
-<LI>Zackay, B., <B>Venumadhav, T.</B>, Dai, L., Roulet, J., &amp; Zaldarriaga, M., \ (2019), arXiv:1902.10331
-<BR>
-Title: A Highly Spinning and Aligned Binary Black Hole Merger in the Advanced LIGO First Observing Run
-</LI>
-<LI>Kaurov, A., Dai, L., <B>Venumadhav, T.</B>, Miralda-Escud&#233;, J., &amp; Frye, B., \ (2019), arXiv:1902.10090
-<BR>
-Title: Highly Magnified Stars in Lensing Clusters: New Evidence in a Galaxy Lensed by MACS J0416.1-2403
 </LI>
 <LI>Haris, K., Mehta, A. K., Kumar, S., <B>Venumadhav, T.</B>, &amp; Parameswaran, A., (2018), arXiv:1807.07062
 <BR>
@@ -502,7 +502,7 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
-<LI>Invvited Seminar, Princeton Gravity Initiative, Princeton. 2019
+<LI>Invited Seminar, Princeton Gravity Initiative, Princeton. 2019
 </LI>
 <LI>Invited Seminar, Albert Einstein Institute, Potsdam. 2019
 </LI>
