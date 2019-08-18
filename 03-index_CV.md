@@ -396,6 +396,9 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <P>
 
 <UL>
+<LI>Zackay, B., <B>Venumadhav, T.</B>, Roulet, J., Dai, L., &amp; Zaldarriaga, M., \ (2019), arXiv:1908.05644
+<BR>
+Title: Detecting Gravitational Waves in Data with Non-Gaussian Noise
 <LI><B>Venumadhav, T.</B>, Zackay, B., Roulet, J., Dai, L., &amp; Zaldarriaga, M., \ (2019), arXiv:1904.07214
 <BR>
 Title: New Binary Black Hole Mergers in the Second Observing Run of Advanced LIGO and Advanced Virgo
@@ -502,6 +505,10 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Invited panelist, The Future of Gravitational-Wave Astronomy, Bangalore. 2019
+</LI>
+<LI>Invited Seminar, International Centre for Theoretical Sciences, TIFR. 2019
+</LI>
 <LI>Invited Seminar, Princeton Gravity Initiative, Princeton. 2019
 </LI>
 <LI>Invited Seminar, Albert Einstein Institute, Potsdam. 2019
