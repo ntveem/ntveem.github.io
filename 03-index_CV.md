@@ -111,12 +111,24 @@ My other research interests include weak interactions of neutrinos in the early 
 
 <div>
 <p style="float: left">
+John Bahcall Fellowship
+<BR>
+Institute for Advanced Study
+</p>
+<p style="float: right">
+2019-present
+</p>
+</div>
+<div style="clear: both;"></div>
+
+<div>
+<p style="float: left">
 Friends of the Institute Membership
 <BR>
 Institute for Advanced Study
 </p>
 <p style="float: right">
-2018-present
+2018-2019
 </p>
 </div>
 <div style="clear: both;"></div>
