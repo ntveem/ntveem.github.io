@@ -517,6 +517,7 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Invited Colloquium, Black Hole Initiative, Harvard. 2019
 <LI>Invited panelist, The Future of Gravitational-Wave Astronomy, Bangalore. 2019
 </LI>
 <LI>Invited Seminar, International Centre for Theoretical Sciences, TIFR. 2019
