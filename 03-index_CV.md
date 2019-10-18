@@ -517,6 +517,8 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Talk, Gravitational Wave Physics and Astronomy Workshop, Tokyo. 2019
+</LI>
 <LI>Invited Talk, Black Holes and Neutron Stars with Gravitational Waves, YITP, Kyoto. 2019
 </LI>
 <LI>Invited Colloquium, Black Hole Initiative, Harvard. 2019
