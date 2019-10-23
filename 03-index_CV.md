@@ -324,6 +324,10 @@ May-August 2007
 <P>
  
 <UL>
+<LI>Samsing, J., <B>Venumadhav, T.</B>, Dai, L., Martinez, I., Batta, A., Lopez Jr., M., Ramirez-Ruiz, E., Kremer, K., (2019), Physical Review D, 100, 043009
+<BR>
+Title: Probing the Black Hole Merger History in Clusters using Stellar Tidal Disruptions
+</LI>
 <LI><B>Venumadhav, T.</B>, Zackay, B., Roulet, J., Dai, L., &amp; Zaldarriaga, M., \ (2019), Physical Review D, 100, 023011
 <BR>
 Title: A New Search Pipeline for Compact Binary Mergers: Results for Binary Black Holes in the First Observing Run of Advanced LIGO
@@ -408,9 +412,14 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <P>
 
 <UL>
+<LI>Zackay, B., Dai, L., <B>Venumadhav, T.</B>, Roulet, J., &amp; Zaldarriaga, M., \ (2019), arXiv:1910.09528
+<BR>
+Title: Detecting Gravitational Waves With Disparate Detector Responses: Two New Binary Black Hole Mergers
+</LI>
 <LI>Zackay, B., <B>Venumadhav, T.</B>, Roulet, J., Dai, L., &amp; Zaldarriaga, M., \ (2019), arXiv:1908.05644
 <BR>
 Title: Detecting Gravitational Waves in Data with Non-Gaussian Noise
+</LI>
 <LI><B>Venumadhav, T.</B>, Zackay, B., Roulet, J., Dai, L., &amp; Zaldarriaga, M., \ (2019), arXiv:1904.07214
 <BR>
 Title: New Binary Black Hole Mergers in the Second Observing Run of Advanced LIGO and Advanced Virgo
@@ -517,6 +526,8 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Invited Talk, Frank N. Bash Symposium, UT Austin. 2019
+</LI>
 <LI>Talk, Gravitational Wave Physics and Astronomy Workshop, Tokyo. 2019
 </LI>
 <LI>Invited Talk, Black Holes and Neutron Stars with Gravitational Waves, YITP, Kyoto. 2019
