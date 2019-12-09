@@ -615,7 +615,8 @@ Report at <TT><A NAME="tex2html2"
 
 
 <UL>
-<LI>Lecturer, Summer School on Gravitational-Wave Astronomy, ICTS, Bangalore. 2018</LI>
+<LI>Lecturer, Newton-Bhabha & the Open Data Workshop, IUCAA, Pune. Dec 2019</LI>
+<LI>Lecturer, Summer School on Gravitational-Wave Astronomy, ICTS, Bangalore. Aug 2018</LI>
 <LI>Teaching assistant for Ph 12a: Waves, taught by Jeff Kimble. Fall 2012</LI>
 <LI>Volunteer for event on occasion of partial solar eclipse. Oct 2014</LI>
 <LI>Volunteer for public viewing of Supernova SN2014J. Jan 2014</LI>
