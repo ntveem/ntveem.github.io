@@ -434,6 +434,14 @@ Title: On the waveforms of gravitationally lensed gravitational waves
 <P>
 
 <UL>
+<LI>Dai, L., et. al., (2020), arXiv: 2001.00261
+<BR>
+Title: Asymmetric Surface Brightness Structure of Lensed Arc in SDSS J1226+2152: A Case for Dark Matter Substructure
+</LI>
+<LI>Bull, P., et. al., (2018), arXiv:1810.02680
+<BR>
+Title: Fundamental Physics with the Square Kilometer Array
+</LI>
 <LI>Dor&#233;, O., et. al., (2014), arXiv:1412.4872
 <BR>
 Title: Cosmology with the SPHEREX All-Sky Spectral Survey
@@ -501,6 +509,8 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Invited Talk, Gravitational wave searches and parameter estimation in the era of detections, Schloss Ringberg. 2020
+</LI>
 <LI>Invited Seminar, Indian Institute of Technology, Mumbai. 2020
 </LI>
 <LI>Invited Seminar, Tata Institute for Fundamental Research, Mumbai. 2019
