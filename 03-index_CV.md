@@ -15,6 +15,10 @@ You can find a copy of my CV in a few formats below:
 
 (*and in [>sigh<] HTML format below: *)
 
+<meta http-equiv='cache-control' content='no-cache'> 
+<meta http-equiv='expires' content='0'> 
+<meta http-equiv='pragma' content='no-cache'>
+
 (*<P>*)
 (*<U><U><B><FONT SIZE="+2">Tejaswi Venumadhav Nerella</FONT></B></U></U>*)
 

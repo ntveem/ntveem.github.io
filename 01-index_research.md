@@ -26,6 +26,11 @@ So far, I have worked/am working on the following subjects:
   * Strong gravitational lensing
   * Gravitational wave data analysis
 
+<meta http-equiv='cache-control' content='no-cache'> 
+<meta http-equiv='expires' content='0'> 
+<meta http-equiv='pragma' content='no-cache'>
+
+
 <!--The links above lead to slightly detailed introductions to my work in each area. Alternatively, this page lists my work according to a semi-arbitrary system of tags, roughly corresponding to the physics involved in each.-->
 
 <!-- Under construction. -->

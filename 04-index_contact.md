@@ -16,3 +16,8 @@ Find me at:
 	Institute for Advanced Study
 	Princeton, NJ, USA 08540
 	email: tejaswi AT sns.ias.edu
+
+<meta http-equiv='cache-control' content='no-cache'> 
+<meta http-equiv='expires' content='0'> 
+<meta http-equiv='pragma' content='no-cache'>
+
