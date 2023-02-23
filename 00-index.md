@@ -25,6 +25,9 @@ On this website, you can find the details of my past and current [research topic
 	Princeton, NJ, USA 08540
 	email: tejaswi AT sns.ias.edu
 
+<meta http-equiv='cache-control' content='no-cache'> 
+<meta http-equiv='expires' content='0'> 
+<meta http-equiv='pragma' content='no-cache'>
 
 <!--Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
