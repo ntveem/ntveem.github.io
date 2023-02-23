@@ -387,6 +387,10 @@ Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
 <P>
 
 <UL>
+<LI>Huang, Y., Haster, C-J., Vitale, S., Zimmerman, A., Roulet, J., <B>Venumadhav, T.</B>, Zackay, B., Dai, L., &amp; Zaldarriaga, M., \ (2020), arXiv:2003.04513
+<BR>
+Title: Source properties of the lowest signal-to-noise-ratio binary black hole detections
+</LI>
 <LI>Zackay, B., Dai, L., <B>Venumadhav, T.</B>, Roulet, J., &amp; Zaldarriaga, M., \ (2019), arXiv:1910.09528
 <BR>
 Title: Detecting Gravitational Waves With Disparate Detector Responses: Two New Binary Black Hole Mergers
@@ -509,6 +513,10 @@ Report at <TT><A NAME="tex2html2"
 
 <P>
 <UL>
+<LI>Invited Cosmology seminar (virtual), CERN. 2020
+</LI>
+<LI>Invited Seminar, CITA, Toronto. 2020
+</LI>
 <LI>Invited Talk, Gravitational wave searches and parameter estimation in the era of detections, Schloss Ringberg. 2020
 </LI>
 <LI>Invited Seminar, Indian Institute of Technology, Mumbai. 2020
