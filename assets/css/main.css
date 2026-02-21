@@ -206,12 +206,14 @@ a {
   color: #fff;
   border-color: var(--topic-bg);
   background: var(--topic-bg);
+  filter: saturate(0.78) brightness(1.06);
 }
 
 .topic-filter.is-active {
   border-color: var(--topic-active);
   color: #fff;
   background: var(--topic-active);
+  filter: saturate(0.9) brightness(1.02);
 }
 
 .topic-filter.is-active span {
@@ -248,6 +250,7 @@ a {
   border-color: var(--topic-bg);
   background: var(--topic-bg);
   box-shadow: none;
+  filter: saturate(0.8) brightness(1.05);
 }
 
 .pub-topic-fallback {
