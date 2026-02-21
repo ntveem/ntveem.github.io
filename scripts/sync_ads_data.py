@@ -80,6 +80,28 @@ def _extract_json_object(text: str) -> dict:
     return {}
 
 
+def _extract_response_text(payload: dict) -> str:
+    text = payload.get("output_text")
+    if isinstance(text, str) and text.strip():
+        return text
+
+    out_chunks: list[str] = []
+    for item in payload.get("output") or []:
+        for content in item.get("content") or []:
+            ctype = content.get("type")
+            if ctype in {"output_text", "text"}:
+                value = content.get("text")
+                if isinstance(value, str) and value.strip():
+                    out_chunks.append(value)
+            elif ctype == "json_schema":
+                value = content.get("json")
+                if isinstance(value, dict):
+                    out_chunks.append(json.dumps(value))
+            elif isinstance(content.get("text"), str):
+                out_chunks.append(content["text"])
+    return "\n".join(out_chunks).strip()
+
+
 def classify_topics_with_openai(
     *,
     api_key: str,
@@ -124,7 +146,7 @@ def classify_topics_with_openai(
     with urllib.request.urlopen(req, timeout=45) as resp:
         payload = json.loads(resp.read().decode("utf-8"))
 
-    text = payload.get("output_text") or ""
+    text = _extract_response_text(payload)
     obj = _extract_json_object(text)
     allowed_set = set(allowed_topics)
     topics = [t for t in (obj.get("topics") or []) if t in allowed_set]
