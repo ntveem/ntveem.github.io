@@ -4,10 +4,12 @@ title: Pages
 header: Pages
 group: navigation
 ---
-{% include JB/setup %}
-
 <h2>All Pages</h2>
 <ul>
-{% assign pages_list = site.pages %}
-{% include JB/pages_list %}
+{% assign all_pages = site.pages | sort: "title" %}
+{% for p in all_pages %}
+  {% if p.title and p.url != "/404.html" %}
+    <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+  {% endif %}
+{% endfor %}
 </ul>

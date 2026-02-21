@@ -8,6 +8,5 @@ tags: [reionization, atomic physics]
 tagline: Supporting tagline
 imp: 1
 ---
-{% include JB/setup %}
 
 This page talks about my work on recombination.

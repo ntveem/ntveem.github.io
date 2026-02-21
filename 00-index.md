@@ -3,27 +3,24 @@ layout: page
 title: Home
 permalink: "index.html"
 group: basepages
+nav_order: 1
 hlgroup: home
 tagline: Supporting tagline
 ---
-{% include JB/setup %}
 <p class="emphnext"></p>
-Welcome!  <img style="width:100%; height:auto;"  src="{{ BASE_PATH }}/assets/images/Tejaswi_picture.jpg" hspace="20" vspace="20" align="right">
+<img class="profile-photo" src="{{ '/assets/images/Tejaswi_picture.png' | relative_url }}" alt="Tejaswi Venumadhav">
+
+Welcome!
 
 <!--![Profile picture]({{ BASE_PATH }}/assets/images/Tejaswi_picture.jpg)-->
 
-I am a John Bahcall fellow and member of the [School of Natural Sciences](http://www.sns.ias.edu/) at the Institute for Advanced Study. I work on a variety of topics in theoretical astrophysics, with an emphasis on physical cosmology. 
+I am an Assistant Professor of Physics at the University of California, Santa Barbara (UCSB). I work on a variety of topics in theoretical astrophysics, with an emphasis on gravitational-wave science and physical cosmology.
 
-Prior to this, I was a graduate student in Physics at Caltech with [Chris Hirata](http://www.tapir.caltech.edu/~chirata/web/). 
+Prior to joining UCSB, I was a John Bahcall Fellow and member of the School of Natural Sciences at the Institute for Advanced Study (IAS).
 
-On this website, you can find the details of my past and current [research topics]({{ BASE_PATH }}/research.html), my [publication list]({{ BASE_PATH }}/publications.html) and my [CV]({{ BASE_PATH }}/CV.html). If you are interested in learning more about my work, contact me at:
-	
-	Tejaswi Venumadhav Nerella
-	1 Einstein Drive
-	School of Natural Sciences
-	Institute for Advanced Study
-	Princeton, NJ, USA 08540
-	email: tejaswi AT sns.ias.edu
+I obtained my PhD in Physics at Caltech, where I worked with [Chris Hirata](https://physics.osu.edu/people/hirata.10).
+
+On this website, you can find the details of my past and current [research topics]({{ '/research.html' | relative_url }}), my [publication list]({{ '/publications.html' | relative_url }}) and my [CV]({{ '/CV.html' | relative_url }}). If you are interested in learning more about my work, contact me at `teja@ucsb.edu` or see the full details on the [Contact page]({{ '/contact.html' | relative_url }}).
 
 <meta http-equiv='cache-control' content='no-cache'> 
 <meta http-equiv='expires' content='0'> 
@@ -70,5 +67,3 @@ Here's a sample "posts list".
 
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
 We need to clean up the themes, make theme usage guides with theme-specific markup examples.-->
-
-

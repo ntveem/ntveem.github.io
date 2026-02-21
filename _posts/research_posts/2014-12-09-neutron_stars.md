@@ -8,6 +8,5 @@ tags: [neutron stars, gravitational physics, celestial mechanics]
 tagline: Supporting tagline
 imp: 3
 ---
-{% include JB/setup %}
 
 This page talks about my work on recombination.

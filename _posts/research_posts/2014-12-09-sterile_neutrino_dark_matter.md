@@ -8,6 +8,5 @@ tags: [high energy physics, electroweak interactions]
 tagline: Supporting tagline
 imp: 4
 ---
-{% include JB/setup %}
 
 This page talks about my work on recombination.

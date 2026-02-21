@@ -1,0 +1,815 @@
+\documentclass{article}
+\usepackage{fullpage}
+\usepackage{epsfig}
+\usepackage{color, verbatim}
+\usepackage[table]{xcolor}
+\usepackage{url, longtable}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{ltablex}
+\usepackage{enumitem}
+\usepackage{needspace}
+\keepXColumns
+\addtolength{\oddsidemargin}{-.2in}
+\addtolength{\textheight}{2cm}
+%\addtolength{\oddsidemargin}{-.2in}
+%\addtolength{\voffset}{-1cm}
+%\renewcommand{\thefootnote}{$\dag$}
+\usepackage{lipsum}
+\usepackage{float}
+
+\newcommand{\teja}[1]{ {\color{blue} #1} }
+
+\newcommand{\apj}{Astrophysical Journal}
+\newcommand{\apjl}{Astrophys. J. Lett.}
+\newcommand{\aap}{Astron. Astrophys.}
+\newcommand{\apjs}{Astrophys. J. Suppl. Ser.}
+\newcommand{\sa}{Sov. Astron.}
+\newcommand{\jpb}{J. Phys. B.}
+\newcommand{\natu}{Nature}
+\newcommand{\aaps}{Astron. Astrophys. Supp. Ser.}
+\newcommand{\aj}{Astron. J.}
+\newcommand{\aas}{Bull. Am. Astron. Soc.}
+\newcommand{\cqg}{Classical and Quantum Gravity}
+\newcommand{\mnras}{Mon. Not. R. Astron. Soc.}
+\newcommand{\pasa}{Publ. Astron. Soc. Aust.}
+\newcommand{\pasp}{Publ. Astron. Soc. Pac.}
+\newcommand{\memras}{Mem. R. Astr. Soc. }
+\newcommand{\physrep}{Phys. Rep.}
+\newcommand{\araa}{Annual Rev. Astron. Astrophys.}
+\newcommand{\jcap}{Journal of Cosmology and Astroparticle Physics}
+\newcommand{\ssr}{Space Science Reviews}
+\newcommand{\aapr}{Astron. and Astrophys. Review}
+\newcommand{\solphys}{Solar Physics}
+\newcommand{\jqsrt}{J. Quant. Spec. Rad. Trans.}
+\newcommand{\prb}{Physical Review B}
+\newcommand{\prd}{Physical Review D}
+\newcommand{\prl}{Physical Review Letters}
+\newlength{\cvindent}
+\setlength{\cvindent}{10mm}
+\newlength{\cvtablewidth}
+\setlength{\cvtablewidth}{\dimexpr\textwidth-\cvindent\relax}
+\newcommand{\cvtableindent}{\noindent\hspace*{\cvindent}}
+\newcommand{\cvsectionstart}{\vspace{6pt}}
+\newcommand{\cvsectionend}{\vspace{10pt}}
+\newcommand{\cvtablesectionstart}{\vspace{0pt}}
+\newcommand{\cvtablesep}{\vspace{4pt}}
+\newcommand{\cvsection}[2][12\baselineskip]{%
+  \Needspace{#1}%
+  \noindent\underline{\begin{minipage}[c][14pt]{\textwidth}\bf \Large{#2}\end{minipage}}
+}
+\newenvironment{cvblock}{\noindent\hspace*{\cvindent}\begin{minipage}{\dimexpr\textwidth-\cvindent\relax}}{\end{minipage}\par}
+\newenvironment{cvlist}{%
+  \begin{list}{}{%
+    \setlength{\leftmargin}{\cvindent}%
+    \setlength{\rightmargin}{0pt}%
+    \setlength{\topsep}{0pt}%
+    \setlength{\partopsep}{0pt}%
+    \setlength{\parsep}{0pt}%
+    \setlength{\itemsep}{0pt}%
+  }%
+  \item\relax
+}{%
+  \end{list}
+}
+
+%%%%%%%%%&
+% Optional: define a soft background color for alternating rows
+\definecolor{lightrow}{gray}{0.95}
+%%%%%%%%%%
+
+\begin{document}
+
+\pagestyle{empty}
+
+\noindent\underline{\underline{\makebox[\textwidth][l]{\bf \Large{Tejaswi Venumadhav Nerella \hfill  Curriculum Vitae}}}}
+
+\noindent\\
+\begin{cvblock}
+	Assistant Professor, Department of Physics \hfill Contact: \\
+	Broida Hall \hfill Phone: +1 (626) 826-3571 \\
+	University of California, Santa Barbara \hfill email: teja@ucsb.edu \\
+	Santa Barbara, CA 93106-9530 \\
+\end{cvblock}
+\cvsection[12\baselineskip]{Education}
+
+  %\makebox[\textwidth][l]{\bf \Large{Education}}} \\
+
+\begin{cvblock}
+	\noindent \textbf{California Institute of Technology} \hfill 2010-2015\\ 
+	Ph.D. in Physics, \\
+	\textit{Advisor:} Christopher Hirata\\
+	
+	\noindent \textbf{Indian Institute of Technology, Kanpur} \hfill 2005-2010\\
+	M.Sc (Integrated) in Physics\\ %, \textit{GPA: 10.0/10.0} \\
+\end{cvblock}
+%\noindent\underline{
+%  \begin{minipage}[c][14pt]{\textwidth} 
+%    \bf \Large{Research Interests}
+%  \end{minipage}
+%}
+%
+%\noindent\\{\addtolength{\leftskip}{10mm}
+%	I have research interests in a number of areas of theoretical astrophysics, including theoretical cosmology, reionization, and gravitational binary systems. 
+%
+%	I am interested in doing cosmology with the 21-cm signal from neutral hydrogen during the reionization epoch. My current work in this area focuses on developing new methods to study observables such as primordial magnetic fields and gravitational waves using high-resolution maps of the 21-cm line. I also enjoy thinking about radio interferometry, and have previously worked on its application to studying the global 21-cm signal. I have also worked on the thermal evolution of the intergalactic medium during the cosmic dawn era, when the global 21-cm signal is expected to be observable. In a broader sense, I also think about aspects of cosmic structure formation in the dark-ages, and its implications for observables in the later universe.
+%
+%%	I am also interested in the use of the Cosmic Microwave Background (CMB), and Large Scale Structure (LSS) as probes of curvature fluctuations in the primordial universe. I am currently developing a computer-algebra system to perform non-linear evolution of stochastically seeded fields from first-principles. I plan to use it to evaluate all lowest-order corrections to the two-, three- and four-point correlation functions of the CMB and LSS purely due to non-linear evolution. 
+%
+%         A second theme of my research is astrophysical applications of strong gravitational lensing. Along with collaborators, I worked on one of the first theoretical papers about highly magnified stars within background galaxies behind massive galaxy clusters. Our predictions for the observational appearance of the stars, including both the image distribution and the lightcurve, were borne out by the first detection in the lensing cluster MACSJ1149. I am working on several applications of such systems to detecting low-mass dark matter substructure inside lensing clusters. I have also worked on predictions for strongly lensed and multiply imaged gravitational wave mergers that will be seen by LIGO.
+%	
+%	My other research interests include weak interactions of neutrinos in the early universe, and the secular evolution of binary systems. Previously, I have worked on tidal deformation of neutron stars, and its consequence for their internal oscillatory modes. Apart from these topics, at various periods, I have worked on orbital resonances in eccentric binaries, optics design for CMB experiments and, very briefly dabbled in X-ray fluorescence from kilonovae.\\
+%
+%        \par}
+
+
+\cvsection[12\baselineskip]{Academic Honors}
+	
+\begin{cvblock}
+	\noindent
+	Sloan Research Fellowship \hfill 2023 \\
+	Alfred P. Sloan Foundation \\ 
+	\\
+	Hellman Family Faculty Fellowship \hfill 2023 \\
+	Society of Hellman Fellows \\
+	\\
+	John Bahcall Fellowship \hfill 2019 \\
+	Institute for Advanced Study \\
+	\\
+%	Friends of the Institute Membership \hfill 2018 \\
+%	Institute for Advanced Study \\
+%	\\
+	Schmidt Fellowship \hfill 2015 - 2018 \\
+	Institute for Advanced Study \\
+	\\
+	Robert A. Millikan Fellowship \hfill 2010\\
+	California Institute of Technology \\
+	\\
+	International Fulbright Science and Technology Award \hfill 2010\\
+	Bureau of Education and Cultural Affairs, U.S. Department of State \\
+	\\
+	President's Gold Medal for the best academic performance in \hfill 2010\\
+	the graduating class in all disciplines, IIT Kanpur \\
+	\\
+	General Proficiency Medal for the best academic performance in \hfill 2010\\
+	the graduating class in Physics, IIT Kanpur \\
+	\\
+	Summer Undergraduate Research Fellowship \hfill 2007, 2008\\
+	California Institute of Technology \\
+	\\
+	Academic Excellence Award \hfill 2007, 2008, 2009, 2010\\
+	IIT Kanpur \\
+	\\
+	Silver Medal, 36th International Physics Olympiad \hfill 2005\\
+	\\
+%	Indian National Mathematics Olympiad Awardee \hfill 2005\\
+%	Homi Bhabha Center for Science Education \\
+%	\\
+	KVPY Fellowship \hfill 2004\\
+	Department of Science and Technology, Govt. of India \\
+	\\
+	NTSE Fellowship \hfill 2003\\
+	National Council of Educational Research and Training, Govt. of India \\
+%	\\
+%	First rank, All India Senior Secondary Examination \hfill 2003 \\
+%	Central Board of Secondary Education, Govt. of India \\
+\end{cvblock}%\clearpage
+
+\cvsection[12\baselineskip]{Work Experience}
+
+\noindent\\
+\begin{cvblock}
+	\noindent \textbf{Assistant Professor} \hfill Jul 2020-present \\
+	University of California, Santa Barbara \\
+	\\
+	\noindent \textbf{Visiting Professor} \hfill 2020-present \\
+	International Center for Theoretical Sciences, Bangalore \\
+	\\	
+	\noindent \textbf{Member} \hfill Sep 2015-Jul 2020 \\
+	Institute for Advanced Study, Princeton \\
+	\\
+	\noindent \textbf{Associate} \hfill 2019-2020 \\
+	International Center for Theoretical Sciences, Bangalore \\
+	\\
+	\textbf{Graduate Student} \hfill Sep 2010-Aug 2015 \\
+	California Institute of Technology, Pasadena \\
+	\textit{Advisor:} Christopher M. Hirata \\
+	\\
+	\textbf{Visiting Scientist} \hfill May-August 2009\\
+	Max-Planck-Institut f\"{u}r Physik komplexer Systeme, Dresden \\
+	\textit{Advisor:} Roderich Moessner\\
+	\\
+	\textbf{Summer Undergraduate Research Fellow} \hfill May-August 2008\\
+	California Institute of Technology, Pasadena \\
+	\textit{Advisor:} Re'em Sari\\
+	\\
+	\textbf{Summer Undergraduate Research Fellow} \hfill May-August 2007\\
+	California Institute of Technology, Pasadena \\
+	\textit{Advisor:} Andrew Lange\\
+\end{cvblock}	
+\cvsection[12\baselineskip]{Current and Pending Support}
+
+\cvtablesectionstart
+
+\cvtableindent\begin{tabular}{|p{0.3\cvtablewidth} p{0.62\cvtablewidth}|}
+\hline
+Project/Proposal Title:	& WoU-MMA: Expanding the Horizons of Gravitational Wave Searches and Parameter Estimation\\
+Source of Support: 	& NSF\\
+Award Number:       & 2012086\\
+Project Location: 	& University of California, Santa Barbara\\
+Total Amount: & \$300000\\
+Starting/Ending Dates: 	& 07/01/2020--06/30/2024\\
+Person-months Per Year: & 4 calendar months/year\\
+\hline
+\end{tabular} 
+
+\cvtablesep
+
+\cvtableindent\begin{tabular}{|p{0.3\cvtablewidth} p{0.62\cvtablewidth}|}
+\hline
+Project/Proposal Title:	& WoU-MMA: Targeted Search for Binary Mergers with Multiple Harmonics in Gravitational Wave Data\\
+Source of Support: 	& NSF\\
+Award Number:       & 2309360\\
+Project Location: 	& University of California, Santa Barbara\\
+Total Amount: & \$300000\\
+Starting/Ending Dates: 	& 05/01/2023--04/30/2026\\
+Person-months Per Year: & 4 calendar months/year\\
+\hline
+\end{tabular} 
+
+\cvtablesep
+
+\cvtableindent\begin{tabular}{|p{0.3\cvtablewidth} p{0.62\cvtablewidth}|}
+\hline
+Project/Proposal Title:	& Searching for Missing Links in the Black Hole Population\\
+Source of Support: 	& Alfred P. Sloan Foundation\\
+%Award Number:       & 2012086\\
+Project Location: 	& University of California, Santa Barbara\\
+Total Amount: & \$75000\\
+Starting/Ending Dates: 	& 09/15/2023--09/15/2025\\
+Person-months Per Year: & 2 calendar months/year\\
+\hline
+\end{tabular}
+
+\cvtablesep
+
+\cvtableindent\begin{tabular}{|p{0.3\cvtablewidth} p{0.62\cvtablewidth}|}
+\hline
+Project/Proposal Title:	& Cosmological recombination on small-scales, and implications for the Hubble constant\\
+Source of Support: 	& Society of Hellman Fellows\\
+%Award Number:       & 2012086\\
+Project Location: 	& University of California, Santa Barbara\\
+Total Amount: & \$24800\\
+Starting/Ending Dates: 	& 06/01/2023--08/31/2024\\
+Person-months Per Year: & 2 calendar months/year\\
+\hline
+\end{tabular}
+
+\cvtablesep
+
+\cvtableindent\begin{tabular}{|p{0.3\cvtablewidth} p{0.62\cvtablewidth}|}
+\hline
+Project/Proposal Title:	& IAS Gravitational Wave Virtual Center\\
+Source of Support: 	& Jonathan M. Nelson Center for Collaborative Research\\
+%Award Number:       & 2012086\\
+Project Location: 	& Institute for Advanced Study\\
+Total Amount: & \$300000\\
+Starting/Ending Dates: 	& 07/01/2026--07/01/2029\\
+Person-months Per Year: & 3 (Co-Investigator, travel support, and partial postdoc support) \\
+URL: & \url{https://www.ias.edu/nccr/projects}\\
+\hline
+\end{tabular}
+
+\cvtablesep
+
+\cvsection[12\baselineskip]{Graduate Committees}
+
+\cvtablesectionstart
+
+%\begin{tabular}{p{0.3\textwidth} p{0.3\textwidth} p{0.3\textwidth}}
+%\hline
+%Student Name	& Degree Completed & Role\\
+%\hline
+%Anantpurkar, Isha & In progress & Chair \\
+%Schiff, Jonathan & In progress & \textcolor{red}{Chair} \\
+%Kwon, James Kyubin & In progress & Chair \\
+%Becerra Espinoza, Joaquin & In progress & Chair \\
+%\textcolor{blue}{Surgent, William} & \textcolor{blue}{In progress} & \textcolor{blue}{Chair} \\
+%Huang, Jiamu & In progress & Member \\
+%Gonzalez-Hernandez, Diego & In progress & Member \\
+%Clay, Hawkins & In progress & Member \\
+%\textcolor{blue}{Kim, Crystal} & \textcolor{blue}{In progress} & \textcolor{blue}{Member} \\
+%\textcolor{blue}{Breckenridge, Josh} & \textcolor{blue}{In progress} & \textcolor{blue}{Member} \\
+%Vancil, Connor & In progress & Member \\
+%\textcolor{blue}{Palatnick, Skyler} & \textcolor{blue}{In progress} & \textcolor{blue}{Member} \\
+%\textcolor{blue}{Liang, Naixin} & \textcolor{blue}{In progress} & \textcolor{blue}{Member} \\
+%\hline
+%\end{tabular}
+
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1.05}
+\rowcolors{2}{lightrow}{white} % alternate row colors
+
+\cvtableindent\begin{tabularx}{\cvtablewidth}{|X X X|}
+\hline
+\rowcolor{gray!25}
+\textbf{Student Name} & \textbf{Degree Completed} & \textbf{Role} \\
+Anantpurkar, Isha & In progress & Chair \\
+Schiff, Jonathan & In progress & Chair \\
+Kwon, James Kyubin & In progress & Chair \\
+Becerra Espinoza, Joaquin & In progress & Chair \\
+Surgent, William & In progress & Chair \\
+Huang, Jiamu & In progress & Member \\
+Gonzalez-Hernandez, Diego & In progress & Member \\
+Clay, Hawkins & In progress & Member \\
+Kim, Crystal & In progress & Member \\
+Breckenridge, Josh & In progress & Member \\
+Vancil, Connor & In progress & Member \\
+Palatnick, Skyler & In progress & Member \\
+Liang, Naixin & In progress & Member \\
+\hline
+\end{tabularx}
+
+\cvtablesep
+
+\cvsection[12\baselineskip]{Undergraduate Students Supervised}
+
+\cvtablesectionstart
+
+%%\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+%\begin{tabularx}{\textwidth}{p{0.18\textwidth} p{0.12\textwidth} p{0.15\textwidth} X X}
+%\hline
+%Student Name & Years & Co-Mentor & Project Title & Position After Project \\
+%\hline
+%Liu, Cuishan & 2021-2022 & Javier Roulet (KITP) & Coordinates for Gravitational Wave Parameter Estimation using Fisher Matrices & Graduate Student (University of Virginia) \\
+%Carrel, Dashiell & 2021-2023 & Jennifer Barnes (KITP) & AT2017gfo-like Photometry From a Single
+%Component of Binary Neutron Star Merger Ejecta & Graduate Student (University of California Berkeley) \\
+%%Tousif Islam & 2021-2022 & Javier Roulet (KITP) & Factorized Parameter Estimation for Real-Time Gravitational Wave Inference & 
+%Wang, Jiayu & 2022-2024 & Ajit Kumar Mehta (UCSB postdoc) & Improving the Detection Sensitivity of Gravitational-Wave Searches in Non-Stationary Data & \\
+%Wei, Fansen & 2022-2023 & & Calibration Uncertainty in Gravitational-Wave Parameter Estimation & Graduate Student (Brown University) \\
+%Xu, Junyan & 2023-2025 & & Parameter Estimation of Long-Duration Signals in Third-Generation Gravitational Wave Detectors & Graduate Student (University of Minnesota) \\
+%\hline
+%\end{tabularx}
+
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.05}
+\rowcolors{2}{lightrow}{white}     % alternate background every 2nd row
+
+\cvtableindent\begin{tabularx}{\cvtablewidth}{|p{0.18\cvtablewidth} p{0.12\cvtablewidth} p{0.15\cvtablewidth} X X|}
+\hline
+\rowcolor{gray!25}
+\textbf{Name} & \textbf{Years} & \textbf{Co-Mentor} & \textbf{Project Title} & \textbf{Position After Project} \\
+Liu, Cuishan & 2021--2022 & Javier Roulet (KITP) & Coordinates for Gravitational Wave Parameter Estimation using Fisher Matrices & Graduate Student (University of Virginia) \\
+Carrel, Dashiell & 2021--2023 & Jennifer Barnes (KITP) & AT2017gfo-like Photometry From a Single Component of Binary Neutron Star Merger Ejecta & Graduate Student (University of California Berkeley) \\
+% Tousif Islam & 2021--2022 & Javier Roulet (KITP) & Factorized Parameter Estimation for Real-Time Gravitational Wave Inference & \\
+Wang, Jiayu & 2022--2024 & Ajit Kumar Mehta (UCSB postdoc) & Improving the Detection Sensitivity of Gravitational-Wave Searches in Non-Stationary Data &  \\
+Wei, Fansen & 2022--2023 &  & Calibration Uncertainty in Gravitational-Wave Parameter Estimation & Graduate Student (Brown University) \\
+Xu, Junyan & 2023--2025 &  & Parameter Estimation of Long-Duration Signals in Third-Generation Gravitational Wave Detectors & Graduate Student (University of Minnesota) \\
+\hline
+\end{tabularx}
+
+\cvtablesep
+
+\cvsection[12\baselineskip]{Postdoctoral Scholars Supervised}
+
+\cvtablesectionstart
+
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.05}
+\rowcolors{2}{lightrow}{white}     % alternate background every 2nd row
+
+\cvtableindent\begin{tabularx}{\cvtablewidth}{|p{0.18\cvtablewidth} p{0.12\cvtablewidth} p{0.15\cvtablewidth} X|}
+\hline
+\rowcolor{gray!25}
+\textbf{Name} & \textbf{Years} & \textbf{Note} & \textbf{Position After UCSB} \\
+Roulet, Javier & 2021--2022 & KITP Fellow & Sherman Fairchild Postdoctoral Scholar (Caltech) \\
+Barnes, Jennifer & 2021-2023 & KITP Fellow & Senior Algorithm Engineer, 3M, Minneapolis, Minnesota \\
+Yu, Hang & 2022-2023 & KITP Fellow & Assistant Professor, Montana State University \\
+Ajit Kumar Mehta & 2022-2025 & & Assistant Professor, Chennai Mathematical Institute \\
+Tousif Islam & 2023-Present & KITP Fellow & \\
+\hline
+\end{tabularx}
+
+\cvtablesep
+
+\cvsection[12\baselineskip]{Other Supervision/Mentoring}
+
+\cvtablesectionstart
+
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.05}
+\rowcolors{2}{lightrow}{white}     % alternate background every 2nd row
+
+\cvtableindent\begin{tabularx}{\cvtablewidth}{|p{0.18\cvtablewidth} p{0.12\cvtablewidth} p{0.15\cvtablewidth} X|}
+\hline
+\rowcolor{gray!25}
+\textbf{Name} & \textbf{Years} & \textbf{Note} & \textbf{Position After Supervision} \\
+Islam, Tousif & 2022--2023 & KITP Graduate Fellow & KITP Fellow \\
+\hline
+\end{tabularx}
+
+\cvtablesep
+
+\cvsection[12\baselineskip]{University Service}
+
+\cvtablesectionstart
+
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.05}
+\rowcolors{2}{lightrow}{white}     % alternate background every 2nd row
+
+\cvtableindent\begin{tabularx}{\cvtablewidth}{|p{0.5\cvtablewidth} p{0.3\cvtablewidth} X|}
+\hline
+\rowcolor{gray!25}
+\textbf{Name of Committee/Organization} & \textbf{Period} & \textbf{Position}  \\
+Graduate Admissions, Physics Department & 2021-2023 & Member \\
+Winter quarter Colloquium Committee, Physics Department & 2021-2022 & Co-Chair \\
+Spring quarter Colloquium Committee, Physics Department & 2022-2023 & Co-Chair \\
+Student Awards, Physics Department & 2024-2025 & Chair \\
+Freshman Advisor, Physics Department & 2025-2026 & Advisor \\
+Undergraduate Research, Physics Department & 2025-2026 & Member \\
+\hline
+\end{tabularx}
+
+\cvtablesep
+
+\cvsection[12\baselineskip]{Professional Service}
+
+\begin{cvblock}
+	\begin{itemize} 
+		\item Referee for the Astrophysical Journal Letters
+		\item Referee for Astroparticle Physics
+		\item Referee for the Astrophysical Journal
+                \item Referee for Monthly Notices of the Royal Astronomical Society Letters
+		\item Referee for Monthly Notices of the Royal Astronomical Society
+		\item Referee for Physical Review D
+		\item Panel reviewer for ERC, BSF, NSF
+		\item Organizer of Prospects in Theoretical Physics 2025 program on \em{Gravitational Waves from Theory to Observation}
+		URL: \url{https://www.ias.edu/pitp-2025-details}
+		\item Organizer of the 2025 KITP Program: \em{Stellar-Mass Black Holes at the Nexus of Optical, X-ray, and Gravitational Wave Surveys}
+		URL: \url{https://www.kitp.ucsb.edu/activities/stellarbh25}
+		\item Organizer of the 2025 KITP Conference: \em{The Lifecycle of Stellar Black Holes}
+		URL: \url{https://www.kitp.ucsb.edu/activities/stellarbh-c25}
+	\end{itemize}
+\end{cvblock}
+\cvsectionend
+
+\cvsection[12\baselineskip]{Publication Highlights}
+
+\begin{cvlist}
+\cvsectionstart
+\textbf{Total h-index: 31} \\
+\\
+\textbf{Top five cited published papers (not counting $n^{\rm th}$ author papers):} \\
+\begin{enumerate}[leftmargin=*,itemsep=0.35em,topsep=0.35em]
+\item \textbf{Venumadhav, T.}, Zackay, B., Roulet, J., Dai, L., Zaldarriaga, M., \ (2020), Physical Review D, 101, 083030 \\
+Title: New binary black hole mergers in the second observing run of Advanced LIGO and Advanced Virgo \\
+Citation count: 371 \\
+\item Zackay, B., \textbf{Venumadhav, T.}, Dai, L., Roulet, J., Zaldarriaga, M., \ (2019), Physical Review D, 100, 023007 \\
+Title: Highly spinning and aligned binary black hole merger in the Advanced LIGO first observing run \\
+Citation count: 195 \\
+\item Olsen, S., \textbf{Venumadhav, T.}, Mushkin, J., Roulet, J., Zackay, B., Zaldarriaga, M., \ (2022), Physical Review D, 106, 043009 \\
+Title: New binary black hole mergers in the LIGO-Virgo O3a data \\
+Citation count: 191 \\
+\item \textbf{Venumadhav, T.}, Zackay, B., Roulet, J., Dai, L., Zaldarriaga, M., \ (2019), Physical Review D, 100, 023011 \\
+Title: New search pipeline for compact binary mergers: Results for binary black holes in the first observing run of Advanced LIGO \\
+Citation count: 182 \\
+\item Zackay, B., Dai, L., \textbf{Venumadhav, T.}, Roulet, J., Zaldarriaga, M., \ (2021), Physical Review D, 104, 063030 \\
+Title: Detecting gravitational waves with disparate detector responses: Two new binary black hole mergers \\
+Citation count: 153 \\
+\end{enumerate}
+\end{cvlist}
+\cvsectionend
+
+\cvsection[5\baselineskip]{Refereed Publications}
+
+\begin{cvlist}
+\cvsectionstart
+\begin{enumerate}[leftmargin=*,itemsep=0.32em,topsep=0.3em]
+\item Cheung, M.H.Y., Wadekar, D., Mehta, A.K., Islam, T., Roulet, J., Berti, E., \textbf{Venumadhav, T.}, Zackay, B., Zaldarriaga, M., \ (2026), Physical Review D, 113, 023003 \\
+Title: Searching for intermediate mass ratio binary black hole mergers in the third observing run of LIGO-Virgo-KAGRA
+\item Mehta, A.K., Wadekar, D., Anantpurkar, I., Roulet, J., \textbf{Venumadhav, T.}, Islam, T., Mushkin, J., Zackay, B., Zaldarriaga, M., \ (2025), Physical Review D, 112, 124023 \\
+Title: Binary black hole population inference combining confident and marginal events from the IAS-HM search pipeline
+\item Mushkin, J., Roulet, J., Zackay, B., \textbf{Venumadhav, T.}, Ivashtenko, O., Wadekar, D., Mehta, A.K., Zaldarriaga, M., \ (2025), Physical Review D, 112, 104025 \\
+Title: Sampler-free gravitational wave inference using matrix multiplication
+\item Islam, T., \textbf{Venumadhav, T.}, \ (2025), Physical Review D, 112, 104039 \\
+Title: Post-Newtonian theory-inspired framework for characterizing eccentricity in gravitational waveforms
+\item Perera, A., Zackay, B., \textbf{Venumadhav, T.}, \ (2025), The Astrophysical Journal Supplement Series, 281, 4 \\
+Title: A New Search Pipeline for Short Gamma-Ray Bursts in Fermi/GBM Data—A 50\% Increase in the Number of Detections
+\item Jana, S., Kapadia, S.J., \textbf{Venumadhav, T.}, More, S., Ajith, P., \ (2025), Physical Review Letters, 135, 111402 \\
+Title: Probing the Nature of Dark Matter Using Strongly Lensed Gravitational Waves from Binary Black Holes
+\item Islam, T., \textbf{Venumadhav, T.}, Mehta, A.K., Anantpurkar, I., Wadekar, D., Roulet, J., Mushkin, J., Zackay, B., Zaldarriaga, M., \ (2025), Physical Review D, 112, 044070 \\
+Title: Data-driven extraction, phenomenology, and modeling of eccentric harmonics in binary black hole merger waveforms
+\item Islam, T., \textbf{Venumadhav, T.}, \ (2025), Physical Review D, 111, L081503 \\
+Title: Universal phenomenological relations between spherical harmonic modes in nonprecessing eccentric binary black hole merger waveforms
+\item Mehta, A.K., Olsen, S., Wadekar, D., Roulet, J., \textbf{Venumadhav, T.}, Mushkin, J., Zackay, B., Zaldarriaga, M., \ (2025), Physical Review D, 111, 024049 \\
+Title: New binary black hole mergers in the LIGO-Virgo O3b data
+\item Jana, S., J Kapadia, S., \textbf{Venumadhav, T.}, More, S., Ajith, P., \ (2024), Classical and Quantum Gravity, 41, 245010 \\
+Title: Strong-lensing cosmography using third-generation gravitational-wave detectors
+\item Wadekar, D., \textbf{Venumadhav, T.}, Mehta, A.K., Roulet, J., Olsen, S., Mushkin, J., Zackay, B., Zaldarriaga, M., \ (2024), Physical Review D, 110, 084035 \\
+Title: New approach to template banks of gravitational waves with higher harmonics: Reducing matched-filtering cost by over an order of magnitude
+\item Chia, H.S., Edwards, T.D.P., Wadekar, D., Zimmerman, A., Olsen, S., Roulet, J., \textbf{Venumadhav, T.}, Zackay, B., Zaldarriaga, M., \ (2024), Physical Review D, 110, 063007 \\
+Title: In pursuit of Love numbers: First templated search for compact objects with large tidal deformabilities in the LIGO-Virgo data
+\item Wadekar, D., \textbf{Venumadhav, T.}, Roulet, J., Mehta, A.K., Zackay, B., Mushkin, J., Zaldarriaga, M., \ (2024), Physical Review D, 110, 044063 \\
+Title: New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering
+\item Roulet, J., Mushkin, J., Wadekar, D., \textbf{Venumadhav, T.}, Zackay, B., Zaldarriaga, M., \ (2024), Physical Review D, 110, 044010 \\
+Title: Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization
+\item Roulet, J., \textbf{Venumadhav, T.}, \ (2024), Annual Review of Nuclear and Particle Science, 74, 207 \\
+Title: Inferring Binary Properties from Gravitational-Wave Signals
+\item Yu, H., Roulet, J., \textbf{Venumadhav, T.}, Zackay, B., Zaldarriaga, M., \ (2023), Physical Review D, 108, 064059 \\
+Title: Accurate and efficient waveform model for precessing binary black holes
+\item Jana, S., Kapadia, S.J., \textbf{Venumadhav, T.}, Ajith, P., \ (2023), Physical Review Letters, 130, 261401 \\
+Title: Cosmography Using Strongly Lensed Gravitational Waves from Binary Black Holes
+\item Yu, H., Weinberg, N.N., Arras, P., Kwon, J., \textbf{Venumadhav, T.}, \ (2023), Monthly Notices of the Royal Astronomical Society, 519, 4325 \\
+Title: Beyond the linear tide: impact of the non-linear tidal response of neutron stars on gravitational waveforms from binary inspirals
+\item Roulet, J., Olsen, S., Mushkin, J., Islam, T., \textbf{Venumadhav, T.}, Zackay, B., Zaldarriaga, M., \ (2022), Physical Review D, 106, 123015 \\
+Title: Removing degeneracy and multimodality in gravitational wave source parameters
+\item Olsen, S., \textbf{Venumadhav, T.}, Mushkin, J., Roulet, J., Zackay, B., Zaldarriaga, M., \ (2022), Physical Review D, 106, 043009 \\
+Title: New binary black hole mergers in the LIGO-Virgo O3a data
+\item Chia, H.S., Olsen, S., Roulet, J., Dai, L., \textbf{Venumadhav, T.}, Zackay, B., Zaldarriaga, M., \ (2022), Physical Review D, 106, 024009 \\
+Title: Signs of higher multipoles and orbital precession in GW151226
+\item Olsen, S., Roulet, J., Chia, H.S., Dai, L., \textbf{Venumadhav, T.}, Zackay, B., Zaldarriaga, M., \ (2021), Physical Review D, 104, 083036 \\
+Title: Mapping the likelihood of GW190521 with diverse mass and spin priors
+\item Roulet, J., Chia, H.S., Olsen, S., Dai, L., \textbf{Venumadhav, T.}, Zackay, B., Zaldarriaga, M., \ (2021), Physical Review D, 104, 083010 \\
+Title: Distribution of effective spins and masses of binary black holes from the LIGO and Virgo O1-O3a observing runs
+\item Zackay, B., \textbf{Venumadhav, T.}, Roulet, J., Dai, L., Zaldarriaga, M., \ (2021), Physical Review D, 104, 063034 \\
+Title: Detecting gravitational waves in data with non-stationary and non-Gaussian noise
+\item Zackay, B., Dai, L., \textbf{Venumadhav, T.}, Roulet, J., Zaldarriaga, M., \ (2021), Physical Review D, 104, 063030 \\
+Title: Detecting gravitational waves with disparate detector responses: Two new binary black hole mergers
+\item Roulet, J., \textbf{Venumadhav, T.}, Zackay, B., Dai, L., Zaldarriaga, M., \ (2020), Physical Review D, 102, 123022 \\
+Title: Binary black hole mergers from LIGO/Virgo O1 and O2: Population inference combining confident and marginal events
+\item Huang, Y., Haster, C.J., Roulet, J., Vitale, S., Zimmerman, A., \textbf{Venumadhav, T.}, Zackay, B., Dai, L., Zaldarriaga, M., \ (2020), Physical Review D, 102, 103024 \\
+Title: Source properties of the lowest signal-to-noise-ratio binary black hole detections
+\item \textbf{Venumadhav, T.}, Zackay, B., Roulet, J., Dai, L., Zaldarriaga, M., \ (2020), Physical Review D, 101, 083030 \\
+Title: New binary black hole mergers in the second observing run of Advanced LIGO and Advanced Virgo
+\item Dai, L., Kaurov, A.A., Sharon, K., Florian, M., Miralda-Escudé, J., \textbf{Venumadhav, T.}, Frye, B., Rigby, J.R., Bayliss, M., \ (2020), Monthly Notices of the Royal Astronomical Society, 495, 3192 \\
+Title: Asymmetric surface brightness structure of caustic crossing arc in SDSS J1226+2152: a case for dark matter substructure
+\item Samsing, J., \textbf{Venumadhav, T.}, Dai, L., Martinez, I., Batta, A., Lopez, M., Ramirez-Ruiz, E., Kremer, K., \ (2019), Physical Review D, 100, 043009 \\
+Title: Probing the black hole merger history in clusters using stellar tidal disruptions
+\item \textbf{Venumadhav, T.}, Zackay, B., Roulet, J., Dai, L., Zaldarriaga, M., \ (2019), Physical Review D, 100, 023011 \\
+Title: New search pipeline for compact binary mergers: Results for binary black holes in the first observing run of Advanced LIGO
+\item Zackay, B., \textbf{Venumadhav, T.}, Dai, L., Roulet, J., Zaldarriaga, M., \ (2019), Physical Review D, 100, 023007 \\
+Title: Highly spinning and aligned binary black hole merger in the Advanced LIGO first observing run
+\item Kaurov, A.A., Dai, L., \textbf{Venumadhav, T.}, Miralda-Escudé, J., Frye, B., \ (2019), The Astrophysical Journal, 880, 58 \\
+Title: Highly Magnified Stars in Lensing Clusters: New Evidence in a Galaxy Lensed by MACS J0416.1-2403
+\item Roulet, J., Dai, L., \textbf{Venumadhav, T.}, Zackay, B., Zaldarriaga, M., \ (2019), Physical Review D, 99, 123022 \\
+Title: Template bank for compact binary coalescence searches in gravitational wave data: A general geometric placement algorithm
+\item \textbf{Venumadhav, T.}, Dai, L., Kaurov, A., Zaldarriaga, M., \ (2018), Physical Review D, 98, 103513 \\
+Title: Heating of the intergalactic medium by the cosmic microwave background during cosmic dawn
+\item Dai, L., \textbf{Venumadhav, T.}, Kaurov, A.A., Miralda-Escud, J., \ (2018), The Astrophysical Journal, 867, 24 \\
+Title: Probing Dark Matter Subhalos in Galaxy Clusters Using Highly Magnified Stars
+\item Kaurov, A.A., \textbf{Venumadhav, T.}, Dai, L., Zaldarriaga, M., \ (2018), The Astrophysical Journal, 864, L15 \\
+Title: Implication of the Shape of the EDGES Signal for the 21 cm Power Spectrum
+\item Hirata, C.M., Mishra, A., \textbf{Venumadhav, T.}, \ (2018), Physical Review D, 97, 103521 \\
+Title: Detecting primordial gravitational waves with circular polarization of the redshifted 21 cm line. I. Formalism
+\item \textbf{Venumadhav, T.}, Dai, L., Miralda-Escudé, J., \ (2017), The Astrophysical Journal, 850, 49 \\
+Title: Microlensing of Extremely Magnified Stars near Caustics of Galaxy Clusters
+\item \textbf{Venumadhav, T.}, Oklopčić, A., Gluscevic, V., Mishra, A., Hirata, C.M., \ (2017), Physical Review D, 95, 083010 \\
+Title: New probe of magnetic fields in the prereionization epoch. I. Formalism
+\item Gluscevic, V., \textbf{Venumadhav, T.}, Fang, X., Hirata, C., Oklopčić, A., Mishra, A., \ (2017), Physical Review D, 95, 083011 \\
+Title: New probe of magnetic fields in the pre-reionization epoch. II. Detectability
+\item Dai, L., \textbf{Venumadhav, T.}, Sigurdson, K., \ (2017), Physical Review D, 95, 044011 \\
+Title: Effect of lensing magnification on the apparent distribution of black hole mergers
+\item \textbf{Venumadhav, T.}, Chang, T.C., Doré, O., Hirata, C.M., \ (2016), The Astrophysical Journal, 826, 116 \\
+Title: A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal
+\item \textbf{Venumadhav, T.}, Cyr-Racine, F.Y., Abazajian, K.N., Hirata, C.M., \ (2016), Physical Review D, 94, 043515 \\
+Title: Sterile neutrino dark matter: Weak interactions in the strong coupling epoch
+\item \textbf{Venumadhav, T.}, Hirata, C., \ (2015), Physical Review D, 91, 123009 \\
+Title: Stability of small-scale baryon perturbations during cosmological recombination
+\item \textbf{Venumadhav, T.}, Zimmerman, A., Hirata, C.M., \ (2014), The Astrophysical Journal, 781, 23 \\
+Title: The Stability of Tidally Deformed Neutron Stars to Three- and Four-mode Coupling
+\item Venumadhav, T., Haque, M., Moessner, R., \ (2010), Physical Review B, 81, 054305 \\
+Title: Finite-rate quenches of site bias in the Bose-Hubbard dimer
+\end{enumerate}
+\end{cvlist}
+\cvsectionend
+
+\cvsection[5\baselineskip]{Preprints on the Arxiv}
+
+\begin{cvlist}
+\cvsectionstart
+\begin{enumerate}[leftmargin=*,itemsep=0.32em,topsep=0.3em]
+\item Islam, T., \textbf{Venumadhav, T.}, Wadekar, D., \ (2026), arXiv:2601.18986 \\
+Title: Progenitor of the recoiling super-massive black hole RBH-1 identified using HST/JWST imaging
+\item Maity, K.N., Jana, S., \textbf{Venumadhav, T.}, Barsode, A., Ajith, P., \ (2025), arXiv:2512.15168 \\
+Title: Strong lensing cosmography using binary-black-hole mergers: Prospects for the near future
+\item Islam, T., \textbf{Venumadhav, T.}, Mehta, A.K., Wadekar, D., Roulet, J., Anantpurkar, I., Mushkin, J., Zackay, B., Zaldarriaga, M., \ (2025), arXiv:2509.20556 \\
+Title: Data-driven extraction and phenomenology of eccentric harmonics in eccentric spinning binary black hole mergers
+\item Wadekar, D., Pimpalkar, A., Ho-Yeuk Cheung, M., Wandelt, B., Berti, E., Mehta, A.K., \textbf{Venumadhav, T.}, Roulet, J., Islam, T., Zackay, B., Mushkin, J., Zaldarriaga, M., \ (2025), arXiv:2507.08318 \\
+Title: Improving gravitational wave search sensitivity with TIER: Trigger Inference using Extended strain Representation
+\item Abhishek Hegade K., R., Kwon, K.J., \textbf{Venumadhav, T.}, Yu, H., Yunes, N., \ (2025), arXiv:2507.10693 \\
+Title: Relativistic and Dynamical Love
+\item Schiff, J., \textbf{Venumadhav, T.}, \ (2025), arXiv:2506.16517 \\
+Title: Primordial magnetic fields and modified recombination histories
+\item Islam, T., \textbf{Venumadhav, T.}, Mehta, A.K., Anantpurkar, I., Wadekar, D., Roulet, J., Mushkin, J., Zackay, B., Zaldarriaga, M., \ (2025), arXiv:2504.12420 \\
+Title: gwharmone: first data-driven surrogate for eccentric harmonics in binary black hole merger waveforms
+\item Kwon, K.J., Yu, H., \textbf{Venumadhav, T.}, \ (2025), arXiv:2503.11837 \\
+Title: Resonance locking: radian-level phase shifts due to nonlinear hydrodynamics of \$g\$-modes in merging neutron star binaries
+\item Mehta, A.K., Wadekar, D., Roulet, J., Anantpurkar, I., \textbf{Venumadhav, T.}, Mushkin, J., Zackay, B., Zaldarriaga, M., Islam, T., \ (2025), arXiv:2501.17939 \\
+Title: Significant increase in sensitive volume of a gravitational wave search upon including higher harmonics
+\item Kwon, K.J., Yu, H., \textbf{Venumadhav, T.}, \ (2024), arXiv:2410.03831 \\
+Title: Resonance Locking of Anharmonic \$g\$-Modes in Coalescing Neutron Star Binaries
+\item Wadekar, D., Roulet, J., \textbf{Venumadhav, T.}, Mehta, A.K., Zackay, B., Mushkin, J., Olsen, S., Zaldarriaga, M., \ (2023), arXiv:2312.06631 \\
+Title: New black hole mergers in the LIGO-Virgo O3 data from a gravitational wave search including higher-order harmonics
+\item Islam, T., Roulet, J., \textbf{Venumadhav, T.}, \ (2022), arXiv:2210.16278 \\
+Title: Factorized Parameter Estimation for Real-Time Gravitational Wave Inference
+\item Dai, L., Zackay, B., \textbf{Venumadhav, T.}, Roulet, J., Zaldarriaga, M., \ (2020), arXiv:2007.12709 \\
+Title: Search for Lensed Gravitational Waves Including Morse Phase Information: An Intriguing Candidate in O2
+\item Coleman, M.S.B., \textbf{Venumadhav, T.}, Zackay, B., \ (2019), arXiv:1903.04978 \\
+Title: Gravitational-wave-moderated Accretion: The Case of ES Ceti
+\item Haris, K., Mehta, A.K., Kumar, S., \textbf{Venumadhav, T.}, Ajith, P., \ (2018), arXiv:1807.07062 \\
+Title: Identifying strongly lensed gravitational wave signals from binary black hole mergers
+\item Zackay, B., Dai, L., \textbf{Venumadhav, T.}, \ (2018), arXiv:1806.08792 \\
+Title: Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation
+\item Dai, L., \textbf{Venumadhav, T.}, Zackay, B., \ (2018), arXiv:1806.08793 \\
+Title: Parameter Estimation for GW170817 using Relative Binning
+\item Dai, L., \textbf{Venumadhav, T.}, \ (2017), arXiv:1702.04724 \\
+Title: On the waveforms of gravitationally lensed gravitational waves
+\end{enumerate}
+\end{cvlist}
+\cvsectionend
+
+\cvsection[5\baselineskip]{N-th Author Papers}
+
+\begin{cvlist}
+\cvsectionstart
+\begin{enumerate}[leftmargin=*,itemsep=0.32em,topsep=0.3em]
+\item Raaijmakers, G., et. al., (2021), The Astrophysical Journal, 922, 269 \\
+Title: The Challenges Ahead for Multimessenger Analyses of Gravitational Waves and Kilonova: A Case Study on GW190425
+\item Weltman, A., et. al., (2020), Publications of the Astronomical Society of Australia, 37, e002 \\
+Title: Fundamental physics with the Square Kilometre Array
+\item Doré, O., et. al., (2014), arXiv e-prints \\
+Title: Cosmology with the SPHEREX All-Sky Spectral Survey
+\end{enumerate}
+\end{cvlist}
+\cvsectionend
+
+\cvsection[5\baselineskip]{Talks and Presentations}
+
+\begin{cvlist}
+	\begin{enumerate}
+	       \item Invited theory colloquium, Tata Institute of Fundamental Research, Mumbai. \hfill 2025
+	       \item Invited talk, Current Themes in Astrophysics and Particle Physics, NBIA, Copenhagen. \hfill 2025
+	       \item Invited seminar, International Center for Theoretical Sciences, Bangalore. \hfill 2025
+	       \item Invited review talk, APS Global Physics Summit 2025, Anaheim. \hfill 2025
+	       \item Invited seminar, Weinberg Institute, University of Texas, Austin. \hfill 2025
+	       \item Invited seminar, City University of Hong Kong, Hong Kong. \hfill 2025
+	       \item Invited plenary talk, IAS Program on Fundamental Physics, HKUST, Hong Kong. \hfill 2025
+	       \item Invited DGRAV seminar, APS DGRAV (online). \hfill 2024
+	       \item Invited theory colloquium, Tata Institute of Fundamental Research, Mumbai. \hfill 2024
+	       \item Invited talk, 21st Century Cosmology: tensions, anomaly and new physics, Ashoka University, Sonipat. \hfill 2024
+	       \item Invited talk, XGMDC, Penn State University, PA. \hfill 2024
+	       \item Invited seminar, IIT Hyderabad, Hyderabad. \hfill 2023
+	       \item Invited talk, RESCEU-NBI Workshop on Gravitational-Wave Sources, Tokyo. \hfill 2023
+	       \item Invited talk, International Conference on Gravitation and Cosmology (ICGC), Guwahati. \hfill 2023
+	       \item Invited talk, Gravitational waves in the desert, Ein Gedi, Israel\footnote{Postponed}. \hfill 2023
+	       \item Invited talk, Gravitational Wave Physics and Astronomy Workshop, Melbourne. \hfill 2022
+	       \item Invited Astrophysics seminar, International Center for Theoretical Sciences, Bangalore. \hfill 2022
+	       \item Invited Astrophysics seminar, Raman Research Institute, Bangalore. \hfill 2022
+	       \item Invited Astrophysics seminar, Indian Institute of Science, Bangalore. \hfill 2022
+	       \item Invited talk at the ISSI (International Space Science Institute) Workshop on Strong Gravitational Lensing (virtual). \hfill 2022
+	       \item Invited talk at the SRITP workshop on "EM counterparts to GW sources" at the Weizmann Institute, Rehovot. \hfill 2022
+	       \item Invited talk at the KITP conference titled ``Storming the Gravitational Wave Frontier". \hfill 2022
+	       \item Invited Panelist at the APS April Meeting on the panel Data Analysis in Astrophysics (virtual). \hfill 2021
+	       \item Invited Astrophysics Colloquium, Massachusetts Institute of Technology. \hfill 2020
+	       \item Invited Cosmology seminar (virtual), CERN. \hfill 2020
+	       \item Invited Seminar, CITA, Toronto. \hfill 2020
+	       \item Invited Talk, Gravitational wave searches and parameter estimation in the era of detections, Schloss Ringberg. \hfill 2020
+	       \item Invited Seminar, Indian Institute of Technology, Mumbai. \hfill 2020
+	       \item Invited Seminar, Tata Institute of Fundamental Research, Mumbai. \hfill 2019
+	       \item Invited Talk, Frank N. Bash Symposium, UT Austin. \hfill 2019
+	       \item Talk, Gravitational Wave Physics and Astronomy Workshop, Tokyo. \hfill 2019
+	       \item Invited Talk, Black Holes and Neutron Stars with Gravitational Waves, YITP, Kyoto. \hfill 2019
+	       \item Invited Colloquium, Black Hole Initiative, Harvard. \hfill 2019
+	       \item Invited panelist, The Future of Gravitational-Wave Astronomy, Bangalore. \hfill 2019
+	       \item Invited Seminar, International Centre for Theoretical Sciences, TIFR. \hfill 2019
+               \item Invited Seminar, Princeton Gravity Initiative, Princeton. \hfill 2019
+	       \item Invited Seminar, Albert Einstein Institute, Potsdam. \hfill 2019
+	       \item Invited Seminar, Center for Cosmology and Particle Physics, NYU. \hfill 2019
+	       \item Invited Seminar, Astronomy and Astrophysics, UC Santa Barbara. \hfill 2019
+	       \item Invited Colloquium, Department of Physics, UC Santa Barbara. \hfill 2019
+	       \item Invited panelist, Physics and Astrophysics at the eXtreme, IUCAA, Pune. \hfill 2018
+	       \item Invited talk, Thermal history of the Universe at intermediate redshift: progress with 21cm absorption measurements, CERN. \hfill 2018
+	       \item Talk, Shedding Light on the Dark Universe with Extremely Large Telescopes, UCLA. \hfill 2018
+               \item Invited Cosmology seminar, JHU, Baltimore. \hfill 2017
+               \item Invited Seminar, CITA, Toronto. \hfill 2017
+               \item Talk, Fundamental Physics with the Square Kilometer Array, Mauritius. \hfill 2017
+	       \item Invited talk, Tianlai Collaboration Meeting, Fermilab, Batavia. \hfill 2016
+               \item Invited talk, CMB Spectral Distortions From Cosmic Baryon Evolution, RRI, Bengaluru. \hfill 2016
+               \item Invited seminar, International Centre for Theoretical Sciences, TIFR. \hfill 2016
+	       \item Invited cosmology seminar, Perimeter institute. \hfill 2016
+	       \item Cosmology lunch, joint w/ IAS and Princeton University. \hfill 2016
+               \item Astrophysics informal seminar, IAS. \hfill 2016
+	       \item Seminar, Inter University Center for Astronomy and Astrophysics, Pune. \hfill 2015
+	       \item Seminar, National Center for Radio Astronomy, Pune. \hfill 2015
+	       \item Talk, The Primordial Universe after Planck, IAP, Paris. \hfill 2014
+               \item Seminar, McGill University, Montreal. \hfill 2014 
+	       \item Seminar, CITA, Toronto. \hfill 2014 
+	       \item ITC Seminar, Harvard University, Boston. \hfill 2014
+	       \item Cosmology lunch, joint w/ IAS and Princeton University. \hfill 2014
+	       \item Talk, Theoretical Astrophysics in Southern California (TASC), UCSD, San Diego. \hfill 2014 
+	       \item Special seminar, KICP, University of Chicago. \hfill 2014 
+	       \item Cosmology Lunch talk, CCAPP, Ohio State University, Columbus. \hfill 2014 
+	       \item Poster, Gravitational Wave Physics and Astronomy Workshop (GWPAW) at IUCAA, Pune. \hfill 2013 
+	       \item Seminar, Inter University Center for Astronomy and Astrophysics, Pune. \hfill 2013	
+	       \item Talk, Theoretical Astrophysics in Southern California (TASC), Carnegie Observatories, Pasadena. \hfill 2012
+	       \item Poster, Summer school on cosmology, ICTP, Trieste. \hfill 2012
+	\end{enumerate}
+\end{cvlist}
+
+\cvsectionend
+%
+%\noindent\underline{
+%  \begin{minipage}[c][14pt]{\textwidth} 
+%    \bf \Large{Teaching Experience and outreach}
+%  \end{minipage}
+%}
+%
+%{\addtolength{\leftskip}{10mm}
+%	\begin{itemize}
+%	       \item Lecturer, Newton-Bhabha \& the Open Data Workshop, IUCAA, Pune. \hfill Dec 2019
+%	       
+%	       \item Lecturer, Summer School on Gravitational-Wave Astronomy, ICTS, Bangalore. \hfill Aug 2018
+%	       
+%	       \item Teaching assistant for Ph 12a: Waves, taught by Jeff Kimble \hfill Fall 2012   
+%	       
+%	       \item Volunteer for event on occasion of partial solar eclipse \hfill Oct 2014 \\
+%		Location: McKinley School, Pasadena
+%		
+%	       \item Volunteer for public viewing of Supernova SN2014J \hfill Jan 2014 \\
+%		Location: California Institute of Technology, Pasadena
+%%	 \\
+%%	 \\
+%		\item Volunteer for public event on the occasion of Venus transit \hfill May 2012 \\
+%		Location: California Institute of Technology, Pasadena
+%%, California Institute of technology \\
+%	\end{itemize}
+%	\par}
+		
+%\clearpage
+%		
+\cvsection[5\baselineskip]{References}
+
+\begin{cvlist}
+		\cvsectionstart
+		\noindent\begin{minipage}[t]{0.48\textwidth}
+				Matias Zaldarriaga \\
+				Richard Black Professor \\
+				Institute for Advanced Study \\
+				1 Einstein Drive \\
+				Princeton, NJ 08540, USA \\
+				\textit{email}: matiasz@ias.edu \\
+		\end{minipage}\hfill
+		\noindent\begin{minipage}[t]{0.48\textwidth} 
+				Marc Kamionkowski \\
+				William R. Kenan, Jr. Professor of Physics and Astronomy \\
+			 	Johns Hopkins University \\
+				Department of Physics and Astronomy \\
+		 	Bloomberg 439 \\
+				3400 North Charles Street \\
+				Baltimore, MD 21210, USA \\
+			 	\textit{email}: kamion@jhu.edu \\
+		\end{minipage}
+
+		\vspace{0.8em}
+
+		\noindent\begin{minipage}[t]{0.48\textwidth}
+				Bangalore Sathyaprakash \\
+				Elsbach Professor of Physics \\
+				Department of Astronomy and Astrophysics \\
+				Penn State University \\
+				525 Davey Laboratory \\
+				University Park, PA 16802, USA \\
+				\textit{email}: bss25@psu.edu \\
+		\end{minipage}\hfill
+		\noindent\begin{minipage}[t]{0.48\textwidth}
+				Alessandra Buonanno \\
+				Director, Max Planck Institute for Gravitational Physics \\
+				Max-Planck-Institut f\"{u}r Gravitationsphysik (Albert-Einstein-Institut) \\
+				Am M\"{u}hlenberg 1 \\
+				D-14476 Potsdam, Germany \\
+				\textit{email}: alessandra.buonanno@aei.mpg.de \\
+		\end{minipage}
+
+		\vspace{0.8em}
+
+		\noindent\begin{minipage}[t]{0.48\textwidth}
+			 	Jordi Miralda Escud\'{e} \\
+				Institut de Ciències del Cosmos \\
+				Universitat de Barcelona \\
+				08028 Barcelona
+				Catalonia, Spain \\
+				\textit{email}: miralda@icc.ub.edu \\
+		\end{minipage}\hfill
+		\noindent\begin{minipage}[t]{0.48\textwidth} 
+				Christopher M. Hirata \\
+			 	The Ohio State University \\
+			 	191 West Woodruff Lane \\
+			 		Columbus, OH 43210, USA \\
+			 		\textit{email}: hirata.10@osu.edu \\
+		\end{minipage}
+\end{cvlist}
+\end{document}

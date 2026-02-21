@@ -1,5 +1,7 @@
 _site/*
 _theme_packages/*
+.bundle/
+vendor/bundle/
 
 Thumbs.db
 .DS_Store
@@ -8,3 +10,13 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+.env
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc

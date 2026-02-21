@@ -1,0 +1,68 @@
+name: Sync Publications From ADS
+
+on:
+  schedule:
+    - cron: "10 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-publications:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Sync publications
+        env:
+          ADS_API_TOKEN: ${{ secrets.ADS_API_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+        run: |
+          if [ -z "$ADS_API_TOKEN" ]; then
+            echo "ADS_API_TOKEN secret is missing; skipping."
+            exit 0
+          fi
+          python scripts/sync_ads_data.py
+          python scripts/sync_publications.py --write
+          python scripts/sync_cv.py
+
+      - name: Build CV PDFs
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv/generated/Tejaswi_CV_public.tex,private/cv/Tejaswi_CV_private.tex
+
+      - name: Place generated CV PDFs
+        run: |
+          if [ -f Tejaswi_CV_public.pdf ]; then
+            mv -f Tejaswi_CV_public.pdf cv/generated/Tejaswi_CV_public.pdf
+          fi
+          if [ -f Tejaswi_CV_private.pdf ]; then
+            mv -f Tejaswi_CV_private.pdf private/cv/Tejaswi_CV_private.pdf
+          fi
+          cp -f cv/generated/Tejaswi_CV_public.pdf assets/files/Tejaswi_CV.pdf
+
+      - name: Clean LaTeX auxiliary files
+        run: |
+          find cv/generated private/cv -type f \
+            \( -name "*.aux" -o -name "*.fdb_latexmk" -o -name "*.fls" -o -name "*.log" -o -name "*.out" -o -name "*.synctex.gz" -o -name "*.toc" \) \
+            -delete
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- data/ads_publications.json 02-index_publications.md cv/generated/Tejaswi_CV_public.tex private/cv/Tejaswi_CV_private.tex assets/files/Tejaswi_CV.pdf private/cv/Tejaswi_CV_private.pdf; then
+            echo "No updates."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ads_publications.json 02-index_publications.md cv/generated/Tejaswi_CV_public.tex private/cv/Tejaswi_CV_private.tex assets/files/Tejaswi_CV.pdf private/cv/Tejaswi_CV_private.pdf
+          git commit -m "publications+cv: sync from ADS"
+          git push
