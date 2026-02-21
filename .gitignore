@@ -20,3 +20,7 @@ Thumbs.db
 *.fdb_latexmk
 *.synctex.gz
 *.toc
+
+# Python caches
+__pycache__/
+*.pyc
