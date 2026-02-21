@@ -9,6 +9,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import re
 from pathlib import Path
@@ -54,8 +55,8 @@ def _format_author(name: str) -> str:
     initials = "".join(f"{x[0]}." for x in re.split(r"[\s\-]+", first) if x)
     out = f"{last}, {initials}" if initials else last
     if last.lower() == "venumadhav" and first.lower().startswith("tejaswi"):
-        return f"**{out}**"
-    return out
+        return f"<strong>{html.escape(out)}</strong>"
+    return html.escape(out)
 
 
 def _is_tejaswi_name(name: str) -> bool:
@@ -74,7 +75,7 @@ def _tejaswi_author_label(authors: list[str]) -> str:
     for author in authors:
         if _is_tejaswi_name(author):
             return _format_author(author)
-    return "**Venumadhav, T.**"
+    return "<strong>Venumadhav, T.</strong>"
 
 
 def _format_author_list(authors: list[str]) -> str:
@@ -103,17 +104,19 @@ def _render_entry(paper: AdsPaper, idx: int, entry_id: str, topics: list[str], n
     if nth_mode:
         first_author = _format_author(paper.authors[0]) if paper.authors else "Unknown"
         teja_label = _tejaswi_author_label(paper.authors)
-        lines.append(f"{idx}. {first_author} et al. ({paper.year}; incl. {teja_label}) <br>")
+        lines.append(
+            f'<p class="pub-citation">{idx}. {first_author} et al. ({paper.year}; incl. {teja_label})</p>',
+        )
     else:
-        lines.append(f"{idx}. {_format_author_list(paper.authors)} ({paper.year}) <br>")
+        lines.append(f'<p class="pub-citation">{idx}. {_format_author_list(paper.authors)} ({paper.year})</p>')
 
-    lines.append(f"*{paper.title}* <br>")
-    links = [f"[ADS]({paper.ads_url})"]
+    lines.append(f'<p class="pub-title"><em>{html.escape(paper.title)}</em></p>')
+    links = [f'<a href="{paper.ads_url}">ADS</a>']
     if paper.arxiv_url:
-        links.append(f"[arxiv]({paper.arxiv_url})")
+        links.append(f'<a href="{paper.arxiv_url}">arxiv</a>')
     if paper.inspire_url:
-        links.append(f"[INSPIRE]({paper.inspire_url})")
-    lines.append(" ".join(links))
+        links.append(f'<a href="{paper.inspire_url}">INSPIRE</a>')
+    lines.append(f'<p class="pub-links">{" ".join(links)}</p>')
 
     if topics:
         topic_badges = " ".join(f'<span class="pub-topic-chip">{topic}</span>' for topic in topics)
