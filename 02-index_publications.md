@@ -24,6 +24,7 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <a class="topic-filter" href="#topic-gravitational-waves" data-topic="Gravitational waves" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves <span>(54)</span></a>
 <a class="topic-filter" href="#topic-black-holes" data-topic="Black holes" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes <span>(38)</span></a>
 <a class="topic-filter" href="#topic-neutron-stars" data-topic="Neutron stars" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars <span>(14)</span></a>
+<a class="topic-filter" href="#topic-gamma-ray-bursts" data-topic="Gamma ray bursts" style="--topic-bg:hsl(184 44% 46%);--topic-active:hsl(184 49% 38%);">Gamma ray bursts <span>(0)</span></a>
 <a class="topic-filter" href="#topic-reionization" data-topic="Reionization" style="--topic-bg:hsl(168 43% 40%);--topic-active:hsl(168 45% 33%);">Reionization <span>(8)</span></a>
 <a class="topic-filter" href="#topic-dark-matter" data-topic="Dark matter" style="--topic-bg:hsl(336 46% 46%);--topic-active:hsl(336 49% 38%);">Dark matter <span>(9)</span></a>
 <a class="topic-filter" href="#topic-recombination" data-topic="Recombination" style="--topic-bg:hsl(26 54% 47%);--topic-active:hsl(26 58% 40%);">Recombination <span>(2)</span></a>
@@ -519,6 +520,7 @@ n-th author papers:
 <li><a href="#topic-gravitational-waves">Gravitational waves</a> (54)</li>
 <li><a href="#topic-black-holes">Black holes</a> (38)</li>
 <li><a href="#topic-neutron-stars">Neutron stars</a> (14)</li>
+<li><a href="#topic-gamma-ray-bursts">Gamma ray bursts</a> (0)</li>
 <li><a href="#topic-reionization">Reionization</a> (8)</li>
 <li><a href="#topic-dark-matter">Dark matter</a> (9)</li>
 <li><a href="#topic-recombination">Recombination</a> (2)</li>
@@ -678,6 +680,10 @@ n-th author papers:
 <li><a href="#paper-64">The Stability of Tidally Deformed Neutron Stars to Three- and Four-mode Coupling</a></li>
 <li><a href="#paper-nth-1">The Challenges Ahead for Multimessenger Analyses of Gravitational Waves and Kilonova: A Case Study on GW190425</a></li>
 </ul>
+</section>
+<section class="pub-topic-section" id="topic-gamma-ray-bursts">
+<h3>Gamma ray bursts</h3>
+<p>No papers currently tagged with this topic.</p>
 </section>
 <section class="pub-topic-section" id="topic-reionization">
 <h3>Reionization</h3>
