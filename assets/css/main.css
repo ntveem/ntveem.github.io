@@ -204,20 +204,14 @@ a {
   --topic-bg: #4c6faf;
   --topic-active: #3d5c95;
   color: #fff;
-  border-color: color-mix(in srgb, var(--topic-bg) 62%, #1f2937);
-  background: linear-gradient(
-    color-mix(in srgb, var(--topic-bg) 88%, #ffffff),
-    color-mix(in srgb, var(--topic-bg) 72%, #000000)
-  );
+  border-color: var(--topic-bg);
+  background: var(--topic-bg);
 }
 
 .topic-filter.is-active {
-  border-color: color-mix(in srgb, var(--topic-active) 70%, #111827);
+  border-color: var(--topic-active);
   color: #fff;
-  background: linear-gradient(
-    color-mix(in srgb, var(--topic-active) 92%, #ffffff),
-    color-mix(in srgb, var(--topic-active) 72%, #000000)
-  );
+  background: var(--topic-active);
 }
 
 .topic-filter.is-active span {
@@ -251,11 +245,8 @@ a {
   --topic-bg: #2f81f7;
   --topic-active: #1f6feb;
   color: #fff;
-  border-color: color-mix(in srgb, var(--topic-bg) 70%, #1f2937);
-  background: linear-gradient(
-    color-mix(in srgb, var(--topic-bg) 90%, #ffffff),
-    color-mix(in srgb, var(--topic-bg) 70%, #000000)
-  );
+  border-color: var(--topic-bg);
+  background: var(--topic-bg);
   box-shadow: none;
 }
 
