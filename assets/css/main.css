@@ -187,6 +187,7 @@ a {
 
 .topic-filter:hover {
   border-color: #afb8c1;
+  filter: saturate(1.05);
 }
 
 .topic-filter span {
@@ -199,10 +200,24 @@ a {
   font-weight: 700;
 }
 
-.topic-filter.is-active {
-  border-color: #1f6feb;
+.topic-filter {
+  --topic-bg: #4c6faf;
+  --topic-active: #3d5c95;
   color: #fff;
-  background: linear-gradient(#218bff, #1f6feb);
+  border-color: color-mix(in srgb, var(--topic-bg) 62%, #1f2937);
+  background: linear-gradient(
+    color-mix(in srgb, var(--topic-bg) 88%, #ffffff),
+    color-mix(in srgb, var(--topic-bg) 72%, #000000)
+  );
+}
+
+.topic-filter.is-active {
+  border-color: color-mix(in srgb, var(--topic-active) 70%, #111827);
+  color: #fff;
+  background: linear-gradient(
+    color-mix(in srgb, var(--topic-active) 92%, #ffffff),
+    color-mix(in srgb, var(--topic-active) 72%, #000000)
+  );
 }
 
 .topic-filter.is-active span {
@@ -233,9 +248,14 @@ a {
 }
 
 .pub-topic-chip {
+  --topic-bg: #2f81f7;
+  --topic-active: #1f6feb;
   color: #fff;
-  background: linear-gradient(#2f81f7, #1f6feb);
-  border-color: #1f6feb;
+  border-color: color-mix(in srgb, var(--topic-bg) 70%, #1f2937);
+  background: linear-gradient(
+    color-mix(in srgb, var(--topic-bg) 90%, #ffffff),
+    color-mix(in srgb, var(--topic-bg) 70%, #000000)
+  );
   box-shadow: none;
 }
 

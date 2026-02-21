@@ -9,6 +9,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
 import json
 import re
@@ -19,11 +20,38 @@ from ads_data import AdsPaper, read_papers_json
 DEFAULT_PAGE = "02-index_publications.md"
 DEFAULT_ADS_JSON = "data/ads_publications.json"
 DEFAULT_TOPICS_JSON = "data/topics.json"
+BASE_TOPIC_COLORS = {
+    "cosmology": ("hsl(214 55% 47%)", "hsl(214 57% 40%)"),
+    "gravitational lensing": ("hsl(195 52% 45%)", "hsl(195 56% 38%)"),
+    "gravitational waves": ("hsl(226 56% 48%)", "hsl(226 58% 40%)"),
+    "black holes": ("hsl(252 35% 44%)", "hsl(252 38% 36%)"),
+    "neutron stars": ("hsl(281 43% 46%)", "hsl(281 47% 38%)"),
+    "reionization": ("hsl(168 43% 40%)", "hsl(168 45% 33%)"),
+    "dark matter": ("hsl(336 46% 46%)", "hsl(336 49% 38%)"),
+    "recombination": ("hsl(26 54% 47%)", "hsl(26 58% 40%)"),
+}
 
 
 def _slugify(text: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
     return slug or "topic"
+
+
+def _topic_colors(topic: str) -> tuple[str, str]:
+    key = topic.strip().lower()
+    preset = BASE_TOPIC_COLORS.get(key)
+    if preset:
+        return preset
+    digest = hashlib.sha256(key.encode("utf-8")).hexdigest()
+    hue = int(digest[:6], 16) % 360
+    bg = f"hsl({hue} 44% 46%)"
+    active = f"hsl({hue} 49% 38%)"
+    return bg, active
+
+
+def _topic_style_attr(topic: str) -> str:
+    bg, active = _topic_colors(topic)
+    return f' style="--topic-bg:{bg};--topic-active:{active};"'
 
 
 def load_topics(path: Path) -> list[str]:
@@ -119,7 +147,9 @@ def _render_entry(paper: AdsPaper, idx: int, entry_id: str, topics: list[str], n
     lines.append(f'<p class="pub-links">{" ".join(links)}</p>')
 
     if topics:
-        topic_badges = " ".join(f'<span class="pub-topic-chip">{topic}</span>' for topic in topics)
+        topic_badges = " ".join(
+            f'<span class="pub-topic-chip"{_topic_style_attr(topic)}>{html.escape(topic)}</span>' for topic in topics
+        )
         lines.append(f'<div class="pub-entry-topics">{topic_badges}</div>')
 
     lines.append("</article>")
@@ -171,8 +201,9 @@ def render_topic_filter(chips: list[dict]) -> str:
         '<div class="pub-topic-filter-controls">',
     ]
     for chip in chips:
+        style_attr = _topic_style_attr(chip["topic"])
         lines.append(
-            f'<a class="topic-filter" href="#topic-{chip["slug"]}" data-topic="{chip["topic"]}">{chip["topic"]} <span>({chip["count"]})</span></a>'
+            f'<a class="topic-filter" href="#topic-{chip["slug"]}" data-topic="{chip["topic"]}"{style_attr}>{html.escape(chip["topic"])} <span>({chip["count"]})</span></a>'
         )
     lines.append('<button type="button" id="pub-filter-clear" class="topic-filter-clear">Clear</button>')
     lines.append("</div>")
