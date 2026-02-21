@@ -7,7 +7,6 @@ nav_order: 2
 hlgroup: research
 tagline: Supporting tagline
 ---
-## Research Overview
 I work in theoretical astrophysics with an emphasis on gravitational-wave science and physical cosmology. I enjoy working on interesting theoretical problems while also developing scalable data-analysis methods to extract new physics from observations.
 
 ## Gravitational-Wave Astrophysics
