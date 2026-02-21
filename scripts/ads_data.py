@@ -8,7 +8,7 @@ import os
 import re
 import urllib.parse
 import urllib.request
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Iterable
 
@@ -47,6 +47,11 @@ class AdsPaper:
     doi: str | None
     inspire_recid: str | None
     citation_count: int
+    abstract: str | None = None
+    topics: list[str] = field(default_factory=list)
+    topic_source: str | None = None
+    topic_confidence: float | None = None
+    topics_classified_with: str | None = None
 
     @property
     def ads_url(self) -> str:
@@ -246,6 +251,11 @@ def _paper_from_doc(doc: dict) -> AdsPaper | None:
         doi=_extract_doi(identifiers),
         inspire_recid=_extract_inspire_recid(identifiers),
         citation_count=int(doc.get("citation_count") or 0),
+        abstract=None,
+        topics=[],
+        topic_source=None,
+        topic_confidence=None,
+        topics_classified_with=None,
     )
 
 
@@ -363,6 +373,15 @@ def read_papers_json(path: Path) -> list[AdsPaper]:
                 doi=raw.get("doi"),
                 inspire_recid=raw.get("inspire_recid"),
                 citation_count=int(raw.get("citation_count") or 0),
+                abstract=raw.get("abstract"),
+                topics=list(raw.get("topics") or []),
+                topic_source=raw.get("topic_source"),
+                topic_confidence=(
+                    float(raw.get("topic_confidence"))
+                    if raw.get("topic_confidence") is not None
+                    else None
+                ),
+                topics_classified_with=raw.get("topics_classified_with"),
             )
         )
     papers.sort(key=lambda paper: (paper.pubdate, paper.year), reverse=True)
