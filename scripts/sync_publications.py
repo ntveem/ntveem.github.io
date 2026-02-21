@@ -26,6 +26,7 @@ BASE_TOPIC_COLORS = {
     "gravitational waves": ("hsl(226 56% 48%)", "hsl(226 58% 40%)"),
     "black holes": ("hsl(252 35% 44%)", "hsl(252 38% 36%)"),
     "neutron stars": ("hsl(281 43% 46%)", "hsl(281 47% 38%)"),
+    "gamma ray bursts": ("hsl(102 43% 40%)", "hsl(102 47% 33%)"),
     "reionization": ("hsl(168 43% 40%)", "hsl(168 45% 33%)"),
     "dark matter": ("hsl(336 46% 46%)", "hsl(336 49% 38%)"),
     "recombination": ("hsl(26 54% 47%)", "hsl(26 58% 40%)"),
