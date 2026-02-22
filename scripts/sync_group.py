@@ -309,15 +309,23 @@ def _render_cards(people: list[Person], profiles: dict[str, dict], placeholder_p
             image_src = image_path
         else:
             image_src = "{{ '" + image_path + "' | relative_url }}"
+
+        role_text = person.role
+        if role_text in {"Graduate Student", "Undergraduate Student", "Postdoc"}:
+            role_text = ""
+        elif role_text == "Postdoc (KITP)":
+            role_text = "KITP"
+
         lines.extend(
             [
                 '  <article class="person-card">',
                 f'    <img src="{image_src}" alt="{html.escape(person.name)}">',
                 f"    <h3>{html.escape(person.name)}</h3>",
-                f"    <p>{html.escape(person.role)}</p>",
                 "  </article>",
             ]
         )
+        if role_text:
+            lines.insert(-1, f"    <p>{html.escape(role_text)}</p>")
     lines.append("</div>")
     return "\n".join(lines) + "\n"
 
