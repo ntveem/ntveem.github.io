@@ -156,7 +156,7 @@ show_title: false
       <td>Princeton University</td>
     </tr>
     <tr>
-      <td><a href="https://ajitmehta.github.io/" target="_blank" rel="noopener noreferrer">Ajit Mehta</a></td>
+      <td><a href="https://ajitmehta.github.io/" target="_blank" rel="noopener noreferrer">Ajit Kumar Mehta</a></td>
       <td>Chennai Mathematical Institute</td>
     </tr>
     <tr>
