@@ -11,6 +11,8 @@ Rules:
 from __future__ import annotations
 
 import argparse
+import html
+import json
 import re
 from dataclasses import dataclass
 from pathlib import Path
@@ -110,17 +112,61 @@ def collect_people(tex: str) -> tuple[list[Person], list[Person], list[Person]]:
     return grads, postdocs, undergrads
 
 
-def _render_cards(people: list[Person], placeholder_path: str) -> str:
+def _load_photo_map(path: Path) -> dict:
+    if not path.exists():
+        return {"schema_version": 1, "people": {}}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        return {"schema_version": 1, "people": {}}
+    data.setdefault("schema_version", 1)
+    people = data.get("people")
+    if not isinstance(people, dict):
+        data["people"] = {}
+    return data
+
+
+def _sync_photo_map(path: Path, people: list[Person], placeholder_path: str) -> dict[str, str]:
+    data = _load_photo_map(path)
+    people_map: dict = data["people"]
+    changed = False
+
+    for person in people:
+        if person.name not in people_map:
+            people_map[person.name] = {"image": placeholder_path}
+            changed = True
+        else:
+            entry = people_map[person.name]
+            if not isinstance(entry, dict):
+                people_map[person.name] = {"image": placeholder_path}
+                changed = True
+            elif "image" not in entry or not str(entry.get("image") or "").strip():
+                entry["image"] = placeholder_path
+                changed = True
+
+    if changed or not path.exists():
+        ordered = {name: people_map[name] for name in sorted(people_map)}
+        out = {"schema_version": 1, "people": ordered}
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(out, indent=2, sort_keys=False) + "\n", encoding="utf-8")
+
+    return {
+        name: str((info.get("image") if isinstance(info, dict) else "") or placeholder_path)
+        for name, info in people_map.items()
+    }
+
+
+def _render_cards(people: list[Person], photo_map: dict[str, str], placeholder_path: str) -> str:
     if not people:
         return "<p>No active members listed right now.</p>\n"
     lines = ['<div class="people-grid">']
     for person in people:
+        image_path = photo_map.get(person.name) or placeholder_path
         lines.extend(
             [
                 '  <article class="person-card">',
-                f'    <img src="{{{{ \'{placeholder_path}\' | relative_url }}}}" alt="{person.name}">',
-                f"    <h3>{person.name}</h3>",
-                f"    <p>{person.role}</p>",
+                f'    <img src="{{{{ \'{image_path}\' | relative_url }}}}" alt="{html.escape(person.name)}">',
+                f"    <h3>{html.escape(person.name)}</h3>",
+                f"    <p>{html.escape(person.role)}</p>",
                 "  </article>",
             ]
         )
@@ -128,7 +174,13 @@ def _render_cards(people: list[Person], placeholder_path: str) -> str:
     return "\n".join(lines) + "\n"
 
 
-def render_page(grads: list[Person], postdocs: list[Person], undergrads: list[Person], placeholder_path: str) -> str:
+def render_page(
+    grads: list[Person],
+    postdocs: list[Person],
+    undergrads: list[Person],
+    photo_map: dict[str, str],
+    placeholder_path: str,
+) -> str:
     front_matter = """---
 layout: page
 title: Group
@@ -144,11 +196,11 @@ tagline: Supporting tagline
         "This page is updated automatically from the private CV source.\n",
         "## Research Group\n",
         f"### Graduate Students ({len(grads)})\n",
-        _render_cards(grads, placeholder_path),
+        _render_cards(grads, photo_map, placeholder_path),
         f"### Postdoctoral Scholars ({len(postdocs)})\n",
-        _render_cards(postdocs, placeholder_path),
+        _render_cards(postdocs, photo_map, placeholder_path),
         f"### Undergraduate Students ({len(undergrads)})\n",
-        _render_cards(undergrads, placeholder_path),
+        _render_cards(undergrads, photo_map, placeholder_path),
         "## Collaborators\n",
         "Collaborator list coming soon.\n",
     ]
@@ -160,14 +212,18 @@ def main() -> int:
     parser.add_argument("--cv-source", default="cv/source/myresume_master.tex")
     parser.add_argument("--out", default="05-index_group.md")
     parser.add_argument("--placeholder", default="/assets/images/person-placeholder.svg")
+    parser.add_argument("--photo-map", default="data/group_photos.json")
     args = parser.parse_args()
 
     tex = Path(args.cv_source).read_text(encoding="utf-8")
     grads, postdocs, undergrads = collect_people(tex)
-    out_text = render_page(grads, postdocs, undergrads, args.placeholder)
+    all_people = grads + postdocs + undergrads
+    photo_map = _sync_photo_map(Path(args.photo_map), all_people, args.placeholder)
+    out_text = render_page(grads, postdocs, undergrads, photo_map, args.placeholder)
     Path(args.out).write_text(out_text, encoding="utf-8")
 
     print(f"Wrote {args.out}")
+    print(f"Wrote/updated {args.photo_map}")
     print(f"Counts: grads={len(grads)}, postdocs={len(postdocs)}, undergrads={len(undergrads)}")
     return 0
 
