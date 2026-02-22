@@ -27,10 +27,10 @@
       "topic_confidence": 0.95,
       "topic_source": "llm",
       "topics": [
-        "Gravitational waves",
-        "Black holes"
+        "Black holes",
+        "Gravitational waves"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "113",
       "year": 2026
     },
@@ -58,7 +58,7 @@
         "Black holes",
         "Gravitational waves"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2026
     },
@@ -90,7 +90,7 @@
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2025
     },
@@ -124,7 +124,7 @@
         "Black holes",
         "Gravitational waves"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "112",
       "year": 2025
     },
@@ -151,8 +151,36 @@
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "112",
+      "year": 2025
+    },
+    {
+      "abstract": "In this paper, we present the development and the results of a new search pipeline for short gamma-ray bursts (sGRBs) in the publicly available data from the Gamma-Ray Burst Monitor (GBM) on board the Fermi satellite. This pipeline uses rigorous statistical methods that are designed to maximize the information extracted from the Fermi/GBM detectors. Our approach differs substantially from existing search efforts in several aspects: the pipeline includes the construction of template banks, Poisson matched filtering, background estimation, background misestimation correction, automatic routines to filter contaminants, statistical estimation of the signal location, and a quantitative estimator of the signal probability of being of cosmological, terrestrial, or solar origin. Our analysis also includes operating the pipeline on \"time-slid\" copies of the data, which allows exact significance assessment and p<SUB>astro</SUB> computation, akin to the state-of-the-art gravitational-wave (GW) data analysis pipelines. Depending on the spectral properties of the bursts, our pipeline achieves a signal-to-noise ratio improvement by a factor of 2\u250015 over the onboard GBM triggering algorithm. This enhancement increases the detectable volume for sGRBs and results in an approximately 50% increase in sGRB detections in the 2014 GBM data set. As a further consequence of the sensitivity increase, we detect hundreds of soft gamma-ray flares of Galactic origin. This improved sensitivity enhances the chances of detecting fainter, off-axis gamma-ray bursts that would likely fall below the standard triggering thresholds. Applying this pipeline to the full GBM archive is expected to expand further the joint sGRB\u2500GW detection volume.",
+      "arxiv_id": "2507.05739",
+      "authors": [
+        "Perera, Ariel",
+        "Zackay, Barak",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2025ApJS..281....4P",
+      "citation_count": 0,
+      "doctype": "article",
+      "doi": "10.3847/1538-4365/ae0189",
+      "inspire_recid": "2943560",
+      "page": "4",
+      "pub": "The Astrophysical Journal Supplement Series",
+      "pub_raw": "The Astrophysical Journal Supplement Series, Volume 281, Issue 1, id.4, 23 pp.",
+      "pubdate": "2025-11-00",
+      "title": "A New Search Pipeline for Short Gamma-Ray Bursts in Fermi/GBM Data\u2014A 50% Increase in the Number of Detections",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gamma ray bursts",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "281",
       "year": 2025
     },
     {
@@ -189,67 +217,6 @@
       "year": 2025
     },
     {
-      "abstract": "In this paper, we present the development and the results of a new search pipeline for short gamma-ray bursts (sGRBs) in the publicly available data from the Gamma-Ray Burst Monitor (GBM) on board the Fermi satellite. This pipeline uses rigorous statistical methods that are designed to maximize the information extracted from the Fermi/GBM detectors. Our approach differs substantially from existing search efforts in several aspects: the pipeline includes the construction of template banks, Poisson matched filtering, background estimation, background misestimation correction, automatic routines to filter contaminants, statistical estimation of the signal location, and a quantitative estimator of the signal probability of being of cosmological, terrestrial, or solar origin. Our analysis also includes operating the pipeline on \"time-slid\" copies of the data, which allows exact significance assessment and p<SUB>astro</SUB> computation, akin to the state-of-the-art gravitational-wave (GW) data analysis pipelines. Depending on the spectral properties of the bursts, our pipeline achieves a signal-to-noise ratio improvement by a factor of 2\u250015 over the onboard GBM triggering algorithm. This enhancement increases the detectable volume for sGRBs and results in an approximately 50% increase in sGRB detections in the 2014 GBM data set. As a further consequence of the sensitivity increase, we detect hundreds of soft gamma-ray flares of Galactic origin. This improved sensitivity enhances the chances of detecting fainter, off-axis gamma-ray bursts that would likely fall below the standard triggering thresholds. Applying this pipeline to the full GBM archive is expected to expand further the joint sGRB\u2500GW detection volume.",
-      "arxiv_id": "2507.05739",
-      "authors": [
-        "Perera, Ariel",
-        "Zackay, Barak",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2025ApJS..281....4P",
-      "citation_count": 0,
-      "doctype": "article",
-      "doi": "10.3847/1538-4365/ae0189",
-      "inspire_recid": "2943560",
-      "page": "4",
-      "pub": "The Astrophysical Journal Supplement Series",
-      "pub_raw": "The Astrophysical Journal Supplement Series, Volume 281, Issue 1, id.4, 23 pp.",
-      "pubdate": "2025-11-00",
-      "title": "A New Search Pipeline for Short Gamma-Ray Bursts in Fermi/GBM Data\u2014A 50% Increase in the Number of Detections",
-      "topic_confidence": 0.9,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "d289478ca1179136",
-      "volume": "281",
-      "year": 2025
-    },
-    {
-      "abstract": "Newtonian and post-Newtonian (PN) calculations indicate that the phenomenology of eccentric binary black hole (BBH) merger waveforms is significantly more complex than that of their quasi-circular counterparts. Each spherical harmonic mode of the radiation can be further decomposed into several eccentricity-induced components, referred to as eccentric harmonics. Unlike the (cumulative) spherical harmonic modes, these constituent eccentric harmonics exhibit monotonically time-varying amplitudes and frequencies. However, these eccentric harmonics are not directly accessible in numerical relativity (NR) simulations or current eccentric waveform models. Using the recently developed data-driven framework gwMiner, which combines singular value decomposition, input from post-Newtonian theory, and signal processing techniques, we extract eccentric harmonics from eccentric, aligned-spin waveforms for six different spherical harmonic modes: (2,1), (2,2), (3,2), (3,3), (4,3), (4,4). We demonstrate that the phase (frequency) of each eccentric harmonic takes the form $j\\,\u03d5_{\\ell,m,\u03bb} + \u03d5_{\\ell,m,\\rm ecc}$ ($j\\,f_{\\ell,m,\u03bb} + f_{\\ell,m,\\rm ecc}$), where $\u03d5_{\\ell,m,\u03bb}$ ($f_{\\ell,m,\u03bb}$) corresponds to the secular orbital phase (frequency), and $\u03d5_{\\ell,m,\\rm ecc}$ ($f_{\\ell,m,\\rm ecc}$) is an additional contribution that depends solely on the eccentricity. We further find that $\u03d5_{\\ell,m,\u03bb}$ is the same across different spherical harmonic modes $(\\ell, m)$, whereas the eccentric correction term $\u03d5_{\\ell,m,\\rm ecc}$ scales with $\\ell$. Using effective-one-body dynamics, we further show that $\u03d5_{\\ell,m,\u03bb}$ is nothing but the relativistic anomaly and $\u03d5_{\\ell,m,\\rm ecc}$ is related to the precession advances.",
-      "arxiv_id": "2509.20556",
-      "authors": [
-        "Islam, Tousif",
-        "Venumadhav, Tejaswi",
-        "Mehta, Ajit Kumar",
-        "Wadekar, Digvijay",
-        "Roulet, Javier",
-        "Anantpurkar, Isha",
-        "Mushkin, Jonathan",
-        "Zackay, Barak",
-        "Zaldarriaga, Matias"
-      ],
-      "bibcode": "2025arXiv250920556I",
-      "citation_count": 2,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2509.20556",
-      "inspire_recid": "2973389",
-      "page": "arXiv:2509.20556",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2509.20556",
-      "pubdate": "2025-09-00",
-      "title": "Data-driven extraction and phenomenology of eccentric harmonics in eccentric spinning binary black hole mergers",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Black holes",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "d289478ca1179136",
-      "volume": "",
-      "year": 2025
-    },
-    {
       "abstract": "Next-generation ground-based gravitational-wave (GW) detectors are expected to detect millions of binary black hole mergers during their operation period. A small fraction (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>0.1</mml:mn><mml:mi>\u2500</mml:mi><mml:mn>1</mml:mn><mml:mo>%</mml:mo></mml:math></inline-formula>) of them will be strongly lensed by intervening galaxies and clusters, producing multiple copies of the GW signals. The expected number of lensed events and the distribution of the time delay between lensed images will depend on the mass distribution of the lenses at different redshifts. Warm dark matter and fuzzy dark matter models predict lower abundances of low-mass dark matter halos as compared to the standard cold dark matter. This will result in a reduction in the number of strongly lensed GW events, especially with small time delays. Using the number of lensed events and the lensing time delay distribution, we will be able to put a lower bound on the mass of the warm and fuzzy dark matter particles from a catalog of lensed GW events. Our first forecasts suggest that the expected bounds from GW strong lensing from next-generation detectors are better than the current constraints.",
       "arxiv_id": "2408.05290",
       "authors": [
@@ -283,6 +250,40 @@
       "year": 2025
     },
     {
+      "abstract": "Newtonian and post-Newtonian (PN) calculations indicate that the phenomenology of eccentric binary black hole (BBH) merger waveforms is significantly more complex than that of their quasi-circular counterparts. Each spherical harmonic mode of the radiation can be further decomposed into several eccentricity-induced components, referred to as eccentric harmonics. Unlike the (cumulative) spherical harmonic modes, these constituent eccentric harmonics exhibit monotonically time-varying amplitudes and frequencies. However, these eccentric harmonics are not directly accessible in numerical relativity (NR) simulations or current eccentric waveform models. Using the recently developed data-driven framework gwMiner, which combines singular value decomposition, input from post-Newtonian theory, and signal processing techniques, we extract eccentric harmonics from eccentric, aligned-spin waveforms for six different spherical harmonic modes: (2,1), (2,2), (3,2), (3,3), (4,3), (4,4). We demonstrate that the phase (frequency) of each eccentric harmonic takes the form $j\\,\u03d5_{\\ell,m,\u03bb} + \u03d5_{\\ell,m,\\rm ecc}$ ($j\\,f_{\\ell,m,\u03bb} + f_{\\ell,m,\\rm ecc}$), where $\u03d5_{\\ell,m,\u03bb}$ ($f_{\\ell,m,\u03bb}$) corresponds to the secular orbital phase (frequency), and $\u03d5_{\\ell,m,\\rm ecc}$ ($f_{\\ell,m,\\rm ecc}$) is an additional contribution that depends solely on the eccentricity. We further find that $\u03d5_{\\ell,m,\u03bb}$ is the same across different spherical harmonic modes $(\\ell, m)$, whereas the eccentric correction term $\u03d5_{\\ell,m,\\rm ecc}$ scales with $\\ell$. Using effective-one-body dynamics, we further show that $\u03d5_{\\ell,m,\u03bb}$ is nothing but the relativistic anomaly and $\u03d5_{\\ell,m,\\rm ecc}$ is related to the precession advances.",
+      "arxiv_id": "2509.20556",
+      "authors": [
+        "Islam, Tousif",
+        "Venumadhav, Tejaswi",
+        "Mehta, Ajit Kumar",
+        "Wadekar, Digvijay",
+        "Roulet, Javier",
+        "Anantpurkar, Isha",
+        "Mushkin, Jonathan",
+        "Zackay, Barak",
+        "Zaldarriaga, Matias"
+      ],
+      "bibcode": "2025arXiv250920556I",
+      "citation_count": 2,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2509.20556",
+      "inspire_recid": "2973389",
+      "page": "arXiv:2509.20556",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2509.20556",
+      "pubdate": "2025-09-00",
+      "title": "Data-driven extraction and phenomenology of eccentric harmonics in eccentric spinning binary black hole mergers",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Black holes",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
+      "year": 2025
+    },
+    {
       "abstract": "Newtonian and post-Newtonian (PN) calculations suggest that each spherical harmonic mode of the gravitational waveforms (radiation) emitted by eccentric binaries can be further decomposed into several eccentricity-induced modes (indexed by <inline-formula><mml:math><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></inline-formula> to <inline-formula><mml:math><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mi>\u221e</mml:mi></mml:math></inline-formula>), referred to as eccentric harmonics. These harmonics exhibit monotonically time-varying amplitudes and instantaneous frequencies, unlike the full eccentric spherical harmonic modes. However, computing or extracting these harmonics is not straightforward in current numerical relativity simulations and eccentric waveform models. To address this, Patterson et al. [Phys. Rev. D 111, 044073 (2025)PRVDAQ2470-001010.1103/PhysRevD.111.044073] have developed a framework to extract the eccentric harmonics directly from effective-one-body formalism waveforms. In this paper, we build on the ideas presented in Patterson et al. and propose a data-driven framework, utilizing singular-value decomposition, that incorporates additional features based on PN intuition to ensure monotonicity in the extracted harmonics. We further demonstrate that the phase (frequency) of these harmonics is simply <inline-formula><mml:math><mml:mrow><mml:mi>j</mml:mi><mml:msub><mml:mrow><mml:mi>\u03d5</mml:mi></mml:mrow><mml:mrow><mml:mi>\u03bb</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>\u03d5</mml:mi></mml:mrow><mml:mrow><mml:mi>ecc</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> (<inline-formula><mml:math><mml:mi>j</mml:mi><mml:msub><mml:mi>f</mml:mi><mml:mi>\u03bb</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>ecc</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula>), where <inline-formula><mml:math><mml:msub><mml:mi>\u03d5</mml:mi><mml:mi>\u03bb</mml:mi></mml:msub></mml:math></inline-formula> (<inline-formula><mml:math><mml:msub><mml:mi>f</mml:mi><mml:mi>\u03bb</mml:mi></mml:msub></mml:math></inline-formula>) is related to the secular orbital phase (frequency) and <inline-formula><mml:math><mml:msub><mml:mi>\u03d5</mml:mi><mml:mrow><mml:mi>ecc</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula> (<inline-formula><mml:math><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>ecc</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula>) is an additional phase (frequency) that only depends on the eccentricity. We also provide simple analytical fits to obtain the harmonics as a function of the mean anomaly. These relations may prove useful in constructing faithful models (such as [gwharmone: First data-driven surrogate for eccentric harmonics in binary black hole merger waveforms (to be published).]) that can be employed in cheap and efficient searches and parameter estimation of eccentric mergers. Our framework is modular and can be extended for any other eccentric waveform models or simulation frameworks. The framework is available through the gwMiner package.",
       "arxiv_id": "2504.12469",
       "authors": [
@@ -312,7 +313,7 @@
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "112",
       "year": 2025
     },
@@ -349,7 +350,7 @@
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2025
     },
@@ -373,13 +374,14 @@
       "pub_raw": "eprint arXiv:2507.10693",
       "pubdate": "2025-07-00",
       "title": "Relativistic and Dynamical Love",
-      "topic_confidence": 0.95,
+      "topic_confidence": 0.9,
       "topic_source": "llm",
       "topics": [
+        "Gravitational waves",
         "Neutron stars",
-        "Gravitational waves"
+        "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2025
     },
@@ -403,39 +405,12 @@
       "topic_confidence": 0.9,
       "topic_source": "llm",
       "topics": [
-        "Cosmology",
         "Recombination",
-        "Dark matter"
+        "Dark matter",
+        "Cosmology"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
-      "year": 2025
-    },
-    {
-      "abstract": "Using publicly available numerical relativity (NR) simulations for nonspinning eccentric binary black hole (BBH) mergers, [Tousif Islam, Straightforward mode hierarchy in eccentric binary black hole mergers and associated waveform model, arXiv:2403.15506.] demonstrated that the eccentricity-induced modulations in the amplitudes and frequencies of different spherical harmonic modes are mutually consistent and can be modeled using a single time series modulation. We extend the validity of the results to all nonprecessing binaries by using 83 NR simulations from the SXS, RIT, and MAYA catalogs for aligned-spin eccentric BBH mergers with mass ratios ranging from <inline-formula><mml:math><mml:mrow><mml:mn>1</mml:mn><mml:mo>\u2236</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></inline-formula> to <inline-formula><mml:math><mml:mrow><mml:mn>1</mml:mn><mml:mo>\u2236</mml:mo><mml:mn>4</mml:mn></mml:mrow></mml:math></inline-formula>. Based on these phenomenological relations, we provide a framework named gwNRXHME to compute multimodal eccentric nonprecessing waveforms using two inputs: quadrupolar eccentric waveforms, and the corresponding multimodal quasicircular nonprecessing waveforms. Furthermore, we compute an overall degree of departure in SXS, RIT, and MAYA NR data from these relations and find that SXS NR simulations generally adhere to these relations more strictly than RIT and MAYA data. We also show that these relations can offer a cost-effective way to filter out noisy higher-order spherical harmonic modes extracted from NR data. Our framework is publicly available through the gwModels package.",
-      "arxiv_id": "2408.14654",
-      "authors": [
-        "Islam, Tousif",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2025PhRvD.111h1503I",
-      "citation_count": 16,
-      "doctype": "article",
-      "doi": "10.1103/PhysRevD.111.L081503",
-      "inspire_recid": "2822163",
-      "page": "L081503",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 111, Issue 8, id.L081503, 9 pp.",
-      "pubdate": "2025-04-00",
-      "title": "Universal phenomenological relations between spherical harmonic modes in nonprecessing eccentric binary black hole merger waveforms",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational waves",
-        "Black holes"
-      ],
-      "topics_classified_with": "d289478ca1179136",
-      "volume": "111",
       "year": 2025
     },
     {
@@ -468,8 +443,35 @@
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
+      "year": 2025
+    },
+    {
+      "abstract": "Using publicly available numerical relativity (NR) simulations for nonspinning eccentric binary black hole (BBH) mergers, [Tousif Islam, Straightforward mode hierarchy in eccentric binary black hole mergers and associated waveform model, arXiv:2403.15506.] demonstrated that the eccentricity-induced modulations in the amplitudes and frequencies of different spherical harmonic modes are mutually consistent and can be modeled using a single time series modulation. We extend the validity of the results to all nonprecessing binaries by using 83 NR simulations from the SXS, RIT, and MAYA catalogs for aligned-spin eccentric BBH mergers with mass ratios ranging from <inline-formula><mml:math><mml:mrow><mml:mn>1</mml:mn><mml:mo>\u2236</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></inline-formula> to <inline-formula><mml:math><mml:mrow><mml:mn>1</mml:mn><mml:mo>\u2236</mml:mo><mml:mn>4</mml:mn></mml:mrow></mml:math></inline-formula>. Based on these phenomenological relations, we provide a framework named gwNRXHME to compute multimodal eccentric nonprecessing waveforms using two inputs: quadrupolar eccentric waveforms, and the corresponding multimodal quasicircular nonprecessing waveforms. Furthermore, we compute an overall degree of departure in SXS, RIT, and MAYA NR data from these relations and find that SXS NR simulations generally adhere to these relations more strictly than RIT and MAYA data. We also show that these relations can offer a cost-effective way to filter out noisy higher-order spherical harmonic modes extracted from NR data. Our framework is publicly available through the gwModels package.",
+      "arxiv_id": "2408.14654",
+      "authors": [
+        "Islam, Tousif",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2025PhRvD.111h1503I",
+      "citation_count": 16,
+      "doctype": "article",
+      "doi": "10.1103/PhysRevD.111.L081503",
+      "inspire_recid": "2822163",
+      "page": "L081503",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 111, Issue 8, id.L081503, 9 pp.",
+      "pubdate": "2025-04-00",
+      "title": "Universal phenomenological relations between spherical harmonic modes in nonprecessing eccentric binary black hole merger waveforms",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "111",
       "year": 2025
     },
     {
@@ -496,41 +498,7 @@
         "Neutron stars",
         "Gravitational waves"
       ],
-      "topics_classified_with": "d289478ca1179136",
-      "volume": "",
-      "year": 2025
-    },
-    {
-      "abstract": "Most gravitational wave searches to date have included only the quadrupole mode in their search templates. Here, we demonstrate that incorporating higher harmonics improves the search sensitive volume for detecting binary black hole mergers, challenging the conclusion of previous studies. Using the $\\tt{IAS-HM}$ detection pipeline, and the simulated (injection) signals from the LIGO-Virgo-Kagra (LVK) collaboration, we quantify the improvement in sensitivity due to the inclusion of higher harmonics. This improvement is significant for systems with higher mass ratios and larger total masses, with gains in sensitivity even exceeding $100\\%$ at certain high masses. We also show that, due to using a marginalized detection statistic, the $\\tt{IAS-HM}$ pipeline performs roughly as well as its quadrupole-mode-only counterpart even for equal mass-ratio mergers, and its sensitive volume is either better than or comparable to that of the individual LVK pipelines.",
-      "arxiv_id": "2501.17939",
-      "authors": [
-        "Mehta, Ajit Kumar",
-        "Wadekar, Digvijay",
-        "Roulet, Javier",
-        "Anantpurkar, Isha",
-        "Venumadhav, Tejaswi",
-        "Mushkin, Jonathan",
-        "Zackay, Barak",
-        "Zaldarriaga, Matias",
-        "Islam, Tousif"
-      ],
-      "bibcode": "2025arXiv250117939M",
-      "citation_count": 7,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2501.17939",
-      "inspire_recid": "2874182",
-      "page": "arXiv:2501.17939",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2501.17939",
-      "pubdate": "2025-01-00",
-      "title": "Significant increase in sensitive volume of a gravitational wave search upon including higher harmonics",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational waves",
-        "Black holes"
-      ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2025
     },
@@ -564,8 +532,42 @@
         "Neutron stars",
         "Gravitational waves"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "111",
+      "year": 2025
+    },
+    {
+      "abstract": "Most gravitational wave searches to date have included only the quadrupole mode in their search templates. Here, we demonstrate that incorporating higher harmonics improves the search sensitive volume for detecting binary black hole mergers, challenging the conclusion of previous studies. Using the $\\tt{IAS-HM}$ detection pipeline, and the simulated (injection) signals from the LIGO-Virgo-Kagra (LVK) collaboration, we quantify the improvement in sensitivity due to the inclusion of higher harmonics. This improvement is significant for systems with higher mass ratios and larger total masses, with gains in sensitivity even exceeding $100\\%$ at certain high masses. We also show that, due to using a marginalized detection statistic, the $\\tt{IAS-HM}$ pipeline performs roughly as well as its quadrupole-mode-only counterpart even for equal mass-ratio mergers, and its sensitive volume is either better than or comparable to that of the individual LVK pipelines.",
+      "arxiv_id": "2501.17939",
+      "authors": [
+        "Mehta, Ajit Kumar",
+        "Wadekar, Digvijay",
+        "Roulet, Javier",
+        "Anantpurkar, Isha",
+        "Venumadhav, Tejaswi",
+        "Mushkin, Jonathan",
+        "Zackay, Barak",
+        "Zaldarriaga, Matias",
+        "Islam, Tousif"
+      ],
+      "bibcode": "2025arXiv250117939M",
+      "citation_count": 7,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2501.17939",
+      "inspire_recid": "2874182",
+      "page": "arXiv:2501.17939",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2501.17939",
+      "pubdate": "2025-01-00",
+      "title": "Significant increase in sensitive volume of a gravitational wave search upon including higher harmonics",
+      "topic_confidence": 1.0,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
       "year": 2025
     },
     {
@@ -588,7 +590,7 @@
       "pub_raw": "Classical and Quantum Gravity, Volume 41, Issue 24, id.245010, 19 pp.",
       "pubdate": "2024-12-00",
       "title": "Strong-lensing cosmography using third-generation gravitational-wave detectors",
-      "topic_confidence": 0.95,
+      "topic_confidence": 1.0,
       "topic_source": "llm",
       "topics": [
         "Cosmology",
@@ -596,36 +598,8 @@
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "41",
-      "year": 2024
-    },
-    {
-      "abstract": "Neutron stars in coalescing binaries deform due to the tidal gravitational fields generated by their companions. During the inspiral phase, the tidal deformation is dominated by the fundamental oscillation ($f$-) mode of the stars. The tide also has sub-dominant gravity ($g$-) modes that are resonantly excited when the linear tidal forcing sweeps through their eigenfrequencies. Beyond the linear order in perturbed fluid displacement, the $g$-modes are anharmonic, i.e., their oscillation frequencies depend on the mode energy. For the lowest-order $g$-mode, we show that when the tidal forcing reaches its linear eigenfrequency, the mode starts to dynamically adjust its energy so that its nonlinearly shifted oscillation frequency always matches that of the driving field. This phenomenon, which we term `resonance locking', persists through the rest of the inspiral, and hence, the mode grows to substantially larger energies than in the linear theory. Using a $1.4$--$1.4\\, M_{\\odot}$ binary neutron star system with the SLy4 equation of state, we find this results in an extra correction to the frequency-domain gravitational wave (GW) phase of $|\\Delta \\Psi|\\approx 3\\,{\\rm rad}$ accumulated from the onset of resonance locking at the GW frequency of $94\\,{\\rm Hz}$ to the merger at $1.05\\,{\\rm kHz}$. This effect probes details of the internal structure of merging neutron stars beyond their bulk properties such as tidal deformability.",
-      "arxiv_id": "2410.03831",
-      "authors": [
-        "Kwon, K. J.",
-        "Yu, Hang",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2024arXiv241003831K",
-      "citation_count": 11,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2410.03831",
-      "inspire_recid": "2837623",
-      "page": "arXiv:2410.03831",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2410.03831",
-      "pubdate": "2024-10-00",
-      "title": "Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Neutron stars",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "d289478ca1179136",
-      "volume": "",
       "year": 2024
     },
     {
@@ -657,8 +631,36 @@
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "110",
+      "year": 2024
+    },
+    {
+      "abstract": "Neutron stars in coalescing binaries deform due to the tidal gravitational fields generated by their companions. During the inspiral phase, the tidal deformation is dominated by the fundamental oscillation ($f$-) mode of the stars. The tide also has sub-dominant gravity ($g$-) modes that are resonantly excited when the linear tidal forcing sweeps through their eigenfrequencies. Beyond the linear order in perturbed fluid displacement, the $g$-modes are anharmonic, i.e., their oscillation frequencies depend on the mode energy. For the lowest-order $g$-mode, we show that when the tidal forcing reaches its linear eigenfrequency, the mode starts to dynamically adjust its energy so that its nonlinearly shifted oscillation frequency always matches that of the driving field. This phenomenon, which we term `resonance locking', persists through the rest of the inspiral, and hence, the mode grows to substantially larger energies than in the linear theory. Using a $1.4$--$1.4\\, M_{\\odot}$ binary neutron star system with the SLy4 equation of state, we find this results in an extra correction to the frequency-domain gravitational wave (GW) phase of $|\\Delta \\Psi|\\approx 3\\,{\\rm rad}$ accumulated from the onset of resonance locking at the GW frequency of $94\\,{\\rm Hz}$ to the merger at $1.05\\,{\\rm kHz}$. This effect probes details of the internal structure of merging neutron stars beyond their bulk properties such as tidal deformability.",
+      "arxiv_id": "2410.03831",
+      "authors": [
+        "Kwon, K. J.",
+        "Yu, Hang",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2024arXiv241003831K",
+      "citation_count": 11,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2410.03831",
+      "inspire_recid": "2837623",
+      "page": "arXiv:2410.03831",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2410.03831",
+      "pubdate": "2024-10-00",
+      "title": "Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Neutron stars",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
       "year": 2024
     },
     {
@@ -690,10 +692,9 @@
       "topics": [
         "Gravitational waves",
         "Black holes",
-        "Neutron stars",
-        "Dark matter"
+        "Neutron stars"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "110",
       "year": 2024
     },
@@ -778,14 +779,14 @@
       "pub_raw": "Annual Review of Nuclear and Particle Science, Volume 74, Issue 1, pp. 207-332",
       "pubdate": "2024-06-00",
       "title": "Inferring Binary Properties from Gravitational-Wave Signals",
-      "topic_confidence": 0.9,
+      "topic_confidence": 0.95,
       "topic_source": "llm",
       "topics": [
         "Gravitational waves",
         "Black holes",
         "Neutron stars"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "74",
       "year": 2024
     },
@@ -818,7 +819,7 @@
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2023
     },
@@ -842,13 +843,13 @@
       "pub_raw": "Physical Review D, Volume 108, Issue 6, article id.064059",
       "pubdate": "2023-09-00",
       "title": "Accurate and efficient waveform model for precessing binary black holes",
-      "topic_confidence": 0.95,
+      "topic_confidence": 1.0,
       "topic_source": "llm",
       "topics": [
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "108",
       "year": 2023
     },
@@ -879,7 +880,7 @@
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "130",
       "year": 2023
     },
@@ -909,7 +910,7 @@
         "Neutron stars",
         "Gravitational waves"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "519",
       "year": 2023
     },
@@ -941,7 +942,7 @@
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "106",
       "year": 2022
     },
@@ -970,7 +971,7 @@
         "Black holes",
         "Neutron stars"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2022
     },
@@ -1002,7 +1003,7 @@
         "Gravitational waves",
         "Neutron stars"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "106",
       "year": 2022
     },
@@ -1034,7 +1035,7 @@
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "106",
       "year": 2022
     },
@@ -1075,8 +1076,40 @@
         "Black holes",
         "Neutron stars"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "922",
+      "year": 2021
+    },
+    {
+      "abstract": "We map the likelihood of GW190521, the heaviest detected binary black hole (BBH) merger, by sampling under different mass and spin priors designed to be uninformative. We find that a source-frame total mass of \u223c150 M<SUB>\u2299</SUB> is consistently supported, but posteriors in mass ratio and spin depend critically on the choice of priors. We confirm that the likelihood has a multimodal structure with peaks in regions of mass ratio representing very different astrophysical scenarios. The unequal-mass region (m<SUB>2</SUB>/m<SUB>1</SUB>&lt;0.3 ) has an average likelihood \u223ce<SUP>6</SUP> times larger than the equal-mass region (m<SUB>2</SUB>/m<SUB>1</SUB>&gt;0.3 ) and a maximum likelihood \u223ce<SUP>2</SUP> larger. Using ensembles of samples across priors, we examine the implications of qualitatively different BBH sources that fit the data. We find that the equal-mass solution has poorly constrained spins and at least one black hole mass that is difficult to form via stellar collapse due to pair instability. The unequal-mass solution can avoid this mass gap entirely but requires a negative effective spin and a precessing primary. Either of these scenarios is more easily produced by dynamical formation channels than field binary coevolution. Drawing representative samples from each region of the likelihood map, we find a sensitive comoving volume time O (10 ) times larger in the mass gap region than the gap-avoiding region. Considering D<SUB>com</SUB><SUP>3</SUP>L to account for the distance effect, the likelihood of these representative samples still reverses the advantage to favor the gap-avoiding scenario by a factor of O (100 ) before including mass and spin priors. Posteriors are easily driven away from this high-likelihood region by common prior choices meant to be uninformative, making GW190521 parameter inference sensitive to the assumed mass and spin distributions of mergers in the source's astrophysical channel. This may be a generic issue for similarly heavy events given current detector sensitivity and waveform degeneracies.",
+      "arxiv_id": "2106.13821",
+      "authors": [
+        "Olsen, Seth",
+        "Roulet, Javier",
+        "Chia, Horng Sheng",
+        "Dai, Liang",
+        "Venumadhav, Tejaswi",
+        "Zackay, Barak",
+        "Zaldarriaga, Matias"
+      ],
+      "bibcode": "2021PhRvD.104h3036O",
+      "citation_count": 24,
+      "doctype": "article",
+      "doi": "10.48550/arXiv.2106.13821",
+      "inspire_recid": "1870522",
+      "page": "083036",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 104, Issue 8, article id.083036",
+      "pubdate": "2021-10-00",
+      "title": "Mapping the likelihood of GW190521 with diverse mass and spin priors",
+      "topic_confidence": 1.0,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "104",
       "year": 2021
     },
     {
@@ -1107,39 +1140,36 @@
         "Black holes",
         "Gravitational waves"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "104",
       "year": 2021
     },
     {
-      "abstract": "We map the likelihood of GW190521, the heaviest detected binary black hole (BBH) merger, by sampling under different mass and spin priors designed to be uninformative. We find that a source-frame total mass of \u223c150 M<SUB>\u2299</SUB> is consistently supported, but posteriors in mass ratio and spin depend critically on the choice of priors. We confirm that the likelihood has a multimodal structure with peaks in regions of mass ratio representing very different astrophysical scenarios. The unequal-mass region (m<SUB>2</SUB>/m<SUB>1</SUB>&lt;0.3 ) has an average likelihood \u223ce<SUP>6</SUP> times larger than the equal-mass region (m<SUB>2</SUB>/m<SUB>1</SUB>&gt;0.3 ) and a maximum likelihood \u223ce<SUP>2</SUP> larger. Using ensembles of samples across priors, we examine the implications of qualitatively different BBH sources that fit the data. We find that the equal-mass solution has poorly constrained spins and at least one black hole mass that is difficult to form via stellar collapse due to pair instability. The unequal-mass solution can avoid this mass gap entirely but requires a negative effective spin and a precessing primary. Either of these scenarios is more easily produced by dynamical formation channels than field binary coevolution. Drawing representative samples from each region of the likelihood map, we find a sensitive comoving volume time O (10 ) times larger in the mass gap region than the gap-avoiding region. Considering D<SUB>com</SUB><SUP>3</SUP>L to account for the distance effect, the likelihood of these representative samples still reverses the advantage to favor the gap-avoiding scenario by a factor of O (100 ) before including mass and spin priors. Posteriors are easily driven away from this high-likelihood region by common prior choices meant to be uninformative, making GW190521 parameter inference sensitive to the assumed mass and spin distributions of mergers in the source's astrophysical channel. This may be a generic issue for similarly heavy events given current detector sensitivity and waveform degeneracies.",
-      "arxiv_id": "2106.13821",
+      "abstract": "Searches for gravitational waves crucially depend on exact signal processing of noisy strain data from gravitational wave detectors, which are known to exhibit significant nonstationary and non-Gaussian behavior. In this paper, we study two distinct effects in the LIGO/Virgo data that reduce the sensitivity of searches: first, variations in the noise power spectral density (PSD) on timescales of more than a few seconds; and second, loud and abrupt transient \"glitches\" of terrestrial or instrumental origin. We derive a simple procedure to correct, at first order, the effect of the variation in the PSD on the search background. Given the knowledge of the existence of localized glitches, in particular segments of data, we also develop a method to insulate statistical inference from these glitches, so as to cleanly excise them without affecting the search background in neighboring seconds. We show the importance of applying these methods on the publicly available LIGO data and estimate an increase in the detection volume of at least 15% from the PSD-drift correction alone, due to the improved background distribution.",
+      "arxiv_id": "1908.05644",
       "authors": [
-        "Olsen, Seth",
-        "Roulet, Javier",
-        "Chia, Horng Sheng",
-        "Dai, Liang",
-        "Venumadhav, Tejaswi",
         "Zackay, Barak",
+        "Venumadhav, Tejaswi",
+        "Roulet, Javier",
+        "Dai, Liang",
         "Zaldarriaga, Matias"
       ],
-      "bibcode": "2021PhRvD.104h3036O",
-      "citation_count": 24,
+      "bibcode": "2021PhRvD.104f3034Z",
+      "citation_count": 97,
       "doctype": "article",
-      "doi": "10.48550/arXiv.2106.13821",
-      "inspire_recid": "1870522",
-      "page": "083036",
+      "doi": "10.1103/PhysRevD.104.063034",
+      "inspire_recid": "1749740",
+      "page": "063034",
       "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 104, Issue 8, article id.083036",
-      "pubdate": "2021-10-00",
-      "title": "Mapping the likelihood of GW190521 with diverse mass and spin priors",
+      "pub_raw": "Physical Review D, Volume 104, Issue 6, article id.063034",
+      "pubdate": "2021-09-00",
+      "title": "Detecting gravitational waves in data with non-stationary and non-Gaussian noise",
       "topic_confidence": 0.95,
       "topic_source": "llm",
       "topics": [
-        "Gravitational waves",
-        "Black holes"
+        "Gravitational waves"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "104",
       "year": 2021
     },
@@ -1169,36 +1199,7 @@
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
-      "volume": "104",
-      "year": 2021
-    },
-    {
-      "abstract": "Searches for gravitational waves crucially depend on exact signal processing of noisy strain data from gravitational wave detectors, which are known to exhibit significant nonstationary and non-Gaussian behavior. In this paper, we study two distinct effects in the LIGO/Virgo data that reduce the sensitivity of searches: first, variations in the noise power spectral density (PSD) on timescales of more than a few seconds; and second, loud and abrupt transient \"glitches\" of terrestrial or instrumental origin. We derive a simple procedure to correct, at first order, the effect of the variation in the PSD on the search background. Given the knowledge of the existence of localized glitches, in particular segments of data, we also develop a method to insulate statistical inference from these glitches, so as to cleanly excise them without affecting the search background in neighboring seconds. We show the importance of applying these methods on the publicly available LIGO data and estimate an increase in the detection volume of at least 15% from the PSD-drift correction alone, due to the improved background distribution.",
-      "arxiv_id": "1908.05644",
-      "authors": [
-        "Zackay, Barak",
-        "Venumadhav, Tejaswi",
-        "Roulet, Javier",
-        "Dai, Liang",
-        "Zaldarriaga, Matias"
-      ],
-      "bibcode": "2021PhRvD.104f3034Z",
-      "citation_count": 97,
-      "doctype": "article",
-      "doi": "10.1103/PhysRevD.104.063034",
-      "inspire_recid": "1749740",
-      "page": "063034",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 104, Issue 6, article id.063034",
-      "pubdate": "2021-09-00",
-      "title": "Detecting gravitational waves in data with non-stationary and non-Gaussian noise",
-      "topic_confidence": 1.0,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "104",
       "year": 2021
     },
@@ -1228,7 +1229,7 @@
         "Black holes",
         "Gravitational waves"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "102",
       "year": 2020
     },
@@ -1262,7 +1263,7 @@
         "Black holes",
         "Gravitational waves"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "102",
       "year": 2020
     },
@@ -1293,7 +1294,7 @@
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2020
     },
@@ -1323,7 +1324,7 @@
         "Black holes",
         "Gravitational waves"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "101",
       "year": 2020
     },
@@ -1357,7 +1358,7 @@
         "Gravitational lensing",
         "Dark matter"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "495",
       "year": 2020
     },
@@ -1437,7 +1438,7 @@
         "Reionization",
         "Dark matter"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "37",
       "year": 2020
     },
@@ -1464,43 +1465,13 @@
       "pub_raw": "Physical Review D, Volume 100, Issue 4, id.043009",
       "pubdate": "2019-08-00",
       "title": "Probing the black hole merger history in clusters using stellar tidal disruptions",
-      "topic_confidence": 0.95,
+      "topic_confidence": 0.9,
       "topic_source": "llm",
       "topics": [
         "Black holes",
         "Gravitational waves"
       ],
-      "topics_classified_with": "d289478ca1179136",
-      "volume": "100",
-      "year": 2019
-    },
-    {
-      "abstract": "We report a new binary black hole merger in the publicly available LIGO first observing run (O1) data release. The event has a false alarm rate of one per six years in the detector-frame chirp-mass range M<SUP>det</SUP>\u2208[20 ,40 ]M<SUB>\u2299</SUB> in a new independent analysis pipeline that we developed. Our best estimate of the probability that the event is of astrophysical origin is P<SUB>astro</SUB>\u223c0.71 . The estimated physical parameters of the event indicate that it is the merger of two massive black holes, M<SUP>det</SUP>=3 1<SUB>-3</SUB><SUP>+2</SUP>M<SUB>\u2299</SUB> with an effective spin parameter, \u03c7<SUB>eff</SUB>=0.8 1<SUB>-0.21</SUB><SUP>+0.15</SUP>, making this the most highly spinning merger reported to date. It is also among the two highest redshift mergers observed so far. The high aligned spin of the merger supports the hypothesis that merging binary black holes can be created by binary stellar evolution.",
-      "arxiv_id": "1902.10331",
-      "authors": [
-        "Zackay, Barak",
-        "Venumadhav, Tejaswi",
-        "Dai, Liang",
-        "Roulet, Javier",
-        "Zaldarriaga, Matias"
-      ],
-      "bibcode": "2019PhRvD.100b3007Z",
-      "citation_count": 195,
-      "doctype": "article",
-      "doi": "10.1103/PhysRevD.100.023007",
-      "inspire_recid": "1722266",
-      "page": "023007",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 100, Issue 2, id.023007",
-      "pubdate": "2019-07-00",
-      "title": "Highly spinning and aligned binary black hole merger in the Advanced LIGO first observing run",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Black holes",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "100",
       "year": 2019
     },
@@ -1530,7 +1501,37 @@
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "100",
+      "year": 2019
+    },
+    {
+      "abstract": "We report a new binary black hole merger in the publicly available LIGO first observing run (O1) data release. The event has a false alarm rate of one per six years in the detector-frame chirp-mass range M<SUP>det</SUP>\u2208[20 ,40 ]M<SUB>\u2299</SUB> in a new independent analysis pipeline that we developed. Our best estimate of the probability that the event is of astrophysical origin is P<SUB>astro</SUB>\u223c0.71 . The estimated physical parameters of the event indicate that it is the merger of two massive black holes, M<SUP>det</SUP>=3 1<SUB>-3</SUB><SUP>+2</SUP>M<SUB>\u2299</SUB> with an effective spin parameter, \u03c7<SUB>eff</SUB>=0.8 1<SUB>-0.21</SUB><SUP>+0.15</SUP>, making this the most highly spinning merger reported to date. It is also among the two highest redshift mergers observed so far. The high aligned spin of the merger supports the hypothesis that merging binary black holes can be created by binary stellar evolution.",
+      "arxiv_id": "1902.10331",
+      "authors": [
+        "Zackay, Barak",
+        "Venumadhav, Tejaswi",
+        "Dai, Liang",
+        "Roulet, Javier",
+        "Zaldarriaga, Matias"
+      ],
+      "bibcode": "2019PhRvD.100b3007Z",
+      "citation_count": 195,
+      "doctype": "article",
+      "doi": "10.1103/PhysRevD.100.023007",
+      "inspire_recid": "1722266",
+      "page": "023007",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 100, Issue 2, id.023007",
+      "pubdate": "2019-07-00",
+      "title": "Highly spinning and aligned binary black hole merger in the Advanced LIGO first observing run",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Black holes",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "100",
       "year": 2019
     },
@@ -1554,13 +1555,13 @@
       "pub_raw": "The Astrophysical Journal, Volume 880, Issue 1, article id. 58, <NUMPAGES>10</NUMPAGES> pp. (2019).",
       "pubdate": "2019-07-00",
       "title": "Highly Magnified Stars in Lensing Clusters: New Evidence in a Galaxy Lensed by MACS J0416.1-2403",
-      "topic_confidence": 0.9,
+      "topic_confidence": 0.95,
       "topic_source": "llm",
       "topics": [
         "Gravitational lensing",
         "Dark matter"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "880",
       "year": 2019
     },
@@ -1591,7 +1592,7 @@
         "Black holes",
         "Neutron stars"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "99",
       "year": 2019
     },
@@ -1618,7 +1619,7 @@
       "topics": [
         "Gravitational waves"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2019
     },
@@ -1644,10 +1645,9 @@
       "topic_confidence": 0.9,
       "topic_source": "llm",
       "topics": [
-        "Reionization",
-        "Cosmology"
+        "Reionization"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "98",
       "year": 2018
     },
@@ -1703,10 +1703,9 @@
       "topic_confidence": 0.9,
       "topic_source": "llm",
       "topics": [
-        "Cosmology",
         "Reionization"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "864",
       "year": 2018
     },
@@ -1737,7 +1736,7 @@
         "Gravitational waves",
         "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2018
     },
@@ -1788,13 +1787,13 @@
       "pub_raw": "eprint arXiv:1806.08793",
       "pubdate": "2018-06-00",
       "title": "Parameter Estimation for GW170817 using Relative Binning",
-      "topic_confidence": 0.95,
+      "topic_confidence": 1.0,
       "topic_source": "llm",
       "topics": [
         "Gravitational waves",
         "Neutron stars"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2018
     },
@@ -1849,9 +1848,10 @@
       "topic_source": "llm",
       "topics": [
         "Gravitational lensing",
-        "Dark matter"
+        "Dark matter",
+        "Cosmology"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "850",
       "year": 2017
     },
@@ -1917,6 +1917,34 @@
       "year": 2017
     },
     {
+      "abstract": "The recent detection of gravitational waves indicates that stellar-mass black hole binaries are likely to be a key population of sources for forthcoming observations. With future upgrades, ground-based detectors could detect merging black hole binaries out to cosmological distances. Gravitational-wave bursts from high redshifts (z \u22731 ) can be strongly magnified by gravitational lensing due to intervening galaxies along the line of sight. In the absence of electromagnetic counterparts, the mergers' intrinsic mass scale and redshift are degenerate with the unknown magnification factor \u03bc . Hence, strongly magnified low-mass mergers from high redshifts appear as higher-mass mergers from lower redshifts. We assess the impact of this degeneracy on the mass-redshift distribution of observable events for generic models of binary black hole formation from normal stellar evolution, Pop III star remnants, or a primordial black hole population. We find that strong magnification (\u03bc \u22733 ) generally creates a heavy tail of apparently massive mergers in the event distribution from a given detector. For LIGO and its future upgrades, this tail may dominate the population of intrinsically massive, but unlensed mergers in binary black hole formation models involving normal stellar evolution or primordial black holes. Modeling the statistics of lensing magnification can help account for this magnification bias when testing astrophysical scenarios of black hole binary formation and evolution.",
+      "arxiv_id": "1605.09398",
+      "authors": [
+        "Dai, Liang",
+        "Venumadhav, Tejaswi",
+        "Sigurdson, Kris"
+      ],
+      "bibcode": "2017PhRvD..95d4011D",
+      "citation_count": 104,
+      "doctype": "article",
+      "doi": "10.48550/arXiv.1605.09398",
+      "inspire_recid": "1466408",
+      "page": "044011",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 95, Issue 4, id.044011",
+      "pubdate": "2017-02-00",
+      "title": "Effect of lensing magnification on the apparent distribution of black hole mergers",
+      "topic_confidence": 1.0,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational lensing",
+        "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "95",
+      "year": 2017
+    },
+    {
       "abstract": "Strong lensing by intervening galaxies can produce multiple images of gravitational waves from sources at cosmological distances. These images acquire additional phase-shifts as the over-focused wavefront passes through itself along the line of sight. Time domain waveforms of Type-II images (associated with saddle points of the time delay) exhibit a non-trivial distortion from the unlensed waveforms. This phenomenon is in addition to the usual frequency-independent magnification, and happens even in the geometric limit where the wavelength is much shorter than the deflector's gravitational length scale. Similarly, Type-III images preserve the original waveform's shape but exhibit a sign flip. We show that for non-precessing binaries undergoing circular inspiral and merger, these distortions are equivalent to rotating the line of sight about the normal to the orbital plane by $45^\\circ$ (Type II) and $90^\\circ$ (Type III). This effect will enable us to distinguish between the different topological types among a set of multiple images, and give us valuable insight into the lens model. Furthermore, we show that for eccentric binaries, the waveform of a Type-II image is distorted in a manner that is inequivalent to a change of the source's orbital parameters.",
       "arxiv_id": "1702.04724",
       "authors": [
@@ -1939,68 +1967,9 @@
         "Gravitational lensing",
         "Gravitational waves"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2017
-    },
-    {
-      "abstract": "The recent detection of gravitational waves indicates that stellar-mass black hole binaries are likely to be a key population of sources for forthcoming observations. With future upgrades, ground-based detectors could detect merging black hole binaries out to cosmological distances. Gravitational-wave bursts from high redshifts (z \u22731 ) can be strongly magnified by gravitational lensing due to intervening galaxies along the line of sight. In the absence of electromagnetic counterparts, the mergers' intrinsic mass scale and redshift are degenerate with the unknown magnification factor \u03bc . Hence, strongly magnified low-mass mergers from high redshifts appear as higher-mass mergers from lower redshifts. We assess the impact of this degeneracy on the mass-redshift distribution of observable events for generic models of binary black hole formation from normal stellar evolution, Pop III star remnants, or a primordial black hole population. We find that strong magnification (\u03bc \u22733 ) generally creates a heavy tail of apparently massive mergers in the event distribution from a given detector. For LIGO and its future upgrades, this tail may dominate the population of intrinsically massive, but unlensed mergers in binary black hole formation models involving normal stellar evolution or primordial black holes. Modeling the statistics of lensing magnification can help account for this magnification bias when testing astrophysical scenarios of black hole binary formation and evolution.",
-      "arxiv_id": "1605.09398",
-      "authors": [
-        "Dai, Liang",
-        "Venumadhav, Tejaswi",
-        "Sigurdson, Kris"
-      ],
-      "bibcode": "2017PhRvD..95d4011D",
-      "citation_count": 104,
-      "doctype": "article",
-      "doi": "10.48550/arXiv.1605.09398",
-      "inspire_recid": "1466408",
-      "page": "044011",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 95, Issue 4, id.044011",
-      "pubdate": "2017-02-00",
-      "title": "Effect of lensing magnification on the apparent distribution of black hole mergers",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational lensing",
-        "Gravitational waves",
-        "Black holes",
-        "Cosmology"
-      ],
-      "topics_classified_with": "d289478ca1179136",
-      "volume": "95",
-      "year": 2017
-    },
-    {
-      "abstract": "The sky-averaged, or global, background of redshifted 21 cm radiation is expected to be a rich source of information on cosmological reheating and reionization. However, measuring the signal is technically challenging: one must extract a small, frequency-dependent signal from under much brighter spectrally smooth foregrounds. Traditional approaches to study the global signal have used single antennas, which require one to calibrate out the frequency-dependent structure in the overall system gain (due to internal reflections, for example) as well as remove the noise bias from auto-correlating a single amplifier output. This has motivated proposals to measure the signal using cross-correlations in interferometric setups, where additional calibration techniques are available. In this paper we focus on the general principles driving the sensitivity of the interferometric setups to the global signal. We prove that this sensitivity is directly related to two characteristics of the setup: the cross-talk between readout channels (I.e., the signal picked up at one antenna when the other one is driven) and the correlated noise due to thermal fluctuations of lossy elements (e.g., absorbers or the ground) radiating into both channels. Thus in an interferometric setup, one cannot suppress cross-talk and correlated thermal noise without reducing sensitivity to the global signal by the same factor\u2014instead, the challenge is to characterize these effects and their frequency dependence. We illustrate our general theorem by explicit calculations within toy setups consisting of two short-dipole antennas in free space and above a perfectly reflecting ground surface, as well as two well-separated identical lossless antennas arranged to achieve zero cross-talk.",
-      "arxiv_id": "1512.05248",
-      "authors": [
-        "Venumadhav, Tejaswi",
-        "Chang, Tzu-Ching",
-        "Dor\u00e9, Olivier",
-        "Hirata, Christopher M."
-      ],
-      "bibcode": "2016ApJ...826..116V",
-      "citation_count": 10,
-      "doctype": "article",
-      "doi": "10.48550/arXiv.1512.05248",
-      "inspire_recid": "1409895",
-      "page": "116",
-      "pub": "The Astrophysical Journal",
-      "pub_raw": "The Astrophysical Journal, Volume 826, Issue 2, article id. 116, <NUMPAGES>16</NUMPAGES> pp. (2016).",
-      "pubdate": "2016-08-00",
-      "title": "A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal",
-      "topic_confidence": 0.9,
-      "topic_source": "llm",
-      "topics": [
-        "Cosmology",
-        "Reionization"
-      ],
-      "topics_classified_with": "d289478ca1179136",
-      "volume": "826",
-      "year": 2016
     },
     {
       "abstract": "We perform a detailed study of the weak interactions of standard model neutrinos with the primordial plasma and their effect on the resonant production of sterile neutrino dark matter. Motivated by issues in cosmological structure formation on small scales, and reported x-ray signals that could be due to sterile neutrino decay, we consider 7 keV-scale sterile neutrinos. Oscillation-driven production of such sterile neutrinos occurs at temperatures T \u2273100 MeV , where we study two significant effects of weakly charged species in the primordial plasma: (1) the redistribution of an input lepton asymmetry; (2) the opacity for active neutrinos. We calculate the redistribution analytically above and below the quark-hadron transition, and match with lattice QCD calculations through the transition. We estimate opacities due to tree-level processes involving leptons and quarks above the quark-hadron transition, and the most important mesons below the transition. We report final sterile neutrino dark matter phase space densities that are significantly influenced by these effects, and yet relatively robust to remaining uncertainties in the nature of the quark-hadron transition. We also provide transfer functions for cosmological density fluctuations with cutoffs at k \u224310 h Mpc<SUP>-1</SUP> , that are relevant to galactic structure formation.",
@@ -2027,8 +1996,37 @@
         "Dark matter",
         "Cosmology"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "94",
+      "year": 2016
+    },
+    {
+      "abstract": "The sky-averaged, or global, background of redshifted 21 cm radiation is expected to be a rich source of information on cosmological reheating and reionization. However, measuring the signal is technically challenging: one must extract a small, frequency-dependent signal from under much brighter spectrally smooth foregrounds. Traditional approaches to study the global signal have used single antennas, which require one to calibrate out the frequency-dependent structure in the overall system gain (due to internal reflections, for example) as well as remove the noise bias from auto-correlating a single amplifier output. This has motivated proposals to measure the signal using cross-correlations in interferometric setups, where additional calibration techniques are available. In this paper we focus on the general principles driving the sensitivity of the interferometric setups to the global signal. We prove that this sensitivity is directly related to two characteristics of the setup: the cross-talk between readout channels (I.e., the signal picked up at one antenna when the other one is driven) and the correlated noise due to thermal fluctuations of lossy elements (e.g., absorbers or the ground) radiating into both channels. Thus in an interferometric setup, one cannot suppress cross-talk and correlated thermal noise without reducing sensitivity to the global signal by the same factor\u2014instead, the challenge is to characterize these effects and their frequency dependence. We illustrate our general theorem by explicit calculations within toy setups consisting of two short-dipole antennas in free space and above a perfectly reflecting ground surface, as well as two well-separated identical lossless antennas arranged to achieve zero cross-talk.",
+      "arxiv_id": "1512.05248",
+      "authors": [
+        "Venumadhav, Tejaswi",
+        "Chang, Tzu-Ching",
+        "Dor\u00e9, Olivier",
+        "Hirata, Christopher M."
+      ],
+      "bibcode": "2016ApJ...826..116V",
+      "citation_count": 10,
+      "doctype": "article",
+      "doi": "10.48550/arXiv.1512.05248",
+      "inspire_recid": "1409895",
+      "page": "116",
+      "pub": "The Astrophysical Journal",
+      "pub_raw": "The Astrophysical Journal, Volume 826, Issue 2, article id. 116, <NUMPAGES>16</NUMPAGES> pp. (2016).",
+      "pubdate": "2016-08-00",
+      "title": "A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Cosmology",
+        "Reionization"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "826",
       "year": 2016
     },
     {
@@ -2051,10 +2049,9 @@
       "topic_confidence": 0.95,
       "topic_source": "llm",
       "topics": [
-        "Recombination",
-        "Cosmology"
+        "Recombination"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "91",
       "year": 2015
     },
@@ -2112,7 +2109,7 @@
         "Cosmology",
         "Reionization"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2014
     },
@@ -2140,7 +2137,7 @@
         "Neutron stars",
         "Gravitational waves"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "781",
       "year": 2014
     },
@@ -2165,7 +2162,7 @@
       "topic_confidence": 1.0,
       "topic_source": "llm",
       "topics": [],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "81",
       "year": 2010
     }
