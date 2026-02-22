@@ -179,11 +179,12 @@
       "pubdate": "2025-11-00",
       "title": "Sampler-free gravitational wave inference using matrix multiplication",
       "topic_confidence": 1.0,
-      "topic_source": "llm",
+      "topic_source": "manual_override",
       "topics": [
-        "Gravitational waves"
+        "Gravitational waves",
+        "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "112",
       "year": 2025
     },
@@ -716,12 +717,14 @@
       "pub_raw": "Physical Review D, Volume 110, Issue 4, article id.044010",
       "pubdate": "2024-08-00",
       "title": "Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
       "topics": [
-        "Gravitational waves"
+        "Gravitational waves",
+        "Black holes",
+        "Neutron stars"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "110",
       "year": 2024
     },
@@ -748,11 +751,12 @@
       "pubdate": "2024-08-00",
       "title": "New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering",
       "topic_confidence": 1.0,
-      "topic_source": "llm",
+      "topic_source": "manual_override",
       "topics": [
-        "Gravitational waves"
+        "Gravitational waves",
+        "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "110",
       "year": 2024
     },

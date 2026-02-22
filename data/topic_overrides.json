@@ -1,4 +1,18 @@
 {
   "schema_version": 1,
-  "overrides": {}
+  "overrides": {
+    "2024PhRvD.110d4010R": [
+      "Gravitational waves",
+      "Black holes",
+      "Neutron stars"
+    ],
+    "2024PhRvD.110d4063W": [
+      "Gravitational waves",
+      "Black holes"
+    ],
+    "2025PhRvD.112j4025M": [
+      "Gravitational waves",
+      "Black holes"
+    ]
+  }
 }
