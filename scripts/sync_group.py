@@ -191,10 +191,14 @@ def _render_cards(people: list[Person], profiles: dict[str, dict], placeholder_p
     for person in people:
         info = profiles.get(person.name) or {}
         image_path = str(info.get("image") or placeholder_path)
+        if image_path.startswith("http://") or image_path.startswith("https://"):
+            image_src = image_path
+        else:
+            image_src = "{{ '" + image_path + "' | relative_url }}"
         lines.extend(
             [
                 '  <article class="person-card">',
-                f'    <img src="{{{{ \'{image_path}\' | relative_url }}}}" alt="{html.escape(person.name)}">',
+                f'    <img src="{image_src}" alt="{html.escape(person.name)}">',
                 f"    <h3>{html.escape(person.name)}</h3>",
                 f"    <p>{html.escape(person.role)}</p>",
                 "  </article>",
