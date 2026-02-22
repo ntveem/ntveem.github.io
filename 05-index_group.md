@@ -137,7 +137,7 @@ show_title: false
       <td>Postdoc (KITP)</td>
       <td>2021-2022</td>
       <td>Sherman Fairchild Postdoctoral Scholar (Caltech)</td>
-      <td>&mdash;</td>
+      <td>KICP Fellow (University of Chicago)</td>
     </tr>
     <tr>
       <td>Cuishan Liu</td>
