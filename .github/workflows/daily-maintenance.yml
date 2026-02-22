@@ -38,7 +38,9 @@ jobs:
       - name: Build CV PDFs
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: cv/generated/Tejaswi_CV_public.tex,private/cv/Tejaswi_CV_private.tex
+          root_file: |
+            cv/generated/Tejaswi_CV_public.tex
+            private/cv/Tejaswi_CV_private.tex
 
       - name: Place generated CV PDFs
         run: |
