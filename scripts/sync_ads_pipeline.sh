@@ -12,6 +12,7 @@ fi
 python3 scripts/sync_ads_data.py
 python3 scripts/sync_publications.py --write
 python3 scripts/sync_cv.py
+python3 scripts/sync_group.py
 
 if [[ "$COMPILE_PDF" -eq 1 ]]; then
   if ! command -v latexmk >/dev/null 2>&1; then

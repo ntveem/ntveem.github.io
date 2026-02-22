@@ -10,6 +10,7 @@ Personal website source for GitHub Pages, built with Jekyll 4.
    - `02-index_publications.md`
    - `03-index_CV.md`
    - `04-index_contact.md`
+   - `05-index_group.md` (auto-generated from CV source)
 2. Commit and push to `master` (or `main`).
 3. GitHub Actions deploys automatically to Pages.
 
@@ -46,8 +47,8 @@ Both commands auto-clean LaTeX auxiliary files in `cv/generated` and `private/cv
 - `/.github/dependabot.yml`
   - Weekly update PRs for GitHub Actions and Ruby gems
 - `/.github/workflows/publications-sync.yml`
-  - Daily ADS sync for `/02-index_publications.md`
-  - Uses repository secret `ADS_API_TOKEN`
+  - Daily maintenance sync for publications, CV, and group page
+  - Uses repository secrets `ADS_API_TOKEN` and `OPENAI_API_KEY`
 
 ## ADS Publications Sync
 
@@ -118,6 +119,7 @@ Manual step-by-step (equivalent):
 python scripts/sync_ads_data.py
 python scripts/sync_publications.py --write
 python scripts/sync_cv.py
+python scripts/sync_group.py
 ```
 
 ## GitHub Pages settings

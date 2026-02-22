@@ -1,0 +1,76 @@
+---
+layout: page
+title: Group
+permalink: "group.html"
+group: basepages
+nav_order: 6
+hlgroup: group
+tagline: Supporting tagline
+---
+This page is updated automatically from the private CV source.
+
+## Research Group
+
+### Graduate Students (6)
+
+<div class="people-grid">
+  <article class="person-card">
+    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Isha Anantpurkar">
+    <h3>Isha Anantpurkar</h3>
+    <p>Graduate Student</p>
+  </article>
+  <article class="person-card">
+    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Jonathan Schiff">
+    <h3>Jonathan Schiff</h3>
+    <p>Graduate Student</p>
+  </article>
+  <article class="person-card">
+    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Sierra Garza">
+    <h3>Sierra Garza</h3>
+    <p>Graduate Student</p>
+  </article>
+  <article class="person-card">
+    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="James Kyubin Kwon">
+    <h3>James Kyubin Kwon</h3>
+    <p>Graduate Student</p>
+  </article>
+  <article class="person-card">
+    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Joaquin Becerra Espinoza">
+    <h3>Joaquin Becerra Espinoza</h3>
+    <p>Graduate Student</p>
+  </article>
+  <article class="person-card">
+    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="William Surgent">
+    <h3>William Surgent</h3>
+    <p>Graduate Student</p>
+  </article>
+</div>
+
+### Postdoctoral Scholars (1)
+
+<div class="people-grid">
+  <article class="person-card">
+    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Tousif Islam">
+    <h3>Tousif Islam</h3>
+    <p>Postdoc (KITP)</p>
+  </article>
+</div>
+
+### Undergraduate Students (2)
+
+<div class="people-grid">
+  <article class="person-card">
+    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Yangxiao Ding">
+    <h3>Yangxiao Ding</h3>
+    <p>Undergraduate Student</p>
+  </article>
+  <article class="person-card">
+    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Christian Hahn">
+    <h3>Christian Hahn</h3>
+    <p>Undergraduate Student</p>
+  </article>
+</div>
+
+## Collaborators
+
+Collaborator list coming soon.

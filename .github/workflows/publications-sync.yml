@@ -1,4 +1,4 @@
-name: Sync Publications From ADS
+name: Daily Site Maintenance
 
 on:
   schedule:
@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Sync publications
+      - name: Sync data and pages
         env:
           ADS_API_TOKEN: ${{ secrets.ADS_API_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -33,6 +33,7 @@ jobs:
           python scripts/sync_ads_data.py
           python scripts/sync_publications.py --write
           python scripts/sync_cv.py
+          python scripts/sync_group.py
 
       - name: Build CV PDFs
         uses: xu-cheng/latex-action@v3
@@ -57,12 +58,12 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          if git diff --quiet -- data/ads_publications.json 02-index_publications.md cv/generated/Tejaswi_CV_public.tex private/cv/Tejaswi_CV_private.tex assets/files/Tejaswi_CV.pdf private/cv/Tejaswi_CV_private.pdf; then
+          if git diff --quiet -- data/ads_publications.json 02-index_publications.md 05-index_group.md cv/generated/Tejaswi_CV_public.tex private/cv/Tejaswi_CV_private.tex assets/files/Tejaswi_CV.pdf private/cv/Tejaswi_CV_private.pdf; then
             echo "No updates."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ads_publications.json 02-index_publications.md cv/generated/Tejaswi_CV_public.tex private/cv/Tejaswi_CV_private.tex assets/files/Tejaswi_CV.pdf private/cv/Tejaswi_CV_private.pdf
-          git commit -m "publications+cv: sync from ADS"
+          git add data/ads_publications.json 02-index_publications.md 05-index_group.md cv/generated/Tejaswi_CV_public.tex private/cv/Tejaswi_CV_private.tex assets/files/Tejaswi_CV.pdf private/cv/Tejaswi_CV_private.pdf
+          git commit -m "maintenance: sync ads publications cv and group page"
           git push
