@@ -196,7 +196,7 @@ show_title: false
       <td>Weizmann Institute of Science</td>
     </tr>
     <tr>
-      <td><a href="https://physics.berkeley.edu/people/faculty/liang-dai" target="_blank" rel="noopener noreferrer">Liang Dai</a></td>
+      <td><a href="https://sites.google.com/view/liang-dai" target="_blank" rel="noopener noreferrer">Liang Dai</a></td>
       <td>University of California, Berkeley</td>
     </tr>
     <tr>
