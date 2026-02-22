@@ -3,7 +3,7 @@ layout: page
 title: CV
 permalink: "CV.html"
 group: basepages
-nav_order: 4
+nav_order: 5
 hlgroup: CV
 tagline: Supporting tagline
 ---

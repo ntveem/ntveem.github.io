@@ -3,7 +3,7 @@ layout: page
 title: Group
 permalink: "group.html"
 group: basepages
-nav_order: 6
+nav_order: 3
 hlgroup: group
 tagline: Supporting tagline
 ---

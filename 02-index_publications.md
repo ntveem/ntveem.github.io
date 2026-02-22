@@ -3,7 +3,7 @@ layout: page
 title: Publications
 permalink: "publications.html"
 group: basepages
-nav_order: 3
+nav_order: 4
 hlgroup: publications 
 tagline: Supporting tagline
 ---

@@ -3,7 +3,7 @@ layout: page
 title: Contact
 permalink: "contact.html"
 group: basepages
-nav_order: 5
+nav_order: 6
 hlgroup: contact
 tagline: Supporting tagline
 ---
