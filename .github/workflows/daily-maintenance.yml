@@ -69,40 +69,9 @@ jobs:
             CHANGED_LIST="$(git diff --name-status -- $TRACKED_FILES)"
           fi
 
-          PAPERS_TOTAL="$(python - <<'PY'
-import json
-from pathlib import Path
-p = Path("data/ads_publications.json")
-if not p.exists():
-    print("n/a")
-else:
-    d = json.loads(p.read_text())
-    print(len(d.get("papers", [])))
-PY
-)"
-          GRB_TAGGED="$(python - <<'PY'
-import json
-from pathlib import Path
-p = Path("data/ads_publications.json")
-if not p.exists():
-    print("n/a")
-else:
-    d = json.loads(p.read_text())
-    total = sum(1 for x in d.get("papers", []) if "Gamma ray bursts" in x.get("topics", []))
-    print(total)
-PY
-)"
-          COLLABORATORS_TOTAL="$(python - <<'PY'
-import json
-from pathlib import Path
-p = Path("data/group_profiles.json")
-if not p.exists():
-    print("n/a")
-else:
-    d = json.loads(p.read_text())
-    print(len(d.get("collaborators", [])))
-PY
-)"
+          PAPERS_TOTAL="$(python -c 'import json, pathlib; p = pathlib.Path("data/ads_publications.json"); print("n/a" if not p.exists() else len(json.loads(p.read_text()).get("papers", [])))')"
+          GRB_TAGGED="$(python -c 'import json, pathlib; p = pathlib.Path("data/ads_publications.json"); print("n/a" if not p.exists() else sum(1 for x in json.loads(p.read_text()).get("papers", []) if "Gamma ray bursts" in x.get("topics", [])))')"
+          COLLABORATORS_TOTAL="$(python -c 'import json, pathlib; p = pathlib.Path("data/group_profiles.json"); print("n/a" if not p.exists() else len(json.loads(p.read_text()).get("collaborators", [])))')"
 
           {
             echo "### Daily Site Maintenance Summary"
