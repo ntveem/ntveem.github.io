@@ -9,10 +9,10 @@ tagline: Supporting tagline
 ---
 I work in theoretical astrophysics with an emphasis on gravitational-wave science and physical cosmology. I enjoy working on interesting theoretical problems while also developing scalable data-analysis methods to extract new physics from observations.
 
-## Gravitational-Wave Astrophysics
+## Gravitational-Wave Physics
 I develop methods to detect and interpret gravitational-wave signals from compact binaries in current and next-generation detector data. These efforts span search pipelines, inference tools, and waveform modeling, with the goal of enhancing sensitivity while making analyses faster and more robust.
 
-## Black-Hole Populations and Merger Demographics
+## Gravitational-Wave Astrophysics
 I study binary black hole populations to infer how these systems are assembled and to place them in their broader astrophysical context. This requires population-level inference on gravitational-wave catalogs, together with careful treatment of selection effects and measurement uncertainties in the properties of individual candidate events.
 
 ## Strong Gravitational Lensing and Cosmography
