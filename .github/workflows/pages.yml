@@ -5,6 +5,11 @@ on:
     branches:
       - master
       - main
+  workflow_run:
+    workflows:
+      - Daily Site Maintenance
+    types:
+      - completed
   workflow_dispatch:
   schedule:
     - cron: "0 9 * * 1"
@@ -20,6 +25,7 @@ concurrency:
 
 jobs:
   build:
+    if: ${{ github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && (github.event.workflow_run.head_branch == 'master' || github.event.workflow_run.head_branch == 'main')) }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
