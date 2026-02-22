@@ -43,6 +43,12 @@ class FormerSeed:
     role_after_group: str | None
 
 
+@dataclass
+class Collaborator:
+    name: str
+    institution: str | None
+
+
 def _display_name(name: str) -> str:
     n = " ".join(name.split())
     if "," in n:
@@ -68,6 +74,10 @@ def _normalize_years(years: str | None) -> str | None:
     y = y.replace("--", "-")
     y = y.replace(" - ", "-")
     return y
+
+
+def _norm_name(name: str) -> str:
+    return re.sub(r"\s+", " ", name.strip()).lower()
 
 
 def _section_block(tex: str, title: str) -> str:
@@ -170,6 +180,69 @@ def collect_former_seeds(tex: str) -> list[FormerSeed]:
         )
 
     return seeds
+
+
+def _load_collaborators(path: Path) -> list[Collaborator]:
+    if not path.exists():
+        return []
+    data = json.loads(path.read_text(encoding="utf-8"))
+    items = data.get("collaborators") if isinstance(data, dict) else None
+    if not isinstance(items, list):
+        return []
+    out: list[Collaborator] = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        name = str(item.get("name") or "").strip()
+        if not name:
+            continue
+        inst = item.get("institution")
+        institution = str(inst).strip() if isinstance(inst, str) and str(inst).strip() else None
+        out.append(Collaborator(name=name, institution=institution))
+    return out
+
+
+def _write_collaborators(path: Path, collaborators: list[Collaborator]) -> None:
+    payload = {
+        "schema_version": 1,
+        "collaborators": [
+            {"name": c.name, "institution": c.institution}
+            for c in sorted(collaborators, key=lambda c: _norm_name(c.name))
+        ],
+    }
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, indent=2, sort_keys=False) + "\n", encoding="utf-8")
+
+
+def _seed_collaborators_from_markdown(
+    source_path: Path,
+    collaborators_path: Path,
+    active_grads_postdocs: list[Person],
+) -> list[Collaborator]:
+    existing = _load_collaborators(collaborators_path)
+    existing_by_norm = {_norm_name(c.name): c for c in existing}
+    active_norm = {_norm_name(p.name) for p in active_grads_postdocs}
+
+    if not source_path.exists():
+        return existing
+
+    # Keep this as a one-time/manual seed source: bullet lines with names.
+    bullets = re.findall(r"(?m)^\s*-\s+(.+?)\s*$", source_path.read_text(encoding="utf-8"))
+    for raw in bullets:
+        name = re.sub(r"\s+", " ", raw.strip())
+        if not name:
+            continue
+        n = _norm_name(name)
+        if n in active_norm:
+            continue
+        if "tejaswi venumadhav" in n:
+            continue
+        if n not in existing_by_norm:
+            existing_by_norm[n] = Collaborator(name=name, institution=None)
+
+    seeded = [existing_by_norm[k] for k in sorted(existing_by_norm)]
+    _write_collaborators(collaborators_path, seeded)
+    return seeded
 
 
 def _load_profile_map(path: Path) -> dict:
@@ -353,11 +426,42 @@ def _render_former_table(profiles: dict[str, dict]) -> str:
     return "\n".join(lines) + "\n"
 
 
+def _render_collaborators_table(collaborators: list[Collaborator]) -> str:
+    if not collaborators:
+        return "<p>No collaborators listed yet.</p>\n"
+
+    def show(v: str | None) -> str:
+        return html.escape(v) if v else "&mdash;"
+
+    lines = [
+        '<table class="former-members-table">',
+        "  <thead>",
+        "    <tr>",
+        "      <th>Name</th>",
+        "      <th>Institution</th>",
+        "    </tr>",
+        "  </thead>",
+        "  <tbody>",
+    ]
+    for c in sorted(collaborators, key=lambda x: _norm_name(x.name)):
+        lines.extend(
+            [
+                "    <tr>",
+                f"      <td>{html.escape(c.name)}</td>",
+                f"      <td>{show(c.institution)}</td>",
+                "    </tr>",
+            ]
+        )
+    lines.extend(["  </tbody>", "</table>"])
+    return "\n".join(lines) + "\n"
+
+
 def render_page(
     grads: list[Person],
     postdocs: list[Person],
     undergrads: list[Person],
     profiles: dict[str, dict],
+    collaborators: list[Collaborator],
     placeholder_path: str,
 ) -> str:
     front_matter = """---
@@ -390,7 +494,7 @@ show_title: false
             "## Former Group Members\n",
             _render_former_table(profiles),
             "## Collaborators\n",
-            "Collaborator list coming soon.\n",
+            _render_collaborators_table(collaborators),
         ]
     )
     return front_matter + "\n".join(body)
@@ -403,6 +507,8 @@ def main() -> int:
     parser.add_argument("--placeholder", default="/assets/images/person-placeholder.svg")
     parser.add_argument("--profile-map", default="data/group_profiles.json")
     parser.add_argument("--photo-map", default=None, help="Deprecated alias for --profile-map")
+    parser.add_argument("--collaborators-map", default="data/collaborators.json")
+    parser.add_argument("--seed-collaborators-from", default=None)
     args = parser.parse_args()
 
     profile_map_path = Path(args.profile_map or args.photo_map or "data/group_profiles.json")
@@ -412,6 +518,7 @@ def main() -> int:
     grads, postdocs, undergrads = collect_people(tex)
     former_seeds = collect_former_seeds(tex)
     all_people = grads + postdocs + undergrads
+    active_grads_postdocs = grads + postdocs
 
     if not profile_map_path.exists() and legacy_map_path.exists():
         legacy_images = _load_legacy_photo_map(legacy_map_path)
@@ -433,15 +540,25 @@ def main() -> int:
         profile_map_path.write_text(json.dumps(migrated, indent=2, sort_keys=False) + "\n", encoding="utf-8")
 
     profiles = _sync_profile_map(profile_map_path, all_people, former_seeds, args.placeholder)
-    out_text = render_page(grads, postdocs, undergrads, profiles, args.placeholder)
+    collaborators_path = Path(args.collaborators_map)
+    if args.seed_collaborators_from:
+        collaborators = _seed_collaborators_from_markdown(
+            Path(args.seed_collaborators_from),
+            collaborators_path,
+            active_grads_postdocs,
+        )
+    else:
+        collaborators = _load_collaborators(collaborators_path)
+    out_text = render_page(grads, postdocs, undergrads, profiles, collaborators, args.placeholder)
     Path(args.out).write_text(out_text, encoding="utf-8")
 
     print(f"Wrote {args.out}")
     print(f"Wrote/updated {profile_map_path}")
+    print(f"Wrote/updated {collaborators_path}")
     print(
         "Counts: "
         f"grads={len(grads)}, postdocs={len(postdocs)}, undergrads={len(undergrads)}, "
-        f"former_seed_candidates={len(former_seeds)}"
+        f"former_seed_candidates={len(former_seeds)}, collaborators={len(collaborators)}"
     )
     return 0
 

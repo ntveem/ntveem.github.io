@@ -151,4 +151,49 @@ show_title: false
 
 ## Collaborators
 
-Collaborator list coming soon.
+<table class="former-members-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Institution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ajit Mehta</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Barak Zackay</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Digvijay (Jay) Wadekar</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Horng Sheng Chia</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Javier Roulet</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Jonathan Mushkin</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Liang Dai</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Matias Zaldarriaga</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Seth Olsen</td>
+      <td>&mdash;</td>
+    </tr>
+  </tbody>
+</table>
