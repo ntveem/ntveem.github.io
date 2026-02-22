@@ -1,10 +1,51 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "people": {
+    "Ajit Kumar Mehta": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": false,
+      "role_in_group": "Postdoc",
+      "years_in_group": "2022-2025",
+      "role_after_group": null,
+      "current_role": null
+    },
     "Christian Hahn": {
       "image": "/assets/images/person-placeholder.svg",
       "active": true,
       "role_in_group": "Undergraduate Student",
+      "years_in_group": null,
+      "role_after_group": null,
+      "current_role": null
+    },
+    "Cuishan Liu": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": false,
+      "role_in_group": "Undergraduate Student",
+      "years_in_group": "2021--2022",
+      "role_after_group": null,
+      "current_role": null
+    },
+    "Dashiell Carrel": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": false,
+      "role_in_group": "Undergraduate Student",
+      "years_in_group": "2021--2023",
+      "role_after_group": null,
+      "current_role": null
+    },
+    "Fansen Wei": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": false,
+      "role_in_group": "Undergraduate Student",
+      "years_in_group": "2022--2023",
+      "role_after_group": null,
+      "current_role": null
+    },
+    "Hang Yu": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": false,
+      "role_in_group": "Postdoc (KITP)",
+      "years_in_group": "2022-2023",
       "role_after_group": null,
       "current_role": null
     },
@@ -12,6 +53,7 @@
       "image": "/assets/images/isha-anantpurkar.jpg",
       "active": true,
       "role_in_group": "Graduate Student",
+      "years_in_group": null,
       "role_after_group": null,
       "current_role": null
     },
@@ -19,6 +61,31 @@
       "image": "/assets/images/james-kyubin-kwon.jpg",
       "active": true,
       "role_in_group": "Graduate Student",
+      "years_in_group": null,
+      "role_after_group": null,
+      "current_role": null
+    },
+    "Javier Roulet": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": false,
+      "role_in_group": "Postdoc (KITP)",
+      "years_in_group": "2021--2022",
+      "role_after_group": null,
+      "current_role": null
+    },
+    "Jennifer Barnes": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": false,
+      "role_in_group": "Postdoc (KITP)",
+      "years_in_group": "2021-2023",
+      "role_after_group": null,
+      "current_role": null
+    },
+    "Jiayu Wang": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": false,
+      "role_in_group": "Undergraduate Student",
+      "years_in_group": "2022--2024",
       "role_after_group": null,
       "current_role": null
     },
@@ -26,6 +93,7 @@
       "image": "/assets/images/joaquin-becerra-espinoza.jpg",
       "active": true,
       "role_in_group": "Graduate Student",
+      "years_in_group": null,
       "role_after_group": null,
       "current_role": null
     },
@@ -33,6 +101,15 @@
       "image": "/assets/images/jonathan-schiff.jpg",
       "active": true,
       "role_in_group": "Graduate Student",
+      "years_in_group": null,
+      "role_after_group": null,
+      "current_role": null
+    },
+    "Junyan Xu": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": false,
+      "role_in_group": "Undergraduate Student",
+      "years_in_group": "2023--2025",
       "role_after_group": null,
       "current_role": null
     },
@@ -40,6 +117,7 @@
       "image": "/assets/images/person-placeholder.svg",
       "active": true,
       "role_in_group": "Graduate Student",
+      "years_in_group": null,
       "role_after_group": null,
       "current_role": null
     },
@@ -47,6 +125,7 @@
       "image": "/assets/images/tousif-islam.jpeg",
       "active": true,
       "role_in_group": "Postdoc (KITP)",
+      "years_in_group": null,
       "role_after_group": null,
       "current_role": null
     },
@@ -54,6 +133,7 @@
       "image": "/assets/images/william-surgent.jpg",
       "active": true,
       "role_in_group": "Graduate Student",
+      "years_in_group": null,
       "role_after_group": null,
       "current_role": null
     },
@@ -61,6 +141,7 @@
       "image": "/assets/images/person-placeholder.svg",
       "active": true,
       "role_in_group": "Undergraduate Student",
+      "years_in_group": null,
       "role_after_group": null,
       "current_role": null
     }

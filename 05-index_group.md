@@ -72,7 +72,82 @@ show_title: false
 
 ## Former Group Members
 
-<p>No former group members listed yet.</p>
+<table class="former-members-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Role in Group</th>
+      <th>Years in Group</th>
+      <th>Role After Group</th>
+      <th>Current Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ajit Kumar Mehta</td>
+      <td>Postdoc</td>
+      <td>2022-2025</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Cuishan Liu</td>
+      <td>Undergraduate Student</td>
+      <td>2021--2022</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Dashiell Carrel</td>
+      <td>Undergraduate Student</td>
+      <td>2021--2023</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Fansen Wei</td>
+      <td>Undergraduate Student</td>
+      <td>2022--2023</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Hang Yu</td>
+      <td>Postdoc (KITP)</td>
+      <td>2022-2023</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Javier Roulet</td>
+      <td>Postdoc (KITP)</td>
+      <td>2021--2022</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Jennifer Barnes</td>
+      <td>Postdoc (KITP)</td>
+      <td>2021-2023</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Jiayu Wang</td>
+      <td>Undergraduate Student</td>
+      <td>2022--2024</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Junyan Xu</td>
+      <td>Undergraduate Student</td>
+      <td>2023--2025</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Collaborators
 

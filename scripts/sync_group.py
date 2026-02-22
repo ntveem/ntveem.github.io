@@ -12,6 +12,9 @@ Persistent profile mapping (data/group_profiles.json):
 - Current members have active=true and alumni fields set to null.
 - Members no longer in current lists are marked active=false and shown in
   a Former Group Members table.
+- Former member seed data is parsed from CV sections:
+  - Postdoctoral Scholars Supervised rows without "Present"
+  - Undergraduate Students Supervised rows without "Present"
 """
 
 from __future__ import annotations
@@ -30,6 +33,13 @@ SECTION_RE = re.compile(r"\\cvsection(?:\[[^\]]*\])?\{([^}]*)\}")
 class Person:
     name: str
     role: str
+
+
+@dataclass
+class FormerSeed:
+    name: str
+    role: str
+    years_in_group: str | None
 
 
 def _display_name(name: str) -> str:
@@ -113,16 +123,41 @@ def collect_people(tex: str) -> tuple[list[Person], list[Person], list[Person]]:
     return grads, postdocs, undergrads
 
 
+def collect_former_seeds(tex: str) -> list[FormerSeed]:
+    seeds: list[FormerSeed] = []
+
+    post_block = _section_block(tex, "Postdoctoral Scholars Supervised")
+    for cols in _parse_rows(post_block):
+        if len(cols) < 3:
+            continue
+        name, years, note = cols[0], cols[1], cols[2]
+        if "present" in years.lower():
+            continue
+        role = "Postdoc (KITP)" if "kitp fellow" in note.lower() else "Postdoc"
+        seeds.append(FormerSeed(name=_display_name(name), role=role, years_in_group=years))
+
+    ug_block = _section_block(tex, "Undergraduate Students Supervised")
+    for cols in _parse_rows(ug_block):
+        if len(cols) < 2:
+            continue
+        name, years = cols[0], cols[1]
+        if "present" in years.lower():
+            continue
+        seeds.append(FormerSeed(name=_display_name(name), role="Undergraduate Student", years_in_group=years))
+
+    return seeds
+
+
 def _load_profile_map(path: Path) -> dict:
     if not path.exists():
-        return {"schema_version": 2, "people": {}}
+        return {"schema_version": 3, "people": {}}
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict):
-        return {"schema_version": 2, "people": {}}
+        return {"schema_version": 3, "people": {}}
     people = data.get("people")
     if not isinstance(people, dict):
         people = {}
-    return {"schema_version": 2, "people": people}
+    return {"schema_version": 3, "people": people}
 
 
 def _load_legacy_photo_map(path: Path) -> dict[str, str]:
@@ -147,12 +182,18 @@ def _normalize_entry(entry: dict | None, placeholder_path: str) -> dict:
         "image": str(e.get("image") or placeholder_path),
         "active": bool(e.get("active", True)),
         "role_in_group": e.get("role_in_group"),
+        "years_in_group": e.get("years_in_group"),
         "role_after_group": e.get("role_after_group"),
         "current_role": e.get("current_role"),
     }
 
 
-def _sync_profile_map(path: Path, people: list[Person], placeholder_path: str) -> dict[str, dict]:
+def _sync_profile_map(
+    path: Path,
+    people: list[Person],
+    former_seeds: list[FormerSeed],
+    placeholder_path: str,
+) -> dict[str, dict]:
     data = _load_profile_map(path)
     people_map: dict[str, dict] = {
         name: _normalize_entry(info, placeholder_path) for name, info in data["people"].items()
@@ -165,9 +206,23 @@ def _sync_profile_map(path: Path, people: list[Person], placeholder_path: str) -
         entry["image"] = str(entry.get("image") or placeholder_path)
         entry["active"] = True
         entry["role_in_group"] = person.role
+        if not entry.get("years_in_group"):
+            entry["years_in_group"] = None
         entry["role_after_group"] = None
         entry["current_role"] = None
         people_map[name] = entry
+
+    for seed in former_seeds:
+        if seed.name in current:
+            continue
+        entry = people_map.get(seed.name) or _normalize_entry({}, placeholder_path)
+        entry["image"] = str(entry.get("image") or placeholder_path)
+        entry["active"] = False
+        if not entry.get("role_in_group"):
+            entry["role_in_group"] = seed.role
+        if not entry.get("years_in_group"):
+            entry["years_in_group"] = seed.years_in_group
+        people_map[seed.name] = entry
 
     for name, entry in list(people_map.items()):
         if name in current:
@@ -177,7 +232,7 @@ def _sync_profile_map(path: Path, people: list[Person], placeholder_path: str) -
         people_map[name] = e
 
     ordered = {name: people_map[name] for name in sorted(people_map)}
-    payload = {"schema_version": 2, "people": ordered}
+    payload = {"schema_version": 3, "people": ordered}
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, sort_keys=False) + "\n", encoding="utf-8")
     return ordered
@@ -217,6 +272,7 @@ def _render_former_table(profiles: dict[str, dict]) -> str:
             (
                 name,
                 info.get("role_in_group"),
+                info.get("years_in_group"),
                 info.get("role_after_group"),
                 info.get("current_role"),
             )
@@ -234,18 +290,20 @@ def _render_former_table(profiles: dict[str, dict]) -> str:
         "    <tr>",
         "      <th>Name</th>",
         "      <th>Role in Group</th>",
+        "      <th>Years in Group</th>",
         "      <th>Role After Group</th>",
         "      <th>Current Role</th>",
         "    </tr>",
         "  </thead>",
         "  <tbody>",
     ]
-    for name, role_in_group, role_after_group, current_role in former:
+    for name, role_in_group, years_in_group, role_after_group, current_role in former:
         lines.extend(
             [
                 "    <tr>",
                 f"      <td>{html.escape(name)}</td>",
                 f"      <td>{show(role_in_group)}</td>",
+                f"      <td>{show(years_in_group)}</td>",
                 f"      <td>{show(role_after_group)}</td>",
                 f"      <td>{show(current_role)}</td>",
                 "    </tr>",
@@ -312,6 +370,7 @@ def main() -> int:
 
     tex = Path(args.cv_source).read_text(encoding="utf-8")
     grads, postdocs, undergrads = collect_people(tex)
+    former_seeds = collect_former_seeds(tex)
     all_people = grads + postdocs + undergrads
 
     if not profile_map_path.exists() and legacy_map_path.exists():
@@ -323,6 +382,7 @@ def main() -> int:
                     "image": img,
                     "active": False,
                     "role_in_group": None,
+                    "years_in_group": None,
                     "role_after_group": None,
                     "current_role": None,
                 }
@@ -332,13 +392,17 @@ def main() -> int:
         profile_map_path.parent.mkdir(parents=True, exist_ok=True)
         profile_map_path.write_text(json.dumps(migrated, indent=2, sort_keys=False) + "\n", encoding="utf-8")
 
-    profiles = _sync_profile_map(profile_map_path, all_people, args.placeholder)
+    profiles = _sync_profile_map(profile_map_path, all_people, former_seeds, args.placeholder)
     out_text = render_page(grads, postdocs, undergrads, profiles, args.placeholder)
     Path(args.out).write_text(out_text, encoding="utf-8")
 
     print(f"Wrote {args.out}")
     print(f"Wrote/updated {profile_map_path}")
-    print(f"Counts: grads={len(grads)}, postdocs={len(postdocs)}, undergrads={len(undergrads)}")
+    print(
+        "Counts: "
+        f"grads={len(grads)}, postdocs={len(postdocs)}, undergrads={len(undergrads)}, "
+        f"former_seed_candidates={len(former_seeds)}"
+    )
     return 0
 
 
