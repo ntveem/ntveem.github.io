@@ -160,52 +160,64 @@ show_title: false
   </thead>
   <tbody>
     <tr>
-      <td>Abhishek Hegade Kumbale Raveesha</td>
-      <td>&mdash;</td>
+      <td><a href="https://gravity.princeton.edu/people/gravity-initiative-fellows" target="_blank" rel="noopener noreferrer">Abhishek Hegade Kumbale Raveesha</a></td>
+      <td>Princeton Gravity Initiative</td>
     </tr>
     <tr>
-      <td>Ajit Mehta</td>
-      <td>&mdash;</td>
+      <td><a href="https://ajitmehta.github.io/" target="_blank" rel="noopener noreferrer">Ajit Mehta</a></td>
+      <td>Chennai Mathematical Institute</td>
     </tr>
     <tr>
-      <td>Ariel Perera</td>
-      <td>&mdash;</td>
+      <td><a href="https://www.weizmann.ac.il/physics/ariel-perera" target="_blank" rel="noopener noreferrer">Ariel Perera</a></td>
+      <td>Weizmann Institute of Science</td>
     </tr>
     <tr>
-      <td>Barak Zackay</td>
-      <td>&mdash;</td>
+      <td><a href="https://www.weizmann.ac.il/particle/Zackay/home" target="_blank" rel="noopener noreferrer">Barak Zackay</a></td>
+      <td>Weizmann Institute of Science</td>
     </tr>
     <tr>
-      <td>Digvijay (Jay) Wadekar</td>
-      <td>&mdash;</td>
+      <td><a href="https://www.icts.res.in/people/students" target="_blank" rel="noopener noreferrer">Chandranathan Anandavijayan</a></td>
+      <td>ICTS-TIFR</td>
     </tr>
     <tr>
-      <td>Hang Yu</td>
-      <td>&mdash;</td>
+      <td><a href="https://jaywadekar.github.io/" target="_blank" rel="noopener noreferrer">Digvijay (Jay) Wadekar</a></td>
+      <td>The University of Texas at Austin</td>
     </tr>
     <tr>
-      <td>Javier Roulet</td>
-      <td>&mdash;</td>
+      <td><a href="https://sites.google.com/view/hangyu1991" target="_blank" rel="noopener noreferrer">Hang Yu</a></td>
+      <td>Montana State University</td>
     </tr>
     <tr>
-      <td>Jonathan Mushkin</td>
-      <td>&mdash;</td>
+      <td><a href="https://kavlicosmo.uchicago.edu/people/profile/javier-roulet/" target="_blank" rel="noopener noreferrer">Javier Roulet</a></td>
+      <td>KICP, University of Chicago</td>
     </tr>
     <tr>
-      <td>Liang Dai</td>
-      <td>&mdash;</td>
+      <td><a href="https://www.weizmann.ac.il/particle/Zackay/group-members" target="_blank" rel="noopener noreferrer">Jonathan Mushkin</a></td>
+      <td>Weizmann Institute of Science</td>
     </tr>
     <tr>
-      <td>Linhao Ma</td>
-      <td>&mdash;</td>
+      <td><a href="https://physics.berkeley.edu/people/faculty/liang-dai" target="_blank" rel="noopener noreferrer">Liang Dai</a></td>
+      <td>University of California, Berkeley</td>
     </tr>
     <tr>
-      <td>Matias Zaldarriaga</td>
-      <td>&mdash;</td>
+      <td><a href="https://www.astro.princeton.edu/~lm2265/" target="_blank" rel="noopener noreferrer">Linhao Ma</a></td>
+      <td>Princeton University / KITP</td>
     </tr>
     <tr>
-      <td>Nicolas Yunes</td>
-      <td>&mdash;</td>
+      <td><a href="https://www.ias.edu/scholars/zaldarriaga" target="_blank" rel="noopener noreferrer">Matias Zaldarriaga</a></td>
+      <td>Institute for Advanced Study</td>
+    </tr>
+    <tr>
+      <td><a href="https://physics.illinois.edu/people/directory/profile/nyunes" target="_blank" rel="noopener noreferrer">Nicolas Yunes</a></td>
+      <td>University of Illinois Urbana-Champaign</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.icts.res.in/people/faculty" target="_blank" rel="noopener noreferrer">Pallavi Bhat</a></td>
+      <td>ICTS-TIFR</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.icts.res.in/people/parameswaran-ajith" target="_blank" rel="noopener noreferrer">Parameswaran Ajith</a></td>
+      <td>ICTS-TIFR</td>
     </tr>
   </tbody>
 </table>

@@ -47,6 +47,7 @@ class FormerSeed:
 class Collaborator:
     name: str
     institution: str | None
+    url: str | None
 
 
 def _display_name(name: str) -> str:
@@ -198,7 +199,9 @@ def _load_collaborators(path: Path) -> list[Collaborator]:
             continue
         inst = item.get("institution")
         institution = str(inst).strip() if isinstance(inst, str) and str(inst).strip() else None
-        out.append(Collaborator(name=name, institution=institution))
+        raw_url = item.get("url")
+        url = str(raw_url).strip() if isinstance(raw_url, str) and str(raw_url).strip() else None
+        out.append(Collaborator(name=name, institution=institution, url=url))
     return out
 
 
@@ -401,10 +404,14 @@ def _render_collaborators_table(collaborators: list[Collaborator]) -> str:
         "  <tbody>",
     ]
     for c in sorted(collaborators, key=lambda x: _norm_name(x.name)):
+        name_cell = html.escape(c.name)
+        if c.url:
+            escaped_url = html.escape(c.url, quote=True)
+            name_cell = f'<a href="{escaped_url}" target="_blank" rel="noopener noreferrer">{name_cell}</a>'
         lines.extend(
             [
                 "    <tr>",
-                f"      <td>{html.escape(c.name)}</td>",
+                f"      <td>{name_cell}</td>",
                 f"      <td>{show(c.institution)}</td>",
                 "    </tr>",
             ]

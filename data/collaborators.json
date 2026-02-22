@@ -3,51 +3,78 @@
   "collaborators": [
     {
       "name": "Ajit Mehta",
-      "institution": null
+      "institution": "Chennai Mathematical Institute",
+      "url": "https://ajitmehta.github.io/"
     },
     {
       "name": "Barak Zackay",
-      "institution": null
+      "institution": "Weizmann Institute of Science",
+      "url": "https://www.weizmann.ac.il/particle/Zackay/home"
     },
     {
       "name": "Digvijay (Jay) Wadekar",
-      "institution": null
+      "institution": "The University of Texas at Austin",
+      "url": "https://jaywadekar.github.io/"
     },
     {
       "name": "Hang Yu",
-      "institution": null
+      "institution": "Montana State University",
+      "url": "https://sites.google.com/view/hangyu1991"
     },
     {
       "name": "Abhishek Hegade Kumbale Raveesha",
-      "institution": null
+      "institution": "Princeton Gravity Initiative",
+      "url": "https://gravity.princeton.edu/people/gravity-initiative-fellows"
     },
     {
       "name": "Ariel Perera",
-      "institution": null
+      "institution": "Weizmann Institute of Science",
+      "url": "https://www.weizmann.ac.il/physics/ariel-perera"
+    },
+    {
+      "name": "Parameswaran Ajith",
+      "institution": "ICTS-TIFR",
+      "url": "https://www.icts.res.in/people/parameswaran-ajith"
     },
     {
       "name": "Javier Roulet",
-      "institution": null
+      "institution": "KICP, University of Chicago",
+      "url": "https://kavlicosmo.uchicago.edu/people/profile/javier-roulet/"
     },
     {
       "name": "Nicolas Yunes",
-      "institution": null
+      "institution": "University of Illinois Urbana-Champaign",
+      "url": "https://physics.illinois.edu/people/directory/profile/nyunes"
     },
     {
       "name": "Jonathan Mushkin",
-      "institution": null
+      "institution": "Weizmann Institute of Science",
+      "url": "https://www.weizmann.ac.il/particle/Zackay/group-members"
     },
     {
       "name": "Liang Dai",
-      "institution": null
+      "institution": "University of California, Berkeley",
+      "url": "https://physics.berkeley.edu/people/faculty/liang-dai"
     },
     {
       "name": "Linhao Ma",
-      "institution": null
+      "institution": "Princeton University / KITP",
+      "url": "https://www.astro.princeton.edu/~lm2265/"
+    },
+    {
+      "name": "Pallavi Bhat",
+      "institution": "ICTS-TIFR",
+      "url": "https://www.icts.res.in/people/faculty"
     },
     {
       "name": "Matias Zaldarriaga",
-      "institution": null
+      "institution": "Institute for Advanced Study",
+      "url": "https://www.ias.edu/scholars/zaldarriaga"
+    },
+    {
+      "name": "Chandranathan Anandavijayan",
+      "institution": "ICTS-TIFR",
+      "url": "https://www.icts.res.in/people/students"
     }
   ]
 }
