@@ -39,7 +39,7 @@ show_title: false
     <p>Graduate Student</p>
   </article>
   <article class="person-card">
-    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="William Surgent">
+    <img src="https://clarkgroup.stanford.edu/images/Will_profile_photo.jpg" alt="William Surgent">
     <h3>William Surgent</h3>
     <p>Graduate Student</p>
   </article>

@@ -51,7 +51,7 @@
       "current_role": null
     },
     "William Surgent": {
-      "image": "/assets/images/person-placeholder.svg",
+      "image": "https://clarkgroup.stanford.edu/images/Will_profile_photo.jpg",
       "active": true,
       "role_in_group": "Graduate Student",
       "role_after_group": null,
