@@ -19,7 +19,7 @@ show_title: false
     <p>Graduate Student</p>
   </article>
   <article class="person-card">
-    <img src="https://www.physics.ucsb.edu/sites/default/files/styles/medium/public/2025-09/7A5A4939_0.jpg?h=5d33f8f4&itok=p8WWw7LQ" alt="Jonathan Schiff">
+    <img src="{{ '/assets/images/jonathan-schiff.jpg' | relative_url }}" alt="Jonathan Schiff">
     <h3>Jonathan Schiff</h3>
     <p>Graduate Student</p>
   </article>
@@ -29,7 +29,7 @@ show_title: false
     <p>Graduate Student</p>
   </article>
   <article class="person-card">
-    <img src="https://www.physics.ucsb.edu/sites/default/files/styles/medium/public/2024-10/IMG_7324.jpg?h=5d33f8f4&itok=6IN9kK69" alt="James (Kyubin) Kwon">
+    <img src="{{ '/assets/images/james-kyubin-kwon.jpg' | relative_url }}" alt="James (Kyubin) Kwon">
     <h3>James (Kyubin) Kwon</h3>
     <p>Graduate Student</p>
   </article>
@@ -39,7 +39,7 @@ show_title: false
     <p>Graduate Student</p>
   </article>
   <article class="person-card">
-    <img src="https://clarkgroup.stanford.edu/images/Will_profile_photo.jpg" alt="William Surgent">
+    <img src="{{ '/assets/images/william-surgent.jpg' | relative_url }}" alt="William Surgent">
     <h3>William Surgent</h3>
     <p>Graduate Student</p>
   </article>
