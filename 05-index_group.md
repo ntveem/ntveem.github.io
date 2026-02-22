@@ -6,9 +6,8 @@ group: basepages
 nav_order: 3
 hlgroup: group
 tagline: Supporting tagline
+show_title: false
 ---
-This page is updated automatically from the private CV source.
-
 ## Research Group
 
 ### Graduate Students (6)

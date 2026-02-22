@@ -6,6 +6,7 @@ group: basepages
 nav_order: 6
 hlgroup: contact
 tagline: Supporting tagline
+show_title: false
 ---
 Find me at:
 

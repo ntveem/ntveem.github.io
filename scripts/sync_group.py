@@ -266,23 +266,31 @@ group: basepages
 nav_order: 3
 hlgroup: group
 tagline: Supporting tagline
+show_title: false
 ---
 """
 
-    body = [
-        "This page is updated automatically from the private CV source.\n",
-        "## Research Group\n",
-        f"### Graduate Students ({len(grads)})\n",
-        _render_cards(grads, profiles, placeholder_path),
-        f"### Postdoctoral Scholars ({len(postdocs)})\n",
-        _render_cards(postdocs, profiles, placeholder_path),
-        f"### Undergraduate Students ({len(undergrads)})\n",
-        _render_cards(undergrads, profiles, placeholder_path),
-        "## Former Group Members\n",
-        _render_former_table(profiles),
-        "## Collaborators\n",
-        "Collaborator list coming soon.\n",
-    ]
+    body = ["## Research Group\n"]
+
+    if grads:
+        body.extend([f"### Graduate Students ({len(grads)})\n", _render_cards(grads, profiles, placeholder_path)])
+    if postdocs:
+        body.extend(
+            [f"### Postdoctoral Scholars ({len(postdocs)})\n", _render_cards(postdocs, profiles, placeholder_path)]
+        )
+    if undergrads:
+        body.extend(
+            [f"### Undergraduate Students ({len(undergrads)})\n", _render_cards(undergrads, profiles, placeholder_path)]
+        )
+
+    body.extend(
+        [
+            "## Former Group Members\n",
+            _render_former_table(profiles),
+            "## Collaborators\n",
+            "Collaborator list coming soon.\n",
+        ]
+    )
     return front_matter + "\n".join(body)
 
 

@@ -6,6 +6,7 @@ group: basepages
 nav_order: 5
 hlgroup: CV
 tagline: Supporting tagline
+show_title: false
 ---
 The CV below is updated automatically from ADS:
 
