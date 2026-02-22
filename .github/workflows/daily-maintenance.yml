@@ -69,19 +69,12 @@ jobs:
             CHANGED_LIST="$(git diff --name-status -- $TRACKED_FILES)"
           fi
 
-          PAPERS_TOTAL="$(python -c 'import json, pathlib; p = pathlib.Path("data/ads_publications.json"); print("n/a" if not p.exists() else len(json.loads(p.read_text()).get("papers", [])))')"
-          GRB_TAGGED="$(python -c 'import json, pathlib; p = pathlib.Path("data/ads_publications.json"); print("n/a" if not p.exists() else sum(1 for x in json.loads(p.read_text()).get("papers", []) if "Gamma ray bursts" in x.get("topics", [])))')"
-          COLLABORATORS_TOTAL="$(python -c 'import json, pathlib; p = pathlib.Path("data/group_profiles.json"); print("n/a" if not p.exists() else len(json.loads(p.read_text()).get("collaborators", [])))')"
-
           {
             echo "### Daily Site Maintenance Summary"
             echo ""
             echo "- Run time (UTC): $(date -u '+%Y-%m-%d %H:%M:%S')"
             echo "- Commit checked out: ${GITHUB_SHA}"
             echo "- Tracked content changed: ${CHANGED}"
-            echo "- ADS papers in data store: ${PAPERS_TOTAL}"
-            echo "- Papers tagged 'Gamma ray bursts': ${GRB_TAGGED}"
-            echo "- Collaborators in group data: ${COLLABORATORS_TOTAL}"
             echo ""
             echo "#### Changed files (tracked set)"
             echo ""
