@@ -93,21 +93,21 @@ show_title: false
     <tr>
       <td>Cuishan Liu</td>
       <td>Undergraduate Student</td>
-      <td>2021--2022</td>
+      <td>2021-2022</td>
       <td>&mdash;</td>
       <td>&mdash;</td>
     </tr>
     <tr>
       <td>Dashiell Carrel</td>
       <td>Undergraduate Student</td>
-      <td>2021--2023</td>
+      <td>2021-2023</td>
       <td>&mdash;</td>
       <td>&mdash;</td>
     </tr>
     <tr>
       <td>Fansen Wei</td>
       <td>Undergraduate Student</td>
-      <td>2022--2023</td>
+      <td>2022-2023</td>
       <td>&mdash;</td>
       <td>&mdash;</td>
     </tr>
@@ -121,7 +121,7 @@ show_title: false
     <tr>
       <td>Javier Roulet</td>
       <td>Postdoc (KITP)</td>
-      <td>2021--2022</td>
+      <td>2021-2022</td>
       <td>&mdash;</td>
       <td>&mdash;</td>
     </tr>
@@ -135,14 +135,14 @@ show_title: false
     <tr>
       <td>Jiayu Wang</td>
       <td>Undergraduate Student</td>
-      <td>2022--2024</td>
+      <td>2022-2024</td>
       <td>&mdash;</td>
       <td>&mdash;</td>
     </tr>
     <tr>
       <td>Junyan Xu</td>
       <td>Undergraduate Student</td>
-      <td>2023--2025</td>
+      <td>2023-2025</td>
       <td>&mdash;</td>
       <td>&mdash;</td>
     </tr>

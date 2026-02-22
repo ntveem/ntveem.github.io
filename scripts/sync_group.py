@@ -60,6 +60,15 @@ def _clean_cell(cell: str) -> str:
     return " ".join(s.split())
 
 
+def _normalize_years(years: str | None) -> str | None:
+    if years is None:
+        return None
+    y = " ".join(str(years).split())
+    y = y.replace("--", "-")
+    y = y.replace(" - ", "-")
+    return y
+
+
 def _section_block(tex: str, title: str) -> str:
     matches = list(SECTION_RE.finditer(tex))
     for i, m in enumerate(matches):
@@ -130,7 +139,7 @@ def collect_former_seeds(tex: str) -> list[FormerSeed]:
     for cols in _parse_rows(post_block):
         if len(cols) < 3:
             continue
-        name, years, note = cols[0], cols[1], cols[2]
+        name, years, note = cols[0], _normalize_years(cols[1]) or "", cols[2]
         if "present" in years.lower():
             continue
         role = "Postdoc (KITP)" if "kitp fellow" in note.lower() else "Postdoc"
@@ -140,7 +149,7 @@ def collect_former_seeds(tex: str) -> list[FormerSeed]:
     for cols in _parse_rows(ug_block):
         if len(cols) < 2:
             continue
-        name, years = cols[0], cols[1]
+        name, years = cols[0], _normalize_years(cols[1]) or ""
         if "present" in years.lower():
             continue
         seeds.append(FormerSeed(name=_display_name(name), role="Undergraduate Student", years_in_group=years))
@@ -182,7 +191,7 @@ def _normalize_entry(entry: dict | None, placeholder_path: str) -> dict:
         "image": str(e.get("image") or placeholder_path),
         "active": bool(e.get("active", True)),
         "role_in_group": e.get("role_in_group"),
-        "years_in_group": e.get("years_in_group"),
+        "years_in_group": _normalize_years(e.get("years_in_group")),
         "role_after_group": e.get("role_after_group"),
         "current_role": e.get("current_role"),
     }
