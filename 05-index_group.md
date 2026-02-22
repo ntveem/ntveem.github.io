@@ -172,10 +172,6 @@ show_title: false
       <td>&mdash;</td>
     </tr>
     <tr>
-      <td>Horng Sheng Chia</td>
-      <td>&mdash;</td>
-    </tr>
-    <tr>
       <td>Javier Roulet</td>
       <td>&mdash;</td>
     </tr>
@@ -189,10 +185,6 @@ show_title: false
     </tr>
     <tr>
       <td>Matias Zaldarriaga</td>
-      <td>&mdash;</td>
-    </tr>
-    <tr>
-      <td>Seth Olsen</td>
       <td>&mdash;</td>
     </tr>
   </tbody>
