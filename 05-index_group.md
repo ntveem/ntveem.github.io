@@ -84,52 +84,17 @@ show_title: false
   </thead>
   <tbody>
     <tr>
+      <td>Junyan Xu</td>
+      <td>Undergraduate Student</td>
+      <td>2023-2025</td>
+      <td>Graduate Student (University of Minnesota)</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
       <td>Ajit Kumar Mehta</td>
       <td>Postdoc</td>
       <td>2022-2025</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-    </tr>
-    <tr>
-      <td>Cuishan Liu</td>
-      <td>Undergraduate Student</td>
-      <td>2021-2022</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-    </tr>
-    <tr>
-      <td>Dashiell Carrel</td>
-      <td>Undergraduate Student</td>
-      <td>2021-2023</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-    </tr>
-    <tr>
-      <td>Fansen Wei</td>
-      <td>Undergraduate Student</td>
-      <td>2022-2023</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-    </tr>
-    <tr>
-      <td>Hang Yu</td>
-      <td>Postdoc (KITP)</td>
-      <td>2022-2023</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-    </tr>
-    <tr>
-      <td>Javier Roulet</td>
-      <td>Postdoc (KITP)</td>
-      <td>2021-2022</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
-    </tr>
-    <tr>
-      <td>Jennifer Barnes</td>
-      <td>Postdoc (KITP)</td>
-      <td>2021-2023</td>
-      <td>&mdash;</td>
+      <td>Assistant Professor, Chennai Mathematical Institute</td>
       <td>&mdash;</td>
     </tr>
     <tr>
@@ -140,10 +105,45 @@ show_title: false
       <td>&mdash;</td>
     </tr>
     <tr>
-      <td>Junyan Xu</td>
-      <td>Undergraduate Student</td>
-      <td>2023-2025</td>
+      <td>Hang Yu</td>
+      <td>Postdoc (KITP)</td>
+      <td>2022-2023</td>
+      <td>Assistant Professor, Montana State University</td>
       <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Fansen Wei</td>
+      <td>Undergraduate Student</td>
+      <td>2022-2023</td>
+      <td>Graduate Student (Brown University)</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Jennifer Barnes</td>
+      <td>Postdoc (KITP)</td>
+      <td>2021-2023</td>
+      <td>Senior Algorithm Engineer, 3M, Minneapolis, Minnesota</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Dashiell Carrel</td>
+      <td>Undergraduate Student</td>
+      <td>2021-2023</td>
+      <td>Graduate Student (University of California Berkeley)</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Javier Roulet</td>
+      <td>Postdoc (KITP)</td>
+      <td>2021-2022</td>
+      <td>Sherman Fairchild Postdoctoral Scholar (Caltech)</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Cuishan Liu</td>
+      <td>Undergraduate Student</td>
+      <td>2021-2022</td>
+      <td>Graduate Student (University of Virginia)</td>
       <td>&mdash;</td>
     </tr>
   </tbody>

@@ -40,6 +40,7 @@ class FormerSeed:
     name: str
     role: str
     years_in_group: str | None
+    role_after_group: str | None
 
 
 def _display_name(name: str) -> str:
@@ -137,22 +138,36 @@ def collect_former_seeds(tex: str) -> list[FormerSeed]:
 
     post_block = _section_block(tex, "Postdoctoral Scholars Supervised")
     for cols in _parse_rows(post_block):
-        if len(cols) < 3:
+        if len(cols) < 4:
             continue
-        name, years, note = cols[0], _normalize_years(cols[1]) or "", cols[2]
+        name, years, note, after = cols[0], _normalize_years(cols[1]) or "", cols[2], cols[3]
         if "present" in years.lower():
             continue
         role = "Postdoc (KITP)" if "kitp fellow" in note.lower() else "Postdoc"
-        seeds.append(FormerSeed(name=_display_name(name), role=role, years_in_group=years))
+        seeds.append(
+            FormerSeed(
+                name=_display_name(name),
+                role=role,
+                years_in_group=years,
+                role_after_group=after or None,
+            )
+        )
 
     ug_block = _section_block(tex, "Undergraduate Students Supervised")
     for cols in _parse_rows(ug_block):
-        if len(cols) < 2:
+        if len(cols) < 5:
             continue
-        name, years = cols[0], _normalize_years(cols[1]) or ""
+        name, years, after = cols[0], _normalize_years(cols[1]) or "", cols[4]
         if "present" in years.lower():
             continue
-        seeds.append(FormerSeed(name=_display_name(name), role="Undergraduate Student", years_in_group=years))
+        seeds.append(
+            FormerSeed(
+                name=_display_name(name),
+                role="Undergraduate Student",
+                years_in_group=years,
+                role_after_group=after or None,
+            )
+        )
 
     return seeds
 
@@ -231,6 +246,8 @@ def _sync_profile_map(
             entry["role_in_group"] = seed.role
         if not entry.get("years_in_group"):
             entry["years_in_group"] = seed.years_in_group
+        if not entry.get("role_after_group") and seed.role_after_group:
+            entry["role_after_group"] = seed.role_after_group
         people_map[seed.name] = entry
 
     for name, entry in list(people_map.items()):
@@ -289,6 +306,20 @@ def _render_former_table(profiles: dict[str, dict]) -> str:
 
     if not former:
         return "<p>No former group members listed yet.</p>\n"
+
+    def year_sort_value(years: str | None) -> tuple[int, int]:
+        # Sort by end year desc, then start year desc. Unknowns go last.
+        if not years:
+            return (-1, -1)
+        m = re.match(r"^\s*(\d{4})\s*-\s*(\d{4}|Present)\s*$", years, flags=re.IGNORECASE)
+        if not m:
+            return (-1, -1)
+        start = int(m.group(1))
+        end_raw = m.group(2)
+        end = 9999 if end_raw.lower() == "present" else int(end_raw)
+        return (end, start)
+
+    former.sort(key=lambda row: (year_sort_value(row[2])[0], year_sort_value(row[2])[1], row[0]), reverse=True)
 
     def show(v: str | None) -> str:
         return html.escape(v) if v else "&mdash;"
