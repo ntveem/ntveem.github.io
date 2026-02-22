@@ -49,7 +49,7 @@ show_title: false
 
 <div class="people-grid">
   <article class="person-card">
-    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Tousif Islam">
+    <img src="{{ '/assets/images/tousif-islam.jpeg' | relative_url }}" alt="Tousif Islam">
     <h3>Tousif Islam</h3>
     <p>Postdoc (KITP)</p>
   </article>
