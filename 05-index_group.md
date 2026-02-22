@@ -168,6 +168,10 @@ show_title: false
       <td>&mdash;</td>
     </tr>
     <tr>
+      <td>Ariel Perera</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
       <td>Barak Zackay</td>
       <td>&mdash;</td>
     </tr>
@@ -189,6 +193,10 @@ show_title: false
     </tr>
     <tr>
       <td>Liang Dai</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Linhao Ma</td>
       <td>&mdash;</td>
     </tr>
     <tr>
