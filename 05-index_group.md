@@ -14,7 +14,7 @@ show_title: false
 
 <div class="people-grid">
   <article class="person-card">
-    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Isha Anantpurkar">
+    <img src="{{ '/assets/images/isha-anantpurkar.jpg' | relative_url }}" alt="Isha Anantpurkar">
     <h3>Isha Anantpurkar</h3>
     <p>Graduate Student</p>
   </article>
@@ -34,7 +34,7 @@ show_title: false
     <p>Graduate Student</p>
   </article>
   <article class="person-card">
-    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Joaquin Becerra Espinoza">
+    <img src="{{ '/assets/images/joaquin-becerra-espinoza.jpg' | relative_url }}" alt="Joaquin Becerra Espinoza">
     <h3>Joaquin Becerra Espinoza</h3>
     <p>Graduate Student</p>
   </article>
