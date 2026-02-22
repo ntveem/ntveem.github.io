@@ -29,8 +29,8 @@ show_title: false
     <p>Graduate Student</p>
   </article>
   <article class="person-card">
-    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="James Kyubin Kwon">
-    <h3>James Kyubin Kwon</h3>
+    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="James (Kyubin) Kwon">
+    <h3>James (Kyubin) Kwon</h3>
     <p>Graduate Student</p>
   </article>
   <article class="person-card">
