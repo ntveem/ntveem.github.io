@@ -46,7 +46,7 @@ Both commands auto-clean LaTeX auxiliary files in `cv/generated` and `private/cv
   - Weekly scheduled rebuild (Monday 09:00 UTC) to catch breakage early
 - `/.github/dependabot.yml`
   - Weekly update PRs for GitHub Actions and Ruby gems
-- `/.github/workflows/publications-sync.yml`
+- `/.github/workflows/daily-maintenance.yml`
   - Daily maintenance sync for publications, CV, and group page
   - Uses repository secrets `ADS_API_TOKEN` and `OPENAI_API_KEY`
 
@@ -86,7 +86,7 @@ GitHub setup for daily sync:
 3. Add repository secret `OPENAI_API_KEY` (for topic auto-classification)
 4. (Optional) Add repository variable `OPENAI_MODEL` (default in script: `gpt-4.1-mini`)
 5. Paste your ADS/OpenAI token values
-6. (Optional) Run **Actions → Sync Publications From ADS → Run workflow** once manually
+6. (Optional) Run **Actions → Daily Site Maintenance → Run workflow** once manually
 
 ## CV Automation
 
