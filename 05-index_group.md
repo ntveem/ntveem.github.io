@@ -160,6 +160,10 @@ show_title: false
   </thead>
   <tbody>
     <tr>
+      <td>Abhishek Hegade Kumbale Raveesha</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
       <td>Ajit Mehta</td>
       <td>&mdash;</td>
     </tr>
@@ -169,6 +173,10 @@ show_title: false
     </tr>
     <tr>
       <td>Digvijay (Jay) Wadekar</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Hang Yu</td>
       <td>&mdash;</td>
     </tr>
     <tr>
@@ -185,6 +193,10 @@ show_title: false
     </tr>
     <tr>
       <td>Matias Zaldarriaga</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Nicolas Yunes</td>
       <td>&mdash;</td>
     </tr>
   </tbody>
