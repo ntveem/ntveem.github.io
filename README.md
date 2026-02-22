@@ -122,6 +122,9 @@ python scripts/sync_cv.py
 python scripts/sync_group.py
 ```
 
+Group page member images and lifecycle metadata are stored in:
+- `data/group_profiles.json`
+
 ## GitHub Pages settings
 
 In repository settings, ensure:

@@ -301,3 +301,23 @@ a {
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+.former-members-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.45rem 0 1.4rem;
+  font-size: 0.95rem;
+}
+
+.former-members-table th,
+.former-members-table td {
+  border: 1px solid var(--line);
+  padding: 0.45rem 0.55rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.former-members-table thead th {
+  background: #f2f5f8;
+  font-weight: 600;
+}

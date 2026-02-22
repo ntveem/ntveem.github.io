@@ -1,0 +1,68 @@
+{
+  "schema_version": 2,
+  "people": {
+    "Christian Hahn": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": true,
+      "role_in_group": "Undergraduate Student",
+      "role_after_group": null,
+      "current_role": null
+    },
+    "Isha Anantpurkar": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": true,
+      "role_in_group": "Graduate Student",
+      "role_after_group": null,
+      "current_role": null
+    },
+    "James Kyubin Kwon": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": true,
+      "role_in_group": "Graduate Student",
+      "role_after_group": null,
+      "current_role": null
+    },
+    "Joaquin Becerra Espinoza": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": true,
+      "role_in_group": "Graduate Student",
+      "role_after_group": null,
+      "current_role": null
+    },
+    "Jonathan Schiff": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": true,
+      "role_in_group": "Graduate Student",
+      "role_after_group": null,
+      "current_role": null
+    },
+    "Sierra Garza": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": true,
+      "role_in_group": "Graduate Student",
+      "role_after_group": null,
+      "current_role": null
+    },
+    "Tousif Islam": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": true,
+      "role_in_group": "Postdoc (KITP)",
+      "role_after_group": null,
+      "current_role": null
+    },
+    "William Surgent": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": true,
+      "role_in_group": "Graduate Student",
+      "role_after_group": null,
+      "current_role": null
+    },
+    "Yangxiao Ding": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": true,
+      "role_in_group": "Undergraduate Student",
+      "role_after_group": null,
+      "current_role": null
+    }
+  }
+}

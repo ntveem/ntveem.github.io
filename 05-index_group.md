@@ -71,6 +71,10 @@ This page is updated automatically from the private CV source.
   </article>
 </div>
 
+## Former Group Members
+
+<p>No former group members listed yet.</p>
+
 ## Collaborators
 
 Collaborator list coming soon.

@@ -6,6 +6,12 @@ Rules:
 - Postdocs: Postdoctoral Scholars Supervised rows with years containing Present
   - if note contains KITP Fellow => role "Postdoc (KITP)", else "Postdoc"
 - Undergrads: Undergraduate Students Supervised rows with years containing Present
+
+Persistent profile mapping (data/group_profiles.json):
+- Keeps image paths and member lifecycle metadata.
+- Current members have active=true and alumni fields set to null.
+- Members no longer in current lists are marked active=false and shown in
+  a Former Group Members table.
 """
 
 from __future__ import annotations
@@ -58,19 +64,14 @@ def _parse_rows(section_text: str) -> list[list[str]]:
     rows: list[list[str]] = []
     for raw in section_text.splitlines():
         line = raw.strip()
-        if not line:
+        if not line or line.startswith("%"):
             continue
-        if line.startswith("%"):
-            continue
-        if not line.endswith("\\\\"):
-            continue
-        if line.startswith("\\"):
+        if not line.endswith("\\\\") or line.startswith("\\"):
             continue
         body = line[:-2].strip()
         if not body or "&" not in body:
             continue
         cols = [_clean_cell(c) for c in body.split("&")]
-        # Skip header-like rows
         if cols and any("Student Name" in c or "Degree Completed" in c or "Project Title" in c for c in cols):
             continue
         rows.append(cols)
@@ -112,55 +113,84 @@ def collect_people(tex: str) -> tuple[list[Person], list[Person], list[Person]]:
     return grads, postdocs, undergrads
 
 
-def _load_photo_map(path: Path) -> dict:
+def _load_profile_map(path: Path) -> dict:
     if not path.exists():
-        return {"schema_version": 1, "people": {}}
+        return {"schema_version": 2, "people": {}}
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict):
-        return {"schema_version": 1, "people": {}}
-    data.setdefault("schema_version", 1)
+        return {"schema_version": 2, "people": {}}
     people = data.get("people")
     if not isinstance(people, dict):
-        data["people"] = {}
-    return data
+        people = {}
+    return {"schema_version": 2, "people": people}
 
 
-def _sync_photo_map(path: Path, people: list[Person], placeholder_path: str) -> dict[str, str]:
-    data = _load_photo_map(path)
-    people_map: dict = data["people"]
-    changed = False
+def _load_legacy_photo_map(path: Path) -> dict[str, str]:
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    people = data.get("people") if isinstance(data, dict) else None
+    if not isinstance(people, dict):
+        return {}
+    out: dict[str, str] = {}
+    for name, info in people.items():
+        if isinstance(info, dict):
+            image = str(info.get("image") or "").strip()
+            if image:
+                out[name] = image
+    return out
 
-    for person in people:
-        if person.name not in people_map:
-            people_map[person.name] = {"image": placeholder_path}
-            changed = True
-        else:
-            entry = people_map[person.name]
-            if not isinstance(entry, dict):
-                people_map[person.name] = {"image": placeholder_path}
-                changed = True
-            elif "image" not in entry or not str(entry.get("image") or "").strip():
-                entry["image"] = placeholder_path
-                changed = True
 
-    if changed or not path.exists():
-        ordered = {name: people_map[name] for name in sorted(people_map)}
-        out = {"schema_version": 1, "people": ordered}
-        path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(json.dumps(out, indent=2, sort_keys=False) + "\n", encoding="utf-8")
-
+def _normalize_entry(entry: dict | None, placeholder_path: str) -> dict:
+    e = entry if isinstance(entry, dict) else {}
     return {
-        name: str((info.get("image") if isinstance(info, dict) else "") or placeholder_path)
-        for name, info in people_map.items()
+        "image": str(e.get("image") or placeholder_path),
+        "active": bool(e.get("active", True)),
+        "role_in_group": e.get("role_in_group"),
+        "role_after_group": e.get("role_after_group"),
+        "current_role": e.get("current_role"),
     }
 
 
-def _render_cards(people: list[Person], photo_map: dict[str, str], placeholder_path: str) -> str:
+def _sync_profile_map(path: Path, people: list[Person], placeholder_path: str) -> dict[str, dict]:
+    data = _load_profile_map(path)
+    people_map: dict[str, dict] = {
+        name: _normalize_entry(info, placeholder_path) for name, info in data["people"].items()
+    }
+
+    current = {person.name: person for person in people}
+
+    for name, person in current.items():
+        entry = people_map.get(name) or _normalize_entry({}, placeholder_path)
+        entry["image"] = str(entry.get("image") or placeholder_path)
+        entry["active"] = True
+        entry["role_in_group"] = person.role
+        entry["role_after_group"] = None
+        entry["current_role"] = None
+        people_map[name] = entry
+
+    for name, entry in list(people_map.items()):
+        if name in current:
+            continue
+        e = _normalize_entry(entry, placeholder_path)
+        e["active"] = False
+        people_map[name] = e
+
+    ordered = {name: people_map[name] for name in sorted(people_map)}
+    payload = {"schema_version": 2, "people": ordered}
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, indent=2, sort_keys=False) + "\n", encoding="utf-8")
+    return ordered
+
+
+def _render_cards(people: list[Person], profiles: dict[str, dict], placeholder_path: str) -> str:
     if not people:
         return "<p>No active members listed right now.</p>\n"
+
     lines = ['<div class="people-grid">']
     for person in people:
-        image_path = photo_map.get(person.name) or placeholder_path
+        info = profiles.get(person.name) or {}
+        image_path = str(info.get("image") or placeholder_path)
         lines.extend(
             [
                 '  <article class="person-card">',
@@ -174,11 +204,58 @@ def _render_cards(people: list[Person], photo_map: dict[str, str], placeholder_p
     return "\n".join(lines) + "\n"
 
 
+def _render_former_table(profiles: dict[str, dict]) -> str:
+    former = []
+    for name, info in profiles.items():
+        if info.get("active"):
+            continue
+        former.append(
+            (
+                name,
+                info.get("role_in_group"),
+                info.get("role_after_group"),
+                info.get("current_role"),
+            )
+        )
+
+    if not former:
+        return "<p>No former group members listed yet.</p>\n"
+
+    def show(v: str | None) -> str:
+        return html.escape(v) if v else "&mdash;"
+
+    lines = [
+        '<table class="former-members-table">',
+        "  <thead>",
+        "    <tr>",
+        "      <th>Name</th>",
+        "      <th>Role in Group</th>",
+        "      <th>Role After Group</th>",
+        "      <th>Current Role</th>",
+        "    </tr>",
+        "  </thead>",
+        "  <tbody>",
+    ]
+    for name, role_in_group, role_after_group, current_role in former:
+        lines.extend(
+            [
+                "    <tr>",
+                f"      <td>{html.escape(name)}</td>",
+                f"      <td>{show(role_in_group)}</td>",
+                f"      <td>{show(role_after_group)}</td>",
+                f"      <td>{show(current_role)}</td>",
+                "    </tr>",
+            ]
+        )
+    lines.extend(["  </tbody>", "</table>"])
+    return "\n".join(lines) + "\n"
+
+
 def render_page(
     grads: list[Person],
     postdocs: list[Person],
     undergrads: list[Person],
-    photo_map: dict[str, str],
+    profiles: dict[str, dict],
     placeholder_path: str,
 ) -> str:
     front_matter = """---
@@ -196,11 +273,13 @@ tagline: Supporting tagline
         "This page is updated automatically from the private CV source.\n",
         "## Research Group\n",
         f"### Graduate Students ({len(grads)})\n",
-        _render_cards(grads, photo_map, placeholder_path),
+        _render_cards(grads, profiles, placeholder_path),
         f"### Postdoctoral Scholars ({len(postdocs)})\n",
-        _render_cards(postdocs, photo_map, placeholder_path),
+        _render_cards(postdocs, profiles, placeholder_path),
         f"### Undergraduate Students ({len(undergrads)})\n",
-        _render_cards(undergrads, photo_map, placeholder_path),
+        _render_cards(undergrads, profiles, placeholder_path),
+        "## Former Group Members\n",
+        _render_former_table(profiles),
         "## Collaborators\n",
         "Collaborator list coming soon.\n",
     ]
@@ -212,18 +291,41 @@ def main() -> int:
     parser.add_argument("--cv-source", default="cv/source/myresume_master.tex")
     parser.add_argument("--out", default="05-index_group.md")
     parser.add_argument("--placeholder", default="/assets/images/person-placeholder.svg")
-    parser.add_argument("--photo-map", default="data/group_photos.json")
+    parser.add_argument("--profile-map", default="data/group_profiles.json")
+    parser.add_argument("--photo-map", default=None, help="Deprecated alias for --profile-map")
     args = parser.parse_args()
+
+    profile_map_path = Path(args.profile_map or args.photo_map or "data/group_profiles.json")
+    legacy_map_path = Path("data/group_photos.json")
 
     tex = Path(args.cv_source).read_text(encoding="utf-8")
     grads, postdocs, undergrads = collect_people(tex)
     all_people = grads + postdocs + undergrads
-    photo_map = _sync_photo_map(Path(args.photo_map), all_people, args.placeholder)
-    out_text = render_page(grads, postdocs, undergrads, photo_map, args.placeholder)
+
+    if not profile_map_path.exists() and legacy_map_path.exists():
+        legacy_images = _load_legacy_photo_map(legacy_map_path)
+        migrated = {
+            "schema_version": 2,
+            "people": {
+                name: {
+                    "image": img,
+                    "active": False,
+                    "role_in_group": None,
+                    "role_after_group": None,
+                    "current_role": None,
+                }
+                for name, img in sorted(legacy_images.items())
+            },
+        }
+        profile_map_path.parent.mkdir(parents=True, exist_ok=True)
+        profile_map_path.write_text(json.dumps(migrated, indent=2, sort_keys=False) + "\n", encoding="utf-8")
+
+    profiles = _sync_profile_map(profile_map_path, all_people, args.placeholder)
+    out_text = render_page(grads, postdocs, undergrads, profiles, args.placeholder)
     Path(args.out).write_text(out_text, encoding="utf-8")
 
     print(f"Wrote {args.out}")
-    print(f"Wrote/updated {args.photo_map}")
+    print(f"Wrote/updated {profile_map_path}")
     print(f"Counts: grads={len(grads)}, postdocs={len(postdocs)}, undergrads={len(undergrads)}")
     return 0
 
