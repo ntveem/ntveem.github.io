@@ -23,8 +23,8 @@
     },
     {
       "name": "Abhishek Hegade Kumbale Raveesha",
-      "institution": "Princeton Gravity Initiative",
-      "url": "https://gravity.princeton.edu/people/gravity-initiative-fellows"
+      "institution": "Princeton University",
+      "url": null
     },
     {
       "name": "Ariel Perera",
@@ -49,7 +49,7 @@
     {
       "name": "Jonathan Mushkin",
       "institution": "Weizmann Institute of Science",
-      "url": "https://www.weizmann.ac.il/particle/Zackay/group-members"
+      "url": "https://weizmann.elsevierpure.com/en/persons/jonathan-mushkin/"
     },
     {
       "name": "Liang Dai",
@@ -64,7 +64,7 @@
     {
       "name": "Pallavi Bhat",
       "institution": "ICTS-TIFR",
-      "url": "https://www.icts.res.in/people/faculty"
+      "url": "https://pallavi-bhat.github.io/"
     },
     {
       "name": "Matias Zaldarriaga",
@@ -74,7 +74,7 @@
     {
       "name": "Chandranathan Anandavijayan",
       "institution": "ICTS-TIFR",
-      "url": "https://www.icts.res.in/people/students"
+      "url": null
     }
   ]
 }

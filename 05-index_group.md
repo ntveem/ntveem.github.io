@@ -160,8 +160,8 @@ show_title: false
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://gravity.princeton.edu/people/gravity-initiative-fellows" target="_blank" rel="noopener noreferrer">Abhishek Hegade Kumbale Raveesha</a></td>
-      <td>Princeton Gravity Initiative</td>
+      <td>Abhishek Hegade Kumbale Raveesha</td>
+      <td>Princeton University</td>
     </tr>
     <tr>
       <td><a href="https://ajitmehta.github.io/" target="_blank" rel="noopener noreferrer">Ajit Mehta</a></td>
@@ -176,7 +176,7 @@ show_title: false
       <td>Weizmann Institute of Science</td>
     </tr>
     <tr>
-      <td><a href="https://www.icts.res.in/people/students" target="_blank" rel="noopener noreferrer">Chandranathan Anandavijayan</a></td>
+      <td>Chandranathan Anandavijayan</td>
       <td>ICTS-TIFR</td>
     </tr>
     <tr>
@@ -192,7 +192,7 @@ show_title: false
       <td>KICP, University of Chicago</td>
     </tr>
     <tr>
-      <td><a href="https://www.weizmann.ac.il/particle/Zackay/group-members" target="_blank" rel="noopener noreferrer">Jonathan Mushkin</a></td>
+      <td><a href="https://weizmann.elsevierpure.com/en/persons/jonathan-mushkin/" target="_blank" rel="noopener noreferrer">Jonathan Mushkin</a></td>
       <td>Weizmann Institute of Science</td>
     </tr>
     <tr>
@@ -212,7 +212,7 @@ show_title: false
       <td>University of Illinois Urbana-Champaign</td>
     </tr>
     <tr>
-      <td><a href="https://www.icts.res.in/people/faculty" target="_blank" rel="noopener noreferrer">Pallavi Bhat</a></td>
+      <td><a href="https://pallavi-bhat.github.io/" target="_blank" rel="noopener noreferrer">Pallavi Bhat</a></td>
       <td>ICTS-TIFR</td>
     </tr>
     <tr>
