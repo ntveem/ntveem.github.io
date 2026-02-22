@@ -1,6 +1,28 @@
 {
-  "schema_version": 1,
   "overrides": {
+    "2017PhRvD..95h3010V": [
+      "Reionization",
+      "Cosmology"
+    ],
+    "2017PhRvD..95h3011G": [
+      "Reionization",
+      "Cosmology"
+    ],
+    "2018ApJ...867...24D": [
+      "Dark matter",
+      "Gravitational lensing",
+      "Cosmology"
+    ],
+    "2018PhRvD..97j3521H": [
+      "Gravitational waves",
+      "Reionization",
+      "Cosmology"
+    ],
+    "2018arXiv180608792Z": [
+      "Gravitational waves",
+      "Neutron stars",
+      "Black holes"
+    ],
     "2024PhRvD.110d4010R": [
       "Gravitational waves",
       "Black holes",
@@ -13,6 +35,14 @@
     "2025PhRvD.112j4025M": [
       "Gravitational waves",
       "Black holes"
+    ],
+    "2025PhRvL.135k1402J": [
+      "Gravitational lensing",
+      "Gravitational waves",
+      "Black holes",
+      "Dark matter",
+      "Cosmology"
     ]
-  }
+  },
+  "schema_version": 1
 }

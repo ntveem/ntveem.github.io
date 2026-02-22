@@ -19,10 +19,10 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <section class="pub-topic-filter" aria-label="Filter publications by topic">
 <p>Select one or more topics:</p>
 <div class="pub-topic-filter-controls">
-<a class="topic-filter" href="#topic-cosmology" data-topic="Cosmology" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology <span>(12)</span></a>
+<a class="topic-filter" href="#topic-cosmology" data-topic="Cosmology" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology <span>(17)</span></a>
 <a class="topic-filter" href="#topic-gravitational-lensing" data-topic="Gravitational lensing" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing <span>(12)</span></a>
 <a class="topic-filter" href="#topic-gravitational-waves" data-topic="Gravitational waves" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves <span>(54)</span></a>
-<a class="topic-filter" href="#topic-black-holes" data-topic="Black holes" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes <span>(41)</span></a>
+<a class="topic-filter" href="#topic-black-holes" data-topic="Black holes" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes <span>(42)</span></a>
 <a class="topic-filter" href="#topic-neutron-stars" data-topic="Neutron stars" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars <span>(15)</span></a>
 <a class="topic-filter" href="#topic-gamma-ray-bursts" data-topic="Gamma ray bursts" style="--topic-bg:hsl(102 43% 40%);--topic-active:hsl(102 47% 33%);">Gamma ray bursts <span>(0)</span></a>
 <a class="topic-filter" href="#topic-reionization" data-topic="Reionization" style="--topic-bg:hsl(168 43% 40%);--topic-active:hsl(168 45% 33%);">Reionization <span>(8)</span></a>
@@ -89,11 +89,11 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
 </article>
 
-<article id="paper-9" class="pub-entry" data-topics="Gravitational lensing|Gravitational waves|Black holes|Dark matter">
+<article id="paper-9" class="pub-entry" data-topics="Gravitational lensing|Gravitational waves|Black holes|Dark matter|Cosmology">
 <p class="pub-citation">9. Jana, S., Kapadia, S.J., <strong>Venumadhav, T.</strong>, More, S., & Ajith, P. (2025)</p>
 <p class="pub-title"><em>Probing the Nature of Dark Matter Using Strongly Lensed Gravitational Waves from Binary Black Holes</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2025PhRvL.135k1402J/abstract">ADS</a> <a href="https://arxiv.org/abs/2408.05290">arxiv</a> <a href="https://inspirehep.net/record/2817357">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(336 46% 46%);--topic-active:hsl(336 49% 38%);">Dark matter</span></div>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(336 46% 46%);--topic-active:hsl(336 49% 38%);">Dark matter</span> <span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span></div>
 </article>
 
 <article id="paper-10" class="pub-entry" data-topics="Gravitational waves|Black holes">
@@ -376,11 +376,11 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(168 43% 40%);--topic-active:hsl(168 45% 33%);">Reionization</span> <span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span></div>
 </article>
 
-<article id="paper-50" class="pub-entry" data-topics="Dark matter|Gravitational lensing">
+<article id="paper-50" class="pub-entry" data-topics="Dark matter|Gravitational lensing|Cosmology">
 <p class="pub-citation">50. Dai, L., <strong>Venumadhav, T.</strong>, Kaurov, A.A., & Miralda-Escud, J. (2018)</p>
 <p class="pub-title"><em>Probing Dark Matter Subhalos in Galaxy Clusters Using Highly Magnified Stars</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2018ApJ...867...24D/abstract">ADS</a> <a href="https://arxiv.org/abs/1804.03149">arxiv</a> <a href="https://inspirehep.net/record/1667093">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(336 46% 46%);--topic-active:hsl(336 49% 38%);">Dark matter</span> <span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span></div>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(336 46% 46%);--topic-active:hsl(336 49% 38%);">Dark matter</span> <span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span></div>
 </article>
 
 <article id="paper-51" class="pub-entry" data-topics="Cosmology|Reionization">
@@ -397,11 +397,11 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
 </article>
 
-<article id="paper-53" class="pub-entry" data-topics="Gravitational waves|Neutron stars">
+<article id="paper-53" class="pub-entry" data-topics="Gravitational waves|Neutron stars|Black holes">
 <p class="pub-citation">53. Zackay, B., Dai, L., & <strong>Venumadhav, T.</strong> (2018)</p>
 <p class="pub-title"><em>Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2018arXiv180608792Z/abstract">ADS</a> <a href="https://arxiv.org/abs/1806.08792">arxiv</a> <a href="https://inspirehep.net/record/1679399">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span></div>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
 </article>
 
 <article id="paper-54" class="pub-entry" data-topics="Gravitational waves|Neutron stars">
@@ -411,11 +411,11 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span></div>
 </article>
 
-<article id="paper-55" class="pub-entry" data-topics="Gravitational waves|Reionization">
+<article id="paper-55" class="pub-entry" data-topics="Gravitational waves|Reionization|Cosmology">
 <p class="pub-citation">55. Hirata, C.M., Mishra, A., & <strong>Venumadhav, T.</strong> (2018)</p>
 <p class="pub-title"><em>Detecting primordial gravitational waves with circular polarization of the redshifted 21 cm line. I. Formalism</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2018PhRvD..97j3521H/abstract">ADS</a> <a href="https://arxiv.org/abs/1707.03513">arxiv</a> <a href="https://inspirehep.net/record/1609623">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(168 43% 40%);--topic-active:hsl(168 45% 33%);">Reionization</span></div>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(168 43% 40%);--topic-active:hsl(168 45% 33%);">Reionization</span> <span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span></div>
 </article>
 
 <article id="paper-56" class="pub-entry" data-topics="Gravitational lensing|Dark matter">
@@ -425,18 +425,18 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(336 46% 46%);--topic-active:hsl(336 49% 38%);">Dark matter</span></div>
 </article>
 
-<article id="paper-57" class="pub-entry" data-topics="Reionization">
+<article id="paper-57" class="pub-entry" data-topics="Reionization|Cosmology">
 <p class="pub-citation">57. <strong>Venumadhav, T.</strong>, Oklopčić, A., Gluscevic, V., Mishra, A., & Hirata, C.M. (2017)</p>
 <p class="pub-title"><em>New probe of magnetic fields in the prereionization epoch. I. Formalism</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2017PhRvD..95h3010V/abstract">ADS</a> <a href="https://arxiv.org/abs/1410.2250">arxiv</a> <a href="https://inspirehep.net/record/1321339">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(168 43% 40%);--topic-active:hsl(168 45% 33%);">Reionization</span></div>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(168 43% 40%);--topic-active:hsl(168 45% 33%);">Reionization</span> <span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span></div>
 </article>
 
-<article id="paper-58" class="pub-entry" data-topics="Reionization">
+<article id="paper-58" class="pub-entry" data-topics="Reionization|Cosmology">
 <p class="pub-citation">58. Gluscevic, V., <strong>Venumadhav, T.</strong>, Fang, X., Hirata, C., Oklopčić, A., & Mishra, A. (2017)</p>
 <p class="pub-title"><em>New probe of magnetic fields in the pre-reionization epoch. II. Detectability</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2017PhRvD..95h3011G/abstract">ADS</a> <a href="https://arxiv.org/abs/1604.06327">arxiv</a> <a href="https://inspirehep.net/record/1449968">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(168 43% 40%);--topic-active:hsl(168 45% 33%);">Reionization</span></div>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(168 43% 40%);--topic-active:hsl(168 45% 33%);">Reionization</span> <span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span></div>
 </article>
 
 <article id="paper-59" class="pub-entry" data-topics="Gravitational lensing|Gravitational waves">
@@ -515,10 +515,10 @@ n-th author papers:
 <h3>Browse by topic</h3>
 <p>If filtering is unavailable, jump to a topic section:</p>
 <ul>
-<li><a href="#topic-cosmology">Cosmology</a> (12)</li>
+<li><a href="#topic-cosmology">Cosmology</a> (17)</li>
 <li><a href="#topic-gravitational-lensing">Gravitational lensing</a> (12)</li>
 <li><a href="#topic-gravitational-waves">Gravitational waves</a> (54)</li>
-<li><a href="#topic-black-holes">Black holes</a> (41)</li>
+<li><a href="#topic-black-holes">Black holes</a> (42)</li>
 <li><a href="#topic-neutron-stars">Neutron stars</a> (15)</li>
 <li><a href="#topic-gamma-ray-bursts">Gamma ray bursts</a> (0)</li>
 <li><a href="#topic-reionization">Reionization</a> (8)</li>
@@ -530,11 +530,16 @@ n-th author papers:
 <h3>Cosmology</h3>
 <ul>
 <li><a href="#paper-3">Strong lensing cosmography using binary-black-hole mergers: Prospects for the near future</a></li>
+<li><a href="#paper-9">Probing the Nature of Dark Matter Using Strongly Lensed Gravitational Waves from Binary Black Holes</a></li>
 <li><a href="#paper-13">Primordial magnetic fields and modified recombination histories</a></li>
 <li><a href="#paper-19">Strong-lensing cosmography using third-generation gravitational-wave detectors</a></li>
 <li><a href="#paper-28">Cosmography Using Strongly Lensed Gravitational Waves from Binary Black Holes</a></li>
 <li><a href="#paper-49">Heating of the intergalactic medium by the cosmic microwave background during cosmic dawn</a></li>
+<li><a href="#paper-50">Probing Dark Matter Subhalos in Galaxy Clusters Using Highly Magnified Stars</a></li>
 <li><a href="#paper-51">Implication of the Shape of the EDGES Signal for the 21 cm Power Spectrum</a></li>
+<li><a href="#paper-55">Detecting primordial gravitational waves with circular polarization of the redshifted 21 cm line. I. Formalism</a></li>
+<li><a href="#paper-57">New probe of magnetic fields in the prereionization epoch. I. Formalism</a></li>
+<li><a href="#paper-58">New probe of magnetic fields in the pre-reionization epoch. II. Detectability</a></li>
 <li><a href="#paper-60">Effect of lensing magnification on the apparent distribution of black hole mergers</a></li>
 <li><a href="#paper-61">A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal</a></li>
 <li><a href="#paper-62">Sterile neutrino dark matter: Weak interactions in the strong coupling epoch</a></li>
@@ -661,6 +666,7 @@ n-th author papers:
 <li><a href="#paper-45">New search pipeline for compact binary mergers: Results for binary black holes in the first observing run of Advanced LIGO</a></li>
 <li><a href="#paper-47">Template bank for compact binary coalescence searches in gravitational wave data: A general geometric placement algorithm</a></li>
 <li><a href="#paper-52">Identifying strongly lensed gravitational wave signals from binary black hole mergers</a></li>
+<li><a href="#paper-53">Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation</a></li>
 <li><a href="#paper-60">Effect of lensing magnification on the apparent distribution of black hole mergers</a></li>
 <li><a href="#paper-nth-1">The Challenges Ahead for Multimessenger Analyses of Gravitational Waves and Kilonova: A Case Study on GW190425</a></li>
 </ul>

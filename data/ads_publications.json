@@ -269,15 +269,16 @@
       "pub_raw": "Physical Review Letters, Volume 135, Issue 11, id.111402, 9 pp.",
       "pubdate": "2025-09-00",
       "title": "Probing the Nature of Dark Matter Using Strongly Lensed Gravitational Waves from Binary Black Holes",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
       "topics": [
         "Gravitational lensing",
         "Gravitational waves",
         "Black holes",
-        "Dark matter"
+        "Dark matter",
+        "Cosmology"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "135",
       "year": 2025
     },
@@ -1669,13 +1670,14 @@
       "pub_raw": "The Astrophysical Journal, Volume 867, Issue 1, article id. 24, <NUMPAGES>14</NUMPAGES> pp. (2018).",
       "pubdate": "2018-11-00",
       "title": "Probing Dark Matter Subhalos in Galaxy Clusters Using Highly Magnified Stars",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
       "topics": [
         "Dark matter",
-        "Gravitational lensing"
+        "Gravitational lensing",
+        "Cosmology"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "867",
       "year": 2018
     },
@@ -1757,13 +1759,14 @@
       "pub_raw": "eprint arXiv:1806.08792",
       "pubdate": "2018-06-00",
       "title": "Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
       "topics": [
         "Gravitational waves",
-        "Neutron stars"
+        "Neutron stars",
+        "Black holes"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2018
     },
@@ -1813,13 +1816,14 @@
       "pub_raw": "Physical Review D, Volume 97, Issue 10, id.103521",
       "pubdate": "2018-05-00",
       "title": "Detecting primordial gravitational waves with circular polarization of the redshifted 21 cm line. I. Formalism",
-      "topic_confidence": 0.9,
-      "topic_source": "llm",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
       "topics": [
         "Gravitational waves",
-        "Reionization"
+        "Reionization",
+        "Cosmology"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "97",
       "year": 2018
     },
@@ -1871,12 +1875,13 @@
       "pub_raw": "Physical Review D, Volume 95, Issue 8, id.083010",
       "pubdate": "2017-04-00",
       "title": "New probe of magnetic fields in the prereionization epoch. I. Formalism",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
       "topics": [
-        "Reionization"
+        "Reionization",
+        "Cosmology"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "95",
       "year": 2017
     },
@@ -1901,12 +1906,13 @@
       "pub_raw": "Physical Review D, Volume 95, Issue 8, id.083011",
       "pubdate": "2017-04-00",
       "title": "New probe of magnetic fields in the pre-reionization epoch. II. Detectability",
-      "topic_confidence": 0.9,
-      "topic_source": "llm",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
       "topics": [
-        "Reionization"
+        "Reionization",
+        "Cosmology"
       ],
-      "topics_classified_with": "d289478ca1179136",
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "95",
       "year": 2017
     },
