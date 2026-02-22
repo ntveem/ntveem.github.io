@@ -202,49 +202,6 @@ def _load_collaborators(path: Path) -> list[Collaborator]:
     return out
 
 
-def _write_collaborators(path: Path, collaborators: list[Collaborator]) -> None:
-    payload = {
-        "schema_version": 1,
-        "collaborators": [
-            {"name": c.name, "institution": c.institution}
-            for c in sorted(collaborators, key=lambda c: _norm_name(c.name))
-        ],
-    }
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, indent=2, sort_keys=False) + "\n", encoding="utf-8")
-
-
-def _seed_collaborators_from_markdown(
-    source_path: Path,
-    collaborators_path: Path,
-    active_grads_postdocs: list[Person],
-) -> list[Collaborator]:
-    existing = _load_collaborators(collaborators_path)
-    existing_by_norm = {_norm_name(c.name): c for c in existing}
-    active_norm = {_norm_name(p.name) for p in active_grads_postdocs}
-
-    if not source_path.exists():
-        return existing
-
-    # Keep this as a one-time/manual seed source: bullet lines with names.
-    bullets = re.findall(r"(?m)^\s*-\s+(.+?)\s*$", source_path.read_text(encoding="utf-8"))
-    for raw in bullets:
-        name = re.sub(r"\s+", " ", raw.strip())
-        if not name:
-            continue
-        n = _norm_name(name)
-        if n in active_norm:
-            continue
-        if "tejaswi venumadhav" in n:
-            continue
-        if n not in existing_by_norm:
-            existing_by_norm[n] = Collaborator(name=name, institution=None)
-
-    seeded = [existing_by_norm[k] for k in sorted(existing_by_norm)]
-    _write_collaborators(collaborators_path, seeded)
-    return seeded
-
-
 def _load_profile_map(path: Path) -> dict:
     if not path.exists():
         return {"schema_version": 3, "people": {}}
@@ -508,7 +465,6 @@ def main() -> int:
     parser.add_argument("--profile-map", default="data/group_profiles.json")
     parser.add_argument("--photo-map", default=None, help="Deprecated alias for --profile-map")
     parser.add_argument("--collaborators-map", default="data/collaborators.json")
-    parser.add_argument("--seed-collaborators-from", default=None)
     args = parser.parse_args()
 
     profile_map_path = Path(args.profile_map or args.photo_map or "data/group_profiles.json")
@@ -518,7 +474,6 @@ def main() -> int:
     grads, postdocs, undergrads = collect_people(tex)
     former_seeds = collect_former_seeds(tex)
     all_people = grads + postdocs + undergrads
-    active_grads_postdocs = grads + postdocs
 
     if not profile_map_path.exists() and legacy_map_path.exists():
         legacy_images = _load_legacy_photo_map(legacy_map_path)
@@ -541,14 +496,7 @@ def main() -> int:
 
     profiles = _sync_profile_map(profile_map_path, all_people, former_seeds, args.placeholder)
     collaborators_path = Path(args.collaborators_map)
-    if args.seed_collaborators_from:
-        collaborators = _seed_collaborators_from_markdown(
-            Path(args.seed_collaborators_from),
-            collaborators_path,
-            active_grads_postdocs,
-        )
-    else:
-        collaborators = _load_collaborators(collaborators_path)
+    collaborators = _load_collaborators(collaborators_path)
     out_text = render_page(grads, postdocs, undergrads, profiles, collaborators, args.placeholder)
     Path(args.out).write_text(out_text, encoding="utf-8")
 
