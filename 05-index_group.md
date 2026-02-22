@@ -79,7 +79,7 @@ show_title: false
       <th>Role in Group</th>
       <th>Years in Group</th>
       <th>Role After Group</th>
-      <th>Current Role</th>
+      <th>Current Role (if different)</th>
     </tr>
   </thead>
   <tbody>

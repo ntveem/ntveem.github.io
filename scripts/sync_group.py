@@ -332,7 +332,7 @@ def _render_former_table(profiles: dict[str, dict]) -> str:
         "      <th>Role in Group</th>",
         "      <th>Years in Group</th>",
         "      <th>Role After Group</th>",
-        "      <th>Current Role</th>",
+        "      <th>Current Role (if different)</th>",
         "    </tr>",
         "  </thead>",
         "  <tbody>",
