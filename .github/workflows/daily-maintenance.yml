@@ -58,6 +58,73 @@ jobs:
             \( -name "*.aux" -o -name "*.fdb_latexmk" -o -name "*.fls" -o -name "*.log" -o -name "*.out" -o -name "*.synctex.gz" -o -name "*.toc" \) \
             -delete
 
+      - name: Build maintenance summary
+        run: |
+          TRACKED_FILES="data/ads_publications.json 02-index_publications.md 05-index_group.md cv/generated/Tejaswi_CV_public.tex private/cv/Tejaswi_CV_private.tex assets/files/Tejaswi_CV.pdf private/cv/Tejaswi_CV_private.pdf"
+          if git diff --quiet -- $TRACKED_FILES; then
+            CHANGED="No"
+            CHANGED_LIST="(none)"
+          else
+            CHANGED="Yes"
+            CHANGED_LIST="$(git diff --name-status -- $TRACKED_FILES)"
+          fi
+
+          PAPERS_TOTAL="$(python - <<'PY'
+import json
+from pathlib import Path
+p = Path("data/ads_publications.json")
+if not p.exists():
+    print("n/a")
+else:
+    d = json.loads(p.read_text())
+    print(len(d.get("papers", [])))
+PY
+)"
+          GRB_TAGGED="$(python - <<'PY'
+import json
+from pathlib import Path
+p = Path("data/ads_publications.json")
+if not p.exists():
+    print("n/a")
+else:
+    d = json.loads(p.read_text())
+    total = sum(1 for x in d.get("papers", []) if "Gamma ray bursts" in x.get("topics", []))
+    print(total)
+PY
+)"
+          COLLABORATORS_TOTAL="$(python - <<'PY'
+import json
+from pathlib import Path
+p = Path("data/group_profiles.json")
+if not p.exists():
+    print("n/a")
+else:
+    d = json.loads(p.read_text())
+    print(len(d.get("collaborators", [])))
+PY
+)"
+
+          {
+            echo "### Daily Site Maintenance Summary"
+            echo ""
+            echo "- Run time (UTC): $(date -u '+%Y-%m-%d %H:%M:%S')"
+            echo "- Commit checked out: ${GITHUB_SHA}"
+            echo "- Tracked content changed: ${CHANGED}"
+            echo "- ADS papers in data store: ${PAPERS_TOTAL}"
+            echo "- Papers tagged 'Gamma ray bursts': ${GRB_TAGGED}"
+            echo "- Collaborators in group data: ${COLLABORATORS_TOTAL}"
+            echo ""
+            echo "#### Changed files (tracked set)"
+            echo ""
+            if [ "$CHANGED" = "Yes" ]; then
+              echo '```text'
+              printf "%s\n" "$CHANGED_LIST"
+              echo '```'
+            else
+              echo "(none)"
+            fi
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+
       - name: Commit and push if changed
         run: |
           if git diff --quiet -- data/ads_publications.json 02-index_publications.md 05-index_group.md cv/generated/Tejaswi_CV_public.tex private/cv/Tejaswi_CV_private.tex assets/files/Tejaswi_CV.pdf private/cv/Tejaswi_CV_private.pdf; then
