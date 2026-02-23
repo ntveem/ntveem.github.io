@@ -27,6 +27,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 SECTION_RE = re.compile(r"\\cvsection(?:\[[^\]]*\])?\{([^}]*)\}")
+INCLUDE_COLLABORATORS_SECTION = False
 
 
 @dataclass
@@ -461,14 +462,9 @@ show_title: false
             [f"### Undergraduate Students ({len(undergrads)})\n", _render_cards(undergrads, profiles, placeholder_path)]
         )
 
-    body.extend(
-        [
-            "## Former Group Members\n",
-            _render_former_table(profiles),
-            "## Collaborators\n",
-            _render_collaborators_table(collaborators),
-        ]
-    )
+    body.extend(["## Former Group Members\n", _render_former_table(profiles)])
+    if INCLUDE_COLLABORATORS_SECTION:
+        body.extend(["## Collaborators\n", _render_collaborators_table(collaborators)])
     return front_matter + "\n".join(body)
 
 
