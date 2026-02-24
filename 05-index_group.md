@@ -14,7 +14,7 @@ show_title: false
 
 <div class="people-grid">
   <article class="person-card">
-    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Isha Anantpurkar">
+    <img src="{{ '/assets/images/isha-anantpurkar.jpg' | relative_url }}" alt="Isha Anantpurkar">
     <h3>Isha Anantpurkar</h3>
   </article>
   <article class="person-card">
