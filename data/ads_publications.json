@@ -503,40 +503,6 @@
       "year": 2025
     },
     {
-      "abstract": "Most gravitational wave searches to date have included only the quadrupole mode in their search templates. Here, we demonstrate that incorporating higher harmonics improves the search sensitive volume for detecting binary black hole mergers, challenging the conclusion of previous studies. Using the $\\tt{IAS-HM}$ detection pipeline, and the simulated (injection) signals from the LIGO-Virgo-Kagra (LVK) collaboration, we quantify the improvement in sensitivity due to the inclusion of higher harmonics. This improvement is significant for systems with higher mass ratios and larger total masses, with gains in sensitivity even exceeding $100\\%$ at certain high masses. We also show that, due to using a marginalized detection statistic, the $\\tt{IAS-HM}$ pipeline performs roughly as well as its quadrupole-mode-only counterpart even for equal mass-ratio mergers, and its sensitive volume is either better than or comparable to that of the individual LVK pipelines.",
-      "arxiv_id": "2501.17939",
-      "authors": [
-        "Mehta, Ajit Kumar",
-        "Wadekar, Digvijay",
-        "Roulet, Javier",
-        "Anantpurkar, Isha",
-        "Venumadhav, Tejaswi",
-        "Mushkin, Jonathan",
-        "Zackay, Barak",
-        "Zaldarriaga, Matias",
-        "Islam, Tousif"
-      ],
-      "bibcode": "2025arXiv250117939M",
-      "citation_count": 7,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2501.17939",
-      "inspire_recid": "2874182",
-      "page": "arXiv:2501.17939",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2501.17939",
-      "pubdate": "2025-01-00",
-      "title": "Significant increase in sensitive volume of a gravitational wave search upon including higher harmonics",
-      "topic_confidence": 1.0,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational waves",
-        "Black holes"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2025
-    },
-    {
       "abstract": "We report the detection of six new candidate binary black hole (BBH) merger signals in the publicly released data from the second half of the third observing run (O3b) of advanced LIGO and advanced Virgo. The LIGO\u2013Virgo\u2013KAGRA (LVK) Collaboration reported 35 compact binary coalescences in their analysis of the O3b data [Phys. Rev. X 13, 041039 (2023).PRXHAE2160-330810.1103/PhysRevX.13.041039], with 30 BBH mergers having coincidence in the Hanford and Livingston detectors. We confirm 17 of these for a total of 23 detections in our analysis of the Hanford\u2013Livingston coincident O3b data. We identify candidates using a search pipeline employing aligned-spin quadrupole-only waveforms. Our pipeline is similar to the one used in our O3a coincident analysis [Phys. Rev. D 106, 043009 (2022).PRVDAQ2470-001010.1103/PhysRevD.106.043009], except for a few improvements in the veto procedure and the ranking statistic, and we continue to use an astrophysical probability of one half as our detection threshold, following the approach of the LVK catalogs. Most of the new candidates reported in this work are placed in the upper/lower-mass gap of the black hole mass distribution. We also identify a possible neutron star-black hole merger. We expect these events to help inform the black hole mass and spin distributions inferred in a full population analysis.",
       "arxiv_id": "2311.06061",
       "authors": [
@@ -568,6 +534,40 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "111",
+      "year": 2025
+    },
+    {
+      "abstract": "Most gravitational wave searches to date have included only the quadrupole mode in their search templates. Here, we demonstrate that incorporating higher harmonics improves the search sensitive volume for detecting binary black hole mergers, challenging the conclusion of previous studies. Using the $\\tt{IAS-HM}$ detection pipeline, and the simulated (injection) signals from the LIGO-Virgo-Kagra (LVK) collaboration, we quantify the improvement in sensitivity due to the inclusion of higher harmonics. This improvement is significant for systems with higher mass ratios and larger total masses, with gains in sensitivity even exceeding $100\\%$ at certain high masses. We also show that, due to using a marginalized detection statistic, the $\\tt{IAS-HM}$ pipeline performs roughly as well as its quadrupole-mode-only counterpart even for equal mass-ratio mergers, and its sensitive volume is either better than or comparable to that of the individual LVK pipelines.",
+      "arxiv_id": "2501.17939",
+      "authors": [
+        "Mehta, Ajit Kumar",
+        "Wadekar, Digvijay",
+        "Roulet, Javier",
+        "Anantpurkar, Isha",
+        "Venumadhav, Tejaswi",
+        "Mushkin, Jonathan",
+        "Zackay, Barak",
+        "Zaldarriaga, Matias",
+        "Islam, Tousif"
+      ],
+      "bibcode": "2025arXiv250117939M",
+      "citation_count": 7,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2501.17939",
+      "inspire_recid": "2874182",
+      "page": "arXiv:2501.17939",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2501.17939",
+      "pubdate": "2025-01-00",
+      "title": "Significant increase in sensitive volume of a gravitational wave search upon including higher harmonics",
+      "topic_confidence": 1.0,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
       "year": 2025
     },
     {
@@ -804,7 +804,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2023arXiv231206631W",
-      "citation_count": 72,
+      "citation_count": 73,
       "doctype": "eprint",
       "doi": "10.48550/arXiv.2312.06631",
       "inspire_recid": "2734793",
@@ -1506,36 +1506,6 @@
       "year": 2019
     },
     {
-      "abstract": "We examine a caustic-straddling arc at z = 0.9397 in the field of the galaxy cluster MACS J0416.1-2403 (z = 0.397) using archival multiband Hubble Space Telescope images and show that its surface brightness exhibits anomalies that can be explained by a single highly magnified star undergoing microlensing. First, we show that the surface brightness pattern is not perfectly symmetric across the cluster critical curve, which is inconsistent with a locally smooth lens model; the location of the candidate star exhibits the most significant asymmetry. Second, our analysis indicates that the asymmetric feature has \u223c30% higher flux in the 2012 visits compared to the Frontier Fields program visits in 2014. Moreover, the variable asymmetric feature shows an anomalous color between the F814W and F105W filters in 2014. These anomalies are naturally explained by microlensing-induced variability of a caustic-transiting blue supergiant in a star-forming region, with a mean magnification factor around \u03bc \u223c 200. We extend this study to a statistical analysis of the whole arc image and find tentative evidence of the increased mismatch of the two images in the proximity of the critical line. Robust detection of one or multiple caustic-transiting stars in this arc will enable detailed follow-up studies that can shed light on the small-scale structure of the dark matter inside the cluster halo.",
-      "arxiv_id": "1902.10090",
-      "authors": [
-        "Kaurov, Alexander A.",
-        "Dai, Liang",
-        "Venumadhav, Tejaswi",
-        "Miralda-Escud\u00e9, Jordi",
-        "Frye, Brenda"
-      ],
-      "bibcode": "2019ApJ...880...58K",
-      "citation_count": 71,
-      "doctype": "article",
-      "doi": "10.3847/1538-4357/ab2888",
-      "inspire_recid": "1722101",
-      "page": "58",
-      "pub": "The Astrophysical Journal",
-      "pub_raw": "The Astrophysical Journal, Volume 880, Issue 1, article id. 58, <NUMPAGES>10</NUMPAGES> pp. (2019).",
-      "pubdate": "2019-07-00",
-      "title": "Highly Magnified Stars in Lensing Clusters: New Evidence in a Galaxy Lensed by MACS J0416.1-2403",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational lensing",
-        "Dark matter"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "880",
-      "year": 2019
-    },
-    {
       "abstract": "We report a new binary black hole merger in the publicly available LIGO first observing run (O1) data release. The event has a false alarm rate of one per six years in the detector-frame chirp-mass range M<SUP>det</SUP>\u2208[20 ,40 ]M<SUB>\u2299</SUB> in a new independent analysis pipeline that we developed. Our best estimate of the probability that the event is of astrophysical origin is P<SUB>astro</SUB>\u223c0.71 . The estimated physical parameters of the event indicate that it is the merger of two massive black holes, M<SUP>det</SUP>=3 1<SUB>-3</SUB><SUP>+2</SUP>M<SUB>\u2299</SUB> with an effective spin parameter, \u03c7<SUB>eff</SUB>=0.8 1<SUB>-0.21</SUB><SUP>+0.15</SUP>, making this the most highly spinning merger reported to date. It is also among the two highest redshift mergers observed so far. The high aligned spin of the merger supports the hypothesis that merging binary black holes can be created by binary stellar evolution.",
       "arxiv_id": "1902.10331",
       "authors": [
@@ -1563,6 +1533,36 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "100",
+      "year": 2019
+    },
+    {
+      "abstract": "We examine a caustic-straddling arc at z = 0.9397 in the field of the galaxy cluster MACS J0416.1-2403 (z = 0.397) using archival multiband Hubble Space Telescope images and show that its surface brightness exhibits anomalies that can be explained by a single highly magnified star undergoing microlensing. First, we show that the surface brightness pattern is not perfectly symmetric across the cluster critical curve, which is inconsistent with a locally smooth lens model; the location of the candidate star exhibits the most significant asymmetry. Second, our analysis indicates that the asymmetric feature has \u223c30% higher flux in the 2012 visits compared to the Frontier Fields program visits in 2014. Moreover, the variable asymmetric feature shows an anomalous color between the F814W and F105W filters in 2014. These anomalies are naturally explained by microlensing-induced variability of a caustic-transiting blue supergiant in a star-forming region, with a mean magnification factor around \u03bc \u223c 200. We extend this study to a statistical analysis of the whole arc image and find tentative evidence of the increased mismatch of the two images in the proximity of the critical line. Robust detection of one or multiple caustic-transiting stars in this arc will enable detailed follow-up studies that can shed light on the small-scale structure of the dark matter inside the cluster halo.",
+      "arxiv_id": "1902.10090",
+      "authors": [
+        "Kaurov, Alexander A.",
+        "Dai, Liang",
+        "Venumadhav, Tejaswi",
+        "Miralda-Escud\u00e9, Jordi",
+        "Frye, Brenda"
+      ],
+      "bibcode": "2019ApJ...880...58K",
+      "citation_count": 71,
+      "doctype": "article",
+      "doi": "10.3847/1538-4357/ab2888",
+      "inspire_recid": "1722101",
+      "page": "58",
+      "pub": "The Astrophysical Journal",
+      "pub_raw": "The Astrophysical Journal, Volume 880, Issue 1, article id. 58, <NUMPAGES>10</NUMPAGES> pp. (2019).",
+      "pubdate": "2019-07-00",
+      "title": "Highly Magnified Stars in Lensing Clusters: New Evidence in a Galaxy Lensed by MACS J0416.1-2403",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational lensing",
+        "Dark matter"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "880",
       "year": 2019
     },
     {
