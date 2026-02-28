@@ -1,9 +1,10 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "people": {
     "Ajit Kumar Mehta": {
       "image": "/assets/images/person-placeholder.svg",
       "active": false,
+      "topics": [],
       "role_in_group": "Postdoc",
       "years_in_group": "2022-2025",
       "role_after_group": "Assistant Professor, Chennai Mathematical Institute",
@@ -12,6 +13,7 @@
     "Christian Hahn": {
       "image": "/assets/images/person-placeholder.svg",
       "active": true,
+      "topics": [],
       "role_in_group": "Undergraduate Student",
       "years_in_group": null,
       "role_after_group": null,
@@ -20,6 +22,7 @@
     "Cuishan Liu": {
       "image": "/assets/images/person-placeholder.svg",
       "active": false,
+      "topics": [],
       "role_in_group": "Undergraduate Student",
       "years_in_group": "2021-2022",
       "role_after_group": "Graduate Student (University of Virginia)",
@@ -28,6 +31,7 @@
     "Dashiell Carrel": {
       "image": "/assets/images/person-placeholder.svg",
       "active": false,
+      "topics": [],
       "role_in_group": "Undergraduate Student",
       "years_in_group": "2021-2023",
       "role_after_group": "Graduate Student (University of California Berkeley)",
@@ -36,6 +40,7 @@
     "Fansen Wei": {
       "image": "/assets/images/person-placeholder.svg",
       "active": false,
+      "topics": [],
       "role_in_group": "Undergraduate Student",
       "years_in_group": "2022-2023",
       "role_after_group": "Graduate Student (Brown University)",
@@ -44,6 +49,7 @@
     "Hang Yu": {
       "image": "/assets/images/person-placeholder.svg",
       "active": false,
+      "topics": [],
       "role_in_group": "Postdoc (KITP)",
       "years_in_group": "2022-2023",
       "role_after_group": "Assistant Professor, Montana State University",
@@ -52,6 +58,7 @@
     "Isha Anantpurkar": {
       "image": "/assets/images/isha-anantpurkar.jpg",
       "active": true,
+      "topics": [],
       "role_in_group": "Graduate Student",
       "years_in_group": null,
       "role_after_group": null,
@@ -60,6 +67,7 @@
     "James (Kyubin) Kwon": {
       "image": "/assets/images/james-kyubin-kwon.jpg",
       "active": true,
+      "topics": [],
       "role_in_group": "Graduate Student",
       "years_in_group": null,
       "role_after_group": null,
@@ -68,6 +76,7 @@
     "Javier Roulet": {
       "image": "/assets/images/person-placeholder.svg",
       "active": false,
+      "topics": [],
       "role_in_group": "Postdoc (KITP)",
       "years_in_group": "2021-2022",
       "role_after_group": "Sherman Fairchild Postdoctoral Scholar (Caltech)",
@@ -76,6 +85,7 @@
     "Jennifer Barnes": {
       "image": "/assets/images/person-placeholder.svg",
       "active": false,
+      "topics": [],
       "role_in_group": "Postdoc (KITP)",
       "years_in_group": "2021-2023",
       "role_after_group": "Senior Algorithm Engineer, 3M, Minneapolis, Minnesota",
@@ -84,6 +94,7 @@
     "Jiayu Wang": {
       "image": "/assets/images/person-placeholder.svg",
       "active": false,
+      "topics": [],
       "role_in_group": "Undergraduate Student",
       "years_in_group": "2022-2024",
       "role_after_group": null,
@@ -92,6 +103,7 @@
     "Joaquin Becerra Espinoza": {
       "image": "/assets/images/joaquin-becerra-espinoza.jpg",
       "active": true,
+      "topics": [],
       "role_in_group": "Graduate Student",
       "years_in_group": null,
       "role_after_group": null,
@@ -100,6 +112,7 @@
     "Jonathan Schiff": {
       "image": "/assets/images/jonathan-schiff.jpg",
       "active": true,
+      "topics": [],
       "role_in_group": "Graduate Student",
       "years_in_group": null,
       "role_after_group": null,
@@ -108,6 +121,7 @@
     "Junyan Xu": {
       "image": "/assets/images/person-placeholder.svg",
       "active": false,
+      "topics": [],
       "role_in_group": "Undergraduate Student",
       "years_in_group": "2023-2025",
       "role_after_group": "Graduate Student (University of Minnesota)",
@@ -116,6 +130,7 @@
     "Sierra Garza": {
       "image": "/assets/images/person-placeholder.svg",
       "active": true,
+      "topics": [],
       "role_in_group": "Graduate Student",
       "years_in_group": null,
       "role_after_group": null,
@@ -124,6 +139,7 @@
     "Tousif Islam": {
       "image": "/assets/images/tousif-islam.jpeg",
       "active": true,
+      "topics": [],
       "role_in_group": "Postdoc (KITP)",
       "years_in_group": null,
       "role_after_group": null,
@@ -132,6 +148,7 @@
     "William Surgent": {
       "image": "/assets/images/william-surgent.jpg",
       "active": true,
+      "topics": [],
       "role_in_group": "Graduate Student",
       "years_in_group": null,
       "role_after_group": null,
@@ -140,6 +157,7 @@
     "Yangxiao Ding": {
       "image": "/assets/images/person-placeholder.svg",
       "active": true,
+      "topics": [],
       "role_in_group": "Undergraduate Student",
       "years_in_group": null,
       "role_after_group": null,

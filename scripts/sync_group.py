@@ -20,6 +20,7 @@ Persistent profile mapping (data/group_profiles.json):
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
 import json
 import re
@@ -28,6 +29,18 @@ from pathlib import Path
 
 SECTION_RE = re.compile(r"\\cvsection(?:\[[^\]]*\])?\{([^}]*)\}")
 INCLUDE_COLLABORATORS_SECTION = False
+DEFAULT_TOPICS_FILE = "data/topics.json"
+BASE_TOPIC_COLORS = {
+    "cosmology": ("hsl(214 55% 47%)", "hsl(214 57% 40%)"),
+    "gravitational lensing": ("hsl(195 52% 45%)", "hsl(195 56% 38%)"),
+    "gravitational waves": ("hsl(226 56% 48%)", "hsl(226 58% 40%)"),
+    "black holes": ("hsl(252 35% 44%)", "hsl(252 38% 36%)"),
+    "neutron stars": ("hsl(281 43% 46%)", "hsl(281 47% 38%)"),
+    "gamma ray bursts": ("hsl(102 43% 40%)", "hsl(102 47% 33%)"),
+    "reionization": ("hsl(168 43% 40%)", "hsl(168 45% 33%)"),
+    "dark matter": ("hsl(336 46% 46%)", "hsl(336 49% 38%)"),
+    "recombination": ("hsl(26 54% 47%)", "hsl(26 58% 40%)"),
+}
 
 
 @dataclass
@@ -80,6 +93,59 @@ def _normalize_years(years: str | None) -> str | None:
 
 def _norm_name(name: str) -> str:
     return re.sub(r"\s+", " ", name.strip()).lower()
+
+
+def _topic_colors(topic: str) -> tuple[str, str]:
+    key = topic.strip().lower()
+    preset = BASE_TOPIC_COLORS.get(key)
+    if preset:
+        return preset
+    digest = hashlib.sha256(key.encode("utf-8")).hexdigest()
+    hue = int(digest[:6], 16) % 360
+    bg = f"hsl({hue} 44% 46%)"
+    active = f"hsl({hue} 49% 38%)"
+    return bg, active
+
+
+def _topic_style_attr(topic: str) -> str:
+    bg, active = _topic_colors(topic)
+    return f' style="--topic-bg:{bg};--topic-active:{active};"'
+
+
+def load_topics(path: Path) -> list[str]:
+    if not path.exists():
+        return []
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    topics = payload.get("topics") or []
+    out: list[str] = []
+    seen: set[str] = set()
+    for topic in topics:
+        t = str(topic).strip()
+        if not t:
+            continue
+        key = t.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(t)
+    return out
+
+
+def _normalize_topics(raw_topics: object) -> list[str]:
+    if not isinstance(raw_topics, list):
+        return []
+    out: list[str] = []
+    seen: set[str] = set()
+    for t in raw_topics:
+        topic = str(t).strip()
+        if not topic:
+            continue
+        key = topic.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(topic)
+    return out
 
 
 def _section_block(tex: str, title: str) -> str:
@@ -208,14 +274,14 @@ def _load_collaborators(path: Path) -> list[Collaborator]:
 
 def _load_profile_map(path: Path) -> dict:
     if not path.exists():
-        return {"schema_version": 3, "people": {}}
+        return {"schema_version": 4, "people": {}}
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict):
-        return {"schema_version": 3, "people": {}}
+        return {"schema_version": 4, "people": {}}
     people = data.get("people")
     if not isinstance(people, dict):
         people = {}
-    return {"schema_version": 3, "people": people}
+    return {"schema_version": 4, "people": people}
 
 
 def _load_legacy_photo_map(path: Path) -> dict[str, str]:
@@ -239,6 +305,7 @@ def _normalize_entry(entry: dict | None, placeholder_path: str) -> dict:
     return {
         "image": str(e.get("image") or placeholder_path),
         "active": bool(e.get("active", True)),
+        "topics": _normalize_topics(e.get("topics")),
         "role_in_group": e.get("role_in_group"),
         "years_in_group": _normalize_years(e.get("years_in_group")),
         "role_after_group": e.get("role_after_group"),
@@ -292,15 +359,17 @@ def _sync_profile_map(
         people_map[name] = e
 
     ordered = {name: people_map[name] for name in sorted(people_map)}
-    payload = {"schema_version": 3, "people": ordered}
+    payload = {"schema_version": 4, "people": ordered}
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, sort_keys=False) + "\n", encoding="utf-8")
     return ordered
 
 
-def _render_cards(people: list[Person], profiles: dict[str, dict], placeholder_path: str) -> str:
+def _render_cards(people: list[Person], profiles: dict[str, dict], placeholder_path: str, allowed_topics: list[str]) -> str:
     if not people:
         return "<p>No active members listed right now.</p>\n"
+
+    allowed_order = {topic.lower(): idx for idx, topic in enumerate(allowed_topics)}
 
     lines = ['<div class="people-grid">']
     for person in people:
@@ -317,14 +386,23 @@ def _render_cards(people: list[Person], profiles: dict[str, dict], placeholder_p
         elif role_text == "Postdoc (KITP)":
             role_text = "KITP"
 
+        raw_topics = _normalize_topics(info.get("topics"))
+        valid_topics = [t for t in raw_topics if t.lower() in allowed_order]
+        valid_topics.sort(key=lambda t: allowed_order.get(t.lower(), 999))
+        topic_badges = " ".join(
+            f'<span class="pub-topic-chip"{_topic_style_attr(topic)}>{html.escape(topic)}</span>' for topic in valid_topics
+        )
+
         lines.extend(
             [
                 '  <article class="person-card">',
                 f'    <img src="{image_src}" alt="{html.escape(person.name)}">',
                 f"    <h3>{html.escape(person.name)}</h3>",
-                "  </article>",
             ]
         )
+        if topic_badges:
+            lines.append(f'    <div class="pub-entry-topics">{topic_badges}</div>')
+        lines.append("  </article>")
         if role_text:
             lines.insert(-1, f"    <p>{html.escape(role_text)}</p>")
     lines.append("</div>")
@@ -436,6 +514,7 @@ def render_page(
     profiles: dict[str, dict],
     collaborators: list[Collaborator],
     placeholder_path: str,
+    allowed_topics: list[str],
 ) -> str:
     front_matter = """---
 layout: page
@@ -452,14 +531,22 @@ show_title: false
     body = ["## Research Group\n"]
 
     if grads:
-        body.extend([f"### Graduate Students ({len(grads)})\n", _render_cards(grads, profiles, placeholder_path)])
+        body.extend(
+            [f"### Graduate Students ({len(grads)})\n", _render_cards(grads, profiles, placeholder_path, allowed_topics)]
+        )
     if postdocs:
         body.extend(
-            [f"### Postdoctoral Scholars ({len(postdocs)})\n", _render_cards(postdocs, profiles, placeholder_path)]
+            [
+                f"### Postdoctoral Scholars ({len(postdocs)})\n",
+                _render_cards(postdocs, profiles, placeholder_path, allowed_topics),
+            ]
         )
     if undergrads:
         body.extend(
-            [f"### Undergraduate Students ({len(undergrads)})\n", _render_cards(undergrads, profiles, placeholder_path)]
+            [
+                f"### Undergraduate Students ({len(undergrads)})\n",
+                _render_cards(undergrads, profiles, placeholder_path, allowed_topics),
+            ]
         )
 
     body.extend(["## Former Group Members\n", _render_former_table(profiles)])
@@ -476,6 +563,7 @@ def main() -> int:
     parser.add_argument("--profile-map", default="data/group_profiles.json")
     parser.add_argument("--photo-map", default=None, help="Deprecated alias for --profile-map")
     parser.add_argument("--collaborators-map", default="data/collaborators.json")
+    parser.add_argument("--topics-file", default=DEFAULT_TOPICS_FILE)
     args = parser.parse_args()
 
     profile_map_path = Path(args.profile_map or args.photo_map or "data/group_profiles.json")
@@ -489,11 +577,12 @@ def main() -> int:
     if not profile_map_path.exists() and legacy_map_path.exists():
         legacy_images = _load_legacy_photo_map(legacy_map_path)
         migrated = {
-            "schema_version": 2,
+            "schema_version": 4,
             "people": {
                 name: {
                     "image": img,
                     "active": False,
+                    "topics": [],
                     "role_in_group": None,
                     "years_in_group": None,
                     "role_after_group": None,
@@ -506,9 +595,10 @@ def main() -> int:
         profile_map_path.write_text(json.dumps(migrated, indent=2, sort_keys=False) + "\n", encoding="utf-8")
 
     profiles = _sync_profile_map(profile_map_path, all_people, former_seeds, args.placeholder)
+    allowed_topics = load_topics(Path(args.topics_file))
     collaborators_path = Path(args.collaborators_map)
     collaborators = _load_collaborators(collaborators_path)
-    out_text = render_page(grads, postdocs, undergrads, profiles, collaborators, args.placeholder)
+    out_text = render_page(grads, postdocs, undergrads, profiles, collaborators, args.placeholder, allowed_topics)
     Path(args.out).write_text(out_text, encoding="utf-8")
 
     print(f"Wrote {args.out}")
