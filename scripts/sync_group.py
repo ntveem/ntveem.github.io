@@ -20,27 +20,17 @@ Persistent profile mapping (data/group_profiles.json):
 from __future__ import annotations
 
 import argparse
-import hashlib
 import html
 import json
 import re
 from dataclasses import dataclass
 from pathlib import Path
 
+from topic_styles import topic_style_attr
+
 SECTION_RE = re.compile(r"\\cvsection(?:\[[^\]]*\])?\{([^}]*)\}")
 INCLUDE_COLLABORATORS_SECTION = False
 DEFAULT_TOPICS_FILE = "data/topics.json"
-BASE_TOPIC_COLORS = {
-    "cosmology": ("hsl(214 55% 47%)", "hsl(214 57% 40%)"),
-    "gravitational lensing": ("hsl(195 52% 45%)", "hsl(195 56% 38%)"),
-    "gravitational waves": ("hsl(226 56% 48%)", "hsl(226 58% 40%)"),
-    "black holes": ("hsl(252 35% 44%)", "hsl(252 38% 36%)"),
-    "neutron stars": ("hsl(281 43% 46%)", "hsl(281 47% 38%)"),
-    "gamma ray bursts": ("hsl(102 43% 40%)", "hsl(102 47% 33%)"),
-    "reionization": ("hsl(168 43% 40%)", "hsl(168 45% 33%)"),
-    "dark matter": ("hsl(336 46% 46%)", "hsl(336 49% 38%)"),
-    "recombination": ("hsl(26 54% 47%)", "hsl(26 58% 40%)"),
-}
 
 
 @dataclass
@@ -93,23 +83,6 @@ def _normalize_years(years: str | None) -> str | None:
 
 def _norm_name(name: str) -> str:
     return re.sub(r"\s+", " ", name.strip()).lower()
-
-
-def _topic_colors(topic: str) -> tuple[str, str]:
-    key = topic.strip().lower()
-    preset = BASE_TOPIC_COLORS.get(key)
-    if preset:
-        return preset
-    digest = hashlib.sha256(key.encode("utf-8")).hexdigest()
-    hue = int(digest[:6], 16) % 360
-    bg = f"hsl({hue} 44% 46%)"
-    active = f"hsl({hue} 49% 38%)"
-    return bg, active
-
-
-def _topic_style_attr(topic: str) -> str:
-    bg, active = _topic_colors(topic)
-    return f' style="--topic-bg:{bg};--topic-active:{active};"'
 
 
 def load_topics(path: Path) -> list[str]:
@@ -390,7 +363,8 @@ def _render_cards(people: list[Person], profiles: dict[str, dict], placeholder_p
         valid_topics = [t for t in raw_topics if t.lower() in allowed_order]
         valid_topics.sort(key=lambda t: allowed_order.get(t.lower(), 999))
         topic_badges = " ".join(
-            f'<span class="pub-topic-chip"{_topic_style_attr(topic)}>{html.escape(topic)}</span>' for topic in valid_topics
+            f'<span class="pub-topic-chip"{topic_style_attr(topic)}>{html.escape(topic)}</span>'
+            for topic in valid_topics
         )
 
         lines.extend(
