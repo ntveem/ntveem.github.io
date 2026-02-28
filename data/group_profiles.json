@@ -13,7 +13,9 @@
     "Christian Hahn": {
       "image": "/assets/images/person-placeholder.svg",
       "active": true,
-      "topics": [],
+      "topics": [
+        "Gravitational waves"
+      ],
       "role_in_group": "Undergraduate Student",
       "years_in_group": null,
       "role_after_group": null,
@@ -58,7 +60,10 @@
     "Isha Anantpurkar": {
       "image": "/assets/images/isha-anantpurkar.jpg",
       "active": true,
-      "topics": [],
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
+      ],
       "role_in_group": "Graduate Student",
       "years_in_group": null,
       "role_after_group": null,
@@ -67,7 +72,10 @@
     "James (Kyubin) Kwon": {
       "image": "/assets/images/james-kyubin-kwon.jpg",
       "active": true,
-      "topics": [],
+      "topics": [
+        "Gravitational waves",
+        "Neutron stars"
+      ],
       "role_in_group": "Graduate Student",
       "years_in_group": null,
       "role_after_group": null,
@@ -103,7 +111,10 @@
     "Joaquin Becerra Espinoza": {
       "image": "/assets/images/joaquin-becerra-espinoza.jpg",
       "active": true,
-      "topics": [],
+      "topics": [
+        "Cosmology",
+        "Gravitational lensing"
+      ],
       "role_in_group": "Graduate Student",
       "years_in_group": null,
       "role_after_group": null,
@@ -112,7 +123,10 @@
     "Jonathan Schiff": {
       "image": "/assets/images/jonathan-schiff.jpg",
       "active": true,
-      "topics": [],
+      "topics": [
+        "Cosmology",
+        "Recombination"
+      ],
       "role_in_group": "Graduate Student",
       "years_in_group": null,
       "role_after_group": null,
@@ -130,7 +144,10 @@
     "Sierra Garza": {
       "image": "/assets/images/person-placeholder.svg",
       "active": true,
-      "topics": [],
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
+      ],
       "role_in_group": "Graduate Student",
       "years_in_group": null,
       "role_after_group": null,
@@ -139,7 +156,10 @@
     "Tousif Islam": {
       "image": "/assets/images/tousif-islam.jpeg",
       "active": true,
-      "topics": [],
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
+      ],
       "role_in_group": "Postdoc (KITP)",
       "years_in_group": null,
       "role_after_group": null,
@@ -148,7 +168,10 @@
     "William Surgent": {
       "image": "/assets/images/william-surgent.jpg",
       "active": true,
-      "topics": [],
+      "topics": [
+        "Gravitational waves",
+        "Neutron stars"
+      ],
       "role_in_group": "Graduate Student",
       "years_in_group": null,
       "role_after_group": null,
@@ -157,7 +180,9 @@
     "Yangxiao Ding": {
       "image": "/assets/images/person-placeholder.svg",
       "active": true,
-      "topics": [],
+      "topics": [
+        "Neutron stars"
+      ],
       "role_in_group": "Undergraduate Student",
       "years_in_group": null,
       "role_after_group": null,

@@ -16,26 +16,32 @@ show_title: false
   <article class="person-card">
     <img src="{{ '/assets/images/isha-anantpurkar.jpg' | relative_url }}" alt="Isha Anantpurkar">
     <h3>Isha Anantpurkar</h3>
+    <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
   </article>
   <article class="person-card">
     <img src="{{ '/assets/images/jonathan-schiff.jpg' | relative_url }}" alt="Jonathan Schiff">
     <h3>Jonathan Schiff</h3>
+    <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span> <span class="pub-topic-chip" style="--topic-bg:hsl(26 54% 47%);--topic-active:hsl(26 58% 40%);">Recombination</span></div>
   </article>
   <article class="person-card">
     <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Sierra Garza">
     <h3>Sierra Garza</h3>
+    <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
   </article>
   <article class="person-card">
     <img src="{{ '/assets/images/james-kyubin-kwon.jpg' | relative_url }}" alt="James (Kyubin) Kwon">
     <h3>James (Kyubin) Kwon</h3>
+    <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span></div>
   </article>
   <article class="person-card">
     <img src="{{ '/assets/images/joaquin-becerra-espinoza.jpg' | relative_url }}" alt="Joaquin Becerra Espinoza">
     <h3>Joaquin Becerra Espinoza</h3>
+    <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span> <span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span></div>
   </article>
   <article class="person-card">
     <img src="{{ '/assets/images/william-surgent.jpg' | relative_url }}" alt="William Surgent">
     <h3>William Surgent</h3>
+    <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span></div>
   </article>
 </div>
 
@@ -45,6 +51,7 @@ show_title: false
   <article class="person-card">
     <img src="{{ '/assets/images/tousif-islam.jpeg' | relative_url }}" alt="Tousif Islam">
     <h3>Tousif Islam</h3>
+    <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
     <p>KITP</p>
   </article>
 </div>
@@ -55,10 +62,12 @@ show_title: false
   <article class="person-card">
     <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Yangxiao Ding">
     <h3>Yangxiao Ding</h3>
+    <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span></div>
   </article>
   <article class="person-card">
     <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Christian Hahn">
     <h3>Christian Hahn</h3>
+    <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
   </article>
 </div>
 
