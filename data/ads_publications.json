@@ -74,7 +74,7 @@
         "Wadekar, Digvijay"
       ],
       "bibcode": "2026arXiv260118986I",
-      "citation_count": 0,
+      "citation_count": 1,
       "doctype": "eprint",
       "doi": "10.48550/arXiv.2601.18986",
       "inspire_recid": "3112068",
@@ -160,33 +160,6 @@
       "year": 2025
     },
     {
-      "abstract": "Characterizing eccentricity in gravitational waveforms in a consistent manner is crucial to facilitate parameter estimation, astrophysical population studies, as well as searches for these rare systems. We present a framework to characterize eccentricity directly from gravitational waveforms for nonprecessing eccentric binary black hole mergers using common modulations that eccentricity induces in all spherical harmonic modes of the signals. Our framework is in the spirit of existing methods that use frequency modulations in the waveforms, but we refine the approach by connecting it with state-of-the-art post-Newtonian calculations of the time evolution of the eccentricity. Using 39 numerical relativity (NR) simulations from the SXS and RIT catalogs, as well as waveforms obtained from the post-Newtonian approximation and effective-one-body formalism, we show that our framework provides eccentricity estimates that connect smoothly into the relativistic regime (even up to <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>2</mml:mn><mml:mi>M</mml:mi></mml:math></inline-formula> before merger). We also find that it is necessary to carry existing post-Newtonian calculations to an extra 0.5 post-Newtonian order to adequately characterize existing NR simulations, and provide fits to the extra coefficient for existing simulations. We make the framework publicly available through the PYTHON-based GWMODELS package.",
-      "arxiv_id": "2502.02739",
-      "authors": [
-        "Islam, Tousif",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2025PhRvD.112j4039I",
-      "citation_count": 14,
-      "doctype": "article",
-      "doi": "10.1103/b7vg-s75b",
-      "inspire_recid": "2876700",
-      "page": "104039",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 112, Issue 10, id.104039, 18 pp.",
-      "pubdate": "2025-11-00",
-      "title": "Post-Newtonian theory-inspired framework for characterizing eccentricity in gravitational waveforms",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational waves",
-        "Black holes"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "112",
-      "year": 2025
-    },
-    {
       "abstract": "Parameter estimation (PE) for compact binary coalescence (CBC) events observed by gravitational wave (GW) laser interferometers is a core task in GW astrophysics. We present a method to compute the posterior distribution efficiently without relying on stochastic samplers. First, we show how to select sets of intrinsic and extrinsic parameters that efficiently cover the relevant phase space. We then show how to compute the likelihood for all combinations of these parameters using dot products. We describe how to assess and tune the integration accuracy, making the outcome predictable and adaptable to different applications. The low computational cost allows full PE in minutes on a single CPU, with the potential for further acceleration using multiple CPUs or GPUs. We implement this method in the dot-PE package, enabling sensitive searches using the full evidence integral for precessing CBCs and supporting large waveform banks (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>5</mml:mn></mml:msup><mml:mi>\u2500</mml:mi><mml:msup><mml:mn>10</mml:mn><mml:mn>6</mml:mn></mml:msup></mml:math></inline-formula> waveforms), regardless of waveform generation cost.",
       "arxiv_id": "2507.16022",
       "authors": [
@@ -211,6 +184,33 @@
       "title": "Sampler-free gravitational wave inference using matrix multiplication",
       "topic_confidence": 1.0,
       "topic_source": "manual_override",
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "112",
+      "year": 2025
+    },
+    {
+      "abstract": "Characterizing eccentricity in gravitational waveforms in a consistent manner is crucial to facilitate parameter estimation, astrophysical population studies, as well as searches for these rare systems. We present a framework to characterize eccentricity directly from gravitational waveforms for nonprecessing eccentric binary black hole mergers using common modulations that eccentricity induces in all spherical harmonic modes of the signals. Our framework is in the spirit of existing methods that use frequency modulations in the waveforms, but we refine the approach by connecting it with state-of-the-art post-Newtonian calculations of the time evolution of the eccentricity. Using 39 numerical relativity (NR) simulations from the SXS and RIT catalogs, as well as waveforms obtained from the post-Newtonian approximation and effective-one-body formalism, we show that our framework provides eccentricity estimates that connect smoothly into the relativistic regime (even up to <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>2</mml:mn><mml:mi>M</mml:mi></mml:math></inline-formula> before merger). We also find that it is necessary to carry existing post-Newtonian calculations to an extra 0.5 post-Newtonian order to adequately characterize existing NR simulations, and provide fits to the extra coefficient for existing simulations. We make the framework publicly available through the PYTHON-based GWMODELS package.",
+      "arxiv_id": "2502.02739",
+      "authors": [
+        "Islam, Tousif",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2025PhRvD.112j4039I",
+      "citation_count": 14,
+      "doctype": "article",
+      "doi": "10.1103/b7vg-s75b",
+      "inspire_recid": "2876700",
+      "page": "104039",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 112, Issue 10, id.104039, 18 pp.",
+      "pubdate": "2025-11-00",
+      "title": "Post-Newtonian theory-inspired framework for characterizing eccentricity in gravitational waveforms",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
       "topics": [
         "Gravitational waves",
         "Black holes"
@@ -248,40 +248,6 @@
       "year": 2025
     },
     {
-      "abstract": "Newtonian and post-Newtonian (PN) calculations indicate that the phenomenology of eccentric binary black hole (BBH) merger waveforms is significantly more complex than that of their quasi-circular counterparts. Each spherical harmonic mode of the radiation can be further decomposed into several eccentricity-induced components, referred to as eccentric harmonics. Unlike the (cumulative) spherical harmonic modes, these constituent eccentric harmonics exhibit monotonically time-varying amplitudes and frequencies. However, these eccentric harmonics are not directly accessible in numerical relativity (NR) simulations or current eccentric waveform models. Using the recently developed data-driven framework gwMiner, which combines singular value decomposition, input from post-Newtonian theory, and signal processing techniques, we extract eccentric harmonics from eccentric, aligned-spin waveforms for six different spherical harmonic modes: (2,1), (2,2), (3,2), (3,3), (4,3), (4,4). We demonstrate that the phase (frequency) of each eccentric harmonic takes the form $j\\,\u03d5_{\\ell,m,\u03bb} + \u03d5_{\\ell,m,\\rm ecc}$ ($j\\,f_{\\ell,m,\u03bb} + f_{\\ell,m,\\rm ecc}$), where $\u03d5_{\\ell,m,\u03bb}$ ($f_{\\ell,m,\u03bb}$) corresponds to the secular orbital phase (frequency), and $\u03d5_{\\ell,m,\\rm ecc}$ ($f_{\\ell,m,\\rm ecc}$) is an additional contribution that depends solely on the eccentricity. We further find that $\u03d5_{\\ell,m,\u03bb}$ is the same across different spherical harmonic modes $(\\ell, m)$, whereas the eccentric correction term $\u03d5_{\\ell,m,\\rm ecc}$ scales with $\\ell$. Using effective-one-body dynamics, we further show that $\u03d5_{\\ell,m,\u03bb}$ is nothing but the relativistic anomaly and $\u03d5_{\\ell,m,\\rm ecc}$ is related to the precession advances.",
-      "arxiv_id": "2509.20556",
-      "authors": [
-        "Islam, Tousif",
-        "Venumadhav, Tejaswi",
-        "Mehta, Ajit Kumar",
-        "Wadekar, Digvijay",
-        "Roulet, Javier",
-        "Anantpurkar, Isha",
-        "Mushkin, Jonathan",
-        "Zackay, Barak",
-        "Zaldarriaga, Matias"
-      ],
-      "bibcode": "2025arXiv250920556I",
-      "citation_count": 2,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2509.20556",
-      "inspire_recid": "2973389",
-      "page": "arXiv:2509.20556",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2509.20556",
-      "pubdate": "2025-09-00",
-      "title": "Data-driven extraction and phenomenology of eccentric harmonics in eccentric spinning binary black hole mergers",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Black holes",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2025
-    },
-    {
       "abstract": "Next-generation ground-based gravitational-wave (GW) detectors are expected to detect millions of binary black hole mergers during their operation period. A small fraction (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>0.1</mml:mn><mml:mi>\u2500</mml:mi><mml:mn>1</mml:mn><mml:mo>%</mml:mo></mml:math></inline-formula>) of them will be strongly lensed by intervening galaxies and clusters, producing multiple copies of the GW signals. The expected number of lensed events and the distribution of the time delay between lensed images will depend on the mass distribution of the lenses at different redshifts. Warm dark matter and fuzzy dark matter models predict lower abundances of low-mass dark matter halos as compared to the standard cold dark matter. This will result in a reduction in the number of strongly lensed GW events, especially with small time delays. Using the number of lensed events and the lensing time delay distribution, we will be able to put a lower bound on the mass of the warm and fuzzy dark matter particles from a catalog of lensed GW events. Our first forecasts suggest that the expected bounds from GW strong lensing from next-generation detectors are better than the current constraints.",
       "arxiv_id": "2408.05290",
       "authors": [
@@ -312,6 +278,40 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "135",
+      "year": 2025
+    },
+    {
+      "abstract": "Newtonian and post-Newtonian (PN) calculations indicate that the phenomenology of eccentric binary black hole (BBH) merger waveforms is significantly more complex than that of their quasi-circular counterparts. Each spherical harmonic mode of the radiation can be further decomposed into several eccentricity-induced components, referred to as eccentric harmonics. Unlike the (cumulative) spherical harmonic modes, these constituent eccentric harmonics exhibit monotonically time-varying amplitudes and frequencies. However, these eccentric harmonics are not directly accessible in numerical relativity (NR) simulations or current eccentric waveform models. Using the recently developed data-driven framework gwMiner, which combines singular value decomposition, input from post-Newtonian theory, and signal processing techniques, we extract eccentric harmonics from eccentric, aligned-spin waveforms for six different spherical harmonic modes: (2,1), (2,2), (3,2), (3,3), (4,3), (4,4). We demonstrate that the phase (frequency) of each eccentric harmonic takes the form $j\\,\u03d5_{\\ell,m,\u03bb} + \u03d5_{\\ell,m,\\rm ecc}$ ($j\\,f_{\\ell,m,\u03bb} + f_{\\ell,m,\\rm ecc}$), where $\u03d5_{\\ell,m,\u03bb}$ ($f_{\\ell,m,\u03bb}$) corresponds to the secular orbital phase (frequency), and $\u03d5_{\\ell,m,\\rm ecc}$ ($f_{\\ell,m,\\rm ecc}$) is an additional contribution that depends solely on the eccentricity. We further find that $\u03d5_{\\ell,m,\u03bb}$ is the same across different spherical harmonic modes $(\\ell, m)$, whereas the eccentric correction term $\u03d5_{\\ell,m,\\rm ecc}$ scales with $\\ell$. Using effective-one-body dynamics, we further show that $\u03d5_{\\ell,m,\u03bb}$ is nothing but the relativistic anomaly and $\u03d5_{\\ell,m,\\rm ecc}$ is related to the precession advances.",
+      "arxiv_id": "2509.20556",
+      "authors": [
+        "Islam, Tousif",
+        "Venumadhav, Tejaswi",
+        "Mehta, Ajit Kumar",
+        "Wadekar, Digvijay",
+        "Roulet, Javier",
+        "Anantpurkar, Isha",
+        "Mushkin, Jonathan",
+        "Zackay, Barak",
+        "Zaldarriaga, Matias"
+      ],
+      "bibcode": "2025arXiv250920556I",
+      "citation_count": 3,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2509.20556",
+      "inspire_recid": "2973389",
+      "page": "arXiv:2509.20556",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2509.20556",
+      "pubdate": "2025-09-00",
+      "title": "Data-driven extraction and phenomenology of eccentric harmonics in eccentric spinning binary black hole mergers",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Black holes",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
       "year": 2025
     },
     {
@@ -414,33 +414,6 @@
       "year": 2025
     },
     {
-      "abstract": "Using publicly available numerical relativity (NR) simulations for nonspinning eccentric binary black hole (BBH) mergers, [Tousif Islam, Straightforward mode hierarchy in eccentric binary black hole mergers and associated waveform model, arXiv:2403.15506.] demonstrated that the eccentricity-induced modulations in the amplitudes and frequencies of different spherical harmonic modes are mutually consistent and can be modeled using a single time series modulation. We extend the validity of the results to all nonprecessing binaries by using 83 NR simulations from the SXS, RIT, and MAYA catalogs for aligned-spin eccentric BBH mergers with mass ratios ranging from <inline-formula><mml:math><mml:mrow><mml:mn>1</mml:mn><mml:mo>\u2236</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></inline-formula> to <inline-formula><mml:math><mml:mrow><mml:mn>1</mml:mn><mml:mo>\u2236</mml:mo><mml:mn>4</mml:mn></mml:mrow></mml:math></inline-formula>. Based on these phenomenological relations, we provide a framework named gwNRXHME to compute multimodal eccentric nonprecessing waveforms using two inputs: quadrupolar eccentric waveforms, and the corresponding multimodal quasicircular nonprecessing waveforms. Furthermore, we compute an overall degree of departure in SXS, RIT, and MAYA NR data from these relations and find that SXS NR simulations generally adhere to these relations more strictly than RIT and MAYA data. We also show that these relations can offer a cost-effective way to filter out noisy higher-order spherical harmonic modes extracted from NR data. Our framework is publicly available through the gwModels package.",
-      "arxiv_id": "2408.14654",
-      "authors": [
-        "Islam, Tousif",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2025PhRvD.111h1503I",
-      "citation_count": 16,
-      "doctype": "article",
-      "doi": "10.1103/PhysRevD.111.L081503",
-      "inspire_recid": "2822163",
-      "page": "L081503",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 111, Issue 8, id.L081503, 9 pp.",
-      "pubdate": "2025-04-00",
-      "title": "Universal phenomenological relations between spherical harmonic modes in nonprecessing eccentric binary black hole merger waveforms",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational waves",
-        "Black holes"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "111",
-      "year": 2025
-    },
-    {
       "abstract": "We present gwharmone, the first data-driven surrogate model for eccentric harmonics (as well as the full radiation content) of the dominant quadrupolar mode in eccentric, non-spinning binary black hole mergers. Our model is trained on 173 waveforms, each $100,000M$ long (where $M$ is the total mass), generated for mass ratios $q \\in [1,3.5]$ and eccentricities $e_{\\rm ref} \\in [0,0.2]$ (at the start of the waveform). The eccentric harmonics are extracted from the effective-one-body waveforms using the \\texttt{gwMiner} package. We apply a singular value decomposition (SVD) to obtain a set of reduced basis vectors, necessary to construct a lower-dimensional representation of data, and use Gaussian Process Regression (GPR) to interpolate SVD coefficients across parameter space, allowing for prediction at new parameter points. The model includes the effect of mean anomaly, its evaluation cost is only $\\sim 0.1$ second and it achieves an average time-domain (validation) error of ~0.001 and frequency-domain (validation) mismatches below 0.01 for advanced LIGO sensitivity. Our model can therefore be useful in efficient searches and parameter estimation of eccentric mergers. gwharmone will be publicly available through the gwModels package.",
       "arxiv_id": "2504.12420",
       "authors": [
@@ -472,6 +445,33 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
+      "year": 2025
+    },
+    {
+      "abstract": "Using publicly available numerical relativity (NR) simulations for nonspinning eccentric binary black hole (BBH) mergers, [Tousif Islam, Straightforward mode hierarchy in eccentric binary black hole mergers and associated waveform model, arXiv:2403.15506.] demonstrated that the eccentricity-induced modulations in the amplitudes and frequencies of different spherical harmonic modes are mutually consistent and can be modeled using a single time series modulation. We extend the validity of the results to all nonprecessing binaries by using 83 NR simulations from the SXS, RIT, and MAYA catalogs for aligned-spin eccentric BBH mergers with mass ratios ranging from <inline-formula><mml:math><mml:mrow><mml:mn>1</mml:mn><mml:mo>\u2236</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></inline-formula> to <inline-formula><mml:math><mml:mrow><mml:mn>1</mml:mn><mml:mo>\u2236</mml:mo><mml:mn>4</mml:mn></mml:mrow></mml:math></inline-formula>. Based on these phenomenological relations, we provide a framework named gwNRXHME to compute multimodal eccentric nonprecessing waveforms using two inputs: quadrupolar eccentric waveforms, and the corresponding multimodal quasicircular nonprecessing waveforms. Furthermore, we compute an overall degree of departure in SXS, RIT, and MAYA NR data from these relations and find that SXS NR simulations generally adhere to these relations more strictly than RIT and MAYA data. We also show that these relations can offer a cost-effective way to filter out noisy higher-order spherical harmonic modes extracted from NR data. Our framework is publicly available through the gwModels package.",
+      "arxiv_id": "2408.14654",
+      "authors": [
+        "Islam, Tousif",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2025PhRvD.111h1503I",
+      "citation_count": 16,
+      "doctype": "article",
+      "doi": "10.1103/PhysRevD.111.L081503",
+      "inspire_recid": "2822163",
+      "page": "L081503",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 111, Issue 8, id.L081503, 9 pp.",
+      "pubdate": "2025-04-00",
+      "title": "Universal phenomenological relations between spherical harmonic modes in nonprecessing eccentric binary black hole merger waveforms",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "111",
       "year": 2025
     },
     {
@@ -603,34 +603,6 @@
       "year": 2024
     },
     {
-      "abstract": "Neutron stars in coalescing binaries deform due to the tidal gravitational fields generated by their companions. During the inspiral phase, the tidal deformation is dominated by the fundamental oscillation ($f$-) mode of the stars. The tide also has sub-dominant gravity ($g$-) modes that are resonantly excited when the linear tidal forcing sweeps through their eigenfrequencies. Beyond the linear order in perturbed fluid displacement, the $g$-modes are anharmonic, i.e., their oscillation frequencies depend on the mode energy. For the lowest-order $g$-mode, we show that when the tidal forcing reaches its linear eigenfrequency, the mode starts to dynamically adjust its energy so that its nonlinearly shifted oscillation frequency always matches that of the driving field. This phenomenon, which we term `resonance locking', persists through the rest of the inspiral, and hence, the mode grows to substantially larger energies than in the linear theory. Using a $1.4$--$1.4\\, M_{\\odot}$ binary neutron star system with the SLy4 equation of state, we find this results in an extra correction to the frequency-domain gravitational wave (GW) phase of $|\\Delta \\Psi|\\approx 3\\,{\\rm rad}$ accumulated from the onset of resonance locking at the GW frequency of $94\\,{\\rm Hz}$ to the merger at $1.05\\,{\\rm kHz}$. This effect probes details of the internal structure of merging neutron stars beyond their bulk properties such as tidal deformability.",
-      "arxiv_id": "2410.03831",
-      "authors": [
-        "Kwon, K. J.",
-        "Yu, Hang",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2024arXiv241003831K",
-      "citation_count": 12,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2410.03831",
-      "inspire_recid": "2837623",
-      "page": "arXiv:2410.03831",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2410.03831",
-      "pubdate": "2024-10-00",
-      "title": "Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Neutron stars",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2024
-    },
-    {
       "abstract": "Searches for gravitational wave events use models, or templates, for the signals of interest. The templates used in current searches in the LIGO-Virgo-KAGRA data model the dominant quadrupole mode <inline-formula><mml:math display=\"inline\"><mml:mo stretchy=\"false\">(</mml:mo><mml:mo>\u2113</mml:mo><mml:mo>,</mml:mo><mml:mo stretchy=\"false\">|</mml:mo><mml:mi>m</mml:mi><mml:mo stretchy=\"false\">|</mml:mo><mml:mo stretchy=\"false\">)</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy=\"false\">(</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy=\"false\">)</mml:mo></mml:math></inline-formula> of the signals and omit subdominant higher-order modes (HMs) such as <inline-formula><mml:math display=\"inline\"><mml:mo stretchy=\"false\">(</mml:mo><mml:mo>\u2113</mml:mo><mml:mo>,</mml:mo><mml:mo stretchy=\"false\">|</mml:mo><mml:mi>m</mml:mi><mml:mo stretchy=\"false\">|</mml:mo><mml:mo stretchy=\"false\">)</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy=\"false\">(</mml:mo><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mn>3</mml:mn><mml:mo stretchy=\"false\">)</mml:mo></mml:math></inline-formula>, (4, 4), which are predicted by general relativity. This omission reduces search sensitivity to black hole mergers in interesting parts of parameter space, such as systems with high masses and asymmetric-mass ratios. We develop a new strategy to include HMs in template banks: instead of making templates containing a combination of different modes, we separately store normalized templates corresponding to (2, 2), (3, 3), and (4, 4) modes. To model aligned-spin (3, 3), (4, 4) waveforms corresponding to a given (2, 2) waveform, we use a combination of post-Newtonian formulas and machine learning tools. In the matched-filtering stage, one can filter each mode separately with the data and collect the time series of signal-to-noise ratios (SNRs). This leads to a HM template bank whose matched-filtering cost is just <inline-formula><mml:math display=\"inline\"><mml:mo>\u2248</mml:mo><mml:mn>3</mml:mn><mml:mo>\u00d7</mml:mo></mml:math></inline-formula> that of a quadrupole-only search (as opposed to <inline-formula><mml:math display=\"inline\"><mml:mo>\u2248</mml:mo><mml:mn>100</mml:mn><mml:mo>\u00d7</mml:mo></mml:math></inline-formula> in previously proposed HM search methods). Our method is effectual and generally applicable for template banks constructed with either stochastic or geometric placement techniques. New gravitational wave candidate events that we detect using our HM banks and details for combining the different SNR mode time series are presented in accompanying papers [D. Wadekar et al., arXiv:2312.06631; D. Wadekar et al., Phys. Rev. D 110, 044063 (2024)PRVDAQ2470-001010.1103/PhysRevD.110.044063]. Additionally, we discuss nonlinear compression of (2, 2)-only geometric placement template banks using machine learning algorithms.",
       "arxiv_id": "2310.15233",
       "authors": [
@@ -661,6 +633,34 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "110",
+      "year": 2024
+    },
+    {
+      "abstract": "Neutron stars in coalescing binaries deform due to the tidal gravitational fields generated by their companions. During the inspiral phase, the tidal deformation is dominated by the fundamental oscillation ($f$-) mode of the stars. The tide also has sub-dominant gravity ($g$-) modes that are resonantly excited when the linear tidal forcing sweeps through their eigenfrequencies. Beyond the linear order in perturbed fluid displacement, the $g$-modes are anharmonic, i.e., their oscillation frequencies depend on the mode energy. For the lowest-order $g$-mode, we show that when the tidal forcing reaches its linear eigenfrequency, the mode starts to dynamically adjust its energy so that its nonlinearly shifted oscillation frequency always matches that of the driving field. This phenomenon, which we term `resonance locking', persists through the rest of the inspiral, and hence, the mode grows to substantially larger energies than in the linear theory. Using a $1.4$--$1.4\\, M_{\\odot}$ binary neutron star system with the SLy4 equation of state, we find this results in an extra correction to the frequency-domain gravitational wave (GW) phase of $|\\Delta \\Psi|\\approx 3\\,{\\rm rad}$ accumulated from the onset of resonance locking at the GW frequency of $94\\,{\\rm Hz}$ to the merger at $1.05\\,{\\rm kHz}$. This effect probes details of the internal structure of merging neutron stars beyond their bulk properties such as tidal deformability.",
+      "arxiv_id": "2410.03831",
+      "authors": [
+        "Kwon, K. J.",
+        "Yu, Hang",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2024arXiv241003831K",
+      "citation_count": 12,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2410.03831",
+      "inspire_recid": "2837623",
+      "page": "arXiv:2410.03831",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2410.03831",
+      "pubdate": "2024-10-00",
+      "title": "Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Neutron stars",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
       "year": 2024
     },
     {
@@ -1421,7 +1421,7 @@
         "Gaensler, B. M."
       ],
       "bibcode": "2020PASA...37....2W",
-      "citation_count": 432,
+      "citation_count": 434,
       "doctype": "article",
       "doi": "10.48550/arXiv.1810.02680",
       "inspire_recid": "1697132",
@@ -1476,36 +1476,6 @@
       "year": 2019
     },
     {
-      "abstract": "We examine a caustic-straddling arc at z = 0.9397 in the field of the galaxy cluster MACS J0416.1-2403 (z = 0.397) using archival multiband Hubble Space Telescope images and show that its surface brightness exhibits anomalies that can be explained by a single highly magnified star undergoing microlensing. First, we show that the surface brightness pattern is not perfectly symmetric across the cluster critical curve, which is inconsistent with a locally smooth lens model; the location of the candidate star exhibits the most significant asymmetry. Second, our analysis indicates that the asymmetric feature has \u223c30% higher flux in the 2012 visits compared to the Frontier Fields program visits in 2014. Moreover, the variable asymmetric feature shows an anomalous color between the F814W and F105W filters in 2014. These anomalies are naturally explained by microlensing-induced variability of a caustic-transiting blue supergiant in a star-forming region, with a mean magnification factor around \u03bc \u223c 200. We extend this study to a statistical analysis of the whole arc image and find tentative evidence of the increased mismatch of the two images in the proximity of the critical line. Robust detection of one or multiple caustic-transiting stars in this arc will enable detailed follow-up studies that can shed light on the small-scale structure of the dark matter inside the cluster halo.",
-      "arxiv_id": "1902.10090",
-      "authors": [
-        "Kaurov, Alexander A.",
-        "Dai, Liang",
-        "Venumadhav, Tejaswi",
-        "Miralda-Escud\u00e9, Jordi",
-        "Frye, Brenda"
-      ],
-      "bibcode": "2019ApJ...880...58K",
-      "citation_count": 71,
-      "doctype": "article",
-      "doi": "10.3847/1538-4357/ab2888",
-      "inspire_recid": "1722101",
-      "page": "58",
-      "pub": "The Astrophysical Journal",
-      "pub_raw": "The Astrophysical Journal, Volume 880, Issue 1, article id. 58, <NUMPAGES>10</NUMPAGES> pp. (2019).",
-      "pubdate": "2019-07-00",
-      "title": "Highly Magnified Stars in Lensing Clusters: New Evidence in a Galaxy Lensed by MACS J0416.1-2403",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational lensing",
-        "Dark matter"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "880",
-      "year": 2019
-    },
-    {
       "abstract": "In this paper, we report on the construction of a new and independent pipeline for analyzing the public data from the first observing run of Advanced LIGO for mergers of compact binary systems. The pipeline incorporates different techniques and makes independent implementation choices in all its stages including the search design, the method to construct template banks, the automatic routines to detect bad data segments (\"glitches\") and to insulate good data from them, the procedure to account for the nonstationary nature of the detector noise, the signal-quality vetoes at the single-detector level and the methods to combine results from multiple detectors. Our pipeline enabled us to identify a new binary black hole merger GW151216 in the public LIGO data. This paper serves as a bird's eye view of the pipeline's important stages. Full details and derivations underlying the various stages will appear in accompanying papers.",
       "arxiv_id": "1902.10341",
       "authors": [
@@ -1533,6 +1503,36 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "100",
+      "year": 2019
+    },
+    {
+      "abstract": "We examine a caustic-straddling arc at z = 0.9397 in the field of the galaxy cluster MACS J0416.1-2403 (z = 0.397) using archival multiband Hubble Space Telescope images and show that its surface brightness exhibits anomalies that can be explained by a single highly magnified star undergoing microlensing. First, we show that the surface brightness pattern is not perfectly symmetric across the cluster critical curve, which is inconsistent with a locally smooth lens model; the location of the candidate star exhibits the most significant asymmetry. Second, our analysis indicates that the asymmetric feature has \u223c30% higher flux in the 2012 visits compared to the Frontier Fields program visits in 2014. Moreover, the variable asymmetric feature shows an anomalous color between the F814W and F105W filters in 2014. These anomalies are naturally explained by microlensing-induced variability of a caustic-transiting blue supergiant in a star-forming region, with a mean magnification factor around \u03bc \u223c 200. We extend this study to a statistical analysis of the whole arc image and find tentative evidence of the increased mismatch of the two images in the proximity of the critical line. Robust detection of one or multiple caustic-transiting stars in this arc will enable detailed follow-up studies that can shed light on the small-scale structure of the dark matter inside the cluster halo.",
+      "arxiv_id": "1902.10090",
+      "authors": [
+        "Kaurov, Alexander A.",
+        "Dai, Liang",
+        "Venumadhav, Tejaswi",
+        "Miralda-Escud\u00e9, Jordi",
+        "Frye, Brenda"
+      ],
+      "bibcode": "2019ApJ...880...58K",
+      "citation_count": 71,
+      "doctype": "article",
+      "doi": "10.3847/1538-4357/ab2888",
+      "inspire_recid": "1722101",
+      "page": "58",
+      "pub": "The Astrophysical Journal",
+      "pub_raw": "The Astrophysical Journal, Volume 880, Issue 1, article id. 58, <NUMPAGES>10</NUMPAGES> pp. (2019).",
+      "pubdate": "2019-07-00",
+      "title": "Highly Magnified Stars in Lensing Clusters: New Evidence in a Galaxy Lensed by MACS J0416.1-2403",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational lensing",
+        "Dark matter"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "880",
       "year": 2019
     },
     {
@@ -1952,7 +1952,7 @@
         "Venumadhav, Tejaswi"
       ],
       "bibcode": "2017arXiv170204724D",
-      "citation_count": 142,
+      "citation_count": 143,
       "doctype": "eprint",
       "doi": "10.48550/arXiv.1702.04724",
       "inspire_recid": "1513760",
@@ -2094,7 +2094,7 @@
         "Zemcov, Mike"
       ],
       "bibcode": "2014arXiv1412.4872D",
-      "citation_count": 622,
+      "citation_count": 623,
       "doctype": "eprint",
       "doi": "10.48550/arXiv.1412.4872",
       "inspire_recid": "1334478",
