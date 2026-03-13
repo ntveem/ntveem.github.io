@@ -36,7 +36,7 @@ jobs:
           python scripts/sync_group.py
 
       - name: Build CV PDFs
-        uses: xu-cheng/latex-action@v3
+        uses: xu-cheng/latex-action@v4
         with:
           root_file: |
             cv/generated/Tejaswi_CV_public.tex
