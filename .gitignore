@@ -24,3 +24,6 @@ Thumbs.db
 # Python caches
 __pycache__/
 *.pyc
+
+# Local presentation drafts/exports (not for public repo)
+talks/
