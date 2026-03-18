@@ -47,18 +47,78 @@ def topics_version(topics: list[str]) -> str:
     return digest[:16]
 
 
-def load_overrides(path: Path) -> dict[str, list[str]]:
+def _normalize_arxiv_key(value: str) -> str:
+    cleaned = value.strip().lower()
+    cleaned = re.sub(r"^(?:arxiv:)", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"v\d+$", "", cleaned)
+    return cleaned
+
+
+def _normalize_doi_key(value: str) -> str:
+    return value.strip().lower()
+
+
+def _normalize_override_key(key: str) -> tuple[str, str] | None:
+    raw = key.strip()
+    if not raw:
+        return None
+
+    if ":" not in raw:
+        return ("bibcode", raw)
+
+    prefix, value = raw.split(":", 1)
+    prefix = prefix.strip().lower()
+    value = value.strip()
+    if not value:
+        return None
+
+    if prefix == "bibcode":
+        return ("bibcode", value)
+    if prefix == "arxiv":
+        normalized = _normalize_arxiv_key(value)
+        return ("arxiv", normalized) if normalized else None
+    if prefix == "doi":
+        normalized = _normalize_doi_key(value)
+        return ("doi", normalized) if normalized else None
+
+    # Backward-compatible fallback for unprefixed bibcodes only.
+    return ("bibcode", raw)
+
+
+def load_overrides(path: Path) -> dict[tuple[str, str], list[str]]:
     if not path.exists():
         return {}
     payload = json.loads(path.read_text(encoding="utf-8"))
     raw = payload.get("overrides") or {}
-    out: dict[str, list[str]] = {}
-    for bibcode, topics in raw.items():
-        b = str(bibcode).strip()
-        if not b:
+    out: dict[tuple[str, str], list[str]] = {}
+    for key, topics in raw.items():
+        normalized_key = _normalize_override_key(str(key))
+        if not normalized_key:
             continue
-        out[b] = [str(t).strip() for t in (topics or []) if str(t).strip()]
+        out[normalized_key] = [str(t).strip() for t in (topics or []) if str(t).strip()]
     return out
+
+
+def _paper_override_keys(paper) -> list[tuple[str, str]]:
+    keys: list[tuple[str, str]] = []
+    if paper.bibcode:
+        keys.append(("bibcode", paper.bibcode))
+    if paper.doi:
+        normalized_doi = _normalize_doi_key(paper.doi)
+        if normalized_doi:
+            keys.append(("doi", normalized_doi))
+    if paper.arxiv_id:
+        normalized_arxiv = _normalize_arxiv_key(paper.arxiv_id)
+        if normalized_arxiv:
+            keys.append(("arxiv", normalized_arxiv))
+    return keys
+
+
+def _topics_override_for_paper(paper, overrides: dict[tuple[str, str], list[str]]) -> list[str] | None:
+    for key in _paper_override_keys(paper):
+        if key in overrides:
+            return overrides[key]
+    return None
 
 
 def _extract_json_object(text: str) -> dict:
@@ -224,7 +284,7 @@ def main() -> int:
 
     if do_classification:
         for paper in papers:
-            if paper.bibcode in overrides:
+            if _topics_override_for_paper(paper, overrides) is not None:
                 classify_skipped += 1
                 continue
             entry = enrichment_by_bibcode.setdefault(paper.bibcode, {})
@@ -266,10 +326,11 @@ def main() -> int:
 
     overrides_applied = 0
     for paper in papers:
-        if paper.bibcode not in overrides:
+        override_topics = _topics_override_for_paper(paper, overrides)
+        if override_topics is None:
             continue
         entry = enrichment_by_bibcode.setdefault(paper.bibcode, {})
-        topics_for_paper = [t for t in overrides[paper.bibcode] if t in set(topics)]
+        topics_for_paper = [t for t in override_topics if t in set(topics)]
         entry["topics"] = topics_for_paper
         entry["topic_source"] = "manual_override"
         entry["topic_confidence"] = 1.0
