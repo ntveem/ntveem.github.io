@@ -33,6 +33,7 @@ jobs:
           python scripts/sync_ads_data.py
           python scripts/sync_publications.py --write
           python scripts/sync_cv.py
+          python scripts/sync_publist.py
           python scripts/sync_group.py
 
       - name: Build CV PDFs
@@ -41,8 +42,9 @@ jobs:
           root_file: |
             cv/generated/Tejaswi_CV_public.tex
             private/cv/Tejaswi_CV_private.tex
+            private/publist/Tejaswi_publist.tex
 
-      - name: Place generated CV PDFs
+      - name: Place generated PDFs
         run: |
           if [ -f Tejaswi_CV_public.pdf ]; then
             mv -f Tejaswi_CV_public.pdf cv/generated/Tejaswi_CV_public.pdf
@@ -50,17 +52,20 @@ jobs:
           if [ -f Tejaswi_CV_private.pdf ]; then
             mv -f Tejaswi_CV_private.pdf private/cv/Tejaswi_CV_private.pdf
           fi
+          if [ -f Tejaswi_publist.pdf ]; then
+            mv -f Tejaswi_publist.pdf private/publist/Tejaswi_publist.pdf
+          fi
           cp -f cv/generated/Tejaswi_CV_public.pdf assets/files/Tejaswi_CV.pdf
 
       - name: Clean LaTeX auxiliary files
         run: |
-          find cv/generated private/cv -type f \
+          find cv/generated private/cv private/publist -type f \
             \( -name "*.aux" -o -name "*.fdb_latexmk" -o -name "*.fls" -o -name "*.log" -o -name "*.out" -o -name "*.synctex.gz" -o -name "*.toc" \) \
             -delete
 
       - name: Build maintenance summary
         run: |
-          TRACKED_FILES="data/ads_publications.json 02-index_publications.md 05-index_group.md cv/generated/Tejaswi_CV_public.tex private/cv/Tejaswi_CV_private.tex assets/files/Tejaswi_CV.pdf private/cv/Tejaswi_CV_private.pdf"
+          TRACKED_FILES="data/ads_publications.json 02-index_publications.md 05-index_group.md cv/generated/Tejaswi_CV_public.tex private/cv/Tejaswi_CV_private.tex private/publist/Tejaswi_publist.tex assets/files/Tejaswi_CV.pdf private/cv/Tejaswi_CV_private.pdf private/publist/Tejaswi_publist.pdf"
           if git diff --quiet -- $TRACKED_FILES; then
             CHANGED="No"
             CHANGED_LIST="(none)"
@@ -89,12 +94,12 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          if git diff --quiet -- data/ads_publications.json 02-index_publications.md 05-index_group.md cv/generated/Tejaswi_CV_public.tex private/cv/Tejaswi_CV_private.tex assets/files/Tejaswi_CV.pdf private/cv/Tejaswi_CV_private.pdf; then
+          if git diff --quiet -- data/ads_publications.json 02-index_publications.md 05-index_group.md cv/generated/Tejaswi_CV_public.tex private/cv/Tejaswi_CV_private.tex private/publist/Tejaswi_publist.tex assets/files/Tejaswi_CV.pdf private/cv/Tejaswi_CV_private.pdf private/publist/Tejaswi_publist.pdf; then
             echo "No updates."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ads_publications.json 02-index_publications.md 05-index_group.md cv/generated/Tejaswi_CV_public.tex private/cv/Tejaswi_CV_private.tex assets/files/Tejaswi_CV.pdf private/cv/Tejaswi_CV_private.pdf
-          git commit -m "maintenance: sync ads publications cv and group page"
+          git add data/ads_publications.json 02-index_publications.md 05-index_group.md cv/generated/Tejaswi_CV_public.tex private/cv/Tejaswi_CV_private.tex private/publist/Tejaswi_publist.tex assets/files/Tejaswi_CV.pdf private/cv/Tejaswi_CV_private.pdf private/publist/Tejaswi_publist.pdf
+          git commit -m "maintenance: sync ads publications cv publist and group page"
           git push

@@ -12,6 +12,7 @@ fi
 python3 scripts/sync_ads_data.py
 python3 scripts/sync_publications.py --write
 python3 scripts/sync_cv.py
+python3 scripts/sync_publist.py
 python3 scripts/sync_group.py
 
 if [[ "$COMPILE_PDF" -eq 1 ]]; then
@@ -24,6 +25,8 @@ if [[ "$COMPILE_PDF" -eq 1 ]]; then
     -output-directory=cv/generated cv/generated/Tejaswi_CV_public.tex
   latexmk -pdf -interaction=nonstopmode -halt-on-error \
     -output-directory=private/cv private/cv/Tejaswi_CV_private.tex
+  latexmk -pdf -interaction=nonstopmode -halt-on-error \
+    -output-directory=private/publist private/publist/Tejaswi_publist.tex
 
   cp -f cv/generated/Tejaswi_CV_public.pdf assets/files/Tejaswi_CV.pdf
 fi
