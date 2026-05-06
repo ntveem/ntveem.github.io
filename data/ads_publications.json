@@ -230,6 +230,34 @@
       "year": 2025
     },
     {
+      "abstract": "In this paper, we present the development and the results of a new search pipeline for short gamma-ray bursts (sGRBs) in the publicly available data from the Gamma-Ray Burst Monitor (GBM) on board the Fermi satellite. This pipeline uses rigorous statistical methods that are designed to maximize the information extracted from the Fermi/GBM detectors. Our approach differs substantially from existing search efforts in several aspects: the pipeline includes the construction of template banks, Poisson matched filtering, background estimation, background misestimation correction, automatic routines to filter contaminants, statistical estimation of the signal location, and a quantitative estimator of the signal probability of being of cosmological, terrestrial, or solar origin. Our analysis also includes operating the pipeline on \"time-slid\" copies of the data, which allows exact significance assessment and p<SUB>astro</SUB> computation, akin to the state-of-the-art gravitational-wave (GW) data analysis pipelines. Depending on the spectral properties of the bursts, our pipeline achieves a signal-to-noise ratio improvement by a factor of 2\u250015 over the onboard GBM triggering algorithm. This enhancement increases the detectable volume for sGRBs and results in an approximately 50% increase in sGRB detections in the 2014 GBM data set. As a further consequence of the sensitivity increase, we detect hundreds of soft gamma-ray flares of Galactic origin. This improved sensitivity enhances the chances of detecting fainter, off-axis gamma-ray bursts that would likely fall below the standard triggering thresholds. Applying this pipeline to the full GBM archive is expected to expand further the joint sGRB\u2500GW detection volume.",
+      "arxiv_id": "2507.05739",
+      "authors": [
+        "Perera, Ariel",
+        "Zackay, Barak",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2025ApJS..281....4P",
+      "citation_count": 0,
+      "doctype": "article",
+      "doi": "10.3847/1538-4365/ae0189",
+      "inspire_recid": "2943560",
+      "page": "4",
+      "pub": "The Astrophysical Journal Supplement Series",
+      "pub_raw": "The Astrophysical Journal Supplement Series, Volume 281, Issue 1, id.4, 23 pp.",
+      "pubdate": "2025-11-00",
+      "title": "A New Search Pipeline for Short Gamma-Ray Bursts in Fermi/GBM Data\u2014A 50% Increase in the Number of Detections",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gamma ray bursts",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "281",
+      "year": 2025
+    },
+    {
       "abstract": "Parameter estimation (PE) for compact binary coalescence (CBC) events observed by gravitational wave (GW) laser interferometers is a core task in GW astrophysics. We present a method to compute the posterior distribution efficiently without relying on stochastic samplers. First, we show how to select sets of intrinsic and extrinsic parameters that efficiently cover the relevant phase space. We then show how to compute the likelihood for all combinations of these parameters using dot products. We describe how to assess and tune the integration accuracy, making the outcome predictable and adaptable to different applications. The low computational cost allows full PE in minutes on a single CPU, with the potential for further acceleration using multiple CPUs or GPUs. We implement this method in the dot-PE package, enabling sensitive searches using the full evidence integral for precessing CBCs and supporting large waveform banks (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>5</mml:mn></mml:msup><mml:mi>\u2500</mml:mi><mml:msup><mml:mn>10</mml:mn><mml:mn>6</mml:mn></mml:msup></mml:math></inline-formula> waveforms), regardless of waveform generation cost.",
       "arxiv_id": "2507.16022",
       "authors": [
@@ -287,34 +315,6 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "112",
-      "year": 2025
-    },
-    {
-      "abstract": "In this paper, we present the development and the results of a new search pipeline for short gamma-ray bursts (sGRBs) in the publicly available data from the Gamma-Ray Burst Monitor (GBM) on board the Fermi satellite. This pipeline uses rigorous statistical methods that are designed to maximize the information extracted from the Fermi/GBM detectors. Our approach differs substantially from existing search efforts in several aspects: the pipeline includes the construction of template banks, Poisson matched filtering, background estimation, background misestimation correction, automatic routines to filter contaminants, statistical estimation of the signal location, and a quantitative estimator of the signal probability of being of cosmological, terrestrial, or solar origin. Our analysis also includes operating the pipeline on \"time-slid\" copies of the data, which allows exact significance assessment and p<SUB>astro</SUB> computation, akin to the state-of-the-art gravitational-wave (GW) data analysis pipelines. Depending on the spectral properties of the bursts, our pipeline achieves a signal-to-noise ratio improvement by a factor of 2\u250015 over the onboard GBM triggering algorithm. This enhancement increases the detectable volume for sGRBs and results in an approximately 50% increase in sGRB detections in the 2014 GBM data set. As a further consequence of the sensitivity increase, we detect hundreds of soft gamma-ray flares of Galactic origin. This improved sensitivity enhances the chances of detecting fainter, off-axis gamma-ray bursts that would likely fall below the standard triggering thresholds. Applying this pipeline to the full GBM archive is expected to expand further the joint sGRB\u2500GW detection volume.",
-      "arxiv_id": "2507.05739",
-      "authors": [
-        "Perera, Ariel",
-        "Zackay, Barak",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2025ApJS..281....4P",
-      "citation_count": 0,
-      "doctype": "article",
-      "doi": "10.3847/1538-4365/ae0189",
-      "inspire_recid": "2943560",
-      "page": "4",
-      "pub": "The Astrophysical Journal Supplement Series",
-      "pub_raw": "The Astrophysical Journal Supplement Series, Volume 281, Issue 1, id.4, 23 pp.",
-      "pubdate": "2025-11-00",
-      "title": "A New Search Pipeline for Short Gamma-Ray Bursts in Fermi/GBM Data\u2014A 50% Increase in the Number of Detections",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gamma ray bursts",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "281",
       "year": 2025
     },
     {
@@ -620,7 +620,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2025PhRvD.111b4049M",
-      "citation_count": 81,
+      "citation_count": 80,
       "doctype": "article",
       "doi": "10.1103/PhysRevD.111.024049",
       "inspire_recid": "2721113",
@@ -673,34 +673,6 @@
       "year": 2024
     },
     {
-      "abstract": "Neutron stars in coalescing binaries deform due to the tidal gravitational fields generated by their companions. During the inspiral phase, the tidal deformation is dominated by the fundamental oscillation ($f$-) mode of the stars. The tide also has sub-dominant gravity ($g$-) modes that are resonantly excited when the linear tidal forcing sweeps through their eigenfrequencies. Beyond the linear order in perturbed fluid displacement, the $g$-modes are anharmonic, i.e., their oscillation frequencies depend on the mode energy. For the lowest-order $g$-mode, we show that when the tidal forcing reaches its linear eigenfrequency, the mode starts to dynamically adjust its energy so that its nonlinearly shifted oscillation frequency always matches that of the driving field. This phenomenon, which we term `resonance locking', persists through the rest of the inspiral, and hence, the mode grows to substantially larger energies than in the linear theory. Using a $1.4$--$1.4\\, M_{\\odot}$ binary neutron star system with the SLy4 equation of state, we find this results in an extra correction to the frequency-domain gravitational wave (GW) phase of $|\\Delta \\Psi|\\approx 3\\,{\\rm rad}$ accumulated from the onset of resonance locking at the GW frequency of $94\\,{\\rm Hz}$ to the merger at $1.05\\,{\\rm kHz}$. This effect probes details of the internal structure of merging neutron stars beyond their bulk properties such as tidal deformability.",
-      "arxiv_id": "2410.03831",
-      "authors": [
-        "Kwon, K. J.",
-        "Yu, Hang",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2024arXiv241003831K",
-      "citation_count": 13,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2410.03831",
-      "inspire_recid": "2837623",
-      "page": "arXiv:2410.03831",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2410.03831",
-      "pubdate": "2024-10-00",
-      "title": "Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Neutron stars",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2024
-    },
-    {
       "abstract": "Searches for gravitational wave events use models, or templates, for the signals of interest. The templates used in current searches in the LIGO-Virgo-KAGRA data model the dominant quadrupole mode <inline-formula><mml:math display=\"inline\"><mml:mo stretchy=\"false\">(</mml:mo><mml:mo>\u2113</mml:mo><mml:mo>,</mml:mo><mml:mo stretchy=\"false\">|</mml:mo><mml:mi>m</mml:mi><mml:mo stretchy=\"false\">|</mml:mo><mml:mo stretchy=\"false\">)</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy=\"false\">(</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy=\"false\">)</mml:mo></mml:math></inline-formula> of the signals and omit subdominant higher-order modes (HMs) such as <inline-formula><mml:math display=\"inline\"><mml:mo stretchy=\"false\">(</mml:mo><mml:mo>\u2113</mml:mo><mml:mo>,</mml:mo><mml:mo stretchy=\"false\">|</mml:mo><mml:mi>m</mml:mi><mml:mo stretchy=\"false\">|</mml:mo><mml:mo stretchy=\"false\">)</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy=\"false\">(</mml:mo><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mn>3</mml:mn><mml:mo stretchy=\"false\">)</mml:mo></mml:math></inline-formula>, (4, 4), which are predicted by general relativity. This omission reduces search sensitivity to black hole mergers in interesting parts of parameter space, such as systems with high masses and asymmetric-mass ratios. We develop a new strategy to include HMs in template banks: instead of making templates containing a combination of different modes, we separately store normalized templates corresponding to (2, 2), (3, 3), and (4, 4) modes. To model aligned-spin (3, 3), (4, 4) waveforms corresponding to a given (2, 2) waveform, we use a combination of post-Newtonian formulas and machine learning tools. In the matched-filtering stage, one can filter each mode separately with the data and collect the time series of signal-to-noise ratios (SNRs). This leads to a HM template bank whose matched-filtering cost is just <inline-formula><mml:math display=\"inline\"><mml:mo>\u2248</mml:mo><mml:mn>3</mml:mn><mml:mo>\u00d7</mml:mo></mml:math></inline-formula> that of a quadrupole-only search (as opposed to <inline-formula><mml:math display=\"inline\"><mml:mo>\u2248</mml:mo><mml:mn>100</mml:mn><mml:mo>\u00d7</mml:mo></mml:math></inline-formula> in previously proposed HM search methods). Our method is effectual and generally applicable for template banks constructed with either stochastic or geometric placement techniques. New gravitational wave candidate events that we detect using our HM banks and details for combining the different SNR mode time series are presented in accompanying papers [D. Wadekar et al., arXiv:2312.06631; D. Wadekar et al., Phys. Rev. D 110, 044063 (2024)PRVDAQ2470-001010.1103/PhysRevD.110.044063]. Additionally, we discuss nonlinear compression of (2, 2)-only geometric placement template banks using machine learning algorithms.",
       "arxiv_id": "2310.15233",
       "authors": [
@@ -731,6 +703,34 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "110",
+      "year": 2024
+    },
+    {
+      "abstract": "Neutron stars in coalescing binaries deform due to the tidal gravitational fields generated by their companions. During the inspiral phase, the tidal deformation is dominated by the fundamental oscillation ($f$-) mode of the stars. The tide also has sub-dominant gravity ($g$-) modes that are resonantly excited when the linear tidal forcing sweeps through their eigenfrequencies. Beyond the linear order in perturbed fluid displacement, the $g$-modes are anharmonic, i.e., their oscillation frequencies depend on the mode energy. For the lowest-order $g$-mode, we show that when the tidal forcing reaches its linear eigenfrequency, the mode starts to dynamically adjust its energy so that its nonlinearly shifted oscillation frequency always matches that of the driving field. This phenomenon, which we term `resonance locking', persists through the rest of the inspiral, and hence, the mode grows to substantially larger energies than in the linear theory. Using a $1.4$--$1.4\\, M_{\\odot}$ binary neutron star system with the SLy4 equation of state, we find this results in an extra correction to the frequency-domain gravitational wave (GW) phase of $|\\Delta \\Psi|\\approx 3\\,{\\rm rad}$ accumulated from the onset of resonance locking at the GW frequency of $94\\,{\\rm Hz}$ to the merger at $1.05\\,{\\rm kHz}$. This effect probes details of the internal structure of merging neutron stars beyond their bulk properties such as tidal deformability.",
+      "arxiv_id": "2410.03831",
+      "authors": [
+        "Kwon, K. J.",
+        "Yu, Hang",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2024arXiv241003831K",
+      "citation_count": 13,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2410.03831",
+      "inspire_recid": "2837623",
+      "page": "arXiv:2410.03831",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2410.03831",
+      "pubdate": "2024-10-00",
+      "title": "Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Neutron stars",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
       "year": 2024
     },
     {
@@ -874,7 +874,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2023arXiv231206631W",
-      "citation_count": 79,
+      "citation_count": 76,
       "doctype": "eprint",
       "doi": "10.48550/arXiv.2312.06631",
       "inspire_recid": "2734793",
@@ -1057,7 +1057,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2022PhRvD.106d3009O",
-      "citation_count": 195,
+      "citation_count": 194,
       "doctype": "article",
       "doi": "10.48550/arXiv.2201.02252",
       "inspire_recid": "2005596",
@@ -1215,36 +1215,6 @@
       "year": 2021
     },
     {
-      "abstract": "We introduce a new technique to search for gravitational wave events from compact binary mergers that produce a clear signal only in a single gravitational wave detector, and marginal signals in other detectors. Such a situation can arise when the detectors in a network have different sensitivities, or when sources have unfavorable sky locations or orientations. We start with a short list of loud single-detector triggers from regions of parameter space that are empirically unaffected by glitches (after applying signal-quality vetoes). For each of these triggers, we compute evidence for astrophysical origin from the rest of the detector network by coherently combining the likelihoods from all detectors and marginalizing over extrinsic geometric parameters. We report the discovery of two new binary black hole (BBH) mergers in the second observing run of Advanced LIGO and Virgo (O2), in addition to the ones that were reported in [B. P. Abbott et al. (LIGO Scientific and Virgo Collaborations), Phys. Rev. X 9, 031040 (2019), 10.1103/PhysRevX.9.031040 and [T. Venumadhav et al., Phys. Rev. D 101, 083030 (2020), 10.1103/PhysRevD.101.083030]. We estimate that the two events have false alarm rates of one in 19 years (60 O2) and one in 11 years (36 O2). One of the events, GW170817A, has primary and secondary masses m<SUB>1</SUB><SUP>src</SUP>=5 6<SUB>-10</SUB><SUP>+16</SUP> M<SUB>\u2299</SUB> and m<SUB>2</SUB><SUP>src</SUP>=4 0<SUB>-11</SUB><SUP>+10</SUP> M<SUB>\u2299</SUB> in the source frame. The existence of GW170817A should be very informative about the theoretically predicted upper mass gap for stellar mass black holes. Its effective spin parameter is measured to be \u03c7<SUB>eff</SUB>=0.5 \u00b10.2 , which is consistent with the tendency of the heavier detected BBH systems to have large and positive effective spin parameters. The other event, GWC170402, will be discussed thoroughly in future work.",
-      "arxiv_id": "1910.09528",
-      "authors": [
-        "Zackay, Barak",
-        "Dai, Liang",
-        "Venumadhav, Tejaswi",
-        "Roulet, Javier",
-        "Zaldarriaga, Matias"
-      ],
-      "bibcode": "2021PhRvD.104f3030Z",
-      "citation_count": 153,
-      "doctype": "article",
-      "doi": "10.48550/arXiv.1910.09528",
-      "inspire_recid": "1759933",
-      "page": "063030",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 104, Issue 6, article id.063030",
-      "pubdate": "2021-09-00",
-      "title": "Detecting gravitational waves with disparate detector responses: Two new binary black hole mergers",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational waves",
-        "Black holes"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "104",
-      "year": 2021
-    },
-    {
       "abstract": "Searches for gravitational waves crucially depend on exact signal processing of noisy strain data from gravitational wave detectors, which are known to exhibit significant nonstationary and non-Gaussian behavior. In this paper, we study two distinct effects in the LIGO/Virgo data that reduce the sensitivity of searches: first, variations in the noise power spectral density (PSD) on timescales of more than a few seconds; and second, loud and abrupt transient \"glitches\" of terrestrial or instrumental origin. We derive a simple procedure to correct, at first order, the effect of the variation in the PSD on the search background. Given the knowledge of the existence of localized glitches, in particular segments of data, we also develop a method to insulate statistical inference from these glitches, so as to cleanly excise them without affecting the search background in neighboring seconds. We show the importance of applying these methods on the publicly available LIGO data and estimate an increase in the detection volume of at least 15% from the PSD-drift correction alone, due to the improved background distribution.",
       "arxiv_id": "1908.05644",
       "authors": [
@@ -1268,6 +1238,36 @@
       "topic_source": "llm",
       "topics": [
         "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "104",
+      "year": 2021
+    },
+    {
+      "abstract": "We introduce a new technique to search for gravitational wave events from compact binary mergers that produce a clear signal only in a single gravitational wave detector, and marginal signals in other detectors. Such a situation can arise when the detectors in a network have different sensitivities, or when sources have unfavorable sky locations or orientations. We start with a short list of loud single-detector triggers from regions of parameter space that are empirically unaffected by glitches (after applying signal-quality vetoes). For each of these triggers, we compute evidence for astrophysical origin from the rest of the detector network by coherently combining the likelihoods from all detectors and marginalizing over extrinsic geometric parameters. We report the discovery of two new binary black hole (BBH) mergers in the second observing run of Advanced LIGO and Virgo (O2), in addition to the ones that were reported in [B. P. Abbott et al. (LIGO Scientific and Virgo Collaborations), Phys. Rev. X 9, 031040 (2019), 10.1103/PhysRevX.9.031040 and [T. Venumadhav et al., Phys. Rev. D 101, 083030 (2020), 10.1103/PhysRevD.101.083030]. We estimate that the two events have false alarm rates of one in 19 years (60 O2) and one in 11 years (36 O2). One of the events, GW170817A, has primary and secondary masses m<SUB>1</SUB><SUP>src</SUP>=5 6<SUB>-10</SUB><SUP>+16</SUP> M<SUB>\u2299</SUB> and m<SUB>2</SUB><SUP>src</SUP>=4 0<SUB>-11</SUB><SUP>+10</SUP> M<SUB>\u2299</SUB> in the source frame. The existence of GW170817A should be very informative about the theoretically predicted upper mass gap for stellar mass black holes. Its effective spin parameter is measured to be \u03c7<SUB>eff</SUB>=0.5 \u00b10.2 , which is consistent with the tendency of the heavier detected BBH systems to have large and positive effective spin parameters. The other event, GWC170402, will be discussed thoroughly in future work.",
+      "arxiv_id": "1910.09528",
+      "authors": [
+        "Zackay, Barak",
+        "Dai, Liang",
+        "Venumadhav, Tejaswi",
+        "Roulet, Javier",
+        "Zaldarriaga, Matias"
+      ],
+      "bibcode": "2021PhRvD.104f3030Z",
+      "citation_count": 152,
+      "doctype": "article",
+      "doi": "10.48550/arXiv.1910.09528",
+      "inspire_recid": "1759933",
+      "page": "063030",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 104, Issue 6, article id.063030",
+      "pubdate": "2021-09-00",
+      "title": "Detecting gravitational waves with disparate detector responses: Two new binary black hole mergers",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "104",
@@ -1348,7 +1348,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2020arXiv200712709D",
-      "citation_count": 116,
+      "citation_count": 115,
       "doctype": "eprint",
       "doi": "10.48550/arXiv.2007.12709",
       "inspire_recid": "1808899",
@@ -1379,7 +1379,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2020PhRvD.101h3030V",
-      "citation_count": 373,
+      "citation_count": 370,
       "doctype": "article",
       "doi": "10.48550/arXiv.1904.07214",
       "inspire_recid": "1729794",
@@ -1491,7 +1491,7 @@
         "Gaensler, B. M."
       ],
       "bibcode": "2020PASA...37....2W",
-      "citation_count": 444,
+      "citation_count": 443,
       "doctype": "article",
       "doi": "10.48550/arXiv.1810.02680",
       "inspire_recid": "1697132",
@@ -1576,36 +1576,6 @@
       "year": 2019
     },
     {
-      "abstract": "We report a new binary black hole merger in the publicly available LIGO first observing run (O1) data release. The event has a false alarm rate of one per six years in the detector-frame chirp-mass range M<SUP>det</SUP>\u2208[20 ,40 ]M<SUB>\u2299</SUB> in a new independent analysis pipeline that we developed. Our best estimate of the probability that the event is of astrophysical origin is P<SUB>astro</SUB>\u223c0.71 . The estimated physical parameters of the event indicate that it is the merger of two massive black holes, M<SUP>det</SUP>=3 1<SUB>-3</SUB><SUP>+2</SUP>M<SUB>\u2299</SUB> with an effective spin parameter, \u03c7<SUB>eff</SUB>=0.8 1<SUB>-0.21</SUB><SUP>+0.15</SUP>, making this the most highly spinning merger reported to date. It is also among the two highest redshift mergers observed so far. The high aligned spin of the merger supports the hypothesis that merging binary black holes can be created by binary stellar evolution.",
-      "arxiv_id": "1902.10331",
-      "authors": [
-        "Zackay, Barak",
-        "Venumadhav, Tejaswi",
-        "Dai, Liang",
-        "Roulet, Javier",
-        "Zaldarriaga, Matias"
-      ],
-      "bibcode": "2019PhRvD.100b3007Z",
-      "citation_count": 195,
-      "doctype": "article",
-      "doi": "10.1103/PhysRevD.100.023007",
-      "inspire_recid": "1722266",
-      "page": "023007",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 100, Issue 2, id.023007",
-      "pubdate": "2019-07-00",
-      "title": "Highly spinning and aligned binary black hole merger in the Advanced LIGO first observing run",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Black holes",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "100",
-      "year": 2019
-    },
-    {
       "abstract": "We examine a caustic-straddling arc at z = 0.9397 in the field of the galaxy cluster MACS J0416.1-2403 (z = 0.397) using archival multiband Hubble Space Telescope images and show that its surface brightness exhibits anomalies that can be explained by a single highly magnified star undergoing microlensing. First, we show that the surface brightness pattern is not perfectly symmetric across the cluster critical curve, which is inconsistent with a locally smooth lens model; the location of the candidate star exhibits the most significant asymmetry. Second, our analysis indicates that the asymmetric feature has \u223c30% higher flux in the 2012 visits compared to the Frontier Fields program visits in 2014. Moreover, the variable asymmetric feature shows an anomalous color between the F814W and F105W filters in 2014. These anomalies are naturally explained by microlensing-induced variability of a caustic-transiting blue supergiant in a star-forming region, with a mean magnification factor around \u03bc \u223c 200. We extend this study to a statistical analysis of the whole arc image and find tentative evidence of the increased mismatch of the two images in the proximity of the critical line. Robust detection of one or multiple caustic-transiting stars in this arc will enable detailed follow-up studies that can shed light on the small-scale structure of the dark matter inside the cluster halo.",
       "arxiv_id": "1902.10090",
       "authors": [
@@ -1616,7 +1586,7 @@
         "Frye, Brenda"
       ],
       "bibcode": "2019ApJ...880...58K",
-      "citation_count": 71,
+      "citation_count": 72,
       "doctype": "article",
       "doi": "10.3847/1538-4357/ab2888",
       "inspire_recid": "1722101",
@@ -1633,6 +1603,36 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "880",
+      "year": 2019
+    },
+    {
+      "abstract": "We report a new binary black hole merger in the publicly available LIGO first observing run (O1) data release. The event has a false alarm rate of one per six years in the detector-frame chirp-mass range M<SUP>det</SUP>\u2208[20 ,40 ]M<SUB>\u2299</SUB> in a new independent analysis pipeline that we developed. Our best estimate of the probability that the event is of astrophysical origin is P<SUB>astro</SUB>\u223c0.71 . The estimated physical parameters of the event indicate that it is the merger of two massive black holes, M<SUP>det</SUP>=3 1<SUB>-3</SUB><SUP>+2</SUP>M<SUB>\u2299</SUB> with an effective spin parameter, \u03c7<SUB>eff</SUB>=0.8 1<SUB>-0.21</SUB><SUP>+0.15</SUP>, making this the most highly spinning merger reported to date. It is also among the two highest redshift mergers observed so far. The high aligned spin of the merger supports the hypothesis that merging binary black holes can be created by binary stellar evolution.",
+      "arxiv_id": "1902.10331",
+      "authors": [
+        "Zackay, Barak",
+        "Venumadhav, Tejaswi",
+        "Dai, Liang",
+        "Roulet, Javier",
+        "Zaldarriaga, Matias"
+      ],
+      "bibcode": "2019PhRvD.100b3007Z",
+      "citation_count": 194,
+      "doctype": "article",
+      "doi": "10.1103/PhysRevD.100.023007",
+      "inspire_recid": "1722266",
+      "page": "023007",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 100, Issue 2, id.023007",
+      "pubdate": "2019-07-00",
+      "title": "Highly spinning and aligned binary black hole merger in the Advanced LIGO first observing run",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Black holes",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "100",
       "year": 2019
     },
     {
@@ -1731,7 +1731,7 @@
         "Miralda-Escud, Jordi"
       ],
       "bibcode": "2018ApJ...867...24D",
-      "citation_count": 55,
+      "citation_count": 56,
       "doctype": "article",
       "doi": "10.48550/arXiv.1804.03149",
       "inspire_recid": "1667093",
@@ -1848,7 +1848,7 @@
         "Zackay, Barak"
       ],
       "bibcode": "2018arXiv180608793D",
-      "citation_count": 46,
+      "citation_count": 45,
       "doctype": "eprint",
       "doi": "10.48550/arXiv.1806.08793",
       "inspire_recid": "1679393",
@@ -1905,7 +1905,7 @@
         "Miralda-Escud\u00e9, Jordi"
       ],
       "bibcode": "2017ApJ...850...49V",
-      "citation_count": 90,
+      "citation_count": 91,
       "doctype": "article",
       "doi": "10.3847/1538-4357/aa9575",
       "inspire_recid": "1608328",
@@ -1923,36 +1923,6 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "850",
-      "year": 2017
-    },
-    {
-      "abstract": "We propose a method of measuring extremely weak magnetic fields in the intergalactic medium prior to and during the epoch of cosmic reionization. The method utilizes the Larmor precession of spin-polarized neutral hydrogen in the triplet state of the hyperfine transition. This precession leads to a systematic change in the brightness temperature fluctuations of the 21-cm line from the high-redshift universe, and thus the statistics of these fluctuations encode information about the magnetic field the atoms are immersed in. The method is most suited to probing fields that are coherent on large scales; in this paper, we consider a homogenous magnetic field over the scale of the 21-cm fluctuations. Due to the long lifetime of the triplet state of the 21-cm transition, this technique is naturally sensitive to extremely weak field strengths, of order 10<SUP>-19</SUP> G at a reference redshift of \u223c20 (or 10<SUP>-21</SUP> G if scaled to the present day). Therefore, this might open up the possibility of probing primordial magnetic fields just prior to reionization. If the magnetic fields are much stronger, it is still possible to use this method to infer their direction, and place a lower limit on their strength. In this paper (Paper I in a series on this effect), we perform detailed calculations of the microphysics behind this effect, and take into account all the processes that affect the hyperfine transition, including radiative decays, collisions, and optical pumping by Lyman-\u03b1 photons. We conclude with an analytic formula for the brightness temperature of linear-regime fluctuations in the presence of a magnetic field, and discuss its limiting behavior for weak and strong fields.",
-      "arxiv_id": "1410.2250",
-      "authors": [
-        "Venumadhav, Tejaswi",
-        "Oklop\u010di\u0107, Antonija",
-        "Gluscevic, Vera",
-        "Mishra, Abhilash",
-        "Hirata, Christopher M."
-      ],
-      "bibcode": "2017PhRvD..95h3010V",
-      "citation_count": 22,
-      "doctype": "article",
-      "doi": "10.48550/arXiv.1410.2250",
-      "inspire_recid": "1321339",
-      "page": "083010",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 95, Issue 8, id.083010",
-      "pubdate": "2017-04-00",
-      "title": "New probe of magnetic fields in the prereionization epoch. I. Formalism",
-      "topic_confidence": 1.0,
-      "topic_source": "manual_override",
-      "topics": [
-        "Reionization",
-        "Cosmology"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "95",
       "year": 2017
     },
     {
@@ -1976,6 +1946,36 @@
       "pub_raw": "Physical Review D, Volume 95, Issue 8, id.083011",
       "pubdate": "2017-04-00",
       "title": "New probe of magnetic fields in the pre-reionization epoch. II. Detectability",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
+      "topics": [
+        "Reionization",
+        "Cosmology"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "95",
+      "year": 2017
+    },
+    {
+      "abstract": "We propose a method of measuring extremely weak magnetic fields in the intergalactic medium prior to and during the epoch of cosmic reionization. The method utilizes the Larmor precession of spin-polarized neutral hydrogen in the triplet state of the hyperfine transition. This precession leads to a systematic change in the brightness temperature fluctuations of the 21-cm line from the high-redshift universe, and thus the statistics of these fluctuations encode information about the magnetic field the atoms are immersed in. The method is most suited to probing fields that are coherent on large scales; in this paper, we consider a homogenous magnetic field over the scale of the 21-cm fluctuations. Due to the long lifetime of the triplet state of the 21-cm transition, this technique is naturally sensitive to extremely weak field strengths, of order 10<SUP>-19</SUP> G at a reference redshift of \u223c20 (or 10<SUP>-21</SUP> G if scaled to the present day). Therefore, this might open up the possibility of probing primordial magnetic fields just prior to reionization. If the magnetic fields are much stronger, it is still possible to use this method to infer their direction, and place a lower limit on their strength. In this paper (Paper I in a series on this effect), we perform detailed calculations of the microphysics behind this effect, and take into account all the processes that affect the hyperfine transition, including radiative decays, collisions, and optical pumping by Lyman-\u03b1 photons. We conclude with an analytic formula for the brightness temperature of linear-regime fluctuations in the presence of a magnetic field, and discuss its limiting behavior for weak and strong fields.",
+      "arxiv_id": "1410.2250",
+      "authors": [
+        "Venumadhav, Tejaswi",
+        "Oklop\u010di\u0107, Antonija",
+        "Gluscevic, Vera",
+        "Mishra, Abhilash",
+        "Hirata, Christopher M."
+      ],
+      "bibcode": "2017PhRvD..95h3010V",
+      "citation_count": 22,
+      "doctype": "article",
+      "doi": "10.48550/arXiv.1410.2250",
+      "inspire_recid": "1321339",
+      "page": "083010",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 95, Issue 8, id.083010",
+      "pubdate": "2017-04-00",
+      "title": "New probe of magnetic fields in the prereionization epoch. I. Formalism",
       "topic_confidence": 1.0,
       "topic_source": "manual_override",
       "topics": [
@@ -2022,7 +2022,7 @@
         "Sigurdson, Kris"
       ],
       "bibcode": "2017PhRvD..95d4011D",
-      "citation_count": 108,
+      "citation_count": 109,
       "doctype": "article",
       "doi": "10.48550/arXiv.1605.09398",
       "inspire_recid": "1466408",
@@ -2164,7 +2164,7 @@
         "Zemcov, Mike"
       ],
       "bibcode": "2014arXiv1412.4872D",
-      "citation_count": 639,
+      "citation_count": 640,
       "doctype": "eprint",
       "doi": "10.48550/arXiv.1412.4872",
       "inspire_recid": "1334478",
@@ -2229,7 +2229,7 @@
       "pub_raw": "Physical Review B, vol. 81, Issue 5, id. 054305",
       "pubdate": "2010-02-00",
       "title": "Finite-rate quenches of site bias in the Bose-Hubbard dimer",
-      "topic_confidence": 1.0,
+      "topic_confidence": 0.0,
       "topic_source": "llm",
       "topics": [],
       "topics_classified_with": "56b28aa0a1fdaaf7",
