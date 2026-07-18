@@ -96,33 +96,6 @@
       "year": 2026
     },
     {
-      "abstract": "In this paper, we present an archival search for short gamma-ray bursts (sGRBs) over 13 years (2013-2025) of Fermi/GBM data using a Poisson matched-filter pipeline that performs a fully coherent analysis across all detectors and energy channels, significantly improving sensitivity relative to the onboard triggering algorithms. A central component of the analysis is the empirical estimation of trigger significance using 'timeslided' data, allowing each candidate to be assigned a probability of astrophysical origin. We also developed a new parameter-estimation framework based on the Poisson matched filter, which uses the global structure of the detected event across spectral, temporal, and spatial parameter spaces. This enables us to systematically classify bursts and distinguish between GRBs, soft gamma repeaters, terrestrial gamma-ray flashes, and solar flares. We identify 568 new GRB candidates with $p_{\\text{astro}}\\geq0.9$ and thousands of magnetar bursts, significantly expanding the known short-transient population in GBM data. To further strengthen the significance of the GRB candidates, we performed a targeted follow-up search in Swift/BAT rate data. Applying the followup to all of our triggers - including triggers below the detection threshold yielded 1736 temporally coincident events with association probability above $90\\%$. The resulting probabilistically ranked catalog substantially expands the population of short GRBs and magnetar flares detected in GBM data and provides a statistically robust framework for multimessenger searches.",
-      "arxiv_id": "2605.31554",
-      "authors": [
-        "Perera, Ariel",
-        "Zackay, Barak",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2026arXiv260531554P",
-      "citation_count": 0,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2605.31554",
-      "inspire_recid": "3163133",
-      "page": "arXiv:2605.31554",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2605.31554",
-      "pubdate": "2026-05-00",
-      "title": "Expanding the Population of Short Gamma-Ray Transients with a Coherent Fermi/GBM Search. A 13-year catalog of short GRBs",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gamma ray bursts"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2026
-    },
-    {
       "abstract": "Fast surrogate models for expensive simulations are now essential across the sciences, yet they typically operate as black boxes. We present \\texttt{GWAgent}, a large language model (LLM)-based workflow that constructs interpretable analytic surrogates directly from simulation data. Surrogate modeling is well suited to agentic workflows because candidate models can be quantitatively validated against ground-truth simulations at each iteration. As a demonstration, we build a surrogate for gravitational waveforms from eccentric binary black hole mergers. We show that providing the agent with a physics-informed domain ansatz substantially improves output model accuracy. The resulting analytic surrogate attains a median Advanced LIGO mismatch of $6.9\\times10^{-4}$ together with an $\\sim 8.4\\times$ speedup in waveform evaluation, surpassing both symbolic regression and conventional machine learning baselines. Beyond producing an accurate model, the workflow identifies compact physical structure from the learned representation. As an astrophysical application, we use \\texttt{GWAgent} to analyze the eccentricity of GW200129 and infer $e_{20\\mathrm{Hz}}=0.099^{+0.063}_{-0.044}$. These results show that validation-constrained agentic workflows can produce accurate, fast, and interpretable surrogates for scientific simulations and inference.",
       "arxiv_id": "2605.11280",
       "authors": [
@@ -149,6 +122,33 @@
       "topics": [
         "Gravitational waves",
         "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
+      "year": 2026
+    },
+    {
+      "abstract": "In this paper, we present an archival search for short gamma-ray bursts (sGRBs) over 13 years (2013-2025) of Fermi/GBM data using a Poisson matched-filter pipeline that performs a fully coherent analysis across all detectors and energy channels, significantly improving sensitivity relative to the onboard triggering algorithms. A central component of the analysis is the empirical estimation of trigger significance using 'timeslided' data, allowing each candidate to be assigned a probability of astrophysical origin. We also developed a new parameter-estimation framework based on the Poisson matched filter, which uses the global structure of the detected event across spectral, temporal, and spatial parameter spaces. This enables us to systematically classify bursts and distinguish between GRBs, soft gamma repeaters, terrestrial gamma-ray flashes, and solar flares. We identify 568 new GRB candidates with $p_{\\text{astro}}\\geq0.9$ and thousands of magnetar bursts, significantly expanding the known short-transient population in GBM data. To further strengthen the significance of the GRB candidates, we performed a targeted follow-up search in Swift/BAT rate data. Applying the followup to all of our triggers - including triggers below the detection threshold yielded 1736 temporally coincident events with association probability above $90\\%$. The resulting probabilistically ranked catalog substantially expands the population of short GRBs and magnetar flares detected in GBM data and provides a statistically robust framework for multimessenger searches.",
+      "arxiv_id": "2605.31554",
+      "authors": [
+        "Perera, Ariel",
+        "Zackay, Barak",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2026arXiv260531554P",
+      "citation_count": 0,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2605.31554",
+      "inspire_recid": "3163133",
+      "page": "arXiv:2605.31554",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2605.31554",
+      "pubdate": "2026-05-00",
+      "title": "Expanding the Population of Short Gamma-Ray Transients with a Coherent Fermi/GBM Search. A 13-year catalog of short GRBs",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gamma ray bursts"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",

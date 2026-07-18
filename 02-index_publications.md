@@ -54,18 +54,18 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span> <span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
 </article>
 
-<article id="paper-4" class="pub-entry" data-topics="Gamma ray bursts">
-<p class="pub-citation">4. Perera, A., Zackay, B., & <strong>Venumadhav, T.</strong> (2026)</p>
-<p class="pub-title"><em>Expanding the Population of Short Gamma-Ray Transients with a Coherent Fermi/GBM Search. A 13-year catalog of short GRBs</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260531554P/abstract">ADS</a> <a href="https://arxiv.org/abs/2605.31554">arxiv</a> <a href="https://inspirehep.net/record/3163133">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(102 43% 40%);--topic-active:hsl(102 47% 33%);">Gamma ray bursts</span></div>
-</article>
-
-<article id="paper-5" class="pub-entry" data-topics="Gravitational waves|Black holes">
-<p class="pub-citation">5. Islam, T., Wadekar, D., <strong>Venumadhav, T.</strong>, Zaldarriaga, M., Mehta, A.K., Roulet, J., & Zackay, B. (2026)</p>
+<article id="paper-4" class="pub-entry" data-topics="Gravitational waves|Black holes">
+<p class="pub-citation">4. Islam, T., Wadekar, D., <strong>Venumadhav, T.</strong>, Zaldarriaga, M., Mehta, A.K., Roulet, J., & Zackay, B. (2026)</p>
 <p class="pub-title"><em>Discovery of Interpretable Surrogates via Agentic AI: Application to Gravitational Waves</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260511280I/abstract">ADS</a> <a href="https://arxiv.org/abs/2605.11280">arxiv</a> <a href="https://inspirehep.net/record/3154806">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
+</article>
+
+<article id="paper-5" class="pub-entry" data-topics="Gamma ray bursts">
+<p class="pub-citation">5. Perera, A., Zackay, B., & <strong>Venumadhav, T.</strong> (2026)</p>
+<p class="pub-title"><em>Expanding the Population of Short Gamma-Ray Transients with a Coherent Fermi/GBM Search. A 13-year catalog of short GRBs</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260531554P/abstract">ADS</a> <a href="https://arxiv.org/abs/2605.31554">arxiv</a> <a href="https://inspirehep.net/record/3163133">INSPIRE</a></p>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(102 43% 40%);--topic-active:hsl(102 47% 33%);">Gamma ray bursts</span></div>
 </article>
 
 <article id="paper-6" class="pub-entry" data-topics="Black holes|Gravitational waves">
@@ -609,7 +609,7 @@ n-th author papers:
 <ul>
 <li><a href="#paper-1">Nonlinear hydrodynamics in spinning neutron stars: Theoretical universal relations and equilibrium solutions</a></li>
 <li><a href="#paper-3">Strong lensing cosmography using binary-black-hole mergers: Prospects for the near future</a></li>
-<li><a href="#paper-5">Discovery of Interpretable Surrogates via Agentic AI: Application to Gravitational Waves</a></li>
+<li><a href="#paper-4">Discovery of Interpretable Surrogates via Agentic AI: Application to Gravitational Waves</a></li>
 <li><a href="#paper-6">GW190711_030756 and GW200114_020818: astrophysical interpretation of two asymmetric binary black hole mergers in the IAS catalog</a></li>
 <li><a href="#paper-7">Searching for precessing binary systems with mode-by-mode filtering and marginalization</a></li>
 <li><a href="#paper-8">Relativistic and Dynamical Love Numbers</a></li>
@@ -670,7 +670,7 @@ n-th author papers:
 <h3>Black holes</h3>
 <ul>
 <li><a href="#paper-3">Strong lensing cosmography using binary-black-hole mergers: Prospects for the near future</a></li>
-<li><a href="#paper-5">Discovery of Interpretable Surrogates via Agentic AI: Application to Gravitational Waves</a></li>
+<li><a href="#paper-4">Discovery of Interpretable Surrogates via Agentic AI: Application to Gravitational Waves</a></li>
 <li><a href="#paper-6">GW190711_030756 and GW200114_020818: astrophysical interpretation of two asymmetric binary black hole mergers in the IAS catalog</a></li>
 <li><a href="#paper-7">Searching for precessing binary systems with mode-by-mode filtering and marginalization</a></li>
 <li><a href="#paper-9">Progenitor of the recoiling super-massive black hole RBH-1 identified using HST/JWST imaging</a></li>
@@ -741,7 +741,7 @@ n-th author papers:
 <section class="pub-topic-section" id="topic-gamma-ray-bursts">
 <h3>Gamma ray bursts</h3>
 <ul>
-<li><a href="#paper-4">Expanding the Population of Short Gamma-Ray Transients with a Coherent Fermi/GBM Search. A 13-year catalog of short GRBs</a></li>
+<li><a href="#paper-5">Expanding the Population of Short Gamma-Ray Transients with a Coherent Fermi/GBM Search. A 13-year catalog of short GRBs</a></li>
 <li><a href="#paper-12">A New Search Pipeline for Short Gamma-Ray Bursts in Fermi/GBM Data—A 50% Increase in the Number of Detections</a></li>
 </ul>
 </section>
