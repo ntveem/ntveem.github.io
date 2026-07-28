@@ -1,0 +1,91 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=0.72in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\setlist[itemize]{leftmargin=1.25em,itemsep=1pt,topsep=2pt,parsep=0pt}
+\setlist[enumerate]{leftmargin=1.45em,itemsep=2pt,topsep=2pt,parsep=0pt}
+\newcommand{\cvsection}[1]{\vspace{5pt}\noindent{\large\bfseries #1}\par\vspace{1pt}\hrule\vspace{3pt}}
+\newcommand{\entry}[3]{\textbf{#1}\hfill #2\\#3\par}
+\begin{document}
+{\LARGE \textbf{Tejaswi Venumadhav Nerella}}\hfill \textbf{Compact Curriculum Vitae}\\
+Associate Professor, Department of Physics, University of California, Santa Barbara\\
+Broida Hall, Santa Barbara, CA 93106-9530 \hfill \href{mailto:teja@ucsb.edu}{teja@ucsb.edu} \quad +1 (626) 826-3571
+
+\cvsection{Appointments and Education}
+\entry{University of California, Santa Barbara}{2020--present}{Associate Professor, Department of Physics}
+\entry{International Center for Theoretical Sciences, Bangalore}{2020--present}{Visiting Professor}
+\entry{Institute for Advanced Study, Princeton}{2015--2020}{Member; Schmidt Fellow and John Bahcall Fellow}
+\entry{California Institute of Technology}{2010--2015}{Ph.D. in Physics; advisor: Christopher M. Hirata}
+\entry{Indian Institute of Technology, Kanpur}{2005--2010}{Integrated M.Sc. in Physics}
+
+\cvsection{Research Profile}
+\begin{itemize}
+\item Theoretical astrophysics and gravitational-wave data analysis, with emphasis on compact-binary searches, parameter estimation, waveform modeling, strong lensing, neutron-star physics, and early-universe cosmology.
+\item Developer and user of large-scale computational methods for gravitational-wave inference and searches in non-Gaussian, non-stationary detector data.
+\item Publications: 48 refereed papers, 18 preprints, 3 large-collaboration papers; total h-index 31 from ADS-backed publication data.
+\end{itemize}
+
+\cvsection{Computational Methods and Codes}
+\begin{itemize}
+\item Co-developer of a full gravitational-wave compact-binary search code for LIGO/Virgo data, including matched filtering, template-bank methods, ranking statistics, background estimation, and follow-up of candidates in non-Gaussian detector noise.
+\item Developer of \emph{cogwheel}, a gravitational-wave parameter-estimation code for compact-binary inference, designed for efficient likelihood evaluation, sampling, and post-processing of detector data.
+\item Developer of additional open research codes for cosmological thermal history, sterile-neutrino dark matter, early-universe recombination physics, and related gravitational-wave/cosmology calculations.
+\item Experience designing large ensembles of independent analyses, validating scientific workflows across heterogeneous compute resources, and turning production-scale runs into reproducible publications and public data products.
+\end{itemize}
+
+\cvsection{Selected Funding, Honors, and Awards}
+\begin{itemize}
+\item NSF, \emph{WoU-MMA: Targeted Search for Binary Mergers with Multiple Harmonics in Gravitational Wave Data}, PI, 2023--2026.
+\item NSF, \emph{WoU-MMA: Expanding the Horizons of Gravitational Wave Searches and Parameter Estimation}, PI, 2020--2024.
+\item Alfred P. Sloan Research Fellowship, 2023; Hellman Family Faculty Fellowship, 2023.
+\item John Bahcall Fellowship, Institute for Advanced Study, 2019; Schmidt Fellowship, Institute for Advanced Study, 2015--2018.
+\item International Fulbright Science and Technology Award, 2010; President's Gold Medal, IIT Kanpur, 2010.
+\end{itemize}
+
+\cvsection{Mentoring, Leadership, and Service}
+\begin{itemize}
+\item Research mentor to graduate students, postdoctoral scholars, undergraduate researchers, and KITP fellows in gravitational-wave astrophysics, compact-object inference, waveform modeling, and cosmology; current group projects include search pipelines, higher harmonics, eccentricity, neutron-star tides, and fast inference.
+\item Organizer: Prospects in Theoretical Physics 2025 program on \emph{Gravitational Waves from Theory to Observation}; KITP 2025 program \emph{Stellar-Mass Black Holes at the Nexus of Optical, X-ray, and Gravitational Wave Surveys}; KITP 2025 conference \emph{The Lifecycle of Stellar Black Holes}.
+\item Referee for Astrophysical Journal, Astrophysical Journal Letters, Monthly Notices of the Royal Astronomical Society, Astroparticle Physics, and Physical Review D; panel reviewer for ERC, BSF, and NSF.
+\end{itemize}
+
+\cvsection{Selected Publications}
+\begin{enumerate}
+\item Hegade K. R., A., Kwon, K.J., \textbf{Venumadhav, T.}, Yu, H., Yunes, N. (2026). \emph{Relativistic and Dynamical Love Numbers}. Physical Review Letters, 136, 071401.
+\item Cheung, M.H.Y., Wadekar, D., Mehta, A.K., Islam, T., Roulet, J., Berti, E., \textbf{Venumadhav, T.}, et al. (2026). \emph{Searching for intermediate mass ratio binary black hole mergers in the third observing run of LIGO-Virgo-KAGRA}. Physical Review D, 113, 023003.
+\item Mushkin, J., Roulet, J., Zackay, B., \textbf{Venumadhav, T.}, Ivashtenko, O., Wadekar, D., Mehta, A.K., Zaldarriaga, M. (2025). \emph{Sampler-free gravitational wave inference using matrix multiplication}. Physical Review D, 112, 104025.
+\item Islam, T., \textbf{Venumadhav, T.}, Mehta, A.K., Anantpurkar, I., Wadekar, D., Roulet, J., Mushkin, J., et al. (2025). \emph{Data-driven extraction, phenomenology, and modeling of eccentric harmonics in binary black hole merger waveforms}. Physical Review D, 112, 044070.
+\item \textbf{Venumadhav, T.}, Zackay, B., Roulet, J., Dai, L., Zaldarriaga, M. (2020). \emph{New binary black hole mergers in the second observing run of Advanced LIGO and Advanced Virgo}. Physical Review D, 101, 083030.
+\item Zackay, B., \textbf{Venumadhav, T.}, Dai, L., Roulet, J., Zaldarriaga, M. (2019). \emph{Highly spinning and aligned binary black hole merger in the Advanced LIGO first observing run}. Physical Review D, 100, 023007.
+\item Olsen, S., \textbf{Venumadhav, T.}, Mushkin, J., Roulet, J., Zackay, B., Zaldarriaga, M. (2022). \emph{New binary black hole mergers in the LIGO-Virgo O3a data}. Physical Review D, 106, 043009.
+\item \textbf{Venumadhav, T.}, Zackay, B., Roulet, J., Dai, L., Zaldarriaga, M. (2019). \emph{New search pipeline for compact binary mergers: Results for binary black holes in the first observing run of Advanced LIGO}. Physical Review D, 100, 023011.
+\item Zackay, B., Dai, L., \textbf{Venumadhav, T.}, Roulet, J., Zaldarriaga, M. (2021). \emph{Detecting gravitational waves with disparate detector responses: Two new binary black hole mergers}. Physical Review D, 104, 063030.
+\item Roulet, J., Chia, H.S., Olsen, S., Dai, L., \textbf{Venumadhav, T.}, Zackay, B., Zaldarriaga, M. (2021). \emph{Distribution of effective spins and masses of binary black holes from the LIGO and Virgo O1-O3a observing runs}. Physical Review D, 104, 083010.
+\item \textbf{Venumadhav, T.}, Cyr-Racine, F.Y., Abazajian, K.N., Hirata, C.M. (2016). \emph{Sterile neutrino dark matter: Weak interactions in the strong coupling epoch}. Physical Review D, 94, 043515.
+\item Dai, L., \textbf{Venumadhav, T.}, Sigurdson, K. (2017). \emph{Effect of lensing magnification on the apparent distribution of black hole mergers}. Physical Review D, 95, 044011.
+\item Zackay, B., \textbf{Venumadhav, T.}, Roulet, J., Dai, L., Zaldarriaga, M. (2021). \emph{Detecting gravitational waves in data with non-stationary and non-Gaussian noise}. Physical Review D, 104, 063034.
+\item \textbf{Venumadhav, T.}, Dai, L., Miralda-Escudé, J. (2017). \emph{Microlensing of Extremely Magnified Stars near Caustics of Galaxy Clusters}. The Astrophysical Journal, 850, 49.
+\item \textbf{Venumadhav, T.}, Dai, L., Kaurov, A., Zaldarriaga, M. (2018). \emph{Heating of the intergalactic medium by the cosmic microwave background during cosmic dawn}. Physical Review D, 98, 103513.
+\item Mehta, A.K., Olsen, S., Wadekar, D., Roulet, J., \textbf{Venumadhav, T.}, Mushkin, J., Zackay, B., Zaldarriaga, M. (2025). \emph{New binary black hole mergers in the LIGO-Virgo O3b data}. Physical Review D, 111, 024049.
+\item Roulet, J., \textbf{Venumadhav, T.}, Zackay, B., Dai, L., Zaldarriaga, M. (2020). \emph{Binary black hole mergers from LIGO/Virgo O1 and O2: Population inference combining confident and marginal events}. Physical Review D, 102, 123022.
+\item Kaurov, A.A., Dai, L., \textbf{Venumadhav, T.}, Miralda-Escudé, J., Frye, B. (2019). \emph{Highly Magnified Stars in Lensing Clusters: New Evidence in a Galaxy Lensed by MACS J0416.1-2403}. The Astrophysical Journal, 880, 58.
+\item Dai, L., \textbf{Venumadhav, T.}, Kaurov, A.A., Miralda-Escud, J. (2018). \emph{Probing Dark Matter Subhalos in Galaxy Clusters Using Highly Magnified Stars}. The Astrophysical Journal, 867, 24.
+\item Roulet, J., Olsen, S., Mushkin, J., Islam, T., \textbf{Venumadhav, T.}, Zackay, B., Zaldarriaga, M. (2022). \emph{Removing degeneracy and multimodality in gravitational wave source parameters}. Physical Review D, 106, 123015.
+\end{enumerate}
+
+\cvsection{Selected Recent Preprints}
+\begin{enumerate}
+\item Zhou, Z., Wadekar, D., Roulet, J., Ivashtenko, O., \textbf{Venumadhav, T.}, Islam, T., Mehta, A.K., et al. (2026). \emph{Searching for precessing binary systems with mode-by-mode filtering and marginalization}. arXiv:2603.05784.
+\item Islam, T., \textbf{Venumadhav, T.}, Wadekar, D. (2026). \emph{Progenitor of the recoiling super-massive black hole RBH-1 identified using HST/JWST imaging}. arXiv:2601.18986.
+\item Maity, K.N., Jana, S., \textbf{Venumadhav, T.}, Barsode, A., Ajith, P. (2025). \emph{Strong lensing cosmography using binary-black-hole mergers: Prospects for the near future}. arXiv:2512.15168.
+\item Islam, T., \textbf{Venumadhav, T.}, Mehta, A.K., Wadekar, D., Roulet, J., Anantpurkar, I., Mushkin, J., et al. (2025). \emph{Data-driven extraction and phenomenology of eccentric harmonics in eccentric spinning binary black hole mergers}. arXiv:2509.20556.
+\end{enumerate}
+\vfill
+\footnotesize Full publication list: \url{https://ui.adsabs.harvard.edu/search/q=author%3A%22Venumadhav%2C%20Tejaswi%22&sort=date%20desc%2C%20bibcode%20desc&p_=0}
+\end{document}

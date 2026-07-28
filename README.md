@@ -96,8 +96,13 @@ Canonical CV template (source of truth in this repo):
 Generated daily from ADS canonical data (`data/ads_publications.json`):
 - Public TeX: `cv/generated/Tejaswi_CV_public.tex`
 - Private TeX: `private/cv/Tejaswi_CV_private.tex`
+- Compact TeX: `private/cv/Tejaswi_CV_compact.tex`
 - Public PDF (website): `assets/files/Tejaswi_CV.pdf`
 - Private PDF (not published on website): `private/cv/Tejaswi_CV_private.pdf`
+- Compact PDF (not published on website): `private/cv/Tejaswi_CV_compact.pdf`
+
+The compact CV is a reusable short-form variant intended for uploads with a
+three-page CV/resume limit, such as ACCESS allocation requests.
 
 The public CV removes these sections:
 - Current and Pending Support
@@ -119,6 +124,7 @@ Manual step-by-step (equivalent):
 python scripts/sync_ads_data.py
 python scripts/sync_publications.py --write
 python scripts/sync_cv.py
+python scripts/sync_compact_cv.py
 python scripts/sync_group.py
 ```
 
