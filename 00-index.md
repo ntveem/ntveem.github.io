@@ -12,7 +12,7 @@ tagline: Supporting tagline
 
 Welcome!
 
-I am an Assistant Professor of [Physics](https://www.physics.ucsb.edu/) at the [University of California, Santa Barbara (UCSB)](https://www.ucsb.edu/). I work on a variety of topics in theoretical astrophysics, with an emphasis on gravitational-wave science and physical cosmology.
+I am an Associate Professor of [Physics](https://www.physics.ucsb.edu/) at the [University of California, Santa Barbara (UCSB)](https://www.ucsb.edu/). I work on a variety of topics in theoretical astrophysics, with an emphasis on gravitational-wave science and physical cosmology.
 
 I am also a Visiting Professor at the [International Center for Theoretical Sciences (ICTS), Bangalore](https://www.icts.res.in/).
 
