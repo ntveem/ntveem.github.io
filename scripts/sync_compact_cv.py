@@ -12,6 +12,7 @@ import re
 from pathlib import Path
 
 from ads_data import AdsPaper, read_papers_json
+from cv_profile import DEFAULT_PROFILE_JSON, read_cv_profile
 from sync_cv import compute_h_index, split_papers, tex_escape
 
 DEFAULT_ADS_JSON = "data/ads_publications.json"
@@ -91,10 +92,11 @@ def render_paper_item(paper: AdsPaper) -> str:
     )
 
 
-def render_compact_cv(papers: list[AdsPaper], selected_limit: int) -> str:
+def render_compact_cv(papers: list[AdsPaper], selected_limit: int, profile: dict) -> str:
     refereed, preprints, nth = split_papers(papers, nth_threshold=12)
     h_index = compute_h_index(papers)
     selected = selected_papers(refereed, selected_limit)
+    ucsb = profile["ucsb"]
 
     lines = [
         r"\documentclass[11pt]{article}",
@@ -113,11 +115,14 @@ def render_compact_cv(papers: list[AdsPaper], selected_limit: int) -> str:
         r"\newcommand{\entry}[3]{\textbf{#1}\hfill #2\\#3\par}",
         r"\begin{document}",
         r"{\LARGE \textbf{Tejaswi Venumadhav Nerella}}\hfill \textbf{Compact Curriculum Vitae}\\",
-        r"Associate Professor, Department of Physics, University of California, Santa Barbara\\",
+        rf"{profile['current_title']}, {ucsb['department']}, {ucsb['institution']}\\",
         r"Broida Hall, Santa Barbara, CA 93106-9530 \hfill \href{mailto:teja@ucsb.edu}{teja@ucsb.edu} \quad +1 (626) 826-3571",
         "",
         r"\cvsection{Appointments and Education}",
-        r"\entry{University of California, Santa Barbara}{2020--present}{Associate Professor, Department of Physics}",
+        *[
+            rf"\entry{{{ucsb['institution']}}}{{{appointment['dates'].replace('-', '--')}}}{{{appointment['title']}, {ucsb['department']}}}"
+            for appointment in ucsb["appointments"]
+        ],
         r"\entry{International Center for Theoretical Sciences, Bangalore}{2020--present}{Visiting Professor}",
         r"\entry{Institute for Advanced Study, Princeton}{2015--2020}{Member; Schmidt Fellow and John Bahcall Fellow}",
         r"\entry{California Institute of Technology}{2010--2015}{Ph.D. in Physics; advisor: Christopher M. Hirata}",
@@ -187,6 +192,7 @@ def write_text(path: Path, text: str) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--ads-json", default=DEFAULT_ADS_JSON)
+    parser.add_argument("--profile", default=DEFAULT_PROFILE_JSON)
     parser.add_argument("--out", default=DEFAULT_OUT)
     parser.add_argument("--selected-limit", type=int, default=DEFAULT_SELECTED_LIMIT)
     args = parser.parse_args()
@@ -195,7 +201,11 @@ def main() -> int:
     if not ads_json_path.exists():
         raise SystemExit(f"Missing ADS data file: {ads_json_path}. Run python scripts/sync_ads_data.py first.")
 
-    tex = render_compact_cv(read_papers_json(ads_json_path), args.selected_limit)
+    tex = render_compact_cv(
+        read_papers_json(ads_json_path),
+        args.selected_limit,
+        read_cv_profile(args.profile),
+    )
     write_text(Path(args.out), tex)
     print(f"Wrote {args.out}")
     return 0

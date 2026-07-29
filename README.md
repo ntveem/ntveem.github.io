@@ -90,10 +90,14 @@ GitHub setup for daily sync:
 
 ## CV Automation
 
-Canonical CV template (source of truth in this repo):
+Canonical full-CV template:
 - `cv/source/myresume_master.tex`
 
-Generated daily from ADS canonical data (`data/ads_publications.json`):
+Shared appointment metadata:
+- `data/cv_profile.json`
+
+Generated daily from the canonical ADS data (`data/ads_publications.json`) and
+the shared CV profile:
 - Public TeX: `cv/generated/Tejaswi_CV_public.tex`
 - Private TeX: `private/cv/Tejaswi_CV_private.tex`
 - Compact TeX: `private/cv/Tejaswi_CV_compact.tex`

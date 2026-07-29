@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate private/public CV TeX files from canonical ADS JSON publication data.
+"""Generate private/public CV TeX files from canonical ADS and profile data.
 
 Outputs:
   - private/cv/Tejaswi_CV_private.tex
@@ -13,6 +13,7 @@ import re
 from pathlib import Path
 
 from ads_data import AdsPaper, read_papers_json
+from cv_profile import DEFAULT_PROFILE_JSON, read_cv_profile, render_ucsb_work_experience
 
 PUBLIC_REMOVE_SECTIONS = {
     "Current and Pending Support",
@@ -220,6 +221,19 @@ def remove_sections(tex: str, remove_titles: set[str]) -> str:
     return "".join(kept_chunks)
 
 
+def apply_cv_profile(tex: str, profile: dict) -> str:
+    """Fill appointment metadata from the shared CV profile."""
+    replacements = {
+        "__CV_CURRENT_TITLE__": profile["current_title"],
+        "__CV_UCSB_APPOINTMENTS__": render_ucsb_work_experience(profile),
+    }
+    for token, value in replacements.items():
+        if token not in tex:
+            raise ValueError(f"CV template token '{token}' not found.")
+        tex = tex.replace(token, value)
+    return tex
+
+
 def write_text(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
@@ -228,6 +242,7 @@ def write_text(path: Path, text: str) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--ads-json", default="data/ads_publications.json")
+    parser.add_argument("--profile", default=DEFAULT_PROFILE_JSON)
     parser.add_argument("--template", default="cv/source/myresume_master.tex")
     parser.add_argument("--out-private", default="private/cv/Tejaswi_CV_private.tex")
     parser.add_argument("--out-public", default="cv/generated/Tejaswi_CV_public.tex")
@@ -238,7 +253,10 @@ def main() -> int:
     if not ads_json_path.exists():
         raise SystemExit(f"Missing ADS data file: {ads_json_path}. Run python scripts/sync_ads_data.py first.")
 
-    template = Path(args.template).read_text(encoding="utf-8")
+    template = apply_cv_profile(
+        Path(args.template).read_text(encoding="utf-8"),
+        read_cv_profile(args.profile),
+    )
     papers = read_papers_json(ads_json_path)
     refereed, preprints, nth = split_papers(papers, args.nth_threshold)
     total_h_index = compute_h_index(papers)
