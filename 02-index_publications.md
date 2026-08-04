@@ -488,18 +488,18 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(168 43% 40%);--topic-active:hsl(168 45% 33%);">Reionization</span> <span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span></div>
 </article>
 
-<article id="paper-66" class="pub-entry" data-topics="Gravitational lensing|Black holes">
-<p class="pub-citation">66. Dai, L., <strong>Venumadhav, T.</strong>, & Sigurdson, K. (2017)</p>
-<p class="pub-title"><em>Effect of lensing magnification on the apparent distribution of black hole mergers</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2017PhRvD..95d4011D/abstract">ADS</a> <a href="https://arxiv.org/abs/1605.09398">arxiv</a> <a href="https://inspirehep.net/record/1466408">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
-</article>
-
-<article id="paper-67" class="pub-entry" data-topics="Gravitational lensing|Gravitational waves">
-<p class="pub-citation">67. Dai, L. & <strong>Venumadhav, T.</strong> (2017)</p>
+<article id="paper-66" class="pub-entry" data-topics="Gravitational lensing|Gravitational waves">
+<p class="pub-citation">66. Dai, L. & <strong>Venumadhav, T.</strong> (2017)</p>
 <p class="pub-title"><em>On the waveforms of gravitationally lensed gravitational waves</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2017arXiv170204724D/abstract">ADS</a> <a href="https://arxiv.org/abs/1702.04724">arxiv</a> <a href="https://inspirehep.net/record/1513760">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
+</article>
+
+<article id="paper-67" class="pub-entry" data-topics="Gravitational lensing|Black holes">
+<p class="pub-citation">67. Dai, L., <strong>Venumadhav, T.</strong>, & Sigurdson, K. (2017)</p>
+<p class="pub-title"><em>Effect of lensing magnification on the apparent distribution of black hole mergers</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2017PhRvD..95d4011D/abstract">ADS</a> <a href="https://arxiv.org/abs/1605.09398">arxiv</a> <a href="https://inspirehep.net/record/1466408">INSPIRE</a></p>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
 </article>
 
 <article id="paper-68" class="pub-entry" data-topics="Cosmology|Reionization">
@@ -608,8 +608,8 @@ n-th author papers:
 <li><a href="#paper-56">Probing Dark Matter Subhalos in Galaxy Clusters Using Highly Magnified Stars</a></li>
 <li><a href="#paper-59">Identifying strongly lensed gravitational wave signals from binary black hole mergers</a></li>
 <li><a href="#paper-63">Microlensing of Extremely Magnified Stars near Caustics of Galaxy Clusters</a></li>
-<li><a href="#paper-66">Effect of lensing magnification on the apparent distribution of black hole mergers</a></li>
-<li><a href="#paper-67">On the waveforms of gravitationally lensed gravitational waves</a></li>
+<li><a href="#paper-66">On the waveforms of gravitationally lensed gravitational waves</a></li>
+<li><a href="#paper-67">Effect of lensing magnification on the apparent distribution of black hole mergers</a></li>
 </ul>
 </section>
 <section class="pub-topic-section" id="topic-gravitational-waves">
@@ -669,7 +669,7 @@ n-th author papers:
 <li><a href="#paper-60">Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation</a></li>
 <li><a href="#paper-61">Parameter Estimation for GW170817 using Relative Binning</a></li>
 <li><a href="#paper-62">Detecting primordial gravitational waves with circular polarization of the redshifted 21 cm line. I. Formalism</a></li>
-<li><a href="#paper-67">On the waveforms of gravitationally lensed gravitational waves</a></li>
+<li><a href="#paper-66">On the waveforms of gravitationally lensed gravitational waves</a></li>
 <li><a href="#paper-71">The Stability of Tidally Deformed Neutron Stars to Three- and Four-mode Coupling</a></li>
 <li><a href="#paper-nth-1">The Challenges Ahead for Multimessenger Analyses of Gravitational Waves and Kilonova: A Case Study on GW190425</a></li>
 <li><a href="#paper-nth-2">Fundamental physics with the Square Kilometre Array</a></li>
@@ -722,7 +722,7 @@ n-th author papers:
 <li><a href="#paper-54">Template bank for compact binary coalescence searches in gravitational wave data: A general geometric placement algorithm</a></li>
 <li><a href="#paper-59">Identifying strongly lensed gravitational wave signals from binary black hole mergers</a></li>
 <li><a href="#paper-60">Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation</a></li>
-<li><a href="#paper-66">Effect of lensing magnification on the apparent distribution of black hole mergers</a></li>
+<li><a href="#paper-67">Effect of lensing magnification on the apparent distribution of black hole mergers</a></li>
 <li><a href="#paper-nth-1">The Challenges Ahead for Multimessenger Analyses of Gravitational Waves and Kilonova: A Case Study on GW190425</a></li>
 </ul>
 </section>
