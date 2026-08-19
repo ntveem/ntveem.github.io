@@ -1,40 +1,6 @@
 {
   "papers": [
     {
-      "abstract": "We study tides during the inspiral of a binary neutron star (BNS) system, including nonlinear hydrodynamical interactions. Using an affine approximation that treats the perturbed NS as an ellipsoid, we analytically derive coupling coefficients among the f-modes and the radial mode to the four-wave order (i.e., next-to-next-to-leading order) in the Hamiltonian, allowing for arbitrary rotation of the background star. Our model reveals a series of universal relations from first-principles arguments. Besides the well-known relations, we show that the three-wave (next-to-leading-order) interaction coefficients are fully determined by the properties of the linear tide. Therefore, they do not probe new physics of the NS. Nonetheless, not including the three-wave nonlinear tides can lead to significant systematic errors in the gravitational waveform. We support this claim via a hybrid approach that simultaneously captures mode resonances expected in Newtonian hydrodynamics and is consistent with relativistic calculations in the low-frequency expansion. The nonlinear tide in a single NS can cause a phase shift of around 1.7 radians accumulated up to merger compared to the linear tide model; for a binary of similar masses, the phase shift is approximately doubled. Our calculation extends to four-wave interactions, which, for a slowly spinning NS, provide only small corrections and are subdominant compared to the tidal back-reaction on the orbit. For a rapidly rotating NS, the nonlinear centrifugal drive of the f-mode and the four-wave anharmonicity provides a window to study the adiabatic exponent related to internal buoyancy that cannot be probed by the linear and three-wave tides in slowly spinning systems. The anharmonicity cannot lead to resonance locking of the f-mode.",
-      "arxiv_id": "2607.07943",
-      "authors": [
-        "Yu, Hang",
-        "Nicolini, Giorgio",
-        "Lau, Shu Yan",
-        "Kwon, K. J.",
-        "Venumadhav, Tejaswi",
-        "Andersson, Nils",
-        "Pnigouras, Pantelis",
-        "Gittins, Fabian",
-        "Nanda, Amlan"
-      ],
-      "bibcode": "2026arXiv260707943Y",
-      "citation_count": 0,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2607.07943",
-      "inspire_recid": "3178803",
-      "page": "arXiv:2607.07943",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2607.07943",
-      "pubdate": "2026-07-00",
-      "title": "Nonlinear hydrodynamics in spinning neutron stars: Theoretical universal relations and equilibrium solutions",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Neutron stars",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2026
-    },
-    {
       "abstract": "GW231123, if unlensed, is a rare binary black hole merger with high masses and high spins for both progenitors. We show that the signal is better fitted by a lower-mass, lower-spin merger that is diffraction-lensed by an isolated object of redshifted mass $\\sim 1000\\,\\rm M_\\odot$, modeled either as a point mass or as a spherically symmetric compact halo. Because diffraction-lensed events are also rare, hypothesis testing should quote the posterior odds ratio rather than the Bayes factor, which requires quantifying our prior belief in the two hypotheses. We adopt the GWTC-5 population distribution as our source parameter prior, and quantify the prior on the lens hypothesis through the lensing optical depth. For a point-mass lens, observational constraints on the abundance of black holes in the Universe yield an upper bound on the optical depth, and hence on the posterior odds, which do not rule out lensing. However, using a predicted mass function of intermediate-mass black holes formed in star clusters gives a low optical depth that strongly disfavors lensing. For a dark matter halo lens, standard collisionless cold dark matter does not form halos compact enough to give the required optical depth, but self-interacting dark matter with a large cross section at low velocities can trigger gravothermal collapse and form them, in which case the posterior odds are inconclusive. In either case, from a frequentist perspective, we show that detecting a lensed event with properties like GW231123 is unlikely. These conclusions apply to isolated lenses, while a lens embedded in an external gravitational potential could change the picture.",
       "arxiv_id": "2607.21834",
       "authors": [
@@ -96,6 +62,40 @@
       "year": 2026
     },
     {
+      "abstract": "We study tides during the inspiral of a binary neutron star (BNS) system, including nonlinear hydrodynamical interactions. Using an affine approximation that treats the perturbed NS as an ellipsoid, we analytically derive coupling coefficients among the f-modes and the radial mode to the four-wave order (i.e., next-to-next-to-leading order) in the Hamiltonian, allowing for arbitrary rotation of the background star. Our model reveals a series of universal relations from first-principles arguments. Besides the well-known relations, we show that the three-wave (next-to-leading-order) interaction coefficients are fully determined by the properties of the linear tide. Therefore, they do not probe new physics of the NS. Nonetheless, not including the three-wave nonlinear tides can lead to significant systematic errors in the gravitational waveform. We support this claim via a hybrid approach that simultaneously captures mode resonances expected in Newtonian hydrodynamics and is consistent with relativistic calculations in the low-frequency expansion. The nonlinear tide in a single NS can cause a phase shift of around 1.7 radians accumulated up to merger compared to the linear tide model; for a binary of similar masses, the phase shift is approximately doubled. Our calculation extends to four-wave interactions, which, for a slowly spinning NS, provide only small corrections and are subdominant compared to the tidal back-reaction on the orbit. For a rapidly rotating NS, the nonlinear centrifugal drive of the f-mode and the four-wave anharmonicity provides a window to study the adiabatic exponent related to internal buoyancy that cannot be probed by the linear and three-wave tides in slowly spinning systems. The anharmonicity cannot lead to resonance locking of the f-mode.",
+      "arxiv_id": "2607.07943",
+      "authors": [
+        "Yu, Hang",
+        "Nicolini, Giorgio",
+        "Lau, Shu Yan",
+        "Kwon, K. J.",
+        "Venumadhav, Tejaswi",
+        "Andersson, Nils",
+        "Pnigouras, Pantelis",
+        "Gittins, Fabian",
+        "Nanda, Amlan"
+      ],
+      "bibcode": "2026arXiv260707943Y",
+      "citation_count": 0,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2607.07943",
+      "inspire_recid": "3178803",
+      "page": "arXiv:2607.07943",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2607.07943",
+      "pubdate": "2026-07-00",
+      "title": "Nonlinear hydrodynamics in spinning neutron stars: Theoretical universal relations and equilibrium solutions",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Neutron stars",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
+      "year": 2026
+    },
+    {
       "abstract": "Time-dependent tidal interactions during the late inspiral of binary neutron stars encode valuable information about neutron-star structure, but systematically extending the familiar Newtonian mode-sum picture into full general relativity is nontrivial. In this paper, we develop a practical relativistic implementation of mode-sum tidal response for non-rotating neutron stars in Regge-Wheeler gauge. Using near-zone boundary conditions, we systematically define the interior tidal field, the relativistic overlap integrals, and the corresponding mode amplitudes. The good is that the dominant f-mode contribution is remarkably robust, reproducing the direct matching calculation to within $\\sim 3$\\% across the equations of state we consider. The bad is that the operator governing mode inner product is not positive definite on the full Regge-Wheeler-gauge function space, so the relativistic mode sum truncated at ${\\cal{O}}(\u03c9^2)$ is not expected to strictly converge to the direct matching solution. The subtle is that the tidal field inside the star is not unique, although this ambiguity has only a limited impact on the dominant f-mode response for the classes of extensions studied here. Our results establish the practical utility of relativistic mode-sum approximations, while making clear that their predictive power comes from a controlled low-mode description, rather than from a formally convergent strong-field expansion.",
       "arxiv_id": "2605.08569",
       "authors": [
@@ -119,38 +119,6 @@
       "topic_source": "llm",
       "topics": [
         "Neutron stars"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2026
-    },
-    {
-      "abstract": "Fast surrogate models for expensive simulations are now essential across the sciences, yet they typically operate as black boxes. We present \\texttt{GWAgent}, a large language model (LLM)-based workflow that constructs interpretable analytic surrogates directly from simulation data. Surrogate modeling is well suited to agentic workflows because candidate models can be quantitatively validated against ground-truth simulations at each iteration. As a demonstration, we build a surrogate for gravitational waveforms from eccentric binary black hole mergers. We show that providing the agent with a physics-informed domain ansatz substantially improves output model accuracy. The resulting analytic surrogate attains a median Advanced LIGO mismatch of $6.9\\times10^{-4}$ together with an $\\sim 8.4\\times$ speedup in waveform evaluation, surpassing both symbolic regression and conventional machine learning baselines. Beyond producing an accurate model, the workflow identifies compact physical structure from the learned representation. As an astrophysical application, we use \\texttt{GWAgent} to analyze the eccentricity of GW200129 and infer $e_{20\\mathrm{Hz}}=0.099^{+0.063}_{-0.044}$. These results show that validation-constrained agentic workflows can produce accurate, fast, and interpretable surrogates for scientific simulations and inference.",
-      "arxiv_id": "2605.11280",
-      "authors": [
-        "Islam, Tousif",
-        "Wadekar, Digvijay",
-        "Venumadhav, Tejaswi",
-        "Zaldarriaga, Matias",
-        "Mehta, Ajit Kumar",
-        "Roulet, Javier",
-        "Zackay, Barak"
-      ],
-      "bibcode": "2026arXiv260511280I",
-      "citation_count": 0,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2605.11280",
-      "inspire_recid": "3154806",
-      "page": "arXiv:2605.11280",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2605.11280",
-      "pubdate": "2026-05-00",
-      "title": "Discovery of Interpretable Surrogates via Agentic AI: Application to Gravitational Waves",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational waves",
-        "Black holes"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
@@ -213,6 +181,38 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "113",
+      "year": 2026
+    },
+    {
+      "abstract": "Fast surrogate models for expensive simulations are now essential across the sciences, yet they typically operate as black boxes. We present \\texttt{GWAgent}, a large language model (LLM)-based workflow that constructs interpretable analytic surrogates directly from simulation data. Surrogate modeling is well suited to agentic workflows because candidate models can be quantitatively validated against ground-truth simulations at each iteration. As a demonstration, we build a surrogate for gravitational waveforms from eccentric binary black hole mergers. We show that providing the agent with a physics-informed domain ansatz substantially improves output model accuracy. The resulting analytic surrogate attains a median Advanced LIGO mismatch of $6.9\\times10^{-4}$ together with an $\\sim 8.4\\times$ speedup in waveform evaluation, surpassing both symbolic regression and conventional machine learning baselines. Beyond producing an accurate model, the workflow identifies compact physical structure from the learned representation. As an astrophysical application, we use \\texttt{GWAgent} to analyze the eccentricity of GW200129 and infer $e_{20\\mathrm{Hz}}=0.099^{+0.063}_{-0.044}$. These results show that validation-constrained agentic workflows can produce accurate, fast, and interpretable surrogates for scientific simulations and inference.",
+      "arxiv_id": "2605.11280",
+      "authors": [
+        "Islam, Tousif",
+        "Wadekar, Digvijay",
+        "Venumadhav, Tejaswi",
+        "Zaldarriaga, Matias",
+        "Mehta, Ajit Kumar",
+        "Roulet, Javier",
+        "Zackay, Barak"
+      ],
+      "bibcode": "2026arXiv260511280I",
+      "citation_count": 0,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2605.11280",
+      "inspire_recid": "3154806",
+      "page": "arXiv:2605.11280",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2605.11280",
+      "pubdate": "2026-05-00",
+      "title": "Discovery of Interpretable Surrogates via Agentic AI: Application to Gravitational Waves",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
       "year": 2026
     },
     {
