@@ -1,6 +1,39 @@
 {
   "papers": [
     {
+      "abstract": "GW231123, if unlensed, is a rare binary black hole merger with high masses and high spins for both progenitors. We show that the signal is better fitted by a lower-mass, lower-spin merger that is diffraction-lensed by an isolated object of redshifted mass $\\sim 1000\\,\\rm M_\\odot$, modeled either as a point mass or as a spherically symmetric compact halo. Because diffraction-lensed events are also rare, hypothesis testing should quote the posterior odds ratio rather than the Bayes factor, which requires quantifying our prior belief in the two hypotheses. We adopt the GWTC-5 population distribution as our source parameter prior, and quantify the prior on the lens hypothesis through the lensing optical depth. For a point-mass lens, observational constraints on the abundance of black holes in the Universe yield an upper bound on the optical depth, and hence on the posterior odds, which do not rule out lensing. However, using a predicted mass function of intermediate-mass black holes formed in star clusters gives a low optical depth that strongly disfavors lensing. For a dark matter halo lens, standard collisionless cold dark matter does not form halos compact enough to give the required optical depth, but self-interacting dark matter with a large cross section at low velocities can trigger gravothermal collapse and form them, in which case the posterior odds are inconclusive. In either case, from a frequentist perspective, we show that detecting a lensed event with properties like GW231123 is unlikely. These conclusions apply to isolated lenses, while a lens embedded in an external gravitational potential could change the picture.",
+      "arxiv_id": "2607.21834",
+      "authors": [
+        "Ho-Yeuk Cheung, Mark",
+        "Wadekar, Digvijay",
+        "Zaldarriaga, Matias",
+        "Venumadhav, Tejaswi",
+        "Roulet, Javier",
+        "Mehta, Ajit Kumar"
+      ],
+      "bibcode": "2026arXiv260721834H",
+      "citation_count": 1,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2607.21834",
+      "inspire_recid": "3183174",
+      "page": "arXiv:2607.21834",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2607.21834",
+      "pubdate": "2026-07-00",
+      "title": "The diffraction-lensing interpretation of GW231123 with astrophysical priors",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational waves",
+        "Black holes",
+        "Gravitational lensing",
+        "Dark matter"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
+      "year": 2026
+    },
+    {
       "abstract": "Using a combination of Hubble Space Telescope and James Webb Space Telescope imaging, a runaway supermassive black hole was recently identified with an inferred velocity of <inline-formula><mml:math><mml:mrow><mml:msubsup><mml:mrow><mml:mn>954</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>126</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>110</mml:mn></mml:mrow></mml:msubsup><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>km</mml:mi><mml:mtext> </mml:mtext><mml:msup><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>, likely ejected from a compact star-forming galaxy at <inline-formula><mml:math><mml:mi>z</mml:mi><mml:mo>\u224d</mml:mo><mml:mn>0.96</mml:mn></mml:math></inline-formula>. Assuming the runaway black hole originated from a gravitational-wave-driven merger of two supermassive black holes (SMBHs), we combine its measured recoil velocity with gravitational-wave recoil predictions from numerical relativity and black-hole perturbation theory to constrain the mass ratio and spin configuration of the progenitor binary that overcame the final-parsec problem and merged <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>70</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Myr</mml:mi></mml:math></inline-formula> ago. We find that the progenitor binary must have been precessing, with a mass ratio <inline-formula><mml:math><mml:msub><mml:mi>m</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>\u2272</mml:mo><mml:mn>6</mml:mn></mml:math></inline-formula>, and that the more massive SMBH likely possessed a high dimensionless spin magnitude (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>0.75</mml:mn></mml:math></inline-formula>) in order to generate a recoil of this magnitude. Such SMBH mergers could represent an interesting source population for the upcoming Laser Interferometer Space Antenna mission, with characteristic signal-to-noise ratios of order <inline-formula><mml:math><mml:mo>\u2273</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>3</mml:mn></mml:msup></mml:math></inline-formula>. Furthermore, the inferred progenitor SMBH properties suggest that the compact galaxy likely originated from a major, gas-rich (\"wet\") merger between two galaxies of comparable mass, with a mass ratio <inline-formula><mml:math><mml:mo>\u2272</mml:mo><mml:mn>4</mml:mn></mml:math></inline-formula>.",
       "arxiv_id": "2601.18986",
       "authors": [
@@ -57,39 +90,6 @@
       "topics": [
         "Neutron stars",
         "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2026
-    },
-    {
-      "abstract": "GW231123, if unlensed, is a rare binary black hole merger with high masses and high spins for both progenitors. We show that the signal is better fitted by a lower-mass, lower-spin merger that is diffraction-lensed by an isolated object of redshifted mass $\\sim 1000\\,\\rm M_\\odot$, modeled either as a point mass or as a spherically symmetric compact halo. Because diffraction-lensed events are also rare, hypothesis testing should quote the posterior odds ratio rather than the Bayes factor, which requires quantifying our prior belief in the two hypotheses. We adopt the GWTC-5 population distribution as our source parameter prior, and quantify the prior on the lens hypothesis through the lensing optical depth. For a point-mass lens, observational constraints on the abundance of black holes in the Universe yield an upper bound on the optical depth, and hence on the posterior odds, which do not rule out lensing. However, using a predicted mass function of intermediate-mass black holes formed in star clusters gives a low optical depth that strongly disfavors lensing. For a dark matter halo lens, standard collisionless cold dark matter does not form halos compact enough to give the required optical depth, but self-interacting dark matter with a large cross section at low velocities can trigger gravothermal collapse and form them, in which case the posterior odds are inconclusive. In either case, from a frequentist perspective, we show that detecting a lensed event with properties like GW231123 is unlikely. These conclusions apply to isolated lenses, while a lens embedded in an external gravitational potential could change the picture.",
-      "arxiv_id": "2607.21834",
-      "authors": [
-        "Ho-Yeuk Cheung, Mark",
-        "Wadekar, Digvijay",
-        "Zaldarriaga, Matias",
-        "Venumadhav, Tejaswi",
-        "Roulet, Javier",
-        "Mehta, Ajit Kumar"
-      ],
-      "bibcode": "2026arXiv260721834H",
-      "citation_count": 1,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2607.21834",
-      "inspire_recid": "3183174",
-      "page": "arXiv:2607.21834",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2607.21834",
-      "pubdate": "2026-07-00",
-      "title": "The diffraction-lensing interpretation of GW231123 with astrophysical priors",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational waves",
-        "Black holes",
-        "Gravitational lensing",
-        "Dark matter"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
@@ -385,24 +385,30 @@
       "year": 2025
     },
     {
-      "abstract": "Characterizing eccentricity in gravitational waveforms in a consistent manner is crucial to facilitate parameter estimation, astrophysical population studies, as well as searches for these rare systems. We present a framework to characterize eccentricity directly from gravitational waveforms for nonprecessing eccentric binary black hole mergers using common modulations that eccentricity induces in all spherical harmonic modes of the signals. Our framework is in the spirit of existing methods that use frequency modulations in the waveforms, but we refine the approach by connecting it with state-of-the-art post-Newtonian calculations of the time evolution of the eccentricity. Using 39 numerical relativity (NR) simulations from the SXS and RIT catalogs, as well as waveforms obtained from the post-Newtonian approximation and effective-one-body formalism, we show that our framework provides eccentricity estimates that connect smoothly into the relativistic regime (even up to <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>2</mml:mn><mml:mi>M</mml:mi></mml:math></inline-formula> before merger). We also find that it is necessary to carry existing post-Newtonian calculations to an extra 0.5 post-Newtonian order to adequately characterize existing NR simulations, and provide fits to the extra coefficient for existing simulations. We make the framework publicly available through the PYTHON-based GWMODELS package.",
-      "arxiv_id": "2502.02739",
+      "abstract": "Parameter estimation (PE) for compact binary coalescence (CBC) events observed by gravitational wave (GW) laser interferometers is a core task in GW astrophysics. We present a method to compute the posterior distribution efficiently without relying on stochastic samplers. First, we show how to select sets of intrinsic and extrinsic parameters that efficiently cover the relevant phase space. We then show how to compute the likelihood for all combinations of these parameters using dot products. We describe how to assess and tune the integration accuracy, making the outcome predictable and adaptable to different applications. The low computational cost allows full PE in minutes on a single CPU, with the potential for further acceleration using multiple CPUs or GPUs. We implement this method in the dot-PE package, enabling sensitive searches using the full evidence integral for precessing CBCs and supporting large waveform banks (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>5</mml:mn></mml:msup><mml:mi>\u2500</mml:mi><mml:msup><mml:mn>10</mml:mn><mml:mn>6</mml:mn></mml:msup></mml:math></inline-formula> waveforms), regardless of waveform generation cost.",
+      "arxiv_id": "2507.16022",
       "authors": [
-        "Islam, Tousif",
-        "Venumadhav, Tejaswi"
+        "Mushkin, Jonathan",
+        "Roulet, Javier",
+        "Zackay, Barak",
+        "Venumadhav, Tejaswi",
+        "Ivashtenko, Oryna",
+        "Wadekar, Digvijay",
+        "Mehta, Ajit Kumar",
+        "Zaldarriaga, Matias"
       ],
-      "bibcode": "2025PhRvD.112j4039I",
-      "citation_count": 17,
+      "bibcode": "2025PhRvD.112j4025M",
+      "citation_count": 6,
       "doctype": "article",
-      "doi": "10.1103/b7vg-s75b",
-      "inspire_recid": "2876700",
-      "page": "104039",
+      "doi": "10.1103/vqj2-7qpz",
+      "inspire_recid": "2952995",
+      "page": "104025",
       "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 112, Issue 10, id.104039, 18 pp.",
+      "pub_raw": "Physical Review D, Volume 112, Issue 10, id.104025, 19 pp.",
       "pubdate": "2025-11-00",
-      "title": "Post-Newtonian theory-inspired framework for characterizing eccentricity in gravitational waveforms",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
+      "title": "Sampler-free gravitational wave inference using matrix multiplication",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
       "topics": [
         "Gravitational waves",
         "Black holes"
@@ -440,36 +446,63 @@
       "year": 2025
     },
     {
-      "abstract": "Parameter estimation (PE) for compact binary coalescence (CBC) events observed by gravitational wave (GW) laser interferometers is a core task in GW astrophysics. We present a method to compute the posterior distribution efficiently without relying on stochastic samplers. First, we show how to select sets of intrinsic and extrinsic parameters that efficiently cover the relevant phase space. We then show how to compute the likelihood for all combinations of these parameters using dot products. We describe how to assess and tune the integration accuracy, making the outcome predictable and adaptable to different applications. The low computational cost allows full PE in minutes on a single CPU, with the potential for further acceleration using multiple CPUs or GPUs. We implement this method in the dot-PE package, enabling sensitive searches using the full evidence integral for precessing CBCs and supporting large waveform banks (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>5</mml:mn></mml:msup><mml:mi>\u2500</mml:mi><mml:msup><mml:mn>10</mml:mn><mml:mn>6</mml:mn></mml:msup></mml:math></inline-formula> waveforms), regardless of waveform generation cost.",
-      "arxiv_id": "2507.16022",
+      "abstract": "Characterizing eccentricity in gravitational waveforms in a consistent manner is crucial to facilitate parameter estimation, astrophysical population studies, as well as searches for these rare systems. We present a framework to characterize eccentricity directly from gravitational waveforms for nonprecessing eccentric binary black hole mergers using common modulations that eccentricity induces in all spherical harmonic modes of the signals. Our framework is in the spirit of existing methods that use frequency modulations in the waveforms, but we refine the approach by connecting it with state-of-the-art post-Newtonian calculations of the time evolution of the eccentricity. Using 39 numerical relativity (NR) simulations from the SXS and RIT catalogs, as well as waveforms obtained from the post-Newtonian approximation and effective-one-body formalism, we show that our framework provides eccentricity estimates that connect smoothly into the relativistic regime (even up to <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>2</mml:mn><mml:mi>M</mml:mi></mml:math></inline-formula> before merger). We also find that it is necessary to carry existing post-Newtonian calculations to an extra 0.5 post-Newtonian order to adequately characterize existing NR simulations, and provide fits to the extra coefficient for existing simulations. We make the framework publicly available through the PYTHON-based GWMODELS package.",
+      "arxiv_id": "2502.02739",
       "authors": [
-        "Mushkin, Jonathan",
-        "Roulet, Javier",
-        "Zackay, Barak",
-        "Venumadhav, Tejaswi",
-        "Ivashtenko, Oryna",
-        "Wadekar, Digvijay",
-        "Mehta, Ajit Kumar",
-        "Zaldarriaga, Matias"
+        "Islam, Tousif",
+        "Venumadhav, Tejaswi"
       ],
-      "bibcode": "2025PhRvD.112j4025M",
-      "citation_count": 6,
+      "bibcode": "2025PhRvD.112j4039I",
+      "citation_count": 17,
       "doctype": "article",
-      "doi": "10.1103/vqj2-7qpz",
-      "inspire_recid": "2952995",
-      "page": "104025",
+      "doi": "10.1103/b7vg-s75b",
+      "inspire_recid": "2876700",
+      "page": "104039",
       "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 112, Issue 10, id.104025, 19 pp.",
+      "pub_raw": "Physical Review D, Volume 112, Issue 10, id.104039, 18 pp.",
       "pubdate": "2025-11-00",
-      "title": "Sampler-free gravitational wave inference using matrix multiplication",
-      "topic_confidence": 1.0,
-      "topic_source": "manual_override",
+      "title": "Post-Newtonian theory-inspired framework for characterizing eccentricity in gravitational waveforms",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
       "topics": [
         "Gravitational waves",
         "Black holes"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "112",
+      "year": 2025
+    },
+    {
+      "abstract": "Next-generation ground-based gravitational-wave (GW) detectors are expected to detect millions of binary black hole mergers during their operation period. A small fraction (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>0.1</mml:mn><mml:mi>\u2500</mml:mi><mml:mn>1</mml:mn><mml:mo>%</mml:mo></mml:math></inline-formula>) of them will be strongly lensed by intervening galaxies and clusters, producing multiple copies of the GW signals. The expected number of lensed events and the distribution of the time delay between lensed images will depend on the mass distribution of the lenses at different redshifts. Warm dark matter and fuzzy dark matter models predict lower abundances of low-mass dark matter halos as compared to the standard cold dark matter. This will result in a reduction in the number of strongly lensed GW events, especially with small time delays. Using the number of lensed events and the lensing time delay distribution, we will be able to put a lower bound on the mass of the warm and fuzzy dark matter particles from a catalog of lensed GW events. Our first forecasts suggest that the expected bounds from GW strong lensing from next-generation detectors are better than the current constraints.",
+      "arxiv_id": "2408.05290",
+      "authors": [
+        "Jana, Souvik",
+        "Kapadia, Shasvath J.",
+        "Venumadhav, Tejaswi",
+        "More, Surhud",
+        "Ajith, Parameswaran"
+      ],
+      "bibcode": "2025PhRvL.135k1402J",
+      "citation_count": 19,
+      "doctype": "article",
+      "doi": "10.1103/7q31-3qwz",
+      "inspire_recid": "2817357",
+      "page": "111402",
+      "pub": "Physical Review Letters",
+      "pub_raw": "Physical Review Letters, Volume 135, Issue 11, id.111402, 9 pp.",
+      "pubdate": "2025-09-00",
+      "title": "Probing the Nature of Dark Matter Using Strongly Lensed Gravitational Waves from Binary Black Holes",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
+      "topics": [
+        "Gravitational lensing",
+        "Gravitational waves",
+        "Black holes",
+        "Dark matter",
+        "Cosmology"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "135",
       "year": 2025
     },
     {
@@ -504,39 +537,6 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
-      "year": 2025
-    },
-    {
-      "abstract": "Next-generation ground-based gravitational-wave (GW) detectors are expected to detect millions of binary black hole mergers during their operation period. A small fraction (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>0.1</mml:mn><mml:mi>\u2500</mml:mi><mml:mn>1</mml:mn><mml:mo>%</mml:mo></mml:math></inline-formula>) of them will be strongly lensed by intervening galaxies and clusters, producing multiple copies of the GW signals. The expected number of lensed events and the distribution of the time delay between lensed images will depend on the mass distribution of the lenses at different redshifts. Warm dark matter and fuzzy dark matter models predict lower abundances of low-mass dark matter halos as compared to the standard cold dark matter. This will result in a reduction in the number of strongly lensed GW events, especially with small time delays. Using the number of lensed events and the lensing time delay distribution, we will be able to put a lower bound on the mass of the warm and fuzzy dark matter particles from a catalog of lensed GW events. Our first forecasts suggest that the expected bounds from GW strong lensing from next-generation detectors are better than the current constraints.",
-      "arxiv_id": "2408.05290",
-      "authors": [
-        "Jana, Souvik",
-        "Kapadia, Shasvath J.",
-        "Venumadhav, Tejaswi",
-        "More, Surhud",
-        "Ajith, Parameswaran"
-      ],
-      "bibcode": "2025PhRvL.135k1402J",
-      "citation_count": 19,
-      "doctype": "article",
-      "doi": "10.1103/7q31-3qwz",
-      "inspire_recid": "2817357",
-      "page": "111402",
-      "pub": "Physical Review Letters",
-      "pub_raw": "Physical Review Letters, Volume 135, Issue 11, id.111402, 9 pp.",
-      "pubdate": "2025-09-00",
-      "title": "Probing the Nature of Dark Matter Using Strongly Lensed Gravitational Waves from Binary Black Holes",
-      "topic_confidence": 1.0,
-      "topic_source": "manual_override",
-      "topics": [
-        "Gravitational lensing",
-        "Gravitational waves",
-        "Black holes",
-        "Dark matter",
-        "Cosmology"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "135",
       "year": 2025
     },
     {
@@ -639,33 +639,6 @@
       "year": 2025
     },
     {
-      "abstract": "Using publicly available numerical relativity (NR) simulations for nonspinning eccentric binary black hole (BBH) mergers, [Tousif Islam, Straightforward mode hierarchy in eccentric binary black hole mergers and associated waveform model, arXiv:2403.15506.] demonstrated that the eccentricity-induced modulations in the amplitudes and frequencies of different spherical harmonic modes are mutually consistent and can be modeled using a single time series modulation. We extend the validity of the results to all nonprecessing binaries by using 83 NR simulations from the SXS, RIT, and MAYA catalogs for aligned-spin eccentric BBH mergers with mass ratios ranging from <inline-formula><mml:math><mml:mrow><mml:mn>1</mml:mn><mml:mo>\u2236</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></inline-formula> to <inline-formula><mml:math><mml:mrow><mml:mn>1</mml:mn><mml:mo>\u2236</mml:mo><mml:mn>4</mml:mn></mml:mrow></mml:math></inline-formula>. Based on these phenomenological relations, we provide a framework named gwNRXHME to compute multimodal eccentric nonprecessing waveforms using two inputs: quadrupolar eccentric waveforms, and the corresponding multimodal quasicircular nonprecessing waveforms. Furthermore, we compute an overall degree of departure in SXS, RIT, and MAYA NR data from these relations and find that SXS NR simulations generally adhere to these relations more strictly than RIT and MAYA data. We also show that these relations can offer a cost-effective way to filter out noisy higher-order spherical harmonic modes extracted from NR data. Our framework is publicly available through the gwModels package.",
-      "arxiv_id": "2408.14654",
-      "authors": [
-        "Islam, Tousif",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2025PhRvD.111h1503I",
-      "citation_count": 19,
-      "doctype": "article",
-      "doi": "10.1103/PhysRevD.111.L081503",
-      "inspire_recid": "2822163",
-      "page": "L081503",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 111, Issue 8, id.L081503, 9 pp.",
-      "pubdate": "2025-04-00",
-      "title": "Universal phenomenological relations between spherical harmonic modes in nonprecessing eccentric binary black hole merger waveforms",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational waves",
-        "Black holes"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "111",
-      "year": 2025
-    },
-    {
       "abstract": "We present gwharmone, the first data-driven surrogate model for eccentric harmonics (as well as the full radiation content) of the dominant quadrupolar mode in eccentric, non-spinning binary black hole mergers. Our model is trained on 173 waveforms, each $100,000M$ long (where $M$ is the total mass), generated for mass ratios $q \\in [1,3.5]$ and eccentricities $e_{\\rm ref} \\in [0,0.2]$ (at the start of the waveform). The eccentric harmonics are extracted from the effective-one-body waveforms using the \\texttt{gwMiner} package. We apply a singular value decomposition (SVD) to obtain a set of reduced basis vectors, necessary to construct a lower-dimensional representation of data, and use Gaussian Process Regression (GPR) to interpolate SVD coefficients across parameter space, allowing for prediction at new parameter points. The model includes the effect of mean anomaly, its evaluation cost is only $\\sim 0.1$ second and it achieves an average time-domain (validation) error of ~0.001 and frequency-domain (validation) mismatches below 0.01 for advanced LIGO sensitivity. Our model can therefore be useful in efficient searches and parameter estimation of eccentric mergers. gwharmone will be publicly available through the gwModels package.",
       "arxiv_id": "2504.12420",
       "authors": [
@@ -697,6 +670,33 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
+      "year": 2025
+    },
+    {
+      "abstract": "Using publicly available numerical relativity (NR) simulations for nonspinning eccentric binary black hole (BBH) mergers, [Tousif Islam, Straightforward mode hierarchy in eccentric binary black hole mergers and associated waveform model, arXiv:2403.15506.] demonstrated that the eccentricity-induced modulations in the amplitudes and frequencies of different spherical harmonic modes are mutually consistent and can be modeled using a single time series modulation. We extend the validity of the results to all nonprecessing binaries by using 83 NR simulations from the SXS, RIT, and MAYA catalogs for aligned-spin eccentric BBH mergers with mass ratios ranging from <inline-formula><mml:math><mml:mrow><mml:mn>1</mml:mn><mml:mo>\u2236</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></inline-formula> to <inline-formula><mml:math><mml:mrow><mml:mn>1</mml:mn><mml:mo>\u2236</mml:mo><mml:mn>4</mml:mn></mml:mrow></mml:math></inline-formula>. Based on these phenomenological relations, we provide a framework named gwNRXHME to compute multimodal eccentric nonprecessing waveforms using two inputs: quadrupolar eccentric waveforms, and the corresponding multimodal quasicircular nonprecessing waveforms. Furthermore, we compute an overall degree of departure in SXS, RIT, and MAYA NR data from these relations and find that SXS NR simulations generally adhere to these relations more strictly than RIT and MAYA data. We also show that these relations can offer a cost-effective way to filter out noisy higher-order spherical harmonic modes extracted from NR data. Our framework is publicly available through the gwModels package.",
+      "arxiv_id": "2408.14654",
+      "authors": [
+        "Islam, Tousif",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2025PhRvD.111h1503I",
+      "citation_count": 19,
+      "doctype": "article",
+      "doi": "10.1103/PhysRevD.111.L081503",
+      "inspire_recid": "2822163",
+      "page": "L081503",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 111, Issue 8, id.L081503, 9 pp.",
+      "pubdate": "2025-04-00",
+      "title": "Universal phenomenological relations between spherical harmonic modes in nonprecessing eccentric binary black hole merger waveforms",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "111",
       "year": 2025
     },
     {
@@ -775,7 +775,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2025PhRvD.111b4049M",
-      "citation_count": 88,
+      "citation_count": 89,
       "doctype": "article",
       "doi": "10.1103/PhysRevD.111.024049",
       "inspire_recid": "2721113",
@@ -1306,38 +1306,6 @@
       "year": 2021
     },
     {
-      "abstract": "We map the likelihood of GW190521, the heaviest detected binary black hole (BBH) merger, by sampling under different mass and spin priors designed to be uninformative. We find that a source-frame total mass of \u223c150 M<SUB>\u2299</SUB> is consistently supported, but posteriors in mass ratio and spin depend critically on the choice of priors. We confirm that the likelihood has a multimodal structure with peaks in regions of mass ratio representing very different astrophysical scenarios. The unequal-mass region (m<SUB>2</SUB>/m<SUB>1</SUB>&lt;0.3 ) has an average likelihood \u223ce<SUP>6</SUP> times larger than the equal-mass region (m<SUB>2</SUB>/m<SUB>1</SUB>&gt;0.3 ) and a maximum likelihood \u223ce<SUP>2</SUP> larger. Using ensembles of samples across priors, we examine the implications of qualitatively different BBH sources that fit the data. We find that the equal-mass solution has poorly constrained spins and at least one black hole mass that is difficult to form via stellar collapse due to pair instability. The unequal-mass solution can avoid this mass gap entirely but requires a negative effective spin and a precessing primary. Either of these scenarios is more easily produced by dynamical formation channels than field binary coevolution. Drawing representative samples from each region of the likelihood map, we find a sensitive comoving volume time O (10 ) times larger in the mass gap region than the gap-avoiding region. Considering D<SUB>com</SUB><SUP>3</SUP>L to account for the distance effect, the likelihood of these representative samples still reverses the advantage to favor the gap-avoiding scenario by a factor of O (100 ) before including mass and spin priors. Posteriors are easily driven away from this high-likelihood region by common prior choices meant to be uninformative, making GW190521 parameter inference sensitive to the assumed mass and spin distributions of mergers in the source's astrophysical channel. This may be a generic issue for similarly heavy events given current detector sensitivity and waveform degeneracies.",
-      "arxiv_id": "2106.13821",
-      "authors": [
-        "Olsen, Seth",
-        "Roulet, Javier",
-        "Chia, Horng Sheng",
-        "Dai, Liang",
-        "Venumadhav, Tejaswi",
-        "Zackay, Barak",
-        "Zaldarriaga, Matias"
-      ],
-      "bibcode": "2021PhRvD.104h3036O",
-      "citation_count": 25,
-      "doctype": "article",
-      "doi": "10.48550/arXiv.2106.13821",
-      "inspire_recid": "1870522",
-      "page": "083036",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 104, Issue 8, article id.083036",
-      "pubdate": "2021-10-00",
-      "title": "Mapping the likelihood of GW190521 with diverse mass and spin priors",
-      "topic_confidence": 1.0,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational waves",
-        "Black holes"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "104",
-      "year": 2021
-    },
-    {
       "abstract": "The distribution of effective spin \u03c7<SUB>eff</SUB>, a parameter that encodes the degree of spin-orbit alignment in a binary system, has been widely regarded as a robust discriminator between the isolated and dynamical formation pathways for merging binary black holes. Until the recent release of the GWTC-2 catalog, such tests have yielded inconclusive results due to the small number of events with measurable nonzero spins. In this work, we study the \u03c7<SUB>eff</SUB> distribution of the binary black holes detected in the LIGO-Virgo O1-O3a observing runs. Our focus is on the degree to which the \u03c7<SUB>eff</SUB> distribution is symmetric about \u03c7<SUB>eff</SUB>=0 and whether the data provide support for a population of negative-\u03c7<SUB>eff</SUB> systems. We find that the \u03c7<SUB>eff</SUB> distribution is asymmetric at 95% credibility, with an excess of aligned-spin binary systems (\u03c7<SUB>eff</SUB>&gt;0 ) over antialigned ones. Moreover, we find that there is no evidence for negative-\u03c7<SUB>eff</SUB> systems in the current population of binary black holes. Thus, based solely on the \u03c7<SUB>eff</SUB> distribution, dynamical formation is disfavored as being responsible for the entirety of the observed merging binary black holes, while isolated formation remains viable. We also study the mass distribution of the current binary black hole population, confirming that a single truncated power-law distribution in the primary source-frame mass, m<SUB>1 s</SUB>, fails to describe the observations. Instead, we find that the preferred models have a steep feature at m<SUB>1 s</SUB>\u223c40 M<SUB>\u2299</SUB> consistent with a step and an extended, shallow tail to high masses.",
       "arxiv_id": "2105.10580",
       "authors": [
@@ -1364,6 +1332,38 @@
       "topics": [
         "Black holes",
         "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "104",
+      "year": 2021
+    },
+    {
+      "abstract": "We map the likelihood of GW190521, the heaviest detected binary black hole (BBH) merger, by sampling under different mass and spin priors designed to be uninformative. We find that a source-frame total mass of \u223c150 M<SUB>\u2299</SUB> is consistently supported, but posteriors in mass ratio and spin depend critically on the choice of priors. We confirm that the likelihood has a multimodal structure with peaks in regions of mass ratio representing very different astrophysical scenarios. The unequal-mass region (m<SUB>2</SUB>/m<SUB>1</SUB>&lt;0.3 ) has an average likelihood \u223ce<SUP>6</SUP> times larger than the equal-mass region (m<SUB>2</SUB>/m<SUB>1</SUB>&gt;0.3 ) and a maximum likelihood \u223ce<SUP>2</SUP> larger. Using ensembles of samples across priors, we examine the implications of qualitatively different BBH sources that fit the data. We find that the equal-mass solution has poorly constrained spins and at least one black hole mass that is difficult to form via stellar collapse due to pair instability. The unequal-mass solution can avoid this mass gap entirely but requires a negative effective spin and a precessing primary. Either of these scenarios is more easily produced by dynamical formation channels than field binary coevolution. Drawing representative samples from each region of the likelihood map, we find a sensitive comoving volume time O (10 ) times larger in the mass gap region than the gap-avoiding region. Considering D<SUB>com</SUB><SUP>3</SUP>L to account for the distance effect, the likelihood of these representative samples still reverses the advantage to favor the gap-avoiding scenario by a factor of O (100 ) before including mass and spin priors. Posteriors are easily driven away from this high-likelihood region by common prior choices meant to be uninformative, making GW190521 parameter inference sensitive to the assumed mass and spin distributions of mergers in the source's astrophysical channel. This may be a generic issue for similarly heavy events given current detector sensitivity and waveform degeneracies.",
+      "arxiv_id": "2106.13821",
+      "authors": [
+        "Olsen, Seth",
+        "Roulet, Javier",
+        "Chia, Horng Sheng",
+        "Dai, Liang",
+        "Venumadhav, Tejaswi",
+        "Zackay, Barak",
+        "Zaldarriaga, Matias"
+      ],
+      "bibcode": "2021PhRvD.104h3036O",
+      "citation_count": 25,
+      "doctype": "article",
+      "doi": "10.48550/arXiv.2106.13821",
+      "inspire_recid": "1870522",
+      "page": "083036",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 104, Issue 8, article id.083036",
+      "pubdate": "2021-10-00",
+      "title": "Mapping the likelihood of GW190521 with diverse mass and spin priors",
+      "topic_confidence": 1.0,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "104",
@@ -1410,7 +1410,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2021PhRvD.104f3034Z",
-      "citation_count": 106,
+      "citation_count": 107,
       "doctype": "article",
       "doi": "10.1103/PhysRevD.104.063034",
       "inspire_recid": "1749740",
@@ -1554,6 +1554,40 @@
       "year": 2020
     },
     {
+      "abstract": "We study the highly magnified arc SGAS J122651.3+215220 caused by a star-forming galaxy at z<SUB>s</SUB> = 2.93 crossing the lensing caustic cast by the galaxy cluster SDSS J1226+2152 (z<SUB>l</SUB> = 0.43), using Hubble Space Telescope observations. We report in the arc several asymmetric surface brightness features whose angular separations are a fraction of an arcsecond from the lensing critical curve and appear to be highly but unequally magnified image pairs of underlying compact sources, with one brightest pair having clear asymmetry consistently across four filters. One explanation of unequal magnification is microlensing by intracluster stars, which induces independent flux variations in the images of individual or groups of source stars in the lensed galaxy. For a second possibility, intracluster dark matter subhaloes invisible to telescopes effectively perturb lensing magnifications near the critical curve and give rise to persistently unequal image pairs. Our modelling suggests, at least for the most prominent identified image pair, that the microlensing hypothesis is in tension with the absence of notable asymmetry variation over a six-year baseline, while subhaloes of \u223c10<SUP>6</SUP>-10<SUP>8</SUP> M<SUB>\u2299</SUB> anticipated from structure formation with cold dark matter typically produce stationary and sizable asymmetries. We judge that observations at additional times and more precise lens models are necessary to stringently constrain temporal variability and robustly distinguish between the two explanations. The arc under this study is a scheduled target of a Director's Discretionary Early Release Science program of the James Webb Space Telescope, which will provide deep images and a high-resolution view with integral field spectroscopy.",
+      "arxiv_id": "2001.00261",
+      "authors": [
+        "Dai, Liang",
+        "Kaurov, Alexander A.",
+        "Sharon, Keren",
+        "Florian, Michael",
+        "Miralda-Escud\u00e9, Jordi",
+        "Venumadhav, Tejaswi",
+        "Frye, Brenda",
+        "Rigby, Jane R.",
+        "Bayliss, Matthew"
+      ],
+      "bibcode": "2020MNRAS.495.3192D",
+      "citation_count": 40,
+      "doctype": "article",
+      "doi": "10.1093/mnras/staa1355",
+      "inspire_recid": "1773877",
+      "page": "3192",
+      "pub": "Monthly Notices of the Royal Astronomical Society",
+      "pub_raw": "Monthly Notices of the Royal Astronomical Society, Volume 495, Issue 3, pp.3192-3208",
+      "pubdate": "2020-01-00",
+      "title": "Asymmetric surface brightness structure of caustic crossing arc in SDSS J1226+2152: a case for dark matter substructure",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational lensing",
+        "Dark matter"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "495",
+      "year": 2020
+    },
+    {
       "abstract": "The Square Kilometre Array (SKA) is a planned large radio interferometer designed to operate over a wide range of frequencies, and with an order of magnitude greater sensitivity and survey speed than any current radio telescope. The SKA will address many important topics in astronomy, ranging from planet formation to distant galaxies. However, in this work, we consider the perspective of the SKA as a facility for studying physics. We review four areas in which the SKA is expected to make major contributions to our understanding of fundamental physics: cosmic dawn and reionisation; gravity and gravitational radiation; cosmology and dark energy; and dark matter and astroparticle physics. These discussions demonstrate that the SKA will be a spectacular physics machine, which will provide many new breakthroughs and novel insights on matter, energy, and spacetime.",
       "arxiv_id": "1810.02680",
       "authors": [
@@ -1631,40 +1665,6 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "37",
-      "year": 2020
-    },
-    {
-      "abstract": "We study the highly magnified arc SGAS J122651.3+215220 caused by a star-forming galaxy at z<SUB>s</SUB> = 2.93 crossing the lensing caustic cast by the galaxy cluster SDSS J1226+2152 (z<SUB>l</SUB> = 0.43), using Hubble Space Telescope observations. We report in the arc several asymmetric surface brightness features whose angular separations are a fraction of an arcsecond from the lensing critical curve and appear to be highly but unequally magnified image pairs of underlying compact sources, with one brightest pair having clear asymmetry consistently across four filters. One explanation of unequal magnification is microlensing by intracluster stars, which induces independent flux variations in the images of individual or groups of source stars in the lensed galaxy. For a second possibility, intracluster dark matter subhaloes invisible to telescopes effectively perturb lensing magnifications near the critical curve and give rise to persistently unequal image pairs. Our modelling suggests, at least for the most prominent identified image pair, that the microlensing hypothesis is in tension with the absence of notable asymmetry variation over a six-year baseline, while subhaloes of \u223c10<SUP>6</SUP>-10<SUP>8</SUP> M<SUB>\u2299</SUB> anticipated from structure formation with cold dark matter typically produce stationary and sizable asymmetries. We judge that observations at additional times and more precise lens models are necessary to stringently constrain temporal variability and robustly distinguish between the two explanations. The arc under this study is a scheduled target of a Director's Discretionary Early Release Science program of the James Webb Space Telescope, which will provide deep images and a high-resolution view with integral field spectroscopy.",
-      "arxiv_id": "2001.00261",
-      "authors": [
-        "Dai, Liang",
-        "Kaurov, Alexander A.",
-        "Sharon, Keren",
-        "Florian, Michael",
-        "Miralda-Escud\u00e9, Jordi",
-        "Venumadhav, Tejaswi",
-        "Frye, Brenda",
-        "Rigby, Jane R.",
-        "Bayliss, Matthew"
-      ],
-      "bibcode": "2020MNRAS.495.3192D",
-      "citation_count": 40,
-      "doctype": "article",
-      "doi": "10.1093/mnras/staa1355",
-      "inspire_recid": "1773877",
-      "page": "3192",
-      "pub": "Monthly Notices of the Royal Astronomical Society",
-      "pub_raw": "Monthly Notices of the Royal Astronomical Society, Volume 495, Issue 3, pp.3192-3208",
-      "pubdate": "2020-01-00",
-      "title": "Asymmetric surface brightness structure of caustic crossing arc in SDSS J1226+2152: a case for dark matter substructure",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational lensing",
-        "Dark matter"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "495",
       "year": 2020
     },
     {
@@ -1966,6 +1966,35 @@
       "year": 2018
     },
     {
+      "abstract": "We present a method to accelerate the evaluation of the likelihood in gravitational wave parameter estimation. Parameter estimation codes compute likelihoods of similar waveforms, whose phases and amplitudes differ smoothly with frequency. We exploit this by precomputing frequency-binned overlaps of the best-fit waveform with the data. We show how these summary data can be used to approximate the likelihood of any waveform that is sufficiently probable within the required accuracy. We demonstrate that $\\simeq 60$ bins suffice to accurately compute likelihoods for strain data at a sampling rate of $4096\\,$Hz and duration of $T=2048\\,$s around the binary neutron star merger GW170817. Relative binning speeds up parameter estimation for frequency domain waveform models by a factor of $\\sim 10^4$ compared to naive matched filtering and $\\sim 10$ compared to reduced order quadrature.",
+      "arxiv_id": "1806.08792",
+      "authors": [
+        "Zackay, Barak",
+        "Dai, Liang",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2018arXiv180608792Z",
+      "citation_count": 189,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.1806.08792",
+      "inspire_recid": "1679399",
+      "page": "arXiv:1806.08792",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:1806.08792",
+      "pubdate": "2018-06-00",
+      "title": "Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
+      "topics": [
+        "Gravitational waves",
+        "Neutron stars",
+        "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
+      "year": 2018
+    },
+    {
       "abstract": "Relative binning is a new method for fast and accurate evaluation of the likelihood of gravitational wave strain data. This technique can be used to produce reliable posterior distributions for compact object mergers with very moderate computational resources. We use a fast likelihood evaluation code based on this technique to estimate the parameters of the double neutron-star merger event GW170817 using publicly available LIGO data. We obtain statistically similar posteriors using either Markov-chain Monte-Carlo or nested sampling. The results do not favor non-zero aligned spins at a statistically significant level. There is no significant sign of non-zero tidal deformability (as quantified by the Bayesian evidence), whether or not high-spin or low-spin priors are adopted. Our posterior samples are publicly available, and we also provide a tutorial Python code to implement fast likelihood evaluation using the relative binning method.",
       "arxiv_id": "1806.08793",
       "authors": [
@@ -1988,35 +2017,6 @@
       "topics": [
         "Gravitational waves",
         "Neutron stars"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2018
-    },
-    {
-      "abstract": "We present a method to accelerate the evaluation of the likelihood in gravitational wave parameter estimation. Parameter estimation codes compute likelihoods of similar waveforms, whose phases and amplitudes differ smoothly with frequency. We exploit this by precomputing frequency-binned overlaps of the best-fit waveform with the data. We show how these summary data can be used to approximate the likelihood of any waveform that is sufficiently probable within the required accuracy. We demonstrate that $\\simeq 60$ bins suffice to accurately compute likelihoods for strain data at a sampling rate of $4096\\,$Hz and duration of $T=2048\\,$s around the binary neutron star merger GW170817. Relative binning speeds up parameter estimation for frequency domain waveform models by a factor of $\\sim 10^4$ compared to naive matched filtering and $\\sim 10$ compared to reduced order quadrature.",
-      "arxiv_id": "1806.08792",
-      "authors": [
-        "Zackay, Barak",
-        "Dai, Liang",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2018arXiv180608792Z",
-      "citation_count": 188,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.1806.08792",
-      "inspire_recid": "1679399",
-      "page": "arXiv:1806.08792",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:1806.08792",
-      "pubdate": "2018-06-00",
-      "title": "Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation",
-      "topic_confidence": 1.0,
-      "topic_source": "manual_override",
-      "topics": [
-        "Gravitational waves",
-        "Neutron stars",
-        "Black holes"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
@@ -2142,33 +2142,6 @@
       "year": 2017
     },
     {
-      "abstract": "Strong lensing by intervening galaxies can produce multiple images of gravitational waves from sources at cosmological distances. These images acquire additional phase-shifts as the over-focused wavefront passes through itself along the line of sight. Time domain waveforms of Type-II images (associated with saddle points of the time delay) exhibit a non-trivial distortion from the unlensed waveforms. This phenomenon is in addition to the usual frequency-independent magnification, and happens even in the geometric limit where the wavelength is much shorter than the deflector's gravitational length scale. Similarly, Type-III images preserve the original waveform's shape but exhibit a sign flip. We show that for non-precessing binaries undergoing circular inspiral and merger, these distortions are equivalent to rotating the line of sight about the normal to the orbital plane by $45^\\circ$ (Type II) and $90^\\circ$ (Type III). This effect will enable us to distinguish between the different topological types among a set of multiple images, and give us valuable insight into the lens model. Furthermore, we show that for eccentric binaries, the waveform of a Type-II image is distorted in a manner that is inequivalent to a change of the source's orbital parameters.",
-      "arxiv_id": "1702.04724",
-      "authors": [
-        "Dai, Liang",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2017arXiv170204724D",
-      "citation_count": 154,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.1702.04724",
-      "inspire_recid": "1513760",
-      "page": "arXiv:1702.04724",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:1702.04724",
-      "pubdate": "2017-02-00",
-      "title": "On the waveforms of gravitationally lensed gravitational waves",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational lensing",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2017
-    },
-    {
       "abstract": "The recent detection of gravitational waves indicates that stellar-mass black hole binaries are likely to be a key population of sources for forthcoming observations. With future upgrades, ground-based detectors could detect merging black hole binaries out to cosmological distances. Gravitational-wave bursts from high redshifts (z \u22731 ) can be strongly magnified by gravitational lensing due to intervening galaxies along the line of sight. In the absence of electromagnetic counterparts, the mergers' intrinsic mass scale and redshift are degenerate with the unknown magnification factor \u03bc . Hence, strongly magnified low-mass mergers from high redshifts appear as higher-mass mergers from lower redshifts. We assess the impact of this degeneracy on the mass-redshift distribution of observable events for generic models of binary black hole formation from normal stellar evolution, Pop III star remnants, or a primordial black hole population. We find that strong magnification (\u03bc \u22733 ) generally creates a heavy tail of apparently massive mergers in the event distribution from a given detector. For LIGO and its future upgrades, this tail may dominate the population of intrinsically massive, but unlensed mergers in binary black hole formation models involving normal stellar evolution or primordial black holes. Modeling the statistics of lensing magnification can help account for this magnification bias when testing astrophysical scenarios of black hole binary formation and evolution.",
       "arxiv_id": "1605.09398",
       "authors": [
@@ -2194,6 +2167,33 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "95",
+      "year": 2017
+    },
+    {
+      "abstract": "Strong lensing by intervening galaxies can produce multiple images of gravitational waves from sources at cosmological distances. These images acquire additional phase-shifts as the over-focused wavefront passes through itself along the line of sight. Time domain waveforms of Type-II images (associated with saddle points of the time delay) exhibit a non-trivial distortion from the unlensed waveforms. This phenomenon is in addition to the usual frequency-independent magnification, and happens even in the geometric limit where the wavelength is much shorter than the deflector's gravitational length scale. Similarly, Type-III images preserve the original waveform's shape but exhibit a sign flip. We show that for non-precessing binaries undergoing circular inspiral and merger, these distortions are equivalent to rotating the line of sight about the normal to the orbital plane by $45^\\circ$ (Type II) and $90^\\circ$ (Type III). This effect will enable us to distinguish between the different topological types among a set of multiple images, and give us valuable insight into the lens model. Furthermore, we show that for eccentric binaries, the waveform of a Type-II image is distorted in a manner that is inequivalent to a change of the source's orbital parameters.",
+      "arxiv_id": "1702.04724",
+      "authors": [
+        "Dai, Liang",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2017arXiv170204724D",
+      "citation_count": 154,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.1702.04724",
+      "inspire_recid": "1513760",
+      "page": "arXiv:1702.04724",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:1702.04724",
+      "pubdate": "2017-02-00",
+      "title": "On the waveforms of gravitationally lensed gravitational waves",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational lensing",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
       "year": 2017
     },
     {
@@ -2384,7 +2384,7 @@
       "pub_raw": "Physical Review B, vol. 81, Issue 5, id. 054305",
       "pubdate": "2010-02-00",
       "title": "Finite-rate quenches of site bias in the Bose-Hubbard dimer",
-      "topic_confidence": 0.0,
+      "topic_confidence": 1.0,
       "topic_source": "llm",
       "topics": [],
       "topics_classified_with": "56b28aa0a1fdaaf7",
