@@ -1,35 +1,27 @@
 {
   "papers": [
     {
-      "abstract": "GW231123, if unlensed, is a rare binary black hole merger with high masses and high spins for both progenitors. We show that the signal is better fitted by a lower-mass, lower-spin merger that is diffraction-lensed by an isolated object of redshifted mass $\\sim 1000\\,\\rm M_\\odot$, modeled either as a point mass or as a spherically symmetric compact halo. Because diffraction-lensed events are also rare, hypothesis testing should quote the posterior odds ratio rather than the Bayes factor, which requires quantifying our prior belief in the two hypotheses. We adopt the GWTC-5 population distribution as our source parameter prior, and quantify the prior on the lens hypothesis through the lensing optical depth. For a point-mass lens, observational constraints on the abundance of black holes in the Universe yield an upper bound on the optical depth, and hence on the posterior odds, which do not rule out lensing. However, using a predicted mass function of intermediate-mass black holes formed in star clusters gives a low optical depth that strongly disfavors lensing. For a dark matter halo lens, standard collisionless cold dark matter does not form halos compact enough to give the required optical depth, but self-interacting dark matter with a large cross section at low velocities can trigger gravothermal collapse and form them, in which case the posterior odds are inconclusive. In either case, from a frequentist perspective, we show that detecting a lensed event with properties like GW231123 is unlikely. These conclusions apply to isolated lenses, while a lens embedded in an external gravitational potential could change the picture.",
-      "arxiv_id": "2607.21834",
+      "abstract": "In this paper, we present an archival search for short gamma-ray bursts (sGRBs) over 13 years (2013-2025) of Fermi/GBM data using a Poisson matched-filter pipeline that performs a fully coherent analysis across all detectors and energy channels, significantly improving sensitivity relative to the onboard triggering algorithms. A central component of the analysis is the empirical estimation of trigger significance using 'timeslided' data, allowing each candidate to be assigned a probability of astrophysical origin. We also developed a new parameter-estimation framework based on the Poisson matched filter, which uses the global structure of the detected event across spectral, temporal, and spatial parameter spaces. This enables us to systematically classify bursts and distinguish between GRBs, soft gamma repeaters, terrestrial gamma-ray flashes, and solar flares. We identify 549 new GRB candidates with high confidence and thousands of magnetar bursts, significantly expanding the known short transient population in GBM data. To further strengthen the significance of the GRB candidates, we performed a targeted follow-up search in Swift/BAT rate data. Applying the followup to all of our triggers - including triggers below the detection threshold yielded 1736 temporally coincident events with association probability above 90 %. The resulting probabilistically ranked catalog substantially expands the population of short transients detected in GBM data and provides a statistically robust framework for multimessenger searches.",
+      "arxiv_id": null,
       "authors": [
-        "Ho-Yeuk Cheung, Mark",
-        "Wadekar, Digvijay",
-        "Zaldarriaga, Matias",
-        "Venumadhav, Tejaswi",
-        "Roulet, Javier",
-        "Mehta, Ajit Kumar"
+        "Perera, Ariel",
+        "Zackay, Barak",
+        "Venumadhav, Tejaswi"
       ],
-      "bibcode": "2026arXiv260721834H",
-      "citation_count": 1,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2607.21834",
-      "inspire_recid": "3183174",
-      "page": "arXiv:2607.21834",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2607.21834",
-      "pubdate": "2026-07-00",
-      "title": "The diffraction-lensing interpretation of GW231123 with astrophysical priors",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational waves",
-        "Black holes",
-        "Gravitational lensing",
-        "Dark matter"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "bibcode": "2026MNRAS.tmp.1491P",
+      "citation_count": 0,
+      "doctype": "article",
+      "doi": "10.1093/mnras/stag1592",
+      "inspire_recid": null,
+      "page": "",
+      "pub": "Monthly Notices of the Royal Astronomical Society",
+      "pub_raw": "Monthly Notices of the Royal Astronomical Society, Advance Access",
+      "pubdate": "2026-08-00",
+      "title": "Expanding the Population of Short Gamma-Ray Transients with a Coherent Fermi/GBM Search. A 13-year catalog of short GRBs",
+      "topic_confidence": null,
+      "topic_source": null,
+      "topics": [],
+      "topics_classified_with": null,
       "volume": "",
       "year": 2026
     },
@@ -96,6 +88,39 @@
       "year": 2026
     },
     {
+      "abstract": "GW231123, if unlensed, is a rare binary black hole merger with high masses and high spins for both progenitors. We show that the signal is better fitted by a lower-mass, lower-spin merger that is diffraction-lensed by an isolated object of redshifted mass $\\sim 1000\\,\\rm M_\\odot$, modeled either as a point mass or as a spherically symmetric compact halo. Because diffraction-lensed events are also rare, hypothesis testing should quote the posterior odds ratio rather than the Bayes factor, which requires quantifying our prior belief in the two hypotheses. We adopt the GWTC-5 population distribution as our source parameter prior, and quantify the prior on the lens hypothesis through the lensing optical depth. For a point-mass lens, observational constraints on the abundance of black holes in the Universe yield an upper bound on the optical depth, and hence on the posterior odds, which do not rule out lensing. However, using a predicted mass function of intermediate-mass black holes formed in star clusters gives a low optical depth that strongly disfavors lensing. For a dark matter halo lens, standard collisionless cold dark matter does not form halos compact enough to give the required optical depth, but self-interacting dark matter with a large cross section at low velocities can trigger gravothermal collapse and form them, in which case the posterior odds are inconclusive. In either case, from a frequentist perspective, we show that detecting a lensed event with properties like GW231123 is unlikely. These conclusions apply to isolated lenses, while a lens embedded in an external gravitational potential could change the picture.",
+      "arxiv_id": "2607.21834",
+      "authors": [
+        "Ho-Yeuk Cheung, Mark",
+        "Wadekar, Digvijay",
+        "Zaldarriaga, Matias",
+        "Venumadhav, Tejaswi",
+        "Roulet, Javier",
+        "Mehta, Ajit Kumar"
+      ],
+      "bibcode": "2026arXiv260721834H",
+      "citation_count": 1,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2607.21834",
+      "inspire_recid": "3183174",
+      "page": "arXiv:2607.21834",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2607.21834",
+      "pubdate": "2026-07-00",
+      "title": "The diffraction-lensing interpretation of GW231123 with astrophysical priors",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational waves",
+        "Black holes",
+        "Gravitational lensing",
+        "Dark matter"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
+      "year": 2026
+    },
+    {
       "abstract": "Time-dependent tidal interactions during the late inspiral of binary neutron stars encode valuable information about neutron-star structure, but systematically extending the familiar Newtonian mode-sum picture into full general relativity is nontrivial. In this paper, we develop a practical relativistic implementation of mode-sum tidal response for non-rotating neutron stars in Regge-Wheeler gauge. Using near-zone boundary conditions, we systematically define the interior tidal field, the relativistic overlap integrals, and the corresponding mode amplitudes. The good is that the dominant f-mode contribution is remarkably robust, reproducing the direct matching calculation to within $\\sim 3$\\% across the equations of state we consider. The bad is that the operator governing mode inner product is not positive definite on the full Regge-Wheeler-gauge function space, so the relativistic mode sum truncated at ${\\cal{O}}(\u03c9^2)$ is not expected to strictly converge to the direct matching solution. The subtle is that the tidal field inside the star is not unique, although this ambiguity has only a limited impact on the dominant f-mode response for the classes of extensions studied here. Our results establish the practical utility of relativistic mode-sum approximations, while making clear that their predictive power comes from a controlled low-mode description, rather than from a formally convergent strong-field expansion.",
       "arxiv_id": "2605.08569",
       "authors": [
@@ -119,6 +144,33 @@
       "topic_source": "llm",
       "topics": [
         "Neutron stars"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
+      "year": 2026
+    },
+    {
+      "abstract": "In this paper, we present an archival search for short gamma-ray bursts (sGRBs) over 13 years (2013-2025) of Fermi/GBM data using a Poisson matched-filter pipeline that performs a fully coherent analysis across all detectors and energy channels, significantly improving sensitivity relative to the onboard triggering algorithms. A central component of the analysis is the empirical estimation of trigger significance using 'timeslided' data, allowing each candidate to be assigned a probability of astrophysical origin. We also developed a new parameter-estimation framework based on the Poisson matched filter, which uses the global structure of the detected event across spectral, temporal, and spatial parameter spaces. This enables us to systematically classify bursts and distinguish between GRBs, soft gamma repeaters, terrestrial gamma-ray flashes, and solar flares. We identify 568 new GRB candidates with $p_{\\text{astro}}\\geq0.9$ and thousands of magnetar bursts, significantly expanding the known short-transient population in GBM data. To further strengthen the significance of the GRB candidates, we performed a targeted follow-up search in Swift/BAT rate data. Applying the followup to all of our triggers - including triggers below the detection threshold yielded 1736 temporally coincident events with association probability above $90\\%$. The resulting probabilistically ranked catalog substantially expands the population of short GRBs and magnetar flares detected in GBM data and provides a statistically robust framework for multimessenger searches.",
+      "arxiv_id": "2605.31554",
+      "authors": [
+        "Perera, Ariel",
+        "Zackay, Barak",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2026arXiv260531554P",
+      "citation_count": 0,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2605.31554",
+      "inspire_recid": "3163133",
+      "page": "arXiv:2605.31554",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2605.31554",
+      "pubdate": "2026-05-00",
+      "title": "Expanding the Population of Short Gamma-Ray Transients with a Coherent Fermi/GBM Search. A 13-year catalog of short GRBs",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gamma ray bursts"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
@@ -154,33 +206,6 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "113",
-      "year": 2026
-    },
-    {
-      "abstract": "In this paper, we present an archival search for short gamma-ray bursts (sGRBs) over 13 years (2013-2025) of Fermi/GBM data using a Poisson matched-filter pipeline that performs a fully coherent analysis across all detectors and energy channels, significantly improving sensitivity relative to the onboard triggering algorithms. A central component of the analysis is the empirical estimation of trigger significance using 'timeslided' data, allowing each candidate to be assigned a probability of astrophysical origin. We also developed a new parameter-estimation framework based on the Poisson matched filter, which uses the global structure of the detected event across spectral, temporal, and spatial parameter spaces. This enables us to systematically classify bursts and distinguish between GRBs, soft gamma repeaters, terrestrial gamma-ray flashes, and solar flares. We identify 568 new GRB candidates with $p_{\\text{astro}}\\geq0.9$ and thousands of magnetar bursts, significantly expanding the known short-transient population in GBM data. To further strengthen the significance of the GRB candidates, we performed a targeted follow-up search in Swift/BAT rate data. Applying the followup to all of our triggers - including triggers below the detection threshold yielded 1736 temporally coincident events with association probability above $90\\%$. The resulting probabilistically ranked catalog substantially expands the population of short GRBs and magnetar flares detected in GBM data and provides a statistically robust framework for multimessenger searches.",
-      "arxiv_id": "2605.31554",
-      "authors": [
-        "Perera, Ariel",
-        "Zackay, Barak",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2026arXiv260531554P",
-      "citation_count": 0,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2605.31554",
-      "inspire_recid": "3163133",
-      "page": "arXiv:2605.31554",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2605.31554",
-      "pubdate": "2026-05-00",
-      "title": "Expanding the Population of Short Gamma-Ray Transients with a Coherent Fermi/GBM Search. A 13-year catalog of short GRBs",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gamma ray bursts"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
       "year": 2026
     },
     {
@@ -385,31 +410,30 @@
       "year": 2025
     },
     {
-      "abstract": "In this paper, we present the development and the results of a new search pipeline for short gamma-ray bursts (sGRBs) in the publicly available data from the Gamma-Ray Burst Monitor (GBM) on board the Fermi satellite. This pipeline uses rigorous statistical methods that are designed to maximize the information extracted from the Fermi/GBM detectors. Our approach differs substantially from existing search efforts in several aspects: the pipeline includes the construction of template banks, Poisson matched filtering, background estimation, background misestimation correction, automatic routines to filter contaminants, statistical estimation of the signal location, and a quantitative estimator of the signal probability of being of cosmological, terrestrial, or solar origin. Our analysis also includes operating the pipeline on \"time-slid\" copies of the data, which allows exact significance assessment and p<SUB>astro</SUB> computation, akin to the state-of-the-art gravitational-wave (GW) data analysis pipelines. Depending on the spectral properties of the bursts, our pipeline achieves a signal-to-noise ratio improvement by a factor of 2\u250015 over the onboard GBM triggering algorithm. This enhancement increases the detectable volume for sGRBs and results in an approximately 50% increase in sGRB detections in the 2014 GBM data set. As a further consequence of the sensitivity increase, we detect hundreds of soft gamma-ray flares of Galactic origin. This improved sensitivity enhances the chances of detecting fainter, off-axis gamma-ray bursts that would likely fall below the standard triggering thresholds. Applying this pipeline to the full GBM archive is expected to expand further the joint sGRB\u2500GW detection volume.",
-      "arxiv_id": "2507.05739",
+      "abstract": "Characterizing eccentricity in gravitational waveforms in a consistent manner is crucial to facilitate parameter estimation, astrophysical population studies, as well as searches for these rare systems. We present a framework to characterize eccentricity directly from gravitational waveforms for nonprecessing eccentric binary black hole mergers using common modulations that eccentricity induces in all spherical harmonic modes of the signals. Our framework is in the spirit of existing methods that use frequency modulations in the waveforms, but we refine the approach by connecting it with state-of-the-art post-Newtonian calculations of the time evolution of the eccentricity. Using 39 numerical relativity (NR) simulations from the SXS and RIT catalogs, as well as waveforms obtained from the post-Newtonian approximation and effective-one-body formalism, we show that our framework provides eccentricity estimates that connect smoothly into the relativistic regime (even up to <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>2</mml:mn><mml:mi>M</mml:mi></mml:math></inline-formula> before merger). We also find that it is necessary to carry existing post-Newtonian calculations to an extra 0.5 post-Newtonian order to adequately characterize existing NR simulations, and provide fits to the extra coefficient for existing simulations. We make the framework publicly available through the PYTHON-based GWMODELS package.",
+      "arxiv_id": "2502.02739",
       "authors": [
-        "Perera, Ariel",
-        "Zackay, Barak",
+        "Islam, Tousif",
         "Venumadhav, Tejaswi"
       ],
-      "bibcode": "2025ApJS..281....4P",
-      "citation_count": 0,
+      "bibcode": "2025PhRvD.112j4039I",
+      "citation_count": 17,
       "doctype": "article",
-      "doi": "10.3847/1538-4365/ae0189",
-      "inspire_recid": "2943560",
-      "page": "4",
-      "pub": "The Astrophysical Journal Supplement Series",
-      "pub_raw": "The Astrophysical Journal Supplement Series, Volume 281, Issue 1, id.4, 23 pp.",
+      "doi": "10.1103/b7vg-s75b",
+      "inspire_recid": "2876700",
+      "page": "104039",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 112, Issue 10, id.104039, 18 pp.",
       "pubdate": "2025-11-00",
-      "title": "A New Search Pipeline for Short Gamma-Ray Bursts in Fermi/GBM Data\u2014A 50% Increase in the Number of Detections",
+      "title": "Post-Newtonian theory-inspired framework for characterizing eccentricity in gravitational waveforms",
       "topic_confidence": 0.95,
       "topic_source": "llm",
       "topics": [
-        "Gamma ray bursts",
-        "Gravitational waves"
+        "Gravitational waves",
+        "Black holes"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "281",
+      "volume": "112",
       "year": 2025
     },
     {
@@ -446,30 +470,31 @@
       "year": 2025
     },
     {
-      "abstract": "Characterizing eccentricity in gravitational waveforms in a consistent manner is crucial to facilitate parameter estimation, astrophysical population studies, as well as searches for these rare systems. We present a framework to characterize eccentricity directly from gravitational waveforms for nonprecessing eccentric binary black hole mergers using common modulations that eccentricity induces in all spherical harmonic modes of the signals. Our framework is in the spirit of existing methods that use frequency modulations in the waveforms, but we refine the approach by connecting it with state-of-the-art post-Newtonian calculations of the time evolution of the eccentricity. Using 39 numerical relativity (NR) simulations from the SXS and RIT catalogs, as well as waveforms obtained from the post-Newtonian approximation and effective-one-body formalism, we show that our framework provides eccentricity estimates that connect smoothly into the relativistic regime (even up to <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>2</mml:mn><mml:mi>M</mml:mi></mml:math></inline-formula> before merger). We also find that it is necessary to carry existing post-Newtonian calculations to an extra 0.5 post-Newtonian order to adequately characterize existing NR simulations, and provide fits to the extra coefficient for existing simulations. We make the framework publicly available through the PYTHON-based GWMODELS package.",
-      "arxiv_id": "2502.02739",
+      "abstract": "In this paper, we present the development and the results of a new search pipeline for short gamma-ray bursts (sGRBs) in the publicly available data from the Gamma-Ray Burst Monitor (GBM) on board the Fermi satellite. This pipeline uses rigorous statistical methods that are designed to maximize the information extracted from the Fermi/GBM detectors. Our approach differs substantially from existing search efforts in several aspects: the pipeline includes the construction of template banks, Poisson matched filtering, background estimation, background misestimation correction, automatic routines to filter contaminants, statistical estimation of the signal location, and a quantitative estimator of the signal probability of being of cosmological, terrestrial, or solar origin. Our analysis also includes operating the pipeline on \"time-slid\" copies of the data, which allows exact significance assessment and p<SUB>astro</SUB> computation, akin to the state-of-the-art gravitational-wave (GW) data analysis pipelines. Depending on the spectral properties of the bursts, our pipeline achieves a signal-to-noise ratio improvement by a factor of 2\u250015 over the onboard GBM triggering algorithm. This enhancement increases the detectable volume for sGRBs and results in an approximately 50% increase in sGRB detections in the 2014 GBM data set. As a further consequence of the sensitivity increase, we detect hundreds of soft gamma-ray flares of Galactic origin. This improved sensitivity enhances the chances of detecting fainter, off-axis gamma-ray bursts that would likely fall below the standard triggering thresholds. Applying this pipeline to the full GBM archive is expected to expand further the joint sGRB\u2500GW detection volume.",
+      "arxiv_id": "2507.05739",
       "authors": [
-        "Islam, Tousif",
+        "Perera, Ariel",
+        "Zackay, Barak",
         "Venumadhav, Tejaswi"
       ],
-      "bibcode": "2025PhRvD.112j4039I",
-      "citation_count": 17,
+      "bibcode": "2025ApJS..281....4P",
+      "citation_count": 0,
       "doctype": "article",
-      "doi": "10.1103/b7vg-s75b",
-      "inspire_recid": "2876700",
-      "page": "104039",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 112, Issue 10, id.104039, 18 pp.",
+      "doi": "10.3847/1538-4365/ae0189",
+      "inspire_recid": "2943560",
+      "page": "4",
+      "pub": "The Astrophysical Journal Supplement Series",
+      "pub_raw": "The Astrophysical Journal Supplement Series, Volume 281, Issue 1, id.4, 23 pp.",
       "pubdate": "2025-11-00",
-      "title": "Post-Newtonian theory-inspired framework for characterizing eccentricity in gravitational waveforms",
+      "title": "A New Search Pipeline for Short Gamma-Ray Bursts in Fermi/GBM Data\u2014A 50% Increase in the Number of Detections",
       "topic_confidence": 0.95,
       "topic_source": "llm",
       "topics": [
-        "Gravitational waves",
-        "Black holes"
+        "Gamma ray bursts",
+        "Gravitational waves"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "112",
+      "volume": "281",
       "year": 2025
     },
     {
@@ -1701,33 +1726,33 @@
       "year": 2019
     },
     {
-      "abstract": "We examine a caustic-straddling arc at z = 0.9397 in the field of the galaxy cluster MACS J0416.1-2403 (z = 0.397) using archival multiband Hubble Space Telescope images and show that its surface brightness exhibits anomalies that can be explained by a single highly magnified star undergoing microlensing. First, we show that the surface brightness pattern is not perfectly symmetric across the cluster critical curve, which is inconsistent with a locally smooth lens model; the location of the candidate star exhibits the most significant asymmetry. Second, our analysis indicates that the asymmetric feature has \u223c30% higher flux in the 2012 visits compared to the Frontier Fields program visits in 2014. Moreover, the variable asymmetric feature shows an anomalous color between the F814W and F105W filters in 2014. These anomalies are naturally explained by microlensing-induced variability of a caustic-transiting blue supergiant in a star-forming region, with a mean magnification factor around \u03bc \u223c 200. We extend this study to a statistical analysis of the whole arc image and find tentative evidence of the increased mismatch of the two images in the proximity of the critical line. Robust detection of one or multiple caustic-transiting stars in this arc will enable detailed follow-up studies that can shed light on the small-scale structure of the dark matter inside the cluster halo.",
-      "arxiv_id": "1902.10090",
+      "abstract": "In this paper, we report on the construction of a new and independent pipeline for analyzing the public data from the first observing run of Advanced LIGO for mergers of compact binary systems. The pipeline incorporates different techniques and makes independent implementation choices in all its stages including the search design, the method to construct template banks, the automatic routines to detect bad data segments (\"glitches\") and to insulate good data from them, the procedure to account for the nonstationary nature of the detector noise, the signal-quality vetoes at the single-detector level and the methods to combine results from multiple detectors. Our pipeline enabled us to identify a new binary black hole merger GW151216 in the public LIGO data. This paper serves as a bird's eye view of the pipeline's important stages. Full details and derivations underlying the various stages will appear in accompanying papers.",
+      "arxiv_id": "1902.10341",
       "authors": [
-        "Kaurov, Alexander A.",
-        "Dai, Liang",
         "Venumadhav, Tejaswi",
-        "Miralda-Escud\u00e9, Jordi",
-        "Frye, Brenda"
+        "Zackay, Barak",
+        "Roulet, Javier",
+        "Dai, Liang",
+        "Zaldarriaga, Matias"
       ],
-      "bibcode": "2019ApJ...880...58K",
-      "citation_count": 73,
+      "bibcode": "2019PhRvD.100b3011V",
+      "citation_count": 191,
       "doctype": "article",
-      "doi": "10.3847/1538-4357/ab2888",
-      "inspire_recid": "1722101",
-      "page": "58",
-      "pub": "The Astrophysical Journal",
-      "pub_raw": "The Astrophysical Journal, Volume 880, Issue 1, article id. 58, <NUMPAGES>10</NUMPAGES> pp. (2019).",
+      "doi": "10.48550/arXiv.1902.10341",
+      "inspire_recid": "1722254",
+      "page": "023011",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 100, Issue 2, id.023011",
       "pubdate": "2019-07-00",
-      "title": "Highly Magnified Stars in Lensing Clusters: New Evidence in a Galaxy Lensed by MACS J0416.1-2403",
+      "title": "New search pipeline for compact binary mergers: Results for binary black holes in the first observing run of Advanced LIGO",
       "topic_confidence": 0.95,
       "topic_source": "llm",
       "topics": [
-        "Gravitational lensing",
-        "Dark matter"
+        "Gravitational waves",
+        "Black holes"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "880",
+      "volume": "100",
       "year": 2019
     },
     {
@@ -1761,33 +1786,33 @@
       "year": 2019
     },
     {
-      "abstract": "In this paper, we report on the construction of a new and independent pipeline for analyzing the public data from the first observing run of Advanced LIGO for mergers of compact binary systems. The pipeline incorporates different techniques and makes independent implementation choices in all its stages including the search design, the method to construct template banks, the automatic routines to detect bad data segments (\"glitches\") and to insulate good data from them, the procedure to account for the nonstationary nature of the detector noise, the signal-quality vetoes at the single-detector level and the methods to combine results from multiple detectors. Our pipeline enabled us to identify a new binary black hole merger GW151216 in the public LIGO data. This paper serves as a bird's eye view of the pipeline's important stages. Full details and derivations underlying the various stages will appear in accompanying papers.",
-      "arxiv_id": "1902.10341",
+      "abstract": "We examine a caustic-straddling arc at z = 0.9397 in the field of the galaxy cluster MACS J0416.1-2403 (z = 0.397) using archival multiband Hubble Space Telescope images and show that its surface brightness exhibits anomalies that can be explained by a single highly magnified star undergoing microlensing. First, we show that the surface brightness pattern is not perfectly symmetric across the cluster critical curve, which is inconsistent with a locally smooth lens model; the location of the candidate star exhibits the most significant asymmetry. Second, our analysis indicates that the asymmetric feature has \u223c30% higher flux in the 2012 visits compared to the Frontier Fields program visits in 2014. Moreover, the variable asymmetric feature shows an anomalous color between the F814W and F105W filters in 2014. These anomalies are naturally explained by microlensing-induced variability of a caustic-transiting blue supergiant in a star-forming region, with a mean magnification factor around \u03bc \u223c 200. We extend this study to a statistical analysis of the whole arc image and find tentative evidence of the increased mismatch of the two images in the proximity of the critical line. Robust detection of one or multiple caustic-transiting stars in this arc will enable detailed follow-up studies that can shed light on the small-scale structure of the dark matter inside the cluster halo.",
+      "arxiv_id": "1902.10090",
       "authors": [
-        "Venumadhav, Tejaswi",
-        "Zackay, Barak",
-        "Roulet, Javier",
+        "Kaurov, Alexander A.",
         "Dai, Liang",
-        "Zaldarriaga, Matias"
+        "Venumadhav, Tejaswi",
+        "Miralda-Escud\u00e9, Jordi",
+        "Frye, Brenda"
       ],
-      "bibcode": "2019PhRvD.100b3011V",
-      "citation_count": 191,
+      "bibcode": "2019ApJ...880...58K",
+      "citation_count": 73,
       "doctype": "article",
-      "doi": "10.48550/arXiv.1902.10341",
-      "inspire_recid": "1722254",
-      "page": "023011",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 100, Issue 2, id.023011",
+      "doi": "10.3847/1538-4357/ab2888",
+      "inspire_recid": "1722101",
+      "page": "58",
+      "pub": "The Astrophysical Journal",
+      "pub_raw": "The Astrophysical Journal, Volume 880, Issue 1, article id. 58, <NUMPAGES>10</NUMPAGES> pp. (2019).",
       "pubdate": "2019-07-00",
-      "title": "New search pipeline for compact binary mergers: Results for binary black holes in the first observing run of Advanced LIGO",
+      "title": "Highly Magnified Stars in Lensing Clusters: New Evidence in a Galaxy Lensed by MACS J0416.1-2403",
       "topic_confidence": 0.95,
       "topic_source": "llm",
       "topics": [
-        "Gravitational waves",
-        "Black holes"
+        "Gravitational lensing",
+        "Dark matter"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "100",
+      "volume": "880",
       "year": 2019
     },
     {
@@ -1966,34 +1991,6 @@
       "year": 2018
     },
     {
-      "abstract": "Relative binning is a new method for fast and accurate evaluation of the likelihood of gravitational wave strain data. This technique can be used to produce reliable posterior distributions for compact object mergers with very moderate computational resources. We use a fast likelihood evaluation code based on this technique to estimate the parameters of the double neutron-star merger event GW170817 using publicly available LIGO data. We obtain statistically similar posteriors using either Markov-chain Monte-Carlo or nested sampling. The results do not favor non-zero aligned spins at a statistically significant level. There is no significant sign of non-zero tidal deformability (as quantified by the Bayesian evidence), whether or not high-spin or low-spin priors are adopted. Our posterior samples are publicly available, and we also provide a tutorial Python code to implement fast likelihood evaluation using the relative binning method.",
-      "arxiv_id": "1806.08793",
-      "authors": [
-        "Dai, Liang",
-        "Venumadhav, Tejaswi",
-        "Zackay, Barak"
-      ],
-      "bibcode": "2018arXiv180608793D",
-      "citation_count": 46,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.1806.08793",
-      "inspire_recid": "1679393",
-      "page": "arXiv:1806.08793",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:1806.08793",
-      "pubdate": "2018-06-00",
-      "title": "Parameter Estimation for GW170817 using Relative Binning",
-      "topic_confidence": 1.0,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational waves",
-        "Neutron stars"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2018
-    },
-    {
       "abstract": "We present a method to accelerate the evaluation of the likelihood in gravitational wave parameter estimation. Parameter estimation codes compute likelihoods of similar waveforms, whose phases and amplitudes differ smoothly with frequency. We exploit this by precomputing frequency-binned overlaps of the best-fit waveform with the data. We show how these summary data can be used to approximate the likelihood of any waveform that is sufficiently probable within the required accuracy. We demonstrate that $\\simeq 60$ bins suffice to accurately compute likelihoods for strain data at a sampling rate of $4096\\,$Hz and duration of $T=2048\\,$s around the binary neutron star merger GW170817. Relative binning speeds up parameter estimation for frequency domain waveform models by a factor of $\\sim 10^4$ compared to naive matched filtering and $\\sim 10$ compared to reduced order quadrature.",
       "arxiv_id": "1806.08792",
       "authors": [
@@ -2017,6 +2014,34 @@
         "Gravitational waves",
         "Neutron stars",
         "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
+      "year": 2018
+    },
+    {
+      "abstract": "Relative binning is a new method for fast and accurate evaluation of the likelihood of gravitational wave strain data. This technique can be used to produce reliable posterior distributions for compact object mergers with very moderate computational resources. We use a fast likelihood evaluation code based on this technique to estimate the parameters of the double neutron-star merger event GW170817 using publicly available LIGO data. We obtain statistically similar posteriors using either Markov-chain Monte-Carlo or nested sampling. The results do not favor non-zero aligned spins at a statistically significant level. There is no significant sign of non-zero tidal deformability (as quantified by the Bayesian evidence), whether or not high-spin or low-spin priors are adopted. Our posterior samples are publicly available, and we also provide a tutorial Python code to implement fast likelihood evaluation using the relative binning method.",
+      "arxiv_id": "1806.08793",
+      "authors": [
+        "Dai, Liang",
+        "Venumadhav, Tejaswi",
+        "Zackay, Barak"
+      ],
+      "bibcode": "2018arXiv180608793D",
+      "citation_count": 46,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.1806.08793",
+      "inspire_recid": "1679393",
+      "page": "arXiv:1806.08793",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:1806.08793",
+      "pubdate": "2018-06-00",
+      "title": "Parameter Estimation for GW170817 using Relative Binning",
+      "topic_confidence": 1.0,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational waves",
+        "Neutron stars"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
@@ -2081,36 +2106,6 @@
       "year": 2017
     },
     {
-      "abstract": "We propose a method of measuring extremely weak magnetic fields in the intergalactic medium prior to and during the epoch of cosmic reionization. The method utilizes the Larmor precession of spin-polarized neutral hydrogen in the triplet state of the hyperfine transition. This precession leads to a systematic change in the brightness temperature fluctuations of the 21-cm line from the high-redshift universe, and thus the statistics of these fluctuations encode information about the magnetic field the atoms are immersed in. The method is most suited to probing fields that are coherent on large scales; in this paper, we consider a homogenous magnetic field over the scale of the 21-cm fluctuations. Due to the long lifetime of the triplet state of the 21-cm transition, this technique is naturally sensitive to extremely weak field strengths, of order 10<SUP>-19</SUP> G at a reference redshift of \u223c20 (or 10<SUP>-21</SUP> G if scaled to the present day). Therefore, this might open up the possibility of probing primordial magnetic fields just prior to reionization. If the magnetic fields are much stronger, it is still possible to use this method to infer their direction, and place a lower limit on their strength. In this paper (Paper I in a series on this effect), we perform detailed calculations of the microphysics behind this effect, and take into account all the processes that affect the hyperfine transition, including radiative decays, collisions, and optical pumping by Lyman-\u03b1 photons. We conclude with an analytic formula for the brightness temperature of linear-regime fluctuations in the presence of a magnetic field, and discuss its limiting behavior for weak and strong fields.",
-      "arxiv_id": "1410.2250",
-      "authors": [
-        "Venumadhav, Tejaswi",
-        "Oklop\u010di\u0107, Antonija",
-        "Gluscevic, Vera",
-        "Mishra, Abhilash",
-        "Hirata, Christopher M."
-      ],
-      "bibcode": "2017PhRvD..95h3010V",
-      "citation_count": 23,
-      "doctype": "article",
-      "doi": "10.48550/arXiv.1410.2250",
-      "inspire_recid": "1321339",
-      "page": "083010",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 95, Issue 8, id.083010",
-      "pubdate": "2017-04-00",
-      "title": "New probe of magnetic fields in the prereionization epoch. I. Formalism",
-      "topic_confidence": 1.0,
-      "topic_source": "manual_override",
-      "topics": [
-        "Reionization",
-        "Cosmology"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "95",
-      "year": 2017
-    },
-    {
       "abstract": "In the first paper of this series, we proposed a novel method to probe large-scale intergalactic magnetic fields during the cosmic Dark Ages, using 21-cm tomography. This method relies on the effect of spin alignment of hydrogen atoms in a cosmological setting, and on the effect of magnetic precession of the atoms on the statistics of the 21-cm brightness-temperature fluctuations. In this paper, we forecast the sensitivity of future tomographic surveys to detecting magnetic fields using this method. For this purpose, we develop a minimum-variance estimator formalism to capture the characteristic anisotropy signal using the two-point statistics of the brightness-temperature fluctuations. We find that, depending on the reionization history, and subject to the control of systematics from foreground subtraction, an array of dipole antennas in a compact-grid configuration with a collecting area slightly exceeding one square kilometer can achieve a 1 \u03c3 detection of \u223c10<SUP>-21</SUP> Gauss comoving (scaled to present-day value) within three years of observation. Using this method, tomographic 21-cm surveys could thus probe ten orders of magnitude below current cosmic microwave background constraints on primordial magnetic fields, and provide exquisite sensitivity to large-scale magnetic fields in situ at high redshift.",
       "arxiv_id": "1604.06327",
       "authors": [
@@ -2131,6 +2126,36 @@
       "pub_raw": "Physical Review D, Volume 95, Issue 8, id.083011",
       "pubdate": "2017-04-00",
       "title": "New probe of magnetic fields in the pre-reionization epoch. II. Detectability",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
+      "topics": [
+        "Reionization",
+        "Cosmology"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "95",
+      "year": 2017
+    },
+    {
+      "abstract": "We propose a method of measuring extremely weak magnetic fields in the intergalactic medium prior to and during the epoch of cosmic reionization. The method utilizes the Larmor precession of spin-polarized neutral hydrogen in the triplet state of the hyperfine transition. This precession leads to a systematic change in the brightness temperature fluctuations of the 21-cm line from the high-redshift universe, and thus the statistics of these fluctuations encode information about the magnetic field the atoms are immersed in. The method is most suited to probing fields that are coherent on large scales; in this paper, we consider a homogenous magnetic field over the scale of the 21-cm fluctuations. Due to the long lifetime of the triplet state of the 21-cm transition, this technique is naturally sensitive to extremely weak field strengths, of order 10<SUP>-19</SUP> G at a reference redshift of \u223c20 (or 10<SUP>-21</SUP> G if scaled to the present day). Therefore, this might open up the possibility of probing primordial magnetic fields just prior to reionization. If the magnetic fields are much stronger, it is still possible to use this method to infer their direction, and place a lower limit on their strength. In this paper (Paper I in a series on this effect), we perform detailed calculations of the microphysics behind this effect, and take into account all the processes that affect the hyperfine transition, including radiative decays, collisions, and optical pumping by Lyman-\u03b1 photons. We conclude with an analytic formula for the brightness temperature of linear-regime fluctuations in the presence of a magnetic field, and discuss its limiting behavior for weak and strong fields.",
+      "arxiv_id": "1410.2250",
+      "authors": [
+        "Venumadhav, Tejaswi",
+        "Oklop\u010di\u0107, Antonija",
+        "Gluscevic, Vera",
+        "Mishra, Abhilash",
+        "Hirata, Christopher M."
+      ],
+      "bibcode": "2017PhRvD..95h3010V",
+      "citation_count": 23,
+      "doctype": "article",
+      "doi": "10.48550/arXiv.1410.2250",
+      "inspire_recid": "1321339",
+      "page": "083010",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 95, Issue 8, id.083010",
+      "pubdate": "2017-04-00",
+      "title": "New probe of magnetic fields in the prereionization epoch. I. Formalism",
       "topic_confidence": 1.0,
       "topic_source": "manual_override",
       "topics": [
