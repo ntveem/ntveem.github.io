@@ -177,38 +177,6 @@
       "year": 2026
     },
     {
-      "abstract": "A small fraction of gravitational-wave (GW) signals from binary black holes (BBHs) will be gravitationally lensed by intervening galaxies and galaxy clusters. Strong lensing will produce multiple identical copies of the GW signal arriving at different times. Jana et al. [Phys. Rev. Lett. 130, 261401 (2023)PRLTAO0031-900710.1103/PhysRevLett.130.261401] recently proposed a method to constrain cosmological parameters using strongly lensed GW events detected by next-generation (XG) detectors. The idea is that the number of strongly lensed GW events and the distribution of their lensing time delays encode imprints of the cosmological parameters. From the observed number of lensed GW events (tens of thousands) and their time delay distribution, this method can provide a new probe of cosmology, obtaining information at intermediate redshifts. In this work, we explore the possibility of doing lensing cosmography using upcoming observations of the upgraded LIGO-Virgo-KAGRA (LVK) network. This requires incorporating the detector network selection effects in the analysis, which was neglected earlier. We expect dozens of lensed GW events to be detected by upgraded LVK detectors, potentially enabling modest constraints on cosmological parameters. Even with relatively modest numbers of lensed detections, we demonstrate the potential of lensing cosmography. For XG detectors, our revised forecasts are consistent with the earlier forecasts that neglected the selection effects.",
-      "arxiv_id": "2512.15168",
-      "authors": [
-        "Maity, Koustav N.",
-        "Jana, Souvik",
-        "Venumadhav, Tejaswi",
-        "Barsode, Ankur",
-        "Ajith, Parameswaran"
-      ],
-      "bibcode": "2026PhRvD.113j3522M",
-      "citation_count": 8,
-      "doctype": "article",
-      "doi": "10.48550/arXiv.2512.15168",
-      "inspire_recid": "3093603",
-      "page": "103522",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 113, Issue 10, id.103522, 21 pp.",
-      "pubdate": "2026-05-00",
-      "title": "Strong lensing cosmography using binary-black-hole mergers: Prospects for the near future",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Cosmology",
-        "Gravitational lensing",
-        "Gravitational waves",
-        "Black holes"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "113",
-      "year": 2026
-    },
-    {
       "abstract": "Fast surrogate models for expensive simulations are now essential across the sciences, yet they typically operate as black boxes. We present \\texttt{GWAgent}, a large language model (LLM)-based workflow that constructs interpretable analytic surrogates directly from simulation data. Surrogate modeling is well suited to agentic workflows because candidate models can be quantitatively validated against ground-truth simulations at each iteration. As a demonstration, we build a surrogate for gravitational waveforms from eccentric binary black hole mergers. We show that providing the agent with a physics-informed domain ansatz substantially improves output model accuracy. The resulting analytic surrogate attains a median Advanced LIGO mismatch of $6.9\\times10^{-4}$ together with an $\\sim 8.4\\times$ speedup in waveform evaluation, surpassing both symbolic regression and conventional machine learning baselines. Beyond producing an accurate model, the workflow identifies compact physical structure from the learned representation. As an astrophysical application, we use \\texttt{GWAgent} to analyze the eccentricity of GW200129 and infer $e_{20\\mathrm{Hz}}=0.099^{+0.063}_{-0.044}$. These results show that validation-constrained agentic workflows can produce accurate, fast, and interpretable surrogates for scientific simulations and inference.",
       "arxiv_id": "2605.11280",
       "authors": [
@@ -238,6 +206,38 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
+      "year": 2026
+    },
+    {
+      "abstract": "A small fraction of gravitational-wave (GW) signals from binary black holes (BBHs) will be gravitationally lensed by intervening galaxies and galaxy clusters. Strong lensing will produce multiple identical copies of the GW signal arriving at different times. Jana et al. [Phys. Rev. Lett. 130, 261401 (2023)PRLTAO0031-900710.1103/PhysRevLett.130.261401] recently proposed a method to constrain cosmological parameters using strongly lensed GW events detected by next-generation (XG) detectors. The idea is that the number of strongly lensed GW events and the distribution of their lensing time delays encode imprints of the cosmological parameters. From the observed number of lensed GW events (tens of thousands) and their time delay distribution, this method can provide a new probe of cosmology, obtaining information at intermediate redshifts. In this work, we explore the possibility of doing lensing cosmography using upcoming observations of the upgraded LIGO-Virgo-KAGRA (LVK) network. This requires incorporating the detector network selection effects in the analysis, which was neglected earlier. We expect dozens of lensed GW events to be detected by upgraded LVK detectors, potentially enabling modest constraints on cosmological parameters. Even with relatively modest numbers of lensed detections, we demonstrate the potential of lensing cosmography. For XG detectors, our revised forecasts are consistent with the earlier forecasts that neglected the selection effects.",
+      "arxiv_id": "2512.15168",
+      "authors": [
+        "Maity, Koustav N.",
+        "Jana, Souvik",
+        "Venumadhav, Tejaswi",
+        "Barsode, Ankur",
+        "Ajith, Parameswaran"
+      ],
+      "bibcode": "2026PhRvD.113j3522M",
+      "citation_count": 8,
+      "doctype": "article",
+      "doi": "10.48550/arXiv.2512.15168",
+      "inspire_recid": "3093603",
+      "page": "103522",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 113, Issue 10, id.103522, 21 pp.",
+      "pubdate": "2026-05-00",
+      "title": "Strong lensing cosmography using binary-black-hole mergers: Prospects for the near future",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Cosmology",
+        "Gravitational lensing",
+        "Gravitational waves",
+        "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "113",
       "year": 2026
     },
     {
@@ -2222,35 +2222,6 @@
       "year": 2017
     },
     {
-      "abstract": "The sky-averaged, or global, background of redshifted 21 cm radiation is expected to be a rich source of information on cosmological reheating and reionization. However, measuring the signal is technically challenging: one must extract a small, frequency-dependent signal from under much brighter spectrally smooth foregrounds. Traditional approaches to study the global signal have used single antennas, which require one to calibrate out the frequency-dependent structure in the overall system gain (due to internal reflections, for example) as well as remove the noise bias from auto-correlating a single amplifier output. This has motivated proposals to measure the signal using cross-correlations in interferometric setups, where additional calibration techniques are available. In this paper we focus on the general principles driving the sensitivity of the interferometric setups to the global signal. We prove that this sensitivity is directly related to two characteristics of the setup: the cross-talk between readout channels (I.e., the signal picked up at one antenna when the other one is driven) and the correlated noise due to thermal fluctuations of lossy elements (e.g., absorbers or the ground) radiating into both channels. Thus in an interferometric setup, one cannot suppress cross-talk and correlated thermal noise without reducing sensitivity to the global signal by the same factor\u2014instead, the challenge is to characterize these effects and their frequency dependence. We illustrate our general theorem by explicit calculations within toy setups consisting of two short-dipole antennas in free space and above a perfectly reflecting ground surface, as well as two well-separated identical lossless antennas arranged to achieve zero cross-talk.",
-      "arxiv_id": "1512.05248",
-      "authors": [
-        "Venumadhav, Tejaswi",
-        "Chang, Tzu-Ching",
-        "Dor\u00e9, Olivier",
-        "Hirata, Christopher M."
-      ],
-      "bibcode": "2016ApJ...826..116V",
-      "citation_count": 10,
-      "doctype": "article",
-      "doi": "10.48550/arXiv.1512.05248",
-      "inspire_recid": "1409895",
-      "page": "116",
-      "pub": "The Astrophysical Journal",
-      "pub_raw": "The Astrophysical Journal, Volume 826, Issue 2, article id. 116, <NUMPAGES>16</NUMPAGES> pp. (2016).",
-      "pubdate": "2016-08-00",
-      "title": "A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Cosmology",
-        "Reionization"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "826",
-      "year": 2016
-    },
-    {
       "abstract": "We perform a detailed study of the weak interactions of standard model neutrinos with the primordial plasma and their effect on the resonant production of sterile neutrino dark matter. Motivated by issues in cosmological structure formation on small scales, and reported x-ray signals that could be due to sterile neutrino decay, we consider 7 keV-scale sterile neutrinos. Oscillation-driven production of such sterile neutrinos occurs at temperatures T \u2273100 MeV , where we study two significant effects of weakly charged species in the primordial plasma: (1) the redistribution of an input lepton asymmetry; (2) the opacity for active neutrinos. We calculate the redistribution analytically above and below the quark-hadron transition, and match with lattice QCD calculations through the transition. We estimate opacities due to tree-level processes involving leptons and quarks above the quark-hadron transition, and the most important mesons below the transition. We report final sterile neutrino dark matter phase space densities that are significantly influenced by these effects, and yet relatively robust to remaining uncertainties in the nature of the quark-hadron transition. We also provide transfer functions for cosmological density fluctuations with cutoffs at k \u224310 h Mpc<SUP>-1</SUP> , that are relevant to galactic structure formation.",
       "arxiv_id": "1507.06655",
       "authors": [
@@ -2277,6 +2248,35 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "94",
+      "year": 2016
+    },
+    {
+      "abstract": "The sky-averaged, or global, background of redshifted 21 cm radiation is expected to be a rich source of information on cosmological reheating and reionization. However, measuring the signal is technically challenging: one must extract a small, frequency-dependent signal from under much brighter spectrally smooth foregrounds. Traditional approaches to study the global signal have used single antennas, which require one to calibrate out the frequency-dependent structure in the overall system gain (due to internal reflections, for example) as well as remove the noise bias from auto-correlating a single amplifier output. This has motivated proposals to measure the signal using cross-correlations in interferometric setups, where additional calibration techniques are available. In this paper we focus on the general principles driving the sensitivity of the interferometric setups to the global signal. We prove that this sensitivity is directly related to two characteristics of the setup: the cross-talk between readout channels (I.e., the signal picked up at one antenna when the other one is driven) and the correlated noise due to thermal fluctuations of lossy elements (e.g., absorbers or the ground) radiating into both channels. Thus in an interferometric setup, one cannot suppress cross-talk and correlated thermal noise without reducing sensitivity to the global signal by the same factor\u2014instead, the challenge is to characterize these effects and their frequency dependence. We illustrate our general theorem by explicit calculations within toy setups consisting of two short-dipole antennas in free space and above a perfectly reflecting ground surface, as well as two well-separated identical lossless antennas arranged to achieve zero cross-talk.",
+      "arxiv_id": "1512.05248",
+      "authors": [
+        "Venumadhav, Tejaswi",
+        "Chang, Tzu-Ching",
+        "Dor\u00e9, Olivier",
+        "Hirata, Christopher M."
+      ],
+      "bibcode": "2016ApJ...826..116V",
+      "citation_count": 10,
+      "doctype": "article",
+      "doi": "10.48550/arXiv.1512.05248",
+      "inspire_recid": "1409895",
+      "page": "116",
+      "pub": "The Astrophysical Journal",
+      "pub_raw": "The Astrophysical Journal, Volume 826, Issue 2, article id. 116, <NUMPAGES>16</NUMPAGES> pp. (2016).",
+      "pubdate": "2016-08-00",
+      "title": "A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Cosmology",
+        "Reionization"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "826",
       "year": 2016
     },
     {
@@ -2344,7 +2344,7 @@
         "Zemcov, Mike"
       ],
       "bibcode": "2014arXiv1412.4872D",
-      "citation_count": 664,
+      "citation_count": 665,
       "doctype": "eprint",
       "doi": "10.48550/arXiv.1412.4872",
       "inspire_recid": "1334478",
