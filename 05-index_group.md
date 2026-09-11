@@ -46,6 +46,7 @@ show_title: false
   <article class="person-card">
     <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Neha Anil Kumar">
     <h3>Neha Anil Kumar</h3>
+    <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
     <p>KITP</p>
   </article>
 </div>
@@ -78,6 +79,13 @@ show_title: false
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>Sierra Garza</td>
+      <td>Graduate Student</td>
+      <td>2025-2026</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
+    </tr>
     <tr>
       <td>Tousif Islam</td>
       <td>Postdoc (KITP)</td>
@@ -146,13 +154,6 @@ show_title: false
       <td>Undergraduate Student</td>
       <td>2021-2022</td>
       <td>Graduate Student (University of Virginia)</td>
-      <td>&mdash;</td>
-    </tr>
-    <tr>
-      <td>Sierra Garza</td>
-      <td>Graduate Student</td>
-      <td>&mdash;</td>
-      <td>&mdash;</td>
       <td>&mdash;</td>
     </tr>
   </tbody>
