@@ -10,7 +10,7 @@ show_title: false
 ---
 ## Research Group
 
-### Graduate Students (6)
+### Graduate Students (5)
 
 <div class="people-grid">
   <article class="person-card">
@@ -22,11 +22,6 @@ show_title: false
     <img src="{{ '/assets/images/jonathan-schiff.jpg' | relative_url }}" alt="Jonathan Schiff">
     <h3>Jonathan Schiff</h3>
     <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span> <span class="pub-topic-chip" style="--topic-bg:hsl(26 54% 47%);--topic-active:hsl(26 58% 40%);">Recombination</span></div>
-  </article>
-  <article class="person-card">
-    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Sierra Garza">
-    <h3>Sierra Garza</h3>
-    <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
   </article>
   <article class="person-card">
     <img src="{{ '/assets/images/james-kyubin-kwon.jpg' | relative_url }}" alt="James (Kyubin) Kwon">
@@ -49,9 +44,8 @@ show_title: false
 
 <div class="people-grid">
   <article class="person-card">
-    <img src="{{ '/assets/images/tousif-islam.jpeg' | relative_url }}" alt="Tousif Islam">
-    <h3>Tousif Islam</h3>
-    <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
+    <img src="{{ '/assets/images/person-placeholder.svg' | relative_url }}" alt="Neha Anil Kumar">
+    <h3>Neha Anil Kumar</h3>
     <p>KITP</p>
   </article>
 </div>
@@ -84,6 +78,13 @@ show_title: false
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>Tousif Islam</td>
+      <td>Postdoc (KITP)</td>
+      <td>2023-2026</td>
+      <td>Weinberg Fellow, The University of Texas at Austin</td>
+      <td>&mdash;</td>
+    </tr>
     <tr>
       <td>Junyan Xu</td>
       <td>Undergraduate Student</td>
@@ -145,6 +146,13 @@ show_title: false
       <td>Undergraduate Student</td>
       <td>2021-2022</td>
       <td>Graduate Student (University of Virginia)</td>
+      <td>&mdash;</td>
+    </tr>
+    <tr>
+      <td>Sierra Garza</td>
+      <td>Graduate Student</td>
+      <td>&mdash;</td>
+      <td>&mdash;</td>
       <td>&mdash;</td>
     </tr>
   </tbody>

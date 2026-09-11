@@ -141,9 +141,18 @@
       "role_after_group": "Graduate Student (University of Minnesota)",
       "current_role": null
     },
-    "Sierra Garza": {
+    "Neha Anil Kumar": {
       "image": "/assets/images/person-placeholder.svg",
       "active": true,
+      "topics": [],
+      "role_in_group": "Postdoc (KITP)",
+      "years_in_group": null,
+      "role_after_group": null,
+      "current_role": null
+    },
+    "Sierra Garza": {
+      "image": "/assets/images/person-placeholder.svg",
+      "active": false,
       "topics": [
         "Gravitational waves",
         "Black holes"
@@ -155,14 +164,14 @@
     },
     "Tousif Islam": {
       "image": "/assets/images/tousif-islam.jpeg",
-      "active": true,
+      "active": false,
       "topics": [
         "Gravitational waves",
         "Black holes"
       ],
       "role_in_group": "Postdoc (KITP)",
-      "years_in_group": null,
-      "role_after_group": null,
+      "years_in_group": "2023-2026",
+      "role_after_group": "Weinberg Fellow, The University of Texas at Austin",
       "current_role": null
     },
     "William Surgent": {
