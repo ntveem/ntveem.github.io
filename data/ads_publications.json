@@ -53,6 +53,33 @@
       "year": 2026
     },
     {
+      "abstract": "Time-dependent tidal interactions during the late inspiral of binary neutron stars encode valuable information about neutron-star structure, but systematically extending the familiar Newtonian mode-sum picture into full general relativity is nontrivial. In this paper, we develop a practical relativistic implementation of mode-sum tidal response for nonrotating neutron stars in Regge-Wheeler gauge. Using near-zone boundary conditions, we systematically define the interior tidal field, the relativistic overlap integrals, and the corresponding mode amplitudes. The good is that the dominant <inline-formula><mml:math><mml:mi>f</mml:mi></mml:math></inline-formula>-mode contribution is remarkably robust, reproducing the direct matching calculation to within <inline-formula><mml:math><mml:mo>~</mml:mo><mml:mn>3</mml:mn><mml:mo>%</mml:mo></mml:math></inline-formula> across the equations of state we consider. The bad is that the operator governing mode inner product is not positive definite on the full Regge-Wheeler-gauge function space, so the relativistic mode sum truncated at <inline-formula><mml:math><mml:mi>O</mml:mi><mml:mo>(</mml:mo><mml:msup><mml:mi>\u03c9</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>)</mml:mo></mml:math></inline-formula> is not expected to strictly converge to the direct matching solution. The subtle is that the tidal field inside the star is not unique, although this ambiguity has only a limited impact on the dominant <inline-formula><mml:math><mml:mi>f</mml:mi></mml:math></inline-formula>-mode response for the classes of extensions studied here. Our results establish the practical utility of relativistic mode-sum approximations while making clear that their predictive power comes from a controlled low-mode description rather than from a formally convergent strong-field expansion.",
+      "arxiv_id": null,
+      "authors": [
+        "Abhishek Hegade K., R.",
+        "Kwon, K. J.",
+        "Venumadhav, Tejaswi",
+        "Yu, Hang",
+        "Yunes, Nicolas"
+      ],
+      "bibcode": "2026PhRvD.114f4048R",
+      "citation_count": 0,
+      "doctype": "article",
+      "doi": "10.1103/4jv6-twnk",
+      "inspire_recid": "3154134",
+      "page": "064048",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 114, Issue 6, id.064048, 23 pp.",
+      "pubdate": "2026-09-00",
+      "title": "Relativistic mode sums for neutron-star tidal response",
+      "topic_confidence": null,
+      "topic_source": null,
+      "topics": [],
+      "topics_classified_with": null,
+      "volume": "114",
+      "year": 2026
+    },
+    {
       "abstract": "Using a combination of Hubble Space Telescope and James Webb Space Telescope imaging, a runaway supermassive black hole was recently identified with an inferred velocity of <inline-formula><mml:math><mml:mrow><mml:msubsup><mml:mrow><mml:mn>954</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>126</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>110</mml:mn></mml:mrow></mml:msubsup><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>km</mml:mi><mml:mtext> </mml:mtext><mml:msup><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>, likely ejected from a compact star-forming galaxy at <inline-formula><mml:math><mml:mi>z</mml:mi><mml:mo>\u224d</mml:mo><mml:mn>0.96</mml:mn></mml:math></inline-formula>. Assuming the runaway black hole originated from a gravitational-wave-driven merger of two supermassive black holes (SMBHs), we combine its measured recoil velocity with gravitational-wave recoil predictions from numerical relativity and black-hole perturbation theory to constrain the mass ratio and spin configuration of the progenitor binary that overcame the final-parsec problem and merged <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>70</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Myr</mml:mi></mml:math></inline-formula> ago. We find that the progenitor binary must have been precessing, with a mass ratio <inline-formula><mml:math><mml:msub><mml:mi>m</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>\u2272</mml:mo><mml:mn>6</mml:mn></mml:math></inline-formula>, and that the more massive SMBH likely possessed a high dimensionless spin magnitude (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>0.75</mml:mn></mml:math></inline-formula>) in order to generate a recoil of this magnitude. Such SMBH mergers could represent an interesting source population for the upcoming Laser Interferometer Space Antenna mission, with characteristic signal-to-noise ratios of order <inline-formula><mml:math><mml:mo>\u2273</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>3</mml:mn></mml:msup></mml:math></inline-formula>. Furthermore, the inferred progenitor SMBH properties suggest that the compact galaxy likely originated from a major, gas-rich (\"wet\") merger between two galaxies of comparable mass, with a mass ratio <inline-formula><mml:math><mml:mo>\u2272</mml:mo><mml:mn>4</mml:mn></mml:math></inline-formula>.",
       "arxiv_id": "2601.18986",
       "authors": [
