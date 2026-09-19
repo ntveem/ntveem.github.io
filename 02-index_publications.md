@@ -40,15 +40,15 @@ Individual links to articles and manuscripts, in reverse chronological order:
 </article>
 
 <article id="paper-2" class="pub-entry" data-topics="">
-<p class="pub-citation">2. Maity, K.N., Jana, S., Barsode, A., <strong>Venumadhav, T.</strong>, & Ajith, P. (2026)</p>
-<p class="pub-title"><em>Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260905020M/abstract">ADS</a> <a href="https://arxiv.org/abs/2609.05020">arxiv</a> <a href="https://inspirehep.net/record/3200255">INSPIRE</a></p>
+<p class="pub-citation">2. Abhishek Hegade K., R., Kwon, K.J., <strong>Venumadhav, T.</strong>, Yu, H., & Yunes, N. (2026)</p>
+<p class="pub-title"><em>Relativistic mode sums for neutron-star tidal response</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026PhRvD.114f4048R/abstract">ADS</a> <a href="https://inspirehep.net/record/3154134">INSPIRE</a></p>
 </article>
 
 <article id="paper-3" class="pub-entry" data-topics="">
-<p class="pub-citation">3. Abhishek Hegade K., R., Kwon, K.J., <strong>Venumadhav, T.</strong>, Yu, H., & Yunes, N. (2026)</p>
-<p class="pub-title"><em>Relativistic mode sums for neutron-star tidal response</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026PhRvD.114f4048R/abstract">ADS</a> <a href="https://inspirehep.net/record/3154134">INSPIRE</a></p>
+<p class="pub-citation">3. Maity, K.N., Jana, S., Barsode, A., <strong>Venumadhav, T.</strong>, & Ajith, P. (2026)</p>
+<p class="pub-title"><em>Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260905020M/abstract">ADS</a> <a href="https://arxiv.org/abs/2609.05020">arxiv</a> <a href="https://inspirehep.net/record/3200255">INSPIRE</a></p>
 </article>
 
 <article id="paper-4" class="pub-entry" data-topics="Black holes|Gravitational waves">
@@ -513,18 +513,18 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
 </article>
 
-<article id="paper-70" class="pub-entry" data-topics="Cosmology|Reionization">
-<p class="pub-citation">70. <strong>Venumadhav, T.</strong>, Chang, T.C., Doré, O., & Hirata, C.M. (2016)</p>
-<p class="pub-title"><em>A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2016ApJ...826..116V/abstract">ADS</a> <a href="https://arxiv.org/abs/1512.05248">arxiv</a> <a href="https://inspirehep.net/record/1409895">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span> <span class="pub-topic-chip" style="--topic-bg:hsl(168 43% 40%);--topic-active:hsl(168 45% 33%);">Reionization</span></div>
-</article>
-
-<article id="paper-71" class="pub-entry" data-topics="Dark matter|Cosmology">
-<p class="pub-citation">71. <strong>Venumadhav, T.</strong>, Cyr-Racine, F.Y., Abazajian, K.N., & Hirata, C.M. (2016)</p>
+<article id="paper-70" class="pub-entry" data-topics="Dark matter|Cosmology">
+<p class="pub-citation">70. <strong>Venumadhav, T.</strong>, Cyr-Racine, F.Y., Abazajian, K.N., & Hirata, C.M. (2016)</p>
 <p class="pub-title"><em>Sterile neutrino dark matter: Weak interactions in the strong coupling epoch</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2016PhRvD..94d3515V/abstract">ADS</a> <a href="https://arxiv.org/abs/1507.06655">arxiv</a> <a href="https://inspirehep.net/record/1384749">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(336 46% 46%);--topic-active:hsl(336 49% 38%);">Dark matter</span> <span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span></div>
+</article>
+
+<article id="paper-71" class="pub-entry" data-topics="Cosmology|Reionization">
+<p class="pub-citation">71. <strong>Venumadhav, T.</strong>, Chang, T.C., Doré, O., & Hirata, C.M. (2016)</p>
+<p class="pub-title"><em>A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2016ApJ...826..116V/abstract">ADS</a> <a href="https://arxiv.org/abs/1512.05248">arxiv</a> <a href="https://inspirehep.net/record/1409895">INSPIRE</a></p>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span> <span class="pub-topic-chip" style="--topic-bg:hsl(168 43% 40%);--topic-active:hsl(168 45% 33%);">Reionization</span></div>
 </article>
 
 <article id="paper-72" class="pub-entry" data-topics="Recombination">
@@ -599,8 +599,8 @@ n-th author papers:
 <li><a href="#paper-65">Microlensing of Extremely Magnified Stars near Caustics of Galaxy Clusters</a></li>
 <li><a href="#paper-66">New probe of magnetic fields in the prereionization epoch. I. Formalism</a></li>
 <li><a href="#paper-67">New probe of magnetic fields in the pre-reionization epoch. II. Detectability</a></li>
-<li><a href="#paper-70">A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal</a></li>
-<li><a href="#paper-71">Sterile neutrino dark matter: Weak interactions in the strong coupling epoch</a></li>
+<li><a href="#paper-70">Sterile neutrino dark matter: Weak interactions in the strong coupling epoch</a></li>
+<li><a href="#paper-71">A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal</a></li>
 <li><a href="#paper-nth-2">Fundamental physics with the Square Kilometre Array</a></li>
 <li><a href="#paper-nth-3">Cosmology with the SPHEREX All-Sky Spectral Survey</a></li>
 </ul>
@@ -773,7 +773,7 @@ n-th author papers:
 <li><a href="#paper-64">Detecting primordial gravitational waves with circular polarization of the redshifted 21 cm line. I. Formalism</a></li>
 <li><a href="#paper-66">New probe of magnetic fields in the prereionization epoch. I. Formalism</a></li>
 <li><a href="#paper-67">New probe of magnetic fields in the pre-reionization epoch. II. Detectability</a></li>
-<li><a href="#paper-70">A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal</a></li>
+<li><a href="#paper-71">A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal</a></li>
 <li><a href="#paper-nth-2">Fundamental physics with the Square Kilometre Array</a></li>
 <li><a href="#paper-nth-3">Cosmology with the SPHEREX All-Sky Spectral Survey</a></li>
 </ul>
@@ -789,7 +789,7 @@ n-th author papers:
 <li><a href="#paper-53">Highly Magnified Stars in Lensing Clusters: New Evidence in a Galaxy Lensed by MACS J0416.1-2403</a></li>
 <li><a href="#paper-58">Probing Dark Matter Subhalos in Galaxy Clusters Using Highly Magnified Stars</a></li>
 <li><a href="#paper-65">Microlensing of Extremely Magnified Stars near Caustics of Galaxy Clusters</a></li>
-<li><a href="#paper-71">Sterile neutrino dark matter: Weak interactions in the strong coupling epoch</a></li>
+<li><a href="#paper-70">Sterile neutrino dark matter: Weak interactions in the strong coupling epoch</a></li>
 <li><a href="#paper-nth-2">Fundamental physics with the Square Kilometre Array</a></li>
 </ul>
 </section>
