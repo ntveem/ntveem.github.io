@@ -180,6 +180,7 @@ def classify_topics_with_openai(
     )
     body = {
         "model": model,
+        "max_output_tokens": 512,
         "input": [
             {
                 "role": "system",
@@ -193,6 +194,8 @@ def classify_topics_with_openai(
             {"role": "user", "content": [{"type": "input_text", "text": prompt}]},
         ],
     }
+    if model.startswith("gpt-6"):
+        body["reasoning"] = {"effort": "none"}
     req = urllib.request.Request(
         "https://api.openai.com/v1/responses",
         data=json.dumps(body).encode("utf-8"),
@@ -234,7 +237,7 @@ def main() -> int:
     parser.add_argument("--skip-topics", action="store_true")
     parser.add_argument("--refresh-topics", action="store_true")
     parser.add_argument("--openai-key-env", default="OPENAI_API_KEY")
-    parser.add_argument("--openai-model", default=os.environ.get("OPENAI_MODEL", "gpt-4.1-mini"))
+    parser.add_argument("--openai-model", default=os.environ.get("OPENAI_MODEL", "").strip() or "gpt-6-luna")
     args = parser.parse_args()
 
     load_dotenv(Path(args.dotenv))

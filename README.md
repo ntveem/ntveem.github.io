@@ -84,7 +84,7 @@ GitHub setup for daily sync:
 1. Go to repository **Settings → Secrets and variables → Actions**
 2. Add a new repository secret named `ADS_API_TOKEN`
 3. Add repository secret `OPENAI_API_KEY` (for topic auto-classification)
-4. (Optional) Add repository variable `OPENAI_MODEL` (default in script: `gpt-4.1-mini`)
+4. (Optional) Add repository variable `OPENAI_MODEL` (default in script: `gpt-6-luna`; GPT-6 tagging uses no reasoning and at most 512 output tokens)
 5. Paste your ADS/OpenAI token values
 6. (Optional) Run **Actions → Daily Site Maintenance → Run workflow** once manually
 
