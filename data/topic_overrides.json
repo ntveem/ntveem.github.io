@@ -42,7 +42,31 @@
       "Black holes",
       "Dark matter",
       "Cosmology"
-    ]
+    ],
+    "arxiv:2605.31554": [
+      "Gamma ray bursts",
+      "Neutron stars"
+    ],
+    "arxiv:2605.08569": [
+      "Neutron stars",
+      "Gravitational waves"
+    ],
+    "arxiv:2609.25672": [
+      "Gamma ray bursts",
+      "Neutron stars",
+      "Gravitational waves"
+    ],
+    "arxiv:2609.26897": [
+      "Neutron stars"
+    ],
+    "arxiv:2609.05020": [
+      "Dark matter",
+      "Gravitational lensing",
+      "Gravitational waves",
+      "Black holes",
+      "Cosmology"
+    ],
+    "arxiv:0909.0255": []
   },
   "schema_version": 1
 }

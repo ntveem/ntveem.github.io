@@ -18,10 +18,13 @@
       "pub_raw": "Monthly Notices of the Royal Astronomical Society, Volume 551, Issue 3, id.stag1592, 18 pp.",
       "pubdate": "2026-09-00",
       "title": "Expanding the population of short gamma-ray transients with a coherent Fermi/GBM search: a 13-yr catalogue of short GRBs",
-      "topic_confidence": null,
-      "topic_source": null,
-      "topics": [],
-      "topics_classified_with": null,
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
+      "topics": [
+        "Gamma ray bursts",
+        "Neutron stars"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "551",
       "year": 2026
     },
@@ -45,10 +48,13 @@
       "pub_raw": "Physical Review D, Volume 114, Issue 6, id.064048, 23 pp.",
       "pubdate": "2026-09-00",
       "title": "Relativistic mode sums for neutron-star tidal response",
-      "topic_confidence": null,
-      "topic_source": null,
-      "topics": [],
-      "topics_classified_with": null,
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
+      "topics": [
+        "Neutron stars",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "114",
       "year": 2026
     },
@@ -70,10 +76,14 @@
       "pub_raw": "eprint arXiv:2609.25672",
       "pubdate": "2026-09-00",
       "title": "A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample",
-      "topic_confidence": null,
-      "topic_source": null,
-      "topics": [],
-      "topics_classified_with": null,
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
+      "topics": [
+        "Gamma ray bursts",
+        "Neutron stars",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2026
     },
@@ -95,10 +105,12 @@
       "pub_raw": "eprint arXiv:2609.26897",
       "pubdate": "2026-09-00",
       "title": "A Coherent Search for New Galactic Magnetars using Fermi/GBM and follow-up Swift/BAT: 7 Candidates and a Large Burst Catalog",
-      "topic_confidence": null,
-      "topic_source": null,
-      "topics": [],
-      "topics_classified_with": null,
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
+      "topics": [
+        "Neutron stars"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2026
     },
@@ -122,10 +134,16 @@
       "pub_raw": "eprint arXiv:2609.05020",
       "pubdate": "2026-09-00",
       "title": "Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future",
-      "topic_confidence": null,
-      "topic_source": null,
-      "topics": [],
-      "topics_classified_with": null,
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
+      "topics": [
+        "Dark matter",
+        "Gravitational lensing",
+        "Gravitational waves",
+        "Black holes",
+        "Cosmology"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
       "year": 2026
     },
@@ -2458,7 +2476,7 @@
       "pubdate": "2010-02-00",
       "title": "Finite-rate quenches of site bias in the Bose-Hubbard dimer",
       "topic_confidence": 1.0,
-      "topic_source": "llm",
+      "topic_source": "manual_override",
       "topics": [],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "81",
