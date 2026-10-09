@@ -195,16 +195,16 @@ Individual links to articles and manuscripts, in reverse chronological order:
 </article>
 
 <article id="paper-24" class="pub-entry" data-topics="Gravitational waves|Black holes">
-<p class="pub-citation">24. Islam, T. & <strong>Venumadhav, T.</strong> (2025)</p>
-<p class="pub-title"><em>Universal phenomenological relations between spherical harmonic modes in nonprecessing eccentric binary black hole merger waveforms</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2025PhRvD.111h1503I/abstract">ADS</a> <a href="https://arxiv.org/abs/2408.14654">arxiv</a> <a href="https://inspirehep.net/record/2822163">INSPIRE</a></p>
+<p class="pub-citation">24. Islam, T., <strong>Venumadhav, T.</strong>, Mehta, A.K., Anantpurkar, I., Wadekar, D., Roulet, J., Mushkin, J., Zackay, B., & Zaldarriaga, M. (2025)</p>
+<p class="pub-title"><em>gwharmone: first data-driven surrogate for eccentric harmonics in binary black hole merger waveforms</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2025arXiv250412420I/abstract">ADS</a> <a href="https://arxiv.org/abs/2504.12420">arxiv</a> <a href="https://inspirehep.net/record/2913429">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
 </article>
 
 <article id="paper-25" class="pub-entry" data-topics="Gravitational waves|Black holes">
-<p class="pub-citation">25. Islam, T., <strong>Venumadhav, T.</strong>, Mehta, A.K., Anantpurkar, I., Wadekar, D., Roulet, J., Mushkin, J., Zackay, B., & Zaldarriaga, M. (2025)</p>
-<p class="pub-title"><em>gwharmone: first data-driven surrogate for eccentric harmonics in binary black hole merger waveforms</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2025arXiv250412420I/abstract">ADS</a> <a href="https://arxiv.org/abs/2504.12420">arxiv</a> <a href="https://inspirehep.net/record/2913429">INSPIRE</a></p>
+<p class="pub-citation">25. Islam, T. & <strong>Venumadhav, T.</strong> (2025)</p>
+<p class="pub-title"><em>Universal phenomenological relations between spherical harmonic modes in nonprecessing eccentric binary black hole merger waveforms</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2025PhRvD.111h1503I/abstract">ADS</a> <a href="https://arxiv.org/abs/2408.14654">arxiv</a> <a href="https://inspirehep.net/record/2822163">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
 </article>
 
@@ -257,18 +257,18 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span></div>
 </article>
 
-<article id="paper-33" class="pub-entry" data-topics="Gravitational waves|Black holes|Neutron stars">
-<p class="pub-citation">33. Roulet, J., Mushkin, J., Wadekar, D., <strong>Venumadhav, T.</strong>, Zackay, B., & Zaldarriaga, M. (2024)</p>
-<p class="pub-title"><em>Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2024PhRvD.110d4010R/abstract">ADS</a> <a href="https://arxiv.org/abs/2404.02435">arxiv</a> <a href="https://inspirehep.net/record/2773795">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span></div>
-</article>
-
-<article id="paper-34" class="pub-entry" data-topics="Gravitational waves|Black holes">
-<p class="pub-citation">34. Wadekar, D., <strong>Venumadhav, T.</strong>, Roulet, J., Mehta, A.K., Zackay, B., Mushkin, J., & Zaldarriaga, M. (2024)</p>
+<article id="paper-33" class="pub-entry" data-topics="Gravitational waves|Black holes">
+<p class="pub-citation">33. Wadekar, D., <strong>Venumadhav, T.</strong>, Roulet, J., Mehta, A.K., Zackay, B., Mushkin, J., & Zaldarriaga, M. (2024)</p>
 <p class="pub-title"><em>New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2024PhRvD.110d4063W/abstract">ADS</a> <a href="https://arxiv.org/abs/2405.17400">arxiv</a> <a href="https://inspirehep.net/record/2790880">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
+</article>
+
+<article id="paper-34" class="pub-entry" data-topics="Gravitational waves|Black holes|Neutron stars">
+<p class="pub-citation">34. Roulet, J., Mushkin, J., Wadekar, D., <strong>Venumadhav, T.</strong>, Zackay, B., & Zaldarriaga, M. (2024)</p>
+<p class="pub-title"><em>Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2024PhRvD.110d4010R/abstract">ADS</a> <a href="https://arxiv.org/abs/2404.02435">arxiv</a> <a href="https://inspirehep.net/record/2773795">INSPIRE</a></p>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span></div>
 </article>
 
 <article id="paper-35" class="pub-entry" data-topics="Gravitational waves|Black holes|Neutron stars">
@@ -658,8 +658,8 @@ n-th author papers:
 <li><a href="#paper-20">Data-driven extraction and phenomenology of eccentric harmonics in eccentric spinning binary black hole mergers</a></li>
 <li><a href="#paper-21">Data-driven extraction, phenomenology, and modeling of eccentric harmonics in binary black hole merger waveforms</a></li>
 <li><a href="#paper-22">Improving gravitational wave search sensitivity with TIER: Trigger Inference using Extended strain Representation</a></li>
-<li><a href="#paper-24">Universal phenomenological relations between spherical harmonic modes in nonprecessing eccentric binary black hole merger waveforms</a></li>
-<li><a href="#paper-25">gwharmone: first data-driven surrogate for eccentric harmonics in binary black hole merger waveforms</a></li>
+<li><a href="#paper-24">gwharmone: first data-driven surrogate for eccentric harmonics in binary black hole merger waveforms</a></li>
+<li><a href="#paper-25">Universal phenomenological relations between spherical harmonic modes in nonprecessing eccentric binary black hole merger waveforms</a></li>
 <li><a href="#paper-26">Resonance locking: radian-level phase shifts due to nonlinear hydrodynamics of $g$-modes in merging neutron star binaries</a></li>
 <li><a href="#paper-27">New binary black hole mergers in the LIGO-Virgo O3b data</a></li>
 <li><a href="#paper-28">Significant increase in sensitive volume of a gravitational wave search upon including higher harmonics</a></li>
@@ -667,8 +667,8 @@ n-th author papers:
 <li><a href="#paper-30">Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries</a></li>
 <li><a href="#paper-31">New approach to template banks of gravitational waves with higher harmonics: Reducing matched-filtering cost by over an order of magnitude</a></li>
 <li><a href="#paper-32">In pursuit of Love numbers: First templated search for compact objects with large tidal deformabilities in the LIGO-Virgo data</a></li>
-<li><a href="#paper-33">Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</a></li>
-<li><a href="#paper-34">New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering</a></li>
+<li><a href="#paper-33">New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering</a></li>
+<li><a href="#paper-34">Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</a></li>
 <li><a href="#paper-35">Inferring Binary Properties from Gravitational-Wave Signals</a></li>
 <li><a href="#paper-36">New black hole mergers in the LIGO-Virgo O3 data from a gravitational wave search including higher-order harmonics</a></li>
 <li><a href="#paper-37">Accurate and efficient waveform model for precessing binary black holes</a></li>
@@ -719,15 +719,15 @@ n-th author papers:
 <li><a href="#paper-20">Data-driven extraction and phenomenology of eccentric harmonics in eccentric spinning binary black hole mergers</a></li>
 <li><a href="#paper-21">Data-driven extraction, phenomenology, and modeling of eccentric harmonics in binary black hole merger waveforms</a></li>
 <li><a href="#paper-22">Improving gravitational wave search sensitivity with TIER: Trigger Inference using Extended strain Representation</a></li>
-<li><a href="#paper-24">Universal phenomenological relations between spherical harmonic modes in nonprecessing eccentric binary black hole merger waveforms</a></li>
-<li><a href="#paper-25">gwharmone: first data-driven surrogate for eccentric harmonics in binary black hole merger waveforms</a></li>
+<li><a href="#paper-24">gwharmone: first data-driven surrogate for eccentric harmonics in binary black hole merger waveforms</a></li>
+<li><a href="#paper-25">Universal phenomenological relations between spherical harmonic modes in nonprecessing eccentric binary black hole merger waveforms</a></li>
 <li><a href="#paper-27">New binary black hole mergers in the LIGO-Virgo O3b data</a></li>
 <li><a href="#paper-28">Significant increase in sensitive volume of a gravitational wave search upon including higher harmonics</a></li>
 <li><a href="#paper-29">Strong-lensing cosmography using third-generation gravitational-wave detectors</a></li>
 <li><a href="#paper-31">New approach to template banks of gravitational waves with higher harmonics: Reducing matched-filtering cost by over an order of magnitude</a></li>
 <li><a href="#paper-32">In pursuit of Love numbers: First templated search for compact objects with large tidal deformabilities in the LIGO-Virgo data</a></li>
-<li><a href="#paper-33">Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</a></li>
-<li><a href="#paper-34">New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering</a></li>
+<li><a href="#paper-33">New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering</a></li>
+<li><a href="#paper-34">Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</a></li>
 <li><a href="#paper-35">Inferring Binary Properties from Gravitational-Wave Signals</a></li>
 <li><a href="#paper-36">New black hole mergers in the LIGO-Virgo O3 data from a gravitational wave search including higher-order harmonics</a></li>
 <li><a href="#paper-37">Accurate and efficient waveform model for precessing binary black holes</a></li>
@@ -766,7 +766,7 @@ n-th author papers:
 <li><a href="#paper-27">New binary black hole mergers in the LIGO-Virgo O3b data</a></li>
 <li><a href="#paper-30">Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries</a></li>
 <li><a href="#paper-32">In pursuit of Love numbers: First templated search for compact objects with large tidal deformabilities in the LIGO-Virgo data</a></li>
-<li><a href="#paper-33">Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</a></li>
+<li><a href="#paper-34">Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</a></li>
 <li><a href="#paper-35">Inferring Binary Properties from Gravitational-Wave Signals</a></li>
 <li><a href="#paper-39">Beyond the linear tide: impact of the non-linear tidal response of neutron stars on gravitational waveforms from binary inspirals</a></li>
 <li><a href="#paper-41">Factorized Parameter Estimation for Real-Time Gravitational Wave Inference</a></li>
