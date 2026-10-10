@@ -33,32 +33,32 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <p id="pub-filter-status" class="pub-filter-status">Showing all papers.</p>
 </section>
 
-<article id="paper-1" class="pub-entry" data-topics="Gamma ray bursts|Neutron stars">
-<p class="pub-citation">1. Perera, A., Zackay, B., & <strong>Venumadhav, T.</strong> (2026)</p>
-<p class="pub-title"><em>Expanding the population of short gamma-ray transients with a coherent Fermi/GBM search: a 13-yr catalogue of short GRBs</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026MNRAS.551g1592P/abstract">ADS</a> <a href="https://arxiv.org/abs/2605.31554">arxiv</a> <a href="https://inspirehep.net/record/3163133">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(102 43% 40%);--topic-active:hsl(102 47% 33%);">Gamma ray bursts</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span></div>
-</article>
-
-<article id="paper-2" class="pub-entry" data-topics="Neutron stars|Gravitational waves">
-<p class="pub-citation">2. Abhishek Hegade K., R., Kwon, K.J., <strong>Venumadhav, T.</strong>, Yu, H., & Yunes, N. (2026)</p>
+<article id="paper-1" class="pub-entry" data-topics="Neutron stars|Gravitational waves">
+<p class="pub-citation">1. Abhishek Hegade K., R., Kwon, K.J., <strong>Venumadhav, T.</strong>, Yu, H., & Yunes, N. (2026)</p>
 <p class="pub-title"><em>Relativistic mode sums for neutron-star tidal response</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026PhRvD.114f4048R/abstract">ADS</a> <a href="https://arxiv.org/abs/2605.08569">arxiv</a> <a href="https://inspirehep.net/record/3154134">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
 </article>
 
-<article id="paper-3" class="pub-entry" data-topics="Gamma ray bursts|Neutron stars|Gravitational waves">
-<p class="pub-citation">3. Perera, A., Zackay, B., & <strong>Venumadhav, T.</strong> (2026)</p>
+<article id="paper-2" class="pub-entry" data-topics="Gamma ray bursts|Neutron stars|Gravitational waves">
+<p class="pub-citation">2. Perera, A., Zackay, B., & <strong>Venumadhav, T.</strong> (2026)</p>
 <p class="pub-title"><em>A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260925672P/abstract">ADS</a> <a href="https://arxiv.org/abs/2609.25672">arxiv</a> <a href="https://inspirehep.net/record/3206129">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(102 43% 40%);--topic-active:hsl(102 47% 33%);">Gamma ray bursts</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
 </article>
 
-<article id="paper-4" class="pub-entry" data-topics="Neutron stars">
-<p class="pub-citation">4. Perera, A., Zackay, B., & <strong>Venumadhav, T.</strong> (2026)</p>
+<article id="paper-3" class="pub-entry" data-topics="Neutron stars">
+<p class="pub-citation">3. Perera, A., Zackay, B., & <strong>Venumadhav, T.</strong> (2026)</p>
 <p class="pub-title"><em>A Coherent Search for New Galactic Magnetars using Fermi/GBM and follow-up Swift/BAT: 7 Candidates and a Large Burst Catalog</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260926897P/abstract">ADS</a> <a href="https://arxiv.org/abs/2609.26897">arxiv</a> <a href="https://inspirehep.net/record/3206693">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span></div>
+</article>
+
+<article id="paper-4" class="pub-entry" data-topics="Gamma ray bursts|Neutron stars">
+<p class="pub-citation">4. Perera, A., Zackay, B., & <strong>Venumadhav, T.</strong> (2026)</p>
+<p class="pub-title"><em>Expanding the population of short gamma-ray transients with a coherent Fermi/GBM search: a 13-yr catalogue of short GRBs</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026MNRAS.551g1592P/abstract">ADS</a> <a href="https://arxiv.org/abs/2605.31554">arxiv</a> <a href="https://inspirehep.net/record/3163133">INSPIRE</a></p>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(102 43% 40%);--topic-active:hsl(102 47% 33%);">Gamma ray bursts</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span></div>
 </article>
 
 <article id="paper-5" class="pub-entry" data-topics="Dark matter|Gravitational lensing|Gravitational waves|Black holes|Cosmology">
@@ -146,16 +146,16 @@ Individual links to articles and manuscripts, in reverse chronological order:
 </article>
 
 <article id="paper-17" class="pub-entry" data-topics="Gravitational waves|Black holes">
-<p class="pub-citation">17. Mushkin, J., Roulet, J., Zackay, B., <strong>Venumadhav, T.</strong>, Ivashtenko, O., Wadekar, D., Mehta, A.K., & Zaldarriaga, M. (2025)</p>
-<p class="pub-title"><em>Sampler-free gravitational wave inference using matrix multiplication</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2025PhRvD.112j4025M/abstract">ADS</a> <a href="https://arxiv.org/abs/2507.16022">arxiv</a> <a href="https://inspirehep.net/record/2952995">INSPIRE</a></p>
+<p class="pub-citation">17. Islam, T. & <strong>Venumadhav, T.</strong> (2025)</p>
+<p class="pub-title"><em>Post-Newtonian theory-inspired framework for characterizing eccentricity in gravitational waveforms</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2025PhRvD.112j4039I/abstract">ADS</a> <a href="https://arxiv.org/abs/2502.02739">arxiv</a> <a href="https://inspirehep.net/record/2876700">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
 </article>
 
 <article id="paper-18" class="pub-entry" data-topics="Gravitational waves|Black holes">
-<p class="pub-citation">18. Islam, T. & <strong>Venumadhav, T.</strong> (2025)</p>
-<p class="pub-title"><em>Post-Newtonian theory-inspired framework for characterizing eccentricity in gravitational waveforms</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2025PhRvD.112j4039I/abstract">ADS</a> <a href="https://arxiv.org/abs/2502.02739">arxiv</a> <a href="https://inspirehep.net/record/2876700">INSPIRE</a></p>
+<p class="pub-citation">18. Mushkin, J., Roulet, J., Zackay, B., <strong>Venumadhav, T.</strong>, Ivashtenko, O., Wadekar, D., Mehta, A.K., & Zaldarriaga, M. (2025)</p>
+<p class="pub-title"><em>Sampler-free gravitational wave inference using matrix multiplication</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2025PhRvD.112j4025M/abstract">ADS</a> <a href="https://arxiv.org/abs/2507.16022">arxiv</a> <a href="https://inspirehep.net/record/2952995">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
 </article>
 
@@ -215,18 +215,18 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
 </article>
 
-<article id="paper-27" class="pub-entry" data-topics="Black holes|Neutron stars|Gravitational waves">
-<p class="pub-citation">27. Mehta, A.K., Olsen, S., Wadekar, D., Roulet, J., <strong>Venumadhav, T.</strong>, Mushkin, J., Zackay, B., & Zaldarriaga, M. (2025)</p>
-<p class="pub-title"><em>New binary black hole mergers in the LIGO-Virgo O3b data</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2025PhRvD.111b4049M/abstract">ADS</a> <a href="https://arxiv.org/abs/2311.06061">arxiv</a> <a href="https://inspirehep.net/record/2721113">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
-</article>
-
-<article id="paper-28" class="pub-entry" data-topics="Gravitational waves|Black holes">
-<p class="pub-citation">28. Mehta, A.K., Wadekar, D., Roulet, J., Anantpurkar, I., <strong>Venumadhav, T.</strong>, Mushkin, J., Zackay, B., Zaldarriaga, M., & Islam, T. (2025)</p>
+<article id="paper-27" class="pub-entry" data-topics="Gravitational waves|Black holes">
+<p class="pub-citation">27. Mehta, A.K., Wadekar, D., Roulet, J., Anantpurkar, I., <strong>Venumadhav, T.</strong>, Mushkin, J., Zackay, B., Zaldarriaga, M., & Islam, T. (2025)</p>
 <p class="pub-title"><em>Significant increase in sensitive volume of a gravitational wave search upon including higher harmonics</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2025arXiv250117939M/abstract">ADS</a> <a href="https://arxiv.org/abs/2501.17939">arxiv</a> <a href="https://inspirehep.net/record/2874182">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
+</article>
+
+<article id="paper-28" class="pub-entry" data-topics="Black holes|Neutron stars|Gravitational waves">
+<p class="pub-citation">28. Mehta, A.K., Olsen, S., Wadekar, D., Roulet, J., <strong>Venumadhav, T.</strong>, Mushkin, J., Zackay, B., & Zaldarriaga, M. (2025)</p>
+<p class="pub-title"><em>New binary black hole mergers in the LIGO-Virgo O3b data</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2025PhRvD.111b4049M/abstract">ADS</a> <a href="https://arxiv.org/abs/2311.06061">arxiv</a> <a href="https://inspirehep.net/record/2721113">INSPIRE</a></p>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
 </article>
 
 <article id="paper-29" class="pub-entry" data-topics="Cosmology|Gravitational lensing|Gravitational waves|Black holes">
@@ -236,18 +236,18 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span> <span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
 </article>
 
-<article id="paper-30" class="pub-entry" data-topics="Neutron stars|Gravitational waves">
-<p class="pub-citation">30. Kwon, K.J., Yu, H., & <strong>Venumadhav, T.</strong> (2024)</p>
-<p class="pub-title"><em>Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2024arXiv241003831K/abstract">ADS</a> <a href="https://arxiv.org/abs/2410.03831">arxiv</a> <a href="https://inspirehep.net/record/2837623">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
-</article>
-
-<article id="paper-31" class="pub-entry" data-topics="Gravitational waves|Black holes">
-<p class="pub-citation">31. Wadekar, D., <strong>Venumadhav, T.</strong>, Mehta, A.K., Roulet, J., Olsen, S., Mushkin, J., Zackay, B., & Zaldarriaga, M. (2024)</p>
+<article id="paper-30" class="pub-entry" data-topics="Gravitational waves|Black holes">
+<p class="pub-citation">30. Wadekar, D., <strong>Venumadhav, T.</strong>, Mehta, A.K., Roulet, J., Olsen, S., Mushkin, J., Zackay, B., & Zaldarriaga, M. (2024)</p>
 <p class="pub-title"><em>New approach to template banks of gravitational waves with higher harmonics: Reducing matched-filtering cost by over an order of magnitude</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2024PhRvD.110h4035W/abstract">ADS</a> <a href="https://arxiv.org/abs/2310.15233">arxiv</a> <a href="https://inspirehep.net/record/2713962">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
+</article>
+
+<article id="paper-31" class="pub-entry" data-topics="Neutron stars|Gravitational waves">
+<p class="pub-citation">31. Kwon, K.J., Yu, H., & <strong>Venumadhav, T.</strong> (2024)</p>
+<p class="pub-title"><em>Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2024arXiv241003831K/abstract">ADS</a> <a href="https://arxiv.org/abs/2410.03831">arxiv</a> <a href="https://inspirehep.net/record/2837623">INSPIRE</a></p>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
 </article>
 
 <article id="paper-32" class="pub-entry" data-topics="Gravitational waves|Black holes|Neutron stars">
@@ -334,32 +334,32 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
 </article>
 
-<article id="paper-44" class="pub-entry" data-topics="Black holes|Gravitational waves">
-<p class="pub-citation">44. Roulet, J., Chia, H.S., Olsen, S., Dai, L., <strong>Venumadhav, T.</strong>, Zackay, B., & Zaldarriaga, M. (2021)</p>
-<p class="pub-title"><em>Distribution of effective spins and masses of binary black holes from the LIGO and Virgo O1-O3a observing runs</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2021PhRvD.104h3010R/abstract">ADS</a> <a href="https://arxiv.org/abs/2105.10580">arxiv</a> <a href="https://inspirehep.net/record/1864793">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
-</article>
-
-<article id="paper-45" class="pub-entry" data-topics="Gravitational waves|Black holes">
-<p class="pub-citation">45. Olsen, S., Roulet, J., Chia, H.S., Dai, L., <strong>Venumadhav, T.</strong>, Zackay, B., & Zaldarriaga, M. (2021)</p>
+<article id="paper-44" class="pub-entry" data-topics="Gravitational waves|Black holes">
+<p class="pub-citation">44. Olsen, S., Roulet, J., Chia, H.S., Dai, L., <strong>Venumadhav, T.</strong>, Zackay, B., & Zaldarriaga, M. (2021)</p>
 <p class="pub-title"><em>Mapping the likelihood of GW190521 with diverse mass and spin priors</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2021PhRvD.104h3036O/abstract">ADS</a> <a href="https://arxiv.org/abs/2106.13821">arxiv</a> <a href="https://inspirehep.net/record/1870522">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
 </article>
 
-<article id="paper-46" class="pub-entry" data-topics="Gravitational waves">
-<p class="pub-citation">46. Zackay, B., <strong>Venumadhav, T.</strong>, Roulet, J., Dai, L., & Zaldarriaga, M. (2021)</p>
-<p class="pub-title"><em>Detecting gravitational waves in data with non-stationary and non-Gaussian noise</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2021PhRvD.104f3034Z/abstract">ADS</a> <a href="https://arxiv.org/abs/1908.05644">arxiv</a> <a href="https://inspirehep.net/record/1749740">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
+<article id="paper-45" class="pub-entry" data-topics="Black holes|Gravitational waves">
+<p class="pub-citation">45. Roulet, J., Chia, H.S., Olsen, S., Dai, L., <strong>Venumadhav, T.</strong>, Zackay, B., & Zaldarriaga, M. (2021)</p>
+<p class="pub-title"><em>Distribution of effective spins and masses of binary black holes from the LIGO and Virgo O1-O3a observing runs</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2021PhRvD.104h3010R/abstract">ADS</a> <a href="https://arxiv.org/abs/2105.10580">arxiv</a> <a href="https://inspirehep.net/record/1864793">INSPIRE</a></p>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
 </article>
 
-<article id="paper-47" class="pub-entry" data-topics="Gravitational waves|Black holes">
-<p class="pub-citation">47. Zackay, B., Dai, L., <strong>Venumadhav, T.</strong>, Roulet, J., & Zaldarriaga, M. (2021)</p>
+<article id="paper-46" class="pub-entry" data-topics="Gravitational waves|Black holes">
+<p class="pub-citation">46. Zackay, B., Dai, L., <strong>Venumadhav, T.</strong>, Roulet, J., & Zaldarriaga, M. (2021)</p>
 <p class="pub-title"><em>Detecting gravitational waves with disparate detector responses: Two new binary black hole mergers</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2021PhRvD.104f3030Z/abstract">ADS</a> <a href="https://arxiv.org/abs/1910.09528">arxiv</a> <a href="https://inspirehep.net/record/1759933">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
+</article>
+
+<article id="paper-47" class="pub-entry" data-topics="Gravitational waves">
+<p class="pub-citation">47. Zackay, B., <strong>Venumadhav, T.</strong>, Roulet, J., Dai, L., & Zaldarriaga, M. (2021)</p>
+<p class="pub-title"><em>Detecting gravitational waves in data with non-stationary and non-Gaussian noise</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2021PhRvD.104f3034Z/abstract">ADS</a> <a href="https://arxiv.org/abs/1908.05644">arxiv</a> <a href="https://inspirehep.net/record/1749740">INSPIRE</a></p>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
 </article>
 
 <article id="paper-48" class="pub-entry" data-topics="Black holes|Gravitational waves">
@@ -509,32 +509,32 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(168 43% 40%);--topic-active:hsl(168 45% 33%);">Reionization</span> <span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span></div>
 </article>
 
-<article id="paper-69" class="pub-entry" data-topics="Gravitational lensing|Black holes">
-<p class="pub-citation">69. Dai, L., <strong>Venumadhav, T.</strong>, & Sigurdson, K. (2017)</p>
-<p class="pub-title"><em>Effect of lensing magnification on the apparent distribution of black hole mergers</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2017PhRvD..95d4011D/abstract">ADS</a> <a href="https://arxiv.org/abs/1605.09398">arxiv</a> <a href="https://inspirehep.net/record/1466408">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
-</article>
-
-<article id="paper-70" class="pub-entry" data-topics="Gravitational lensing|Gravitational waves">
-<p class="pub-citation">70. Dai, L. & <strong>Venumadhav, T.</strong> (2017)</p>
+<article id="paper-69" class="pub-entry" data-topics="Gravitational lensing|Gravitational waves">
+<p class="pub-citation">69. Dai, L. & <strong>Venumadhav, T.</strong> (2017)</p>
 <p class="pub-title"><em>On the waveforms of gravitationally lensed gravitational waves</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2017arXiv170204724D/abstract">ADS</a> <a href="https://arxiv.org/abs/1702.04724">arxiv</a> <a href="https://inspirehep.net/record/1513760">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
 </article>
 
-<article id="paper-71" class="pub-entry" data-topics="Cosmology|Reionization">
-<p class="pub-citation">71. <strong>Venumadhav, T.</strong>, Chang, T.C., Doré, O., & Hirata, C.M. (2016)</p>
-<p class="pub-title"><em>A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2016ApJ...826..116V/abstract">ADS</a> <a href="https://arxiv.org/abs/1512.05248">arxiv</a> <a href="https://inspirehep.net/record/1409895">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span> <span class="pub-topic-chip" style="--topic-bg:hsl(168 43% 40%);--topic-active:hsl(168 45% 33%);">Reionization</span></div>
+<article id="paper-70" class="pub-entry" data-topics="Gravitational lensing|Black holes">
+<p class="pub-citation">70. Dai, L., <strong>Venumadhav, T.</strong>, & Sigurdson, K. (2017)</p>
+<p class="pub-title"><em>Effect of lensing magnification on the apparent distribution of black hole mergers</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2017PhRvD..95d4011D/abstract">ADS</a> <a href="https://arxiv.org/abs/1605.09398">arxiv</a> <a href="https://inspirehep.net/record/1466408">INSPIRE</a></p>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
 </article>
 
-<article id="paper-72" class="pub-entry" data-topics="Dark matter|Cosmology">
-<p class="pub-citation">72. <strong>Venumadhav, T.</strong>, Cyr-Racine, F.Y., Abazajian, K.N., & Hirata, C.M. (2016)</p>
+<article id="paper-71" class="pub-entry" data-topics="Dark matter|Cosmology">
+<p class="pub-citation">71. <strong>Venumadhav, T.</strong>, Cyr-Racine, F.Y., Abazajian, K.N., & Hirata, C.M. (2016)</p>
 <p class="pub-title"><em>Sterile neutrino dark matter: Weak interactions in the strong coupling epoch</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2016PhRvD..94d3515V/abstract">ADS</a> <a href="https://arxiv.org/abs/1507.06655">arxiv</a> <a href="https://inspirehep.net/record/1384749">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(336 46% 46%);--topic-active:hsl(336 49% 38%);">Dark matter</span> <span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span></div>
+</article>
+
+<article id="paper-72" class="pub-entry" data-topics="Cosmology|Reionization">
+<p class="pub-citation">72. <strong>Venumadhav, T.</strong>, Chang, T.C., Doré, O., & Hirata, C.M. (2016)</p>
+<p class="pub-title"><em>A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2016ApJ...826..116V/abstract">ADS</a> <a href="https://arxiv.org/abs/1512.05248">arxiv</a> <a href="https://inspirehep.net/record/1409895">INSPIRE</a></p>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span> <span class="pub-topic-chip" style="--topic-bg:hsl(168 43% 40%);--topic-active:hsl(168 45% 33%);">Reionization</span></div>
 </article>
 
 <article id="paper-73" class="pub-entry" data-topics="Recombination">
@@ -610,8 +610,8 @@ n-th author papers:
 <li><a href="#paper-66">Microlensing of Extremely Magnified Stars near Caustics of Galaxy Clusters</a></li>
 <li><a href="#paper-67">New probe of magnetic fields in the prereionization epoch. I. Formalism</a></li>
 <li><a href="#paper-68">New probe of magnetic fields in the pre-reionization epoch. II. Detectability</a></li>
-<li><a href="#paper-71">A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal</a></li>
-<li><a href="#paper-72">Sterile neutrino dark matter: Weak interactions in the strong coupling epoch</a></li>
+<li><a href="#paper-71">Sterile neutrino dark matter: Weak interactions in the strong coupling epoch</a></li>
+<li><a href="#paper-72">A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal</a></li>
 <li><a href="#paper-nth-2">Fundamental physics with the Square Kilometre Array</a></li>
 <li><a href="#paper-nth-3">Cosmology with the SPHEREX All-Sky Spectral Survey</a></li>
 </ul>
@@ -631,15 +631,15 @@ n-th author papers:
 <li><a href="#paper-59">Probing Dark Matter Subhalos in Galaxy Clusters Using Highly Magnified Stars</a></li>
 <li><a href="#paper-62">Identifying strongly lensed gravitational wave signals from binary black hole mergers</a></li>
 <li><a href="#paper-66">Microlensing of Extremely Magnified Stars near Caustics of Galaxy Clusters</a></li>
-<li><a href="#paper-69">Effect of lensing magnification on the apparent distribution of black hole mergers</a></li>
-<li><a href="#paper-70">On the waveforms of gravitationally lensed gravitational waves</a></li>
+<li><a href="#paper-69">On the waveforms of gravitationally lensed gravitational waves</a></li>
+<li><a href="#paper-70">Effect of lensing magnification on the apparent distribution of black hole mergers</a></li>
 </ul>
 </section>
 <section class="pub-topic-section" id="topic-gravitational-waves">
 <h3>Gravitational waves</h3>
 <ul>
-<li><a href="#paper-2">Relativistic mode sums for neutron-star tidal response</a></li>
-<li><a href="#paper-3">A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample</a></li>
+<li><a href="#paper-1">Relativistic mode sums for neutron-star tidal response</a></li>
+<li><a href="#paper-2">A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample</a></li>
 <li><a href="#paper-5">Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future</a></li>
 <li><a href="#paper-6">Nonlinear hydrodynamics in spinning neutron stars: Theoretical universal relations and equilibrium solutions</a></li>
 <li><a href="#paper-7">Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging</a></li>
@@ -652,8 +652,8 @@ n-th author papers:
 <li><a href="#paper-14">Searching for intermediate mass ratio binary black hole mergers in the third observing run of LIGO-Virgo-KAGRA</a></li>
 <li><a href="#paper-15">Binary black hole population inference combining confident and marginal events from the IAS-HM search pipeline</a></li>
 <li><a href="#paper-16">A New Search Pipeline for Short Gamma-Ray Bursts in Fermi/GBM Data—A 50% Increase in the Number of Detections</a></li>
-<li><a href="#paper-17">Sampler-free gravitational wave inference using matrix multiplication</a></li>
-<li><a href="#paper-18">Post-Newtonian theory-inspired framework for characterizing eccentricity in gravitational waveforms</a></li>
+<li><a href="#paper-17">Post-Newtonian theory-inspired framework for characterizing eccentricity in gravitational waveforms</a></li>
+<li><a href="#paper-18">Sampler-free gravitational wave inference using matrix multiplication</a></li>
 <li><a href="#paper-19">Probing the Nature of Dark Matter Using Strongly Lensed Gravitational Waves from Binary Black Holes</a></li>
 <li><a href="#paper-20">Data-driven extraction and phenomenology of eccentric harmonics in eccentric spinning binary black hole mergers</a></li>
 <li><a href="#paper-21">Data-driven extraction, phenomenology, and modeling of eccentric harmonics in binary black hole merger waveforms</a></li>
@@ -661,11 +661,11 @@ n-th author papers:
 <li><a href="#paper-24">gwharmone: first data-driven surrogate for eccentric harmonics in binary black hole merger waveforms</a></li>
 <li><a href="#paper-25">Universal phenomenological relations between spherical harmonic modes in nonprecessing eccentric binary black hole merger waveforms</a></li>
 <li><a href="#paper-26">Resonance locking: radian-level phase shifts due to nonlinear hydrodynamics of $g$-modes in merging neutron star binaries</a></li>
-<li><a href="#paper-27">New binary black hole mergers in the LIGO-Virgo O3b data</a></li>
-<li><a href="#paper-28">Significant increase in sensitive volume of a gravitational wave search upon including higher harmonics</a></li>
+<li><a href="#paper-27">Significant increase in sensitive volume of a gravitational wave search upon including higher harmonics</a></li>
+<li><a href="#paper-28">New binary black hole mergers in the LIGO-Virgo O3b data</a></li>
 <li><a href="#paper-29">Strong-lensing cosmography using third-generation gravitational-wave detectors</a></li>
-<li><a href="#paper-30">Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries</a></li>
-<li><a href="#paper-31">New approach to template banks of gravitational waves with higher harmonics: Reducing matched-filtering cost by over an order of magnitude</a></li>
+<li><a href="#paper-30">New approach to template banks of gravitational waves with higher harmonics: Reducing matched-filtering cost by over an order of magnitude</a></li>
+<li><a href="#paper-31">Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries</a></li>
 <li><a href="#paper-32">In pursuit of Love numbers: First templated search for compact objects with large tidal deformabilities in the LIGO-Virgo data</a></li>
 <li><a href="#paper-33">New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering</a></li>
 <li><a href="#paper-34">Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</a></li>
@@ -678,10 +678,10 @@ n-th author papers:
 <li><a href="#paper-41">Factorized Parameter Estimation for Real-Time Gravitational Wave Inference</a></li>
 <li><a href="#paper-42">New binary black hole mergers in the LIGO-Virgo O3a data</a></li>
 <li><a href="#paper-43">Signs of higher multipoles and orbital precession in GW151226</a></li>
-<li><a href="#paper-44">Distribution of effective spins and masses of binary black holes from the LIGO and Virgo O1-O3a observing runs</a></li>
-<li><a href="#paper-45">Mapping the likelihood of GW190521 with diverse mass and spin priors</a></li>
-<li><a href="#paper-46">Detecting gravitational waves in data with non-stationary and non-Gaussian noise</a></li>
-<li><a href="#paper-47">Detecting gravitational waves with disparate detector responses: Two new binary black hole mergers</a></li>
+<li><a href="#paper-44">Mapping the likelihood of GW190521 with diverse mass and spin priors</a></li>
+<li><a href="#paper-45">Distribution of effective spins and masses of binary black holes from the LIGO and Virgo O1-O3a observing runs</a></li>
+<li><a href="#paper-46">Detecting gravitational waves with disparate detector responses: Two new binary black hole mergers</a></li>
+<li><a href="#paper-47">Detecting gravitational waves in data with non-stationary and non-Gaussian noise</a></li>
 <li><a href="#paper-48">Binary black hole mergers from LIGO/Virgo O1 and O2: Population inference combining confident and marginal events</a></li>
 <li><a href="#paper-49">Source properties of the lowest signal-to-noise-ratio binary black hole detections</a></li>
 <li><a href="#paper-50">Search for Lensed Gravitational Waves Including Morse Phase Information: An Intriguing Candidate in O2</a></li>
@@ -695,7 +695,7 @@ n-th author papers:
 <li><a href="#paper-63">Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation</a></li>
 <li><a href="#paper-64">Parameter Estimation for GW170817 using Relative Binning</a></li>
 <li><a href="#paper-65">Detecting primordial gravitational waves with circular polarization of the redshifted 21 cm line. I. Formalism</a></li>
-<li><a href="#paper-70">On the waveforms of gravitationally lensed gravitational waves</a></li>
+<li><a href="#paper-69">On the waveforms of gravitationally lensed gravitational waves</a></li>
 <li><a href="#paper-74">The Stability of Tidally Deformed Neutron Stars to Three- and Four-mode Coupling</a></li>
 <li><a href="#paper-nth-1">The Challenges Ahead for Multimessenger Analyses of Gravitational Waves and Kilonova: A Case Study on GW190425</a></li>
 <li><a href="#paper-nth-2">Fundamental physics with the Square Kilometre Array</a></li>
@@ -713,18 +713,18 @@ n-th author papers:
 <li><a href="#paper-12">Searching for precessing binary systems with mode-by-mode filtering and marginalization</a></li>
 <li><a href="#paper-14">Searching for intermediate mass ratio binary black hole mergers in the third observing run of LIGO-Virgo-KAGRA</a></li>
 <li><a href="#paper-15">Binary black hole population inference combining confident and marginal events from the IAS-HM search pipeline</a></li>
-<li><a href="#paper-17">Sampler-free gravitational wave inference using matrix multiplication</a></li>
-<li><a href="#paper-18">Post-Newtonian theory-inspired framework for characterizing eccentricity in gravitational waveforms</a></li>
+<li><a href="#paper-17">Post-Newtonian theory-inspired framework for characterizing eccentricity in gravitational waveforms</a></li>
+<li><a href="#paper-18">Sampler-free gravitational wave inference using matrix multiplication</a></li>
 <li><a href="#paper-19">Probing the Nature of Dark Matter Using Strongly Lensed Gravitational Waves from Binary Black Holes</a></li>
 <li><a href="#paper-20">Data-driven extraction and phenomenology of eccentric harmonics in eccentric spinning binary black hole mergers</a></li>
 <li><a href="#paper-21">Data-driven extraction, phenomenology, and modeling of eccentric harmonics in binary black hole merger waveforms</a></li>
 <li><a href="#paper-22">Improving gravitational wave search sensitivity with TIER: Trigger Inference using Extended strain Representation</a></li>
 <li><a href="#paper-24">gwharmone: first data-driven surrogate for eccentric harmonics in binary black hole merger waveforms</a></li>
 <li><a href="#paper-25">Universal phenomenological relations between spherical harmonic modes in nonprecessing eccentric binary black hole merger waveforms</a></li>
-<li><a href="#paper-27">New binary black hole mergers in the LIGO-Virgo O3b data</a></li>
-<li><a href="#paper-28">Significant increase in sensitive volume of a gravitational wave search upon including higher harmonics</a></li>
+<li><a href="#paper-27">Significant increase in sensitive volume of a gravitational wave search upon including higher harmonics</a></li>
+<li><a href="#paper-28">New binary black hole mergers in the LIGO-Virgo O3b data</a></li>
 <li><a href="#paper-29">Strong-lensing cosmography using third-generation gravitational-wave detectors</a></li>
-<li><a href="#paper-31">New approach to template banks of gravitational waves with higher harmonics: Reducing matched-filtering cost by over an order of magnitude</a></li>
+<li><a href="#paper-30">New approach to template banks of gravitational waves with higher harmonics: Reducing matched-filtering cost by over an order of magnitude</a></li>
 <li><a href="#paper-32">In pursuit of Love numbers: First templated search for compact objects with large tidal deformabilities in the LIGO-Virgo data</a></li>
 <li><a href="#paper-33">New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering</a></li>
 <li><a href="#paper-34">Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</a></li>
@@ -736,9 +736,9 @@ n-th author papers:
 <li><a href="#paper-41">Factorized Parameter Estimation for Real-Time Gravitational Wave Inference</a></li>
 <li><a href="#paper-42">New binary black hole mergers in the LIGO-Virgo O3a data</a></li>
 <li><a href="#paper-43">Signs of higher multipoles and orbital precession in GW151226</a></li>
-<li><a href="#paper-44">Distribution of effective spins and masses of binary black holes from the LIGO and Virgo O1-O3a observing runs</a></li>
-<li><a href="#paper-45">Mapping the likelihood of GW190521 with diverse mass and spin priors</a></li>
-<li><a href="#paper-47">Detecting gravitational waves with disparate detector responses: Two new binary black hole mergers</a></li>
+<li><a href="#paper-44">Mapping the likelihood of GW190521 with diverse mass and spin priors</a></li>
+<li><a href="#paper-45">Distribution of effective spins and masses of binary black holes from the LIGO and Virgo O1-O3a observing runs</a></li>
+<li><a href="#paper-46">Detecting gravitational waves with disparate detector responses: Two new binary black hole mergers</a></li>
 <li><a href="#paper-48">Binary black hole mergers from LIGO/Virgo O1 and O2: Population inference combining confident and marginal events</a></li>
 <li><a href="#paper-49">Source properties of the lowest signal-to-noise-ratio binary black hole detections</a></li>
 <li><a href="#paper-50">Search for Lensed Gravitational Waves Including Morse Phase Information: An Intriguing Candidate in O2</a></li>
@@ -749,22 +749,22 @@ n-th author papers:
 <li><a href="#paper-57">Template bank for compact binary coalescence searches in gravitational wave data: A general geometric placement algorithm</a></li>
 <li><a href="#paper-62">Identifying strongly lensed gravitational wave signals from binary black hole mergers</a></li>
 <li><a href="#paper-63">Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation</a></li>
-<li><a href="#paper-69">Effect of lensing magnification on the apparent distribution of black hole mergers</a></li>
+<li><a href="#paper-70">Effect of lensing magnification on the apparent distribution of black hole mergers</a></li>
 <li><a href="#paper-nth-1">The Challenges Ahead for Multimessenger Analyses of Gravitational Waves and Kilonova: A Case Study on GW190425</a></li>
 </ul>
 </section>
 <section class="pub-topic-section" id="topic-neutron-stars">
 <h3>Neutron stars</h3>
 <ul>
-<li><a href="#paper-1">Expanding the population of short gamma-ray transients with a coherent Fermi/GBM search: a 13-yr catalogue of short GRBs</a></li>
-<li><a href="#paper-2">Relativistic mode sums for neutron-star tidal response</a></li>
-<li><a href="#paper-3">A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample</a></li>
-<li><a href="#paper-4">A Coherent Search for New Galactic Magnetars using Fermi/GBM and follow-up Swift/BAT: 7 Candidates and a Large Burst Catalog</a></li>
+<li><a href="#paper-1">Relativistic mode sums for neutron-star tidal response</a></li>
+<li><a href="#paper-2">A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample</a></li>
+<li><a href="#paper-3">A Coherent Search for New Galactic Magnetars using Fermi/GBM and follow-up Swift/BAT: 7 Candidates and a Large Burst Catalog</a></li>
+<li><a href="#paper-4">Expanding the population of short gamma-ray transients with a coherent Fermi/GBM search: a 13-yr catalogue of short GRBs</a></li>
 <li><a href="#paper-6">Nonlinear hydrodynamics in spinning neutron stars: Theoretical universal relations and equilibrium solutions</a></li>
 <li><a href="#paper-13">Relativistic and Dynamical Love Numbers</a></li>
 <li><a href="#paper-26">Resonance locking: radian-level phase shifts due to nonlinear hydrodynamics of $g$-modes in merging neutron star binaries</a></li>
-<li><a href="#paper-27">New binary black hole mergers in the LIGO-Virgo O3b data</a></li>
-<li><a href="#paper-30">Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries</a></li>
+<li><a href="#paper-28">New binary black hole mergers in the LIGO-Virgo O3b data</a></li>
+<li><a href="#paper-31">Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries</a></li>
 <li><a href="#paper-32">In pursuit of Love numbers: First templated search for compact objects with large tidal deformabilities in the LIGO-Virgo data</a></li>
 <li><a href="#paper-34">Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</a></li>
 <li><a href="#paper-35">Inferring Binary Properties from Gravitational-Wave Signals</a></li>
@@ -781,8 +781,8 @@ n-th author papers:
 <section class="pub-topic-section" id="topic-gamma-ray-bursts">
 <h3>Gamma ray bursts</h3>
 <ul>
-<li><a href="#paper-1">Expanding the population of short gamma-ray transients with a coherent Fermi/GBM search: a 13-yr catalogue of short GRBs</a></li>
-<li><a href="#paper-3">A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample</a></li>
+<li><a href="#paper-2">A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample</a></li>
+<li><a href="#paper-4">Expanding the population of short gamma-ray transients with a coherent Fermi/GBM search: a 13-yr catalogue of short GRBs</a></li>
 <li><a href="#paper-16">A New Search Pipeline for Short Gamma-Ray Bursts in Fermi/GBM Data—A 50% Increase in the Number of Detections</a></li>
 </ul>
 </section>
@@ -794,7 +794,7 @@ n-th author papers:
 <li><a href="#paper-65">Detecting primordial gravitational waves with circular polarization of the redshifted 21 cm line. I. Formalism</a></li>
 <li><a href="#paper-67">New probe of magnetic fields in the prereionization epoch. I. Formalism</a></li>
 <li><a href="#paper-68">New probe of magnetic fields in the pre-reionization epoch. II. Detectability</a></li>
-<li><a href="#paper-71">A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal</a></li>
+<li><a href="#paper-72">A Practical Theorem on Using Interferometry to Measure the Global 21-cm Signal</a></li>
 <li><a href="#paper-nth-2">Fundamental physics with the Square Kilometre Array</a></li>
 <li><a href="#paper-nth-3">Cosmology with the SPHEREX All-Sky Spectral Survey</a></li>
 </ul>
@@ -811,7 +811,7 @@ n-th author papers:
 <li><a href="#paper-56">Highly Magnified Stars in Lensing Clusters: New Evidence in a Galaxy Lensed by MACS J0416.1-2403</a></li>
 <li><a href="#paper-59">Probing Dark Matter Subhalos in Galaxy Clusters Using Highly Magnified Stars</a></li>
 <li><a href="#paper-66">Microlensing of Extremely Magnified Stars near Caustics of Galaxy Clusters</a></li>
-<li><a href="#paper-72">Sterile neutrino dark matter: Weak interactions in the strong coupling epoch</a></li>
+<li><a href="#paper-71">Sterile neutrino dark matter: Weak interactions in the strong coupling epoch</a></li>
 <li><a href="#paper-nth-2">Fundamental physics with the Square Kilometre Array</a></li>
 </ul>
 </section>
