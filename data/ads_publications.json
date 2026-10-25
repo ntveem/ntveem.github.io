@@ -1,35 +1,6 @@
 {
   "papers": [
     {
-      "abstract": "We extend the general relativistic Lagrangian perturbation formalism of Friedman and Schutz [Astrophys. J. 200, 204 (1975)] beyond linear order, retaining full time dependence of the perturbations. We provide general formulae to relate the Lagrangian and Eulerian perturbations to any general perturbative order. As a proof of principle, we apply the framework to tidally perturbed relativistic stars in Regge-Wheeler gauge and reduce the second-order field and conservation equations to master equations with a nonlinear source. Projecting the source onto the star's eigenmodes, we obtain a nonlinear equation of motion for the mode amplitudes and the coupling coefficients, which describe the interactions among the eigenmodes and with the external tidal field. Approximating the tidal field and the coupling coefficients, we compute the static quadratic Love number from the quadrupolar fundamental mode alone and find that it reproduces the direct metric-matching value to a reasonable accuracy of $4\\%$, up to a further correction arising from the Hamiltonian and momentum constraints of the second-order tidal field.",
-      "arxiv_id": "2610.18952",
-      "authors": [
-        "Kwon, K. J.",
-        "Abhishek Hegade K., R.",
-        "Venumadhav, Tejaswi",
-        "Yu, Hang",
-        "Yunes, Nicol\u00e1s"
-      ],
-      "bibcode": "2026arXiv261018952K",
-      "citation_count": 0,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2610.18952",
-      "inspire_recid": "3215027",
-      "page": "arXiv:2610.18952",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2610.18952",
-      "pubdate": "2026-10-00",
-      "title": "Nonlinear Perturbations of Relativistic Stars",
-      "topic_confidence": 0.98,
-      "topic_source": "llm",
-      "topics": [
-        "Neutron stars"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2026
-    },
-    {
       "abstract": "Gravitational lensing can split the signal of a binary merger into two images, which either overlap and interfere or arrive as separate events. We show that the matched-filter output of every two-image template can be straightforwardly constructed from the signal-to-noise ratio (SNR) time series that searches already compute with unlensed templates. This enables a marginalized detection statistic that increases search sensitivity without additional matched filtering and is more than 150 times faster than an explicit lensed template bank. For overlapping images in the geometric-optics regime, our two-image method recovers $\\gtrsim97\\%$ of the optimal SNR from point-mass and singular isothermal lenses, compared with as little as $67\\%$ captured by unlensed templates, with substantial gains also for Chang-Refsdal and cored isothermal lenses. Overlapping lensed signals moreover fail the signal-consistency test that is used to down-rank noise transients. Our two-image method restores the consistency and increases the sensitive volume by roughly $2$-$4\\times$ for the strongly down-ranked signals. For separated images, our method enables an efficient coherent search for pairs in which neither image is significant alone. Near fold caustics, this increases the sensitive volume by factors of 1.8-2.6 over requiring two independent detections, and up to 1.6 over a targeted counterpart search. Our method is applicable to any matched-filtering search.",
       "arxiv_id": "2610.26080",
       "authors": [
@@ -66,29 +37,62 @@
       "year": 2026
     },
     {
-      "abstract": "The detection of faint high-energy transients is becoming increasingly important in time-domain and multi-messenger astronomy, particularly for identifying electromagnetic counterparts to binary neutron star mergers, high-energy neutrino events, and other weak transient phenomena. At present, the sensitivity of gamma-ray and hard X-ray searches is often limited by the detection threshold of individual instruments, leaving a population of faint transients inaccessible to single-mission analyses. To address this limitation, we develop a joint detection framework that combines trigger information from multiple detectors and assigns each candidate a joint association probability, $p_{\\text{joint}}$, as a function of the individual detector signal-to-noise ratios. We apply this framework to archival Fermi/GBM and Swift/BAT rates data from 2013-2025. The method effectively separates coincident signals from accidental background associations, suppressing inconsistent coincidences while enhancing the significance of faint events observed by both instruments. We find that, under optimal conditions, a two-mission search can increase the accessible volume for short gamma-ray bursts by up to $60\\%$. This framework provides a practical foundation for generalized multi-mission searches, enabling more sensitive exploration of the faint high-energy transient sky and improving the prospects for future multi-messenger discoveries.",
-      "arxiv_id": "2609.25672",
+      "abstract": "We extend the general relativistic Lagrangian perturbation formalism of Friedman and Schutz [Astrophys. J. 200, 204 (1975)] beyond linear order, retaining full time dependence of the perturbations. We provide general formulae to relate the Lagrangian and Eulerian perturbations to any general perturbative order. As a proof of principle, we apply the framework to tidally perturbed relativistic stars in Regge-Wheeler gauge and reduce the second-order field and conservation equations to master equations with a nonlinear source. Projecting the source onto the star's eigenmodes, we obtain a nonlinear equation of motion for the mode amplitudes and the coupling coefficients, which describe the interactions among the eigenmodes and with the external tidal field. Approximating the tidal field and the coupling coefficients, we compute the static quadratic Love number from the quadrupolar fundamental mode alone and find that it reproduces the direct metric-matching value to a reasonable accuracy of $4\\%$, up to a further correction arising from the Hamiltonian and momentum constraints of the second-order tidal field.",
+      "arxiv_id": "2610.18952",
       "authors": [
-        "Perera, Ariel",
-        "Zackay, Barak",
-        "Venumadhav, Tejaswi"
+        "Kwon, K. J.",
+        "Abhishek Hegade K., R.",
+        "Venumadhav, Tejaswi",
+        "Yu, Hang",
+        "Yunes, Nicol\u00e1s"
       ],
-      "bibcode": "2026arXiv260925672P",
+      "bibcode": "2026arXiv261018952K",
       "citation_count": 0,
       "doctype": "eprint",
-      "doi": "10.48550/arXiv.2609.25672",
-      "inspire_recid": "3206129",
-      "page": "arXiv:2609.25672",
+      "doi": "10.48550/arXiv.2610.18952",
+      "inspire_recid": "3215027",
+      "page": "arXiv:2610.18952",
       "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2609.25672",
+      "pub_raw": "eprint arXiv:2610.18952",
+      "pubdate": "2026-10-00",
+      "title": "Nonlinear Perturbations of Relativistic Stars",
+      "topic_confidence": 0.98,
+      "topic_source": "llm",
+      "topics": [
+        "Neutron stars"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
+      "year": 2026
+    },
+    {
+      "abstract": "Gravitational-wave~(GW) transients, strongly lensed by intervening galaxies and clusters, are expected to constitute a small fraction ($\\sim 0.1$-$0.5\\%$) of the events detectable by ground-based detectors. A strongly lensed binary black hole (BBH) merger will produce multiple copies of the GW signal arriving at different times at the detector. The abundance and time-delay distribution of these lensed events are sensitive to the mass, density profile, and redshift distribution of the lens population, and in turn, to the underlying nature of dark matter. Jana et al. (Phys.Rev.Lett. 135 (2025) 11, 111402) recently proposed a method to constrain the masses of warm dark matter (WDM) particles making use of the strongly lensed events detectable by next-generation GW detectors. In this work, we investigate the prospects of constraining the mass of the WDM particle using upcoming observations of the upgraded LIGO-Virgo-KAGRA network. This requires a careful modeling of the detector selection effects. The upcoming fifth observing run (O5) is expected to yield only a modest bound, since only a few lensed pairs are expected at that early stage. By the sixth observing run (O6), we forecast a bound on the WDM particle mass, $m_{\\rm wdm}^{-1} \\lesssim 0.1$-$0.2\\text{keV}^{-1}$ ($m_{\\rm wdm} \\gtrsim 5$-$10\\text{keV}$), which is comparable to the tightest existing astrophysical constraints. Runs beyond O6 will tighten the constraint by roughly an order of magnitude. Strongly lensed GWs therefore offer a complementary, competitive, and independent probe of dark matter.",
+      "arxiv_id": "2609.05020",
+      "authors": [
+        "Maity, Koustav N.",
+        "Jana, Souvik",
+        "Barsode, Ankur",
+        "Venumadhav, Tejaswi",
+        "Ajith, Parameswaran"
+      ],
+      "bibcode": "2026arXiv260905020M",
+      "citation_count": 0,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2609.05020",
+      "inspire_recid": "3200255",
+      "page": "arXiv:2609.05020",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2609.05020",
       "pubdate": "2026-09-00",
-      "title": "A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample",
+      "title": "Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future",
       "topic_confidence": 1.0,
       "topic_source": "manual_override",
       "topics": [
-        "Gamma ray bursts",
-        "Neutron stars",
-        "Gravitational waves"
+        "Dark matter",
+        "Gravitational lensing",
+        "Gravitational waves",
+        "Black holes",
+        "Cosmology"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
@@ -180,36 +184,60 @@
       "year": 2026
     },
     {
-      "abstract": "Gravitational-wave~(GW) transients, strongly lensed by intervening galaxies and clusters, are expected to constitute a small fraction ($\\sim 0.1$-$0.5\\%$) of the events detectable by ground-based detectors. A strongly lensed binary black hole (BBH) merger will produce multiple copies of the GW signal arriving at different times at the detector. The abundance and time-delay distribution of these lensed events are sensitive to the mass, density profile, and redshift distribution of the lens population, and in turn, to the underlying nature of dark matter. Jana et al. (Phys.Rev.Lett. 135 (2025) 11, 111402) recently proposed a method to constrain the masses of warm dark matter (WDM) particles making use of the strongly lensed events detectable by next-generation GW detectors. In this work, we investigate the prospects of constraining the mass of the WDM particle using upcoming observations of the upgraded LIGO-Virgo-KAGRA network. This requires a careful modeling of the detector selection effects. The upcoming fifth observing run (O5) is expected to yield only a modest bound, since only a few lensed pairs are expected at that early stage. By the sixth observing run (O6), we forecast a bound on the WDM particle mass, $m_{\\rm wdm}^{-1} \\lesssim 0.1$-$0.2\\text{keV}^{-1}$ ($m_{\\rm wdm} \\gtrsim 5$-$10\\text{keV}$), which is comparable to the tightest existing astrophysical constraints. Runs beyond O6 will tighten the constraint by roughly an order of magnitude. Strongly lensed GWs therefore offer a complementary, competitive, and independent probe of dark matter.",
-      "arxiv_id": "2609.05020",
+      "abstract": "The detection of faint high-energy transients is becoming increasingly important in time-domain and multi-messenger astronomy, particularly for identifying electromagnetic counterparts to binary neutron star mergers, high-energy neutrino events, and other weak transient phenomena. At present, the sensitivity of gamma-ray and hard X-ray searches is often limited by the detection threshold of individual instruments, leaving a population of faint transients inaccessible to single-mission analyses. To address this limitation, we develop a joint detection framework that combines trigger information from multiple detectors and assigns each candidate a joint association probability, $p_{\\text{joint}}$, as a function of the individual detector signal-to-noise ratios. We apply this framework to archival Fermi/GBM and Swift/BAT rates data from 2013-2025. The method effectively separates coincident signals from accidental background associations, suppressing inconsistent coincidences while enhancing the significance of faint events observed by both instruments. We find that, under optimal conditions, a two-mission search can increase the accessible volume for short gamma-ray bursts by up to $60\\%$. This framework provides a practical foundation for generalized multi-mission searches, enabling more sensitive exploration of the faint high-energy transient sky and improving the prospects for future multi-messenger discoveries.",
+      "arxiv_id": "2609.25672",
       "authors": [
-        "Maity, Koustav N.",
-        "Jana, Souvik",
-        "Barsode, Ankur",
-        "Venumadhav, Tejaswi",
-        "Ajith, Parameswaran"
+        "Perera, Ariel",
+        "Zackay, Barak",
+        "Venumadhav, Tejaswi"
       ],
-      "bibcode": "2026arXiv260905020M",
+      "bibcode": "2026arXiv260925672P",
       "citation_count": 0,
       "doctype": "eprint",
-      "doi": "10.48550/arXiv.2609.05020",
-      "inspire_recid": "3200255",
-      "page": "arXiv:2609.05020",
+      "doi": "10.48550/arXiv.2609.25672",
+      "inspire_recid": "3206129",
+      "page": "arXiv:2609.25672",
       "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2609.05020",
+      "pub_raw": "eprint arXiv:2609.25672",
       "pubdate": "2026-09-00",
-      "title": "Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future",
+      "title": "A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample",
       "topic_confidence": 1.0,
       "topic_source": "manual_override",
       "topics": [
-        "Dark matter",
-        "Gravitational lensing",
-        "Gravitational waves",
-        "Black holes",
-        "Cosmology"
+        "Gamma ray bursts",
+        "Neutron stars",
+        "Gravitational waves"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
+      "year": 2026
+    },
+    {
+      "abstract": "Using a combination of Hubble Space Telescope and James Webb Space Telescope imaging, a runaway supermassive black hole was recently identified with an inferred velocity of <inline-formula><mml:math><mml:mrow><mml:msubsup><mml:mrow><mml:mn>954</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>126</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>110</mml:mn></mml:mrow></mml:msubsup><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>km</mml:mi><mml:mtext> </mml:mtext><mml:msup><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>, likely ejected from a compact star-forming galaxy at <inline-formula><mml:math><mml:mi>z</mml:mi><mml:mo>\u224d</mml:mo><mml:mn>0.96</mml:mn></mml:math></inline-formula>. Assuming the runaway black hole originated from a gravitational-wave-driven merger of two supermassive black holes (SMBHs), we combine its measured recoil velocity with gravitational-wave recoil predictions from numerical relativity and black-hole perturbation theory to constrain the mass ratio and spin configuration of the progenitor binary that overcame the final-parsec problem and merged <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>70</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Myr</mml:mi></mml:math></inline-formula> ago. We find that the progenitor binary must have been precessing, with a mass ratio <inline-formula><mml:math><mml:msub><mml:mi>m</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>\u2272</mml:mo><mml:mn>6</mml:mn></mml:math></inline-formula>, and that the more massive SMBH likely possessed a high dimensionless spin magnitude (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>0.75</mml:mn></mml:math></inline-formula>) in order to generate a recoil of this magnitude. Such SMBH mergers could represent an interesting source population for the upcoming Laser Interferometer Space Antenna mission, with characteristic signal-to-noise ratios of order <inline-formula><mml:math><mml:mo>\u2273</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>3</mml:mn></mml:msup></mml:math></inline-formula>. Furthermore, the inferred progenitor SMBH properties suggest that the compact galaxy likely originated from a major, gas-rich (\"wet\") merger between two galaxies of comparable mass, with a mass ratio <inline-formula><mml:math><mml:mo>\u2272</mml:mo><mml:mn>4</mml:mn></mml:math></inline-formula>.",
+      "arxiv_id": "2601.18986",
+      "authors": [
+        "Islam, Tousif",
+        "Venumadhav, Tejaswi",
+        "Wadekar, Digvijay"
+      ],
+      "bibcode": "2026PhRvL.137c1404I",
+      "citation_count": 3,
+      "doctype": "article",
+      "doi": "10.1103/fm3n-sy3f",
+      "inspire_recid": "3112068",
+      "page": "031404",
+      "pub": "Physical Review Letters",
+      "pub_raw": "Physical Review Letters, Volume 137, Issue 3, id.031404, 8 pp.",
+      "pubdate": "2026-07-00",
+      "title": "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Black holes",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "137",
       "year": 2026
     },
     {
@@ -243,34 +271,6 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
-      "year": 2026
-    },
-    {
-      "abstract": "Using a combination of Hubble Space Telescope and James Webb Space Telescope imaging, a runaway supermassive black hole was recently identified with an inferred velocity of <inline-formula><mml:math><mml:mrow><mml:msubsup><mml:mrow><mml:mn>954</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>126</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>110</mml:mn></mml:mrow></mml:msubsup><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>km</mml:mi><mml:mtext> </mml:mtext><mml:msup><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>, likely ejected from a compact star-forming galaxy at <inline-formula><mml:math><mml:mi>z</mml:mi><mml:mo>\u224d</mml:mo><mml:mn>0.96</mml:mn></mml:math></inline-formula>. Assuming the runaway black hole originated from a gravitational-wave-driven merger of two supermassive black holes (SMBHs), we combine its measured recoil velocity with gravitational-wave recoil predictions from numerical relativity and black-hole perturbation theory to constrain the mass ratio and spin configuration of the progenitor binary that overcame the final-parsec problem and merged <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>70</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Myr</mml:mi></mml:math></inline-formula> ago. We find that the progenitor binary must have been precessing, with a mass ratio <inline-formula><mml:math><mml:msub><mml:mi>m</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>\u2272</mml:mo><mml:mn>6</mml:mn></mml:math></inline-formula>, and that the more massive SMBH likely possessed a high dimensionless spin magnitude (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>0.75</mml:mn></mml:math></inline-formula>) in order to generate a recoil of this magnitude. Such SMBH mergers could represent an interesting source population for the upcoming Laser Interferometer Space Antenna mission, with characteristic signal-to-noise ratios of order <inline-formula><mml:math><mml:mo>\u2273</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>3</mml:mn></mml:msup></mml:math></inline-formula>. Furthermore, the inferred progenitor SMBH properties suggest that the compact galaxy likely originated from a major, gas-rich (\"wet\") merger between two galaxies of comparable mass, with a mass ratio <inline-formula><mml:math><mml:mo>\u2272</mml:mo><mml:mn>4</mml:mn></mml:math></inline-formula>.",
-      "arxiv_id": "2601.18986",
-      "authors": [
-        "Islam, Tousif",
-        "Venumadhav, Tejaswi",
-        "Wadekar, Digvijay"
-      ],
-      "bibcode": "2026PhRvL.137c1404I",
-      "citation_count": 3,
-      "doctype": "article",
-      "doi": "10.1103/fm3n-sy3f",
-      "inspire_recid": "3112068",
-      "page": "031404",
-      "pub": "Physical Review Letters",
-      "pub_raw": "Physical Review Letters, Volume 137, Issue 3, id.031404, 8 pp.",
-      "pubdate": "2026-07-00",
-      "title": "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Black holes",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "137",
       "year": 2026
     },
     {
