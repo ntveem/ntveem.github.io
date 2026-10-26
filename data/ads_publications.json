@@ -1,6 +1,35 @@
 {
   "papers": [
     {
+      "abstract": "We extend the general relativistic Lagrangian perturbation formalism of Friedman and Schutz [Astrophys. J. 200, 204 (1975)] beyond linear order, retaining full time dependence of the perturbations. We provide general formulae to relate the Lagrangian and Eulerian perturbations to any general perturbative order. As a proof of principle, we apply the framework to tidally perturbed relativistic stars in Regge-Wheeler gauge and reduce the second-order field and conservation equations to master equations with a nonlinear source. Projecting the source onto the star's eigenmodes, we obtain a nonlinear equation of motion for the mode amplitudes and the coupling coefficients, which describe the interactions among the eigenmodes and with the external tidal field. Approximating the tidal field and the coupling coefficients, we compute the static quadratic Love number from the quadrupolar fundamental mode alone and find that it reproduces the direct metric-matching value to a reasonable accuracy of $4\\%$, up to a further correction arising from the Hamiltonian and momentum constraints of the second-order tidal field.",
+      "arxiv_id": "2610.18952",
+      "authors": [
+        "Kwon, K. J.",
+        "Abhishek Hegade K., R.",
+        "Venumadhav, Tejaswi",
+        "Yu, Hang",
+        "Yunes, Nicol\u00e1s"
+      ],
+      "bibcode": "2026arXiv261018952K",
+      "citation_count": 0,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2610.18952",
+      "inspire_recid": "3215027",
+      "page": "arXiv:2610.18952",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2610.18952",
+      "pubdate": "2026-10-00",
+      "title": "Nonlinear Perturbations of Relativistic Stars",
+      "topic_confidence": 0.98,
+      "topic_source": "llm",
+      "topics": [
+        "Neutron stars"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
+      "year": 2026
+    },
+    {
       "abstract": "Gravitational lensing can split the signal of a binary merger into two images, which either overlap and interfere or arrive as separate events. We show that the matched-filter output of every two-image template can be straightforwardly constructed from the signal-to-noise ratio (SNR) time series that searches already compute with unlensed templates. This enables a marginalized detection statistic that increases search sensitivity without additional matched filtering and is more than 150 times faster than an explicit lensed template bank. For overlapping images in the geometric-optics regime, our two-image method recovers $\\gtrsim97\\%$ of the optimal SNR from point-mass and singular isothermal lenses, compared with as little as $67\\%$ captured by unlensed templates, with substantial gains also for Chang-Refsdal and cored isothermal lenses. Overlapping lensed signals moreover fail the signal-consistency test that is used to down-rank noise transients. Our two-image method restores the consistency and increases the sensitive volume by roughly $2$-$4\\times$ for the strongly down-ranked signals. For separated images, our method enables an efficient coherent search for pairs in which neither image is significant alone. Near fold caustics, this increases the sensitive volume by factors of 1.8-2.6 over requiring two independent detections, and up to 1.6 over a targeted counterpart search. Our method is applicable to any matched-filtering search.",
       "arxiv_id": "2610.26080",
       "authors": [
@@ -37,27 +66,54 @@
       "year": 2026
     },
     {
-      "abstract": "We extend the general relativistic Lagrangian perturbation formalism of Friedman and Schutz [Astrophys. J. 200, 204 (1975)] beyond linear order, retaining full time dependence of the perturbations. We provide general formulae to relate the Lagrangian and Eulerian perturbations to any general perturbative order. As a proof of principle, we apply the framework to tidally perturbed relativistic stars in Regge-Wheeler gauge and reduce the second-order field and conservation equations to master equations with a nonlinear source. Projecting the source onto the star's eigenmodes, we obtain a nonlinear equation of motion for the mode amplitudes and the coupling coefficients, which describe the interactions among the eigenmodes and with the external tidal field. Approximating the tidal field and the coupling coefficients, we compute the static quadratic Love number from the quadrupolar fundamental mode alone and find that it reproduces the direct metric-matching value to a reasonable accuracy of $4\\%$, up to a further correction arising from the Hamiltonian and momentum constraints of the second-order tidal field.",
-      "arxiv_id": "2610.18952",
+      "abstract": "The detection of faint high-energy transients is becoming increasingly important in time-domain and multi-messenger astronomy, particularly for identifying electromagnetic counterparts to binary neutron star mergers, high-energy neutrino events, and other weak transient phenomena. At present, the sensitivity of gamma-ray and hard X-ray searches is often limited by the detection threshold of individual instruments, leaving a population of faint transients inaccessible to single-mission analyses. To address this limitation, we develop a joint detection framework that combines trigger information from multiple detectors and assigns each candidate a joint association probability, $p_{\\text{joint}}$, as a function of the individual detector signal-to-noise ratios. We apply this framework to archival Fermi/GBM and Swift/BAT rates data from 2013-2025. The method effectively separates coincident signals from accidental background associations, suppressing inconsistent coincidences while enhancing the significance of faint events observed by both instruments. We find that, under optimal conditions, a two-mission search can increase the accessible volume for short gamma-ray bursts by up to $60\\%$. This framework provides a practical foundation for generalized multi-mission searches, enabling more sensitive exploration of the faint high-energy transient sky and improving the prospects for future multi-messenger discoveries.",
+      "arxiv_id": "2609.25672",
       "authors": [
-        "Kwon, K. J.",
-        "Abhishek Hegade K., R.",
-        "Venumadhav, Tejaswi",
-        "Yu, Hang",
-        "Yunes, Nicol\u00e1s"
+        "Perera, Ariel",
+        "Zackay, Barak",
+        "Venumadhav, Tejaswi"
       ],
-      "bibcode": "2026arXiv261018952K",
+      "bibcode": "2026arXiv260925672P",
       "citation_count": 0,
       "doctype": "eprint",
-      "doi": "10.48550/arXiv.2610.18952",
-      "inspire_recid": "3215027",
-      "page": "arXiv:2610.18952",
+      "doi": "10.48550/arXiv.2609.25672",
+      "inspire_recid": "3206129",
+      "page": "arXiv:2609.25672",
       "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2610.18952",
-      "pubdate": "2026-10-00",
-      "title": "Nonlinear Perturbations of Relativistic Stars",
-      "topic_confidence": 0.98,
-      "topic_source": "llm",
+      "pub_raw": "eprint arXiv:2609.25672",
+      "pubdate": "2026-09-00",
+      "title": "A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
+      "topics": [
+        "Gamma ray bursts",
+        "Neutron stars",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
+      "year": 2026
+    },
+    {
+      "abstract": "Galactic magnetars are a rare class of neutron stars with extreme magnetic fields, with only about 30 known sources. Their short hard X-ray and soft gamma-ray bursts provide an important channel for discovering magnetar activity. Wide-field instruments such as the Fermi Gamma-ray Burst Monitor (GBM) are well suited to detecting these bursts, but their broad localization uncertainties make it difficult to associate individual bursts with specific sources. Coded-aperture telescopes, in contrast, provide arcminute-scale localizations but have narrower fields of view. We search for previously unidentified magnetars and construct a magnetar burst catalog by combining a broad sample of short, soft triggers from our coherent GBM detection pipeline over 2013-2025 with targeted searches of archival Swift/BAT images. We develop a statistical association framework that uses BAT detections to localize GBM bursts to arcminute precision, together with a spatio-temporal clustering framework that associates poorly localized bursts with common sources. Together, these methods identify 1720 magnetar bursts, of which 1170 are confidently associated with 11 known magnetars. The remaining 550 bursts could not be assigned to specific sources. We identify seven candidate new magnetars through three complementary discovery channels. The catalog, composed of the associated bursts, extends to the lowest fluences observed by GBM. We also provide spectral and temporal analyses of the catalog. The new candidate sources provide targets for X-ray follow-up that could reveal previously unidentified Galactic magnetars. More broadly, this work demonstrates how combining instruments with complementary capabilities can maximize the scientific return of high-energy transient observations.",
+      "arxiv_id": "2609.26897",
+      "authors": [
+        "Perera, Ariel",
+        "Zackay, Barak",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2026arXiv260926897P",
+      "citation_count": 0,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2609.26897",
+      "inspire_recid": "3206693",
+      "page": "arXiv:2609.26897",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2609.26897",
+      "pubdate": "2026-09-00",
+      "title": "A Coherent Search for New Galactic Magnetars using Fermi/GBM and follow-up Swift/BAT: 7 Candidates and a Large Burst Catalog",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
       "topics": [
         "Neutron stars"
       ],
@@ -157,90 +213,6 @@
       "year": 2026
     },
     {
-      "abstract": "Galactic magnetars are a rare class of neutron stars with extreme magnetic fields, with only about 30 known sources. Their short hard X-ray and soft gamma-ray bursts provide an important channel for discovering magnetar activity. Wide-field instruments such as the Fermi Gamma-ray Burst Monitor (GBM) are well suited to detecting these bursts, but their broad localization uncertainties make it difficult to associate individual bursts with specific sources. Coded-aperture telescopes, in contrast, provide arcminute-scale localizations but have narrower fields of view. We search for previously unidentified magnetars and construct a magnetar burst catalog by combining a broad sample of short, soft triggers from our coherent GBM detection pipeline over 2013-2025 with targeted searches of archival Swift/BAT images. We develop a statistical association framework that uses BAT detections to localize GBM bursts to arcminute precision, together with a spatio-temporal clustering framework that associates poorly localized bursts with common sources. Together, these methods identify 1720 magnetar bursts, of which 1170 are confidently associated with 11 known magnetars. The remaining 550 bursts could not be assigned to specific sources. We identify seven candidate new magnetars through three complementary discovery channels. The catalog, composed of the associated bursts, extends to the lowest fluences observed by GBM. We also provide spectral and temporal analyses of the catalog. The new candidate sources provide targets for X-ray follow-up that could reveal previously unidentified Galactic magnetars. More broadly, this work demonstrates how combining instruments with complementary capabilities can maximize the scientific return of high-energy transient observations.",
-      "arxiv_id": "2609.26897",
-      "authors": [
-        "Perera, Ariel",
-        "Zackay, Barak",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2026arXiv260926897P",
-      "citation_count": 0,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2609.26897",
-      "inspire_recid": "3206693",
-      "page": "arXiv:2609.26897",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2609.26897",
-      "pubdate": "2026-09-00",
-      "title": "A Coherent Search for New Galactic Magnetars using Fermi/GBM and follow-up Swift/BAT: 7 Candidates and a Large Burst Catalog",
-      "topic_confidence": 1.0,
-      "topic_source": "manual_override",
-      "topics": [
-        "Neutron stars"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2026
-    },
-    {
-      "abstract": "The detection of faint high-energy transients is becoming increasingly important in time-domain and multi-messenger astronomy, particularly for identifying electromagnetic counterparts to binary neutron star mergers, high-energy neutrino events, and other weak transient phenomena. At present, the sensitivity of gamma-ray and hard X-ray searches is often limited by the detection threshold of individual instruments, leaving a population of faint transients inaccessible to single-mission analyses. To address this limitation, we develop a joint detection framework that combines trigger information from multiple detectors and assigns each candidate a joint association probability, $p_{\\text{joint}}$, as a function of the individual detector signal-to-noise ratios. We apply this framework to archival Fermi/GBM and Swift/BAT rates data from 2013-2025. The method effectively separates coincident signals from accidental background associations, suppressing inconsistent coincidences while enhancing the significance of faint events observed by both instruments. We find that, under optimal conditions, a two-mission search can increase the accessible volume for short gamma-ray bursts by up to $60\\%$. This framework provides a practical foundation for generalized multi-mission searches, enabling more sensitive exploration of the faint high-energy transient sky and improving the prospects for future multi-messenger discoveries.",
-      "arxiv_id": "2609.25672",
-      "authors": [
-        "Perera, Ariel",
-        "Zackay, Barak",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2026arXiv260925672P",
-      "citation_count": 0,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2609.25672",
-      "inspire_recid": "3206129",
-      "page": "arXiv:2609.25672",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2609.25672",
-      "pubdate": "2026-09-00",
-      "title": "A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample",
-      "topic_confidence": 1.0,
-      "topic_source": "manual_override",
-      "topics": [
-        "Gamma ray bursts",
-        "Neutron stars",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2026
-    },
-    {
-      "abstract": "Using a combination of Hubble Space Telescope and James Webb Space Telescope imaging, a runaway supermassive black hole was recently identified with an inferred velocity of <inline-formula><mml:math><mml:mrow><mml:msubsup><mml:mrow><mml:mn>954</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>126</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>110</mml:mn></mml:mrow></mml:msubsup><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>km</mml:mi><mml:mtext> </mml:mtext><mml:msup><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>, likely ejected from a compact star-forming galaxy at <inline-formula><mml:math><mml:mi>z</mml:mi><mml:mo>\u224d</mml:mo><mml:mn>0.96</mml:mn></mml:math></inline-formula>. Assuming the runaway black hole originated from a gravitational-wave-driven merger of two supermassive black holes (SMBHs), we combine its measured recoil velocity with gravitational-wave recoil predictions from numerical relativity and black-hole perturbation theory to constrain the mass ratio and spin configuration of the progenitor binary that overcame the final-parsec problem and merged <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>70</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Myr</mml:mi></mml:math></inline-formula> ago. We find that the progenitor binary must have been precessing, with a mass ratio <inline-formula><mml:math><mml:msub><mml:mi>m</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>\u2272</mml:mo><mml:mn>6</mml:mn></mml:math></inline-formula>, and that the more massive SMBH likely possessed a high dimensionless spin magnitude (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>0.75</mml:mn></mml:math></inline-formula>) in order to generate a recoil of this magnitude. Such SMBH mergers could represent an interesting source population for the upcoming Laser Interferometer Space Antenna mission, with characteristic signal-to-noise ratios of order <inline-formula><mml:math><mml:mo>\u2273</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>3</mml:mn></mml:msup></mml:math></inline-formula>. Furthermore, the inferred progenitor SMBH properties suggest that the compact galaxy likely originated from a major, gas-rich (\"wet\") merger between two galaxies of comparable mass, with a mass ratio <inline-formula><mml:math><mml:mo>\u2272</mml:mo><mml:mn>4</mml:mn></mml:math></inline-formula>.",
-      "arxiv_id": "2601.18986",
-      "authors": [
-        "Islam, Tousif",
-        "Venumadhav, Tejaswi",
-        "Wadekar, Digvijay"
-      ],
-      "bibcode": "2026PhRvL.137c1404I",
-      "citation_count": 3,
-      "doctype": "article",
-      "doi": "10.1103/fm3n-sy3f",
-      "inspire_recid": "3112068",
-      "page": "031404",
-      "pub": "Physical Review Letters",
-      "pub_raw": "Physical Review Letters, Volume 137, Issue 3, id.031404, 8 pp.",
-      "pubdate": "2026-07-00",
-      "title": "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Black holes",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "137",
-      "year": 2026
-    },
-    {
       "abstract": "GW231123, if unlensed, is a rare binary black hole merger with high masses and high spins for both progenitors. We show that the signal is better fitted by a lower-mass, lower-spin merger that is diffraction-lensed by an isolated object of redshifted mass $\\sim 1000\\,\\rm M_\\odot$, modeled either as a point mass or as a spherically symmetric compact halo. Because diffraction-lensed events are also rare, hypothesis testing should quote the posterior odds ratio rather than the Bayes factor, which requires quantifying our prior belief in the two hypotheses. We adopt the GWTC-5 population distribution as our source parameter prior, and quantify the prior on the lens hypothesis through the lensing optical depth. For a point-mass lens, observational constraints on the abundance of black holes in the Universe yield an upper bound on the optical depth, and hence on the posterior odds, which do not rule out lensing. However, using a predicted mass function of intermediate-mass black holes formed in star clusters gives a low optical depth that strongly disfavors lensing. For a dark matter halo lens, standard collisionless cold dark matter does not form halos compact enough to give the required optical depth, but self-interacting dark matter with a large cross section at low velocities can trigger gravothermal collapse and form them, in which case the posterior odds are inconclusive. In either case, from a frequentist perspective, we show that detecting a lensed event with properties like GW231123 is unlikely. These conclusions apply to isolated lenses, while a lens embedded in an external gravitational potential could change the picture.",
       "arxiv_id": "2607.21834",
       "authors": [
@@ -305,6 +277,34 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
+      "year": 2026
+    },
+    {
+      "abstract": "Using a combination of Hubble Space Telescope and James Webb Space Telescope imaging, a runaway supermassive black hole was recently identified with an inferred velocity of <inline-formula><mml:math><mml:mrow><mml:msubsup><mml:mrow><mml:mn>954</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>126</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>110</mml:mn></mml:mrow></mml:msubsup><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>km</mml:mi><mml:mtext> </mml:mtext><mml:msup><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>, likely ejected from a compact star-forming galaxy at <inline-formula><mml:math><mml:mi>z</mml:mi><mml:mo>\u224d</mml:mo><mml:mn>0.96</mml:mn></mml:math></inline-formula>. Assuming the runaway black hole originated from a gravitational-wave-driven merger of two supermassive black holes (SMBHs), we combine its measured recoil velocity with gravitational-wave recoil predictions from numerical relativity and black-hole perturbation theory to constrain the mass ratio and spin configuration of the progenitor binary that overcame the final-parsec problem and merged <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>70</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Myr</mml:mi></mml:math></inline-formula> ago. We find that the progenitor binary must have been precessing, with a mass ratio <inline-formula><mml:math><mml:msub><mml:mi>m</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>\u2272</mml:mo><mml:mn>6</mml:mn></mml:math></inline-formula>, and that the more massive SMBH likely possessed a high dimensionless spin magnitude (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>0.75</mml:mn></mml:math></inline-formula>) in order to generate a recoil of this magnitude. Such SMBH mergers could represent an interesting source population for the upcoming Laser Interferometer Space Antenna mission, with characteristic signal-to-noise ratios of order <inline-formula><mml:math><mml:mo>\u2273</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>3</mml:mn></mml:msup></mml:math></inline-formula>. Furthermore, the inferred progenitor SMBH properties suggest that the compact galaxy likely originated from a major, gas-rich (\"wet\") merger between two galaxies of comparable mass, with a mass ratio <inline-formula><mml:math><mml:mo>\u2272</mml:mo><mml:mn>4</mml:mn></mml:math></inline-formula>.",
+      "arxiv_id": "2601.18986",
+      "authors": [
+        "Islam, Tousif",
+        "Venumadhav, Tejaswi",
+        "Wadekar, Digvijay"
+      ],
+      "bibcode": "2026PhRvL.137c1404I",
+      "citation_count": 3,
+      "doctype": "article",
+      "doi": "10.1103/fm3n-sy3f",
+      "inspire_recid": "3112068",
+      "page": "031404",
+      "pub": "Physical Review Letters",
+      "pub_raw": "Physical Review Letters, Volume 137, Issue 3, id.031404, 8 pp.",
+      "pubdate": "2026-07-00",
+      "title": "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Black holes",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "137",
       "year": 2026
     },
     {
@@ -541,39 +541,6 @@
       "year": 2025
     },
     {
-      "abstract": "Parameter estimation (PE) for compact binary coalescence (CBC) events observed by gravitational wave (GW) laser interferometers is a core task in GW astrophysics. We present a method to compute the posterior distribution efficiently without relying on stochastic samplers. First, we show how to select sets of intrinsic and extrinsic parameters that efficiently cover the relevant phase space. We then show how to compute the likelihood for all combinations of these parameters using dot products. We describe how to assess and tune the integration accuracy, making the outcome predictable and adaptable to different applications. The low computational cost allows full PE in minutes on a single CPU, with the potential for further acceleration using multiple CPUs or GPUs. We implement this method in the dot-PE package, enabling sensitive searches using the full evidence integral for precessing CBCs and supporting large waveform banks (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>5</mml:mn></mml:msup><mml:mi>\u2500</mml:mi><mml:msup><mml:mn>10</mml:mn><mml:mn>6</mml:mn></mml:msup></mml:math></inline-formula> waveforms), regardless of waveform generation cost.",
-      "arxiv_id": "2507.16022",
-      "authors": [
-        "Mushkin, Jonathan",
-        "Roulet, Javier",
-        "Zackay, Barak",
-        "Venumadhav, Tejaswi",
-        "Ivashtenko, Oryna",
-        "Wadekar, Digvijay",
-        "Mehta, Ajit Kumar",
-        "Zaldarriaga, Matias"
-      ],
-      "bibcode": "2025PhRvD.112j4025M",
-      "citation_count": 6,
-      "doctype": "article",
-      "doi": "10.1103/vqj2-7qpz",
-      "inspire_recid": "2952995",
-      "page": "104025",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 112, Issue 10, id.104025, 19 pp.",
-      "pubdate": "2025-11-00",
-      "title": "Sampler-free gravitational wave inference using matrix multiplication",
-      "topic_confidence": 1.0,
-      "topic_source": "manual_override",
-      "topics": [
-        "Gravitational waves",
-        "Black holes"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "112",
-      "year": 2025
-    },
-    {
       "abstract": "Characterizing eccentricity in gravitational waveforms in a consistent manner is crucial to facilitate parameter estimation, astrophysical population studies, as well as searches for these rare systems. We present a framework to characterize eccentricity directly from gravitational waveforms for nonprecessing eccentric binary black hole mergers using common modulations that eccentricity induces in all spherical harmonic modes of the signals. Our framework is in the spirit of existing methods that use frequency modulations in the waveforms, but we refine the approach by connecting it with state-of-the-art post-Newtonian calculations of the time evolution of the eccentricity. Using 39 numerical relativity (NR) simulations from the SXS and RIT catalogs, as well as waveforms obtained from the post-Newtonian approximation and effective-one-body formalism, we show that our framework provides eccentricity estimates that connect smoothly into the relativistic regime (even up to <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>2</mml:mn><mml:mi>M</mml:mi></mml:math></inline-formula> before merger). We also find that it is necessary to carry existing post-Newtonian calculations to an extra 0.5 post-Newtonian order to adequately characterize existing NR simulations, and provide fits to the extra coefficient for existing simulations. We make the framework publicly available through the PYTHON-based GWMODELS package.",
       "arxiv_id": "2502.02739",
       "authors": [
@@ -626,6 +593,39 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "281",
+      "year": 2025
+    },
+    {
+      "abstract": "Parameter estimation (PE) for compact binary coalescence (CBC) events observed by gravitational wave (GW) laser interferometers is a core task in GW astrophysics. We present a method to compute the posterior distribution efficiently without relying on stochastic samplers. First, we show how to select sets of intrinsic and extrinsic parameters that efficiently cover the relevant phase space. We then show how to compute the likelihood for all combinations of these parameters using dot products. We describe how to assess and tune the integration accuracy, making the outcome predictable and adaptable to different applications. The low computational cost allows full PE in minutes on a single CPU, with the potential for further acceleration using multiple CPUs or GPUs. We implement this method in the dot-PE package, enabling sensitive searches using the full evidence integral for precessing CBCs and supporting large waveform banks (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>5</mml:mn></mml:msup><mml:mi>\u2500</mml:mi><mml:msup><mml:mn>10</mml:mn><mml:mn>6</mml:mn></mml:msup></mml:math></inline-formula> waveforms), regardless of waveform generation cost.",
+      "arxiv_id": "2507.16022",
+      "authors": [
+        "Mushkin, Jonathan",
+        "Roulet, Javier",
+        "Zackay, Barak",
+        "Venumadhav, Tejaswi",
+        "Ivashtenko, Oryna",
+        "Wadekar, Digvijay",
+        "Mehta, Ajit Kumar",
+        "Zaldarriaga, Matias"
+      ],
+      "bibcode": "2025PhRvD.112j4025M",
+      "citation_count": 6,
+      "doctype": "article",
+      "doi": "10.1103/vqj2-7qpz",
+      "inspire_recid": "2952995",
+      "page": "104025",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 112, Issue 10, id.104025, 19 pp.",
+      "pubdate": "2025-11-00",
+      "title": "Sampler-free gravitational wave inference using matrix multiplication",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "112",
       "year": 2025
     },
     {
@@ -984,34 +984,6 @@
       "year": 2024
     },
     {
-      "abstract": "Neutron stars in coalescing binaries deform due to the tidal gravitational fields generated by their companions. During the inspiral phase, the tidal deformation is dominated by the fundamental oscillation ($f$-) mode of the stars. The tide also has sub-dominant gravity ($g$-) modes that are resonantly excited when the linear tidal forcing sweeps through their eigenfrequencies. Beyond the linear order in perturbed fluid displacement, the $g$-modes are anharmonic, i.e., their oscillation frequencies depend on the mode energy. For the lowest-order $g$-mode, we show that when the tidal forcing reaches its linear eigenfrequency, the mode starts to dynamically adjust its energy so that its nonlinearly shifted oscillation frequency always matches that of the driving field. This phenomenon, which we term `resonance locking', persists through the rest of the inspiral, and hence, the mode grows to substantially larger energies than in the linear theory. Using a $1.4$--$1.4\\, M_{\\odot}$ binary neutron star system with the SLy4 equation of state, we find this results in an extra correction to the frequency-domain gravitational wave (GW) phase of $|\\Delta \\Psi|\\approx 3\\,{\\rm rad}$ accumulated from the onset of resonance locking at the GW frequency of $94\\,{\\rm Hz}$ to the merger at $1.05\\,{\\rm kHz}$. This effect probes details of the internal structure of merging neutron stars beyond their bulk properties such as tidal deformability.",
-      "arxiv_id": "2410.03831",
-      "authors": [
-        "Kwon, K. J.",
-        "Yu, Hang",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2024arXiv241003831K",
-      "citation_count": 17,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2410.03831",
-      "inspire_recid": "2837623",
-      "page": "arXiv:2410.03831",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2410.03831",
-      "pubdate": "2024-10-00",
-      "title": "Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Neutron stars",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2024
-    },
-    {
       "abstract": "Searches for gravitational wave events use models, or templates, for the signals of interest. The templates used in current searches in the LIGO-Virgo-KAGRA data model the dominant quadrupole mode <inline-formula><mml:math display=\"inline\"><mml:mo stretchy=\"false\">(</mml:mo><mml:mo>\u2113</mml:mo><mml:mo>,</mml:mo><mml:mo stretchy=\"false\">|</mml:mo><mml:mi>m</mml:mi><mml:mo stretchy=\"false\">|</mml:mo><mml:mo stretchy=\"false\">)</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy=\"false\">(</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy=\"false\">)</mml:mo></mml:math></inline-formula> of the signals and omit subdominant higher-order modes (HMs) such as <inline-formula><mml:math display=\"inline\"><mml:mo stretchy=\"false\">(</mml:mo><mml:mo>\u2113</mml:mo><mml:mo>,</mml:mo><mml:mo stretchy=\"false\">|</mml:mo><mml:mi>m</mml:mi><mml:mo stretchy=\"false\">|</mml:mo><mml:mo stretchy=\"false\">)</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy=\"false\">(</mml:mo><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mn>3</mml:mn><mml:mo stretchy=\"false\">)</mml:mo></mml:math></inline-formula>, (4, 4), which are predicted by general relativity. This omission reduces search sensitivity to black hole mergers in interesting parts of parameter space, such as systems with high masses and asymmetric-mass ratios. We develop a new strategy to include HMs in template banks: instead of making templates containing a combination of different modes, we separately store normalized templates corresponding to (2, 2), (3, 3), and (4, 4) modes. To model aligned-spin (3, 3), (4, 4) waveforms corresponding to a given (2, 2) waveform, we use a combination of post-Newtonian formulas and machine learning tools. In the matched-filtering stage, one can filter each mode separately with the data and collect the time series of signal-to-noise ratios (SNRs). This leads to a HM template bank whose matched-filtering cost is just <inline-formula><mml:math display=\"inline\"><mml:mo>\u2248</mml:mo><mml:mn>3</mml:mn><mml:mo>\u00d7</mml:mo></mml:math></inline-formula> that of a quadrupole-only search (as opposed to <inline-formula><mml:math display=\"inline\"><mml:mo>\u2248</mml:mo><mml:mn>100</mml:mn><mml:mo>\u00d7</mml:mo></mml:math></inline-formula> in previously proposed HM search methods). Our method is effectual and generally applicable for template banks constructed with either stochastic or geometric placement techniques. New gravitational wave candidate events that we detect using our HM banks and details for combining the different SNR mode time series are presented in accompanying papers [D. Wadekar et al., arXiv:2312.06631; D. Wadekar et al., Phys. Rev. D 110, 044063 (2024)PRVDAQ2470-001010.1103/PhysRevD.110.044063]. Additionally, we discuss nonlinear compression of (2, 2)-only geometric placement template banks using machine learning algorithms.",
       "arxiv_id": "2310.15233",
       "authors": [
@@ -1042,6 +1014,34 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "110",
+      "year": 2024
+    },
+    {
+      "abstract": "Neutron stars in coalescing binaries deform due to the tidal gravitational fields generated by their companions. During the inspiral phase, the tidal deformation is dominated by the fundamental oscillation ($f$-) mode of the stars. The tide also has sub-dominant gravity ($g$-) modes that are resonantly excited when the linear tidal forcing sweeps through their eigenfrequencies. Beyond the linear order in perturbed fluid displacement, the $g$-modes are anharmonic, i.e., their oscillation frequencies depend on the mode energy. For the lowest-order $g$-mode, we show that when the tidal forcing reaches its linear eigenfrequency, the mode starts to dynamically adjust its energy so that its nonlinearly shifted oscillation frequency always matches that of the driving field. This phenomenon, which we term `resonance locking', persists through the rest of the inspiral, and hence, the mode grows to substantially larger energies than in the linear theory. Using a $1.4$--$1.4\\, M_{\\odot}$ binary neutron star system with the SLy4 equation of state, we find this results in an extra correction to the frequency-domain gravitational wave (GW) phase of $|\\Delta \\Psi|\\approx 3\\,{\\rm rad}$ accumulated from the onset of resonance locking at the GW frequency of $94\\,{\\rm Hz}$ to the merger at $1.05\\,{\\rm kHz}$. This effect probes details of the internal structure of merging neutron stars beyond their bulk properties such as tidal deformability.",
+      "arxiv_id": "2410.03831",
+      "authors": [
+        "Kwon, K. J.",
+        "Yu, Hang",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2024arXiv241003831K",
+      "citation_count": 17,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2410.03831",
+      "inspire_recid": "2837623",
+      "page": "arXiv:2410.03831",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2410.03831",
+      "pubdate": "2024-10-00",
+      "title": "Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Neutron stars",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
       "year": 2024
     },
     {
