@@ -54,32 +54,32 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(102 43% 40%);--topic-active:hsl(102 47% 33%);">Gamma ray bursts</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
 </article>
 
-<article id="paper-4" class="pub-entry" data-topics="Neutron stars">
-<p class="pub-citation">4. Perera, A., Zackay, B., & <strong>Venumadhav, T.</strong> (2026)</p>
+<article id="paper-4" class="pub-entry" data-topics="Dark matter|Gravitational lensing|Gravitational waves|Black holes|Cosmology">
+<p class="pub-citation">4. Maity, K.N., Jana, S., Barsode, A., <strong>Venumadhav, T.</strong>, & Ajith, P. (2026)</p>
+<p class="pub-title"><em>Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260905020M/abstract">ADS</a> <a href="https://arxiv.org/abs/2609.05020">arxiv</a> <a href="https://inspirehep.net/record/3200255">INSPIRE</a></p>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(336 46% 46%);--topic-active:hsl(336 49% 38%);">Dark matter</span> <span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span></div>
+</article>
+
+<article id="paper-5" class="pub-entry" data-topics="Neutron stars">
+<p class="pub-citation">5. Perera, A., Zackay, B., & <strong>Venumadhav, T.</strong> (2026)</p>
 <p class="pub-title"><em>A Coherent Search for New Galactic Magnetars using Fermi/GBM and follow-up Swift/BAT: 7 Candidates and a Large Burst Catalog</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260926897P/abstract">ADS</a> <a href="https://arxiv.org/abs/2609.26897">arxiv</a> <a href="https://inspirehep.net/record/3206693">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span></div>
 </article>
 
-<article id="paper-5" class="pub-entry" data-topics="Neutron stars|Gravitational waves">
-<p class="pub-citation">5. Abhishek Hegade K., R., Kwon, K.J., <strong>Venumadhav, T.</strong>, Yu, H., & Yunes, N. (2026)</p>
+<article id="paper-6" class="pub-entry" data-topics="Neutron stars|Gravitational waves">
+<p class="pub-citation">6. Abhishek Hegade K., R., Kwon, K.J., <strong>Venumadhav, T.</strong>, Yu, H., & Yunes, N. (2026)</p>
 <p class="pub-title"><em>Relativistic mode sums for neutron-star tidal response</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026PhRvD.114f4048R/abstract">ADS</a> <a href="https://arxiv.org/abs/2605.08569">arxiv</a> <a href="https://inspirehep.net/record/3154134">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
 </article>
 
-<article id="paper-6" class="pub-entry" data-topics="Gamma ray bursts|Neutron stars">
-<p class="pub-citation">6. Perera, A., Zackay, B., & <strong>Venumadhav, T.</strong> (2026)</p>
+<article id="paper-7" class="pub-entry" data-topics="Gamma ray bursts|Neutron stars">
+<p class="pub-citation">7. Perera, A., Zackay, B., & <strong>Venumadhav, T.</strong> (2026)</p>
 <p class="pub-title"><em>Expanding the population of short gamma-ray transients with a coherent Fermi/GBM search: a 13-yr catalogue of short GRBs</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026MNRAS.551g1592P/abstract">ADS</a> <a href="https://arxiv.org/abs/2605.31554">arxiv</a> <a href="https://inspirehep.net/record/3163133">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(102 43% 40%);--topic-active:hsl(102 47% 33%);">Gamma ray bursts</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span></div>
-</article>
-
-<article id="paper-7" class="pub-entry" data-topics="Dark matter|Gravitational lensing|Gravitational waves|Black holes|Cosmology">
-<p class="pub-citation">7. Maity, K.N., Jana, S., Barsode, A., <strong>Venumadhav, T.</strong>, & Ajith, P. (2026)</p>
-<p class="pub-title"><em>Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260905020M/abstract">ADS</a> <a href="https://arxiv.org/abs/2609.05020">arxiv</a> <a href="https://inspirehep.net/record/3200255">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(336 46% 46%);--topic-active:hsl(336 49% 38%);">Dark matter</span> <span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(214 55% 47%);--topic-active:hsl(214 57% 40%);">Cosmology</span></div>
 </article>
 
 <article id="paper-8" class="pub-entry" data-topics="Neutron stars|Gravitational waves">
@@ -89,18 +89,18 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
 </article>
 
-<article id="paper-9" class="pub-entry" data-topics="Gravitational waves|Black holes|Gravitational lensing|Dark matter">
-<p class="pub-citation">9. Ho-Yeuk Cheung, M., Wadekar, D., Zaldarriaga, M., <strong>Venumadhav, T.</strong>, Roulet, J., & Mehta, A.K. (2026)</p>
-<p class="pub-title"><em>The diffraction-lensing interpretation of GW231123 with astrophysical priors</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260721834H/abstract">ADS</a> <a href="https://arxiv.org/abs/2607.21834">arxiv</a> <a href="https://inspirehep.net/record/3183174">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(336 46% 46%);--topic-active:hsl(336 49% 38%);">Dark matter</span></div>
-</article>
-
-<article id="paper-10" class="pub-entry" data-topics="Black holes|Gravitational waves">
-<p class="pub-citation">10. Islam, T., <strong>Venumadhav, T.</strong>, & Wadekar, D. (2026)</p>
+<article id="paper-9" class="pub-entry" data-topics="Black holes|Gravitational waves">
+<p class="pub-citation">9. Islam, T., <strong>Venumadhav, T.</strong>, & Wadekar, D. (2026)</p>
 <p class="pub-title"><em>Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026PhRvL.137c1404I/abstract">ADS</a> <a href="https://arxiv.org/abs/2601.18986">arxiv</a> <a href="https://inspirehep.net/record/3112068">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span></div>
+</article>
+
+<article id="paper-10" class="pub-entry" data-topics="Gravitational waves|Black holes|Gravitational lensing|Dark matter">
+<p class="pub-citation">10. Ho-Yeuk Cheung, M., Wadekar, D., Zaldarriaga, M., <strong>Venumadhav, T.</strong>, Roulet, J., & Mehta, A.K. (2026)</p>
+<p class="pub-title"><em>The diffraction-lensing interpretation of GW231123 with astrophysical priors</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260721834H/abstract">ADS</a> <a href="https://arxiv.org/abs/2607.21834">arxiv</a> <a href="https://inspirehep.net/record/3183174">INSPIRE</a></p>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(195 52% 45%);--topic-active:hsl(195 56% 38%);">Gravitational lensing</span> <span class="pub-topic-chip" style="--topic-bg:hsl(336 46% 46%);--topic-active:hsl(336 49% 38%);">Dark matter</span></div>
 </article>
 
 <article id="paper-11" class="pub-entry" data-topics="Gravitational waves|Black holes">
@@ -271,18 +271,18 @@ Individual links to articles and manuscripts, in reverse chronological order:
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span></div>
 </article>
 
-<article id="paper-35" class="pub-entry" data-topics="Gravitational waves|Black holes">
-<p class="pub-citation">35. Wadekar, D., <strong>Venumadhav, T.</strong>, Roulet, J., Mehta, A.K., Zackay, B., Mushkin, J., & Zaldarriaga, M. (2024)</p>
-<p class="pub-title"><em>New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering</em></p>
-<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2024PhRvD.110d4063W/abstract">ADS</a> <a href="https://arxiv.org/abs/2405.17400">arxiv</a> <a href="https://inspirehep.net/record/2790880">INSPIRE</a></p>
-<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
-</article>
-
-<article id="paper-36" class="pub-entry" data-topics="Gravitational waves|Black holes|Neutron stars">
-<p class="pub-citation">36. Roulet, J., Mushkin, J., Wadekar, D., <strong>Venumadhav, T.</strong>, Zackay, B., & Zaldarriaga, M. (2024)</p>
+<article id="paper-35" class="pub-entry" data-topics="Gravitational waves|Black holes|Neutron stars">
+<p class="pub-citation">35. Roulet, J., Mushkin, J., Wadekar, D., <strong>Venumadhav, T.</strong>, Zackay, B., & Zaldarriaga, M. (2024)</p>
 <p class="pub-title"><em>Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</em></p>
 <p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2024PhRvD.110d4010R/abstract">ADS</a> <a href="https://arxiv.org/abs/2404.02435">arxiv</a> <a href="https://inspirehep.net/record/2773795">INSPIRE</a></p>
 <div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span> <span class="pub-topic-chip" style="--topic-bg:hsl(281 43% 46%);--topic-active:hsl(281 47% 38%);">Neutron stars</span></div>
+</article>
+
+<article id="paper-36" class="pub-entry" data-topics="Gravitational waves|Black holes">
+<p class="pub-citation">36. Wadekar, D., <strong>Venumadhav, T.</strong>, Roulet, J., Mehta, A.K., Zackay, B., Mushkin, J., & Zaldarriaga, M. (2024)</p>
+<p class="pub-title"><em>New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering</em></p>
+<p class="pub-links"><a href="https://ui.adsabs.harvard.edu/abs/2024PhRvD.110d4063W/abstract">ADS</a> <a href="https://arxiv.org/abs/2405.17400">arxiv</a> <a href="https://inspirehep.net/record/2790880">INSPIRE</a></p>
+<div class="pub-entry-topics"><span class="pub-topic-chip" style="--topic-bg:hsl(226 56% 48%);--topic-active:hsl(226 58% 40%);">Gravitational waves</span> <span class="pub-topic-chip" style="--topic-bg:hsl(252 35% 44%);--topic-active:hsl(252 38% 36%);">Black holes</span></div>
 </article>
 
 <article id="paper-37" class="pub-entry" data-topics="Gravitational waves|Black holes|Neutron stars">
@@ -613,7 +613,7 @@ n-th author papers:
 <section class="pub-topic-section" id="topic-cosmology">
 <h3>Cosmology</h3>
 <ul>
-<li><a href="#paper-7">Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future</a></li>
+<li><a href="#paper-4">Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future</a></li>
 <li><a href="#paper-12">Strong lensing cosmography using binary-black-hole mergers: Prospects for the near future</a></li>
 <li><a href="#paper-22">Probing the Nature of Dark Matter Using Strongly Lensed Gravitational Waves from Binary Black Holes</a></li>
 <li><a href="#paper-25">Primordial magnetic fields and modified recombination histories</a></li>
@@ -634,8 +634,8 @@ n-th author papers:
 <h3>Gravitational lensing</h3>
 <ul>
 <li><a href="#paper-1">Searching for lensed gravitational waves with unlensed templates</a></li>
-<li><a href="#paper-7">Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future</a></li>
-<li><a href="#paper-9">The diffraction-lensing interpretation of GW231123 with astrophysical priors</a></li>
+<li><a href="#paper-4">Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future</a></li>
+<li><a href="#paper-10">The diffraction-lensing interpretation of GW231123 with astrophysical priors</a></li>
 <li><a href="#paper-12">Strong lensing cosmography using binary-black-hole mergers: Prospects for the near future</a></li>
 <li><a href="#paper-22">Probing the Nature of Dark Matter Using Strongly Lensed Gravitational Waves from Binary Black Holes</a></li>
 <li><a href="#paper-31">Strong-lensing cosmography using third-generation gravitational-wave detectors</a></li>
@@ -655,11 +655,11 @@ n-th author papers:
 <ul>
 <li><a href="#paper-1">Searching for lensed gravitational waves with unlensed templates</a></li>
 <li><a href="#paper-3">A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample</a></li>
-<li><a href="#paper-5">Relativistic mode sums for neutron-star tidal response</a></li>
-<li><a href="#paper-7">Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future</a></li>
+<li><a href="#paper-4">Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future</a></li>
+<li><a href="#paper-6">Relativistic mode sums for neutron-star tidal response</a></li>
 <li><a href="#paper-8">Nonlinear hydrodynamics in spinning neutron stars: Theoretical universal relations and equilibrium solutions</a></li>
-<li><a href="#paper-9">The diffraction-lensing interpretation of GW231123 with astrophysical priors</a></li>
-<li><a href="#paper-10">Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging</a></li>
+<li><a href="#paper-9">Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging</a></li>
+<li><a href="#paper-10">The diffraction-lensing interpretation of GW231123 with astrophysical priors</a></li>
 <li><a href="#paper-11">Discovery of Interpretable Surrogates via Agentic AI: Application to Gravitational Waves</a></li>
 <li><a href="#paper-12">Strong lensing cosmography using binary-black-hole mergers: Prospects for the near future</a></li>
 <li><a href="#paper-13">GW190711_030756 and GW200114_020818: astrophysical interpretation of two asymmetric binary black hole mergers in the IAS catalog</a></li>
@@ -683,8 +683,8 @@ n-th author papers:
 <li><a href="#paper-32">Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries</a></li>
 <li><a href="#paper-33">New approach to template banks of gravitational waves with higher harmonics: Reducing matched-filtering cost by over an order of magnitude</a></li>
 <li><a href="#paper-34">In pursuit of Love numbers: First templated search for compact objects with large tidal deformabilities in the LIGO-Virgo data</a></li>
-<li><a href="#paper-35">New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering</a></li>
-<li><a href="#paper-36">Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</a></li>
+<li><a href="#paper-35">Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</a></li>
+<li><a href="#paper-36">New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering</a></li>
 <li><a href="#paper-37">Inferring Binary Properties from Gravitational-Wave Signals</a></li>
 <li><a href="#paper-38">New black hole mergers in the LIGO-Virgo O3 data from a gravitational wave search including higher-order harmonics</a></li>
 <li><a href="#paper-39">Accurate and efficient waveform model for precessing binary black holes</a></li>
@@ -721,9 +721,9 @@ n-th author papers:
 <h3>Black holes</h3>
 <ul>
 <li><a href="#paper-1">Searching for lensed gravitational waves with unlensed templates</a></li>
-<li><a href="#paper-7">Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future</a></li>
-<li><a href="#paper-9">The diffraction-lensing interpretation of GW231123 with astrophysical priors</a></li>
-<li><a href="#paper-10">Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging</a></li>
+<li><a href="#paper-4">Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future</a></li>
+<li><a href="#paper-9">Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging</a></li>
+<li><a href="#paper-10">The diffraction-lensing interpretation of GW231123 with astrophysical priors</a></li>
 <li><a href="#paper-11">Discovery of Interpretable Surrogates via Agentic AI: Application to Gravitational Waves</a></li>
 <li><a href="#paper-12">Strong lensing cosmography using binary-black-hole mergers: Prospects for the near future</a></li>
 <li><a href="#paper-13">GW190711_030756 and GW200114_020818: astrophysical interpretation of two asymmetric binary black hole mergers in the IAS catalog</a></li>
@@ -743,8 +743,8 @@ n-th author papers:
 <li><a href="#paper-31">Strong-lensing cosmography using third-generation gravitational-wave detectors</a></li>
 <li><a href="#paper-33">New approach to template banks of gravitational waves with higher harmonics: Reducing matched-filtering cost by over an order of magnitude</a></li>
 <li><a href="#paper-34">In pursuit of Love numbers: First templated search for compact objects with large tidal deformabilities in the LIGO-Virgo data</a></li>
-<li><a href="#paper-35">New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering</a></li>
-<li><a href="#paper-36">Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</a></li>
+<li><a href="#paper-35">Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</a></li>
+<li><a href="#paper-36">New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering</a></li>
 <li><a href="#paper-37">Inferring Binary Properties from Gravitational-Wave Signals</a></li>
 <li><a href="#paper-38">New black hole mergers in the LIGO-Virgo O3 data from a gravitational wave search including higher-order harmonics</a></li>
 <li><a href="#paper-39">Accurate and efficient waveform model for precessing binary black holes</a></li>
@@ -775,16 +775,16 @@ n-th author papers:
 <ul>
 <li><a href="#paper-2">Nonlinear Perturbations of Relativistic Stars</a></li>
 <li><a href="#paper-3">A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample</a></li>
-<li><a href="#paper-4">A Coherent Search for New Galactic Magnetars using Fermi/GBM and follow-up Swift/BAT: 7 Candidates and a Large Burst Catalog</a></li>
-<li><a href="#paper-5">Relativistic mode sums for neutron-star tidal response</a></li>
-<li><a href="#paper-6">Expanding the population of short gamma-ray transients with a coherent Fermi/GBM search: a 13-yr catalogue of short GRBs</a></li>
+<li><a href="#paper-5">A Coherent Search for New Galactic Magnetars using Fermi/GBM and follow-up Swift/BAT: 7 Candidates and a Large Burst Catalog</a></li>
+<li><a href="#paper-6">Relativistic mode sums for neutron-star tidal response</a></li>
+<li><a href="#paper-7">Expanding the population of short gamma-ray transients with a coherent Fermi/GBM search: a 13-yr catalogue of short GRBs</a></li>
 <li><a href="#paper-8">Nonlinear hydrodynamics in spinning neutron stars: Theoretical universal relations and equilibrium solutions</a></li>
 <li><a href="#paper-15">Relativistic and Dynamical Love Numbers</a></li>
 <li><a href="#paper-28">Resonance locking: radian-level phase shifts due to nonlinear hydrodynamics of $g$-modes in merging neutron star binaries</a></li>
 <li><a href="#paper-30">New binary black hole mergers in the LIGO-Virgo O3b data</a></li>
 <li><a href="#paper-32">Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries</a></li>
 <li><a href="#paper-34">In pursuit of Love numbers: First templated search for compact objects with large tidal deformabilities in the LIGO-Virgo data</a></li>
-<li><a href="#paper-36">Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</a></li>
+<li><a href="#paper-35">Fast marginalization algorithm for optimizing gravitational wave detection, parameter estimation, and sky localization</a></li>
 <li><a href="#paper-37">Inferring Binary Properties from Gravitational-Wave Signals</a></li>
 <li><a href="#paper-41">Beyond the linear tide: impact of the non-linear tidal response of neutron stars on gravitational waveforms from binary inspirals</a></li>
 <li><a href="#paper-43">Factorized Parameter Estimation for Real-Time Gravitational Wave Inference</a></li>
@@ -800,7 +800,7 @@ n-th author papers:
 <h3>Gamma ray bursts</h3>
 <ul>
 <li><a href="#paper-3">A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample</a></li>
-<li><a href="#paper-6">Expanding the population of short gamma-ray transients with a coherent Fermi/GBM search: a 13-yr catalogue of short GRBs</a></li>
+<li><a href="#paper-7">Expanding the population of short gamma-ray transients with a coherent Fermi/GBM search: a 13-yr catalogue of short GRBs</a></li>
 <li><a href="#paper-19">A New Search Pipeline for Short Gamma-Ray Bursts in Fermi/GBM Data—A 50% Increase in the Number of Detections</a></li>
 </ul>
 </section>
@@ -820,8 +820,8 @@ n-th author papers:
 <section class="pub-topic-section" id="topic-dark-matter">
 <h3>Dark matter</h3>
 <ul>
-<li><a href="#paper-7">Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future</a></li>
-<li><a href="#paper-9">The diffraction-lensing interpretation of GW231123 with astrophysical priors</a></li>
+<li><a href="#paper-4">Probing Dark Matter with Strongly Lensed Binary Black Hole Mergers: Prospects in the Near Future</a></li>
+<li><a href="#paper-10">The diffraction-lensing interpretation of GW231123 with astrophysical priors</a></li>
 <li><a href="#paper-15">Relativistic and Dynamical Love Numbers</a></li>
 <li><a href="#paper-22">Probing the Nature of Dark Matter Using Strongly Lensed Gravitational Waves from Binary Black Holes</a></li>
 <li><a href="#paper-25">Primordial magnetic fields and modified recombination histories</a></li>
