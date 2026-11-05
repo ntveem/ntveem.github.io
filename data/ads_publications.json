@@ -96,31 +96,32 @@
       "year": 2026
     },
     {
-      "abstract": "In this paper, we present an archival search for short gamma-ray bursts (sGRBs) over 13 yr (2013--2025) of Fermi/GBM (Gamma-ray Burst Monitor) data using a Poisson matched-filter pipeline that performs a fully coherent analysis across all detectors and energy channels, significantly improving sensitivity relative to the onboard triggering algorithms. A central component of the analysis is the empirical estimation of trigger significance using `timeslided' data, allowing each candidate to be assigned a probability of astrophysical origin. We also developed a new parameter-estimation framework based on the Poisson matched filter, which uses the global structure of the detected event across spectral, temporal, and spatial parameter spaces. This enables us to systematically classify bursts and distinguish between GRBs, soft gamma repeaters, terrestrial gamma-ray flashes, and solar flares. We identify 549 new GRB candidates with high confidence and thousands of magnetar bursts, significantly expanding the known short transient population in GBM data. To further strengthen the significance of the GRB candidates, we performed a targeted follow-up search in Swift/BAT rate data. Applying the follow-up to all of our triggers -- including triggers below the detection threshold yielded 1736 temporally coincident events with association probability above 90 per cent. The resulting probabilistically ranked catalogue substantially expands the population of short transients detected in GBM data and provides a statistically robust framework for multimessenger searches.",
-      "arxiv_id": "2605.31554",
+      "abstract": "The detection of faint high-energy transients is becoming increasingly important in time-domain and multi-messenger astronomy, particularly for identifying electromagnetic counterparts to binary neutron star mergers, high-energy neutrino events, and other weak transient phenomena. At present, the sensitivity of gamma-ray and hard X-ray searches is often limited by the detection threshold of individual instruments, leaving a population of faint transients inaccessible to single-mission analyses. To address this limitation, we develop a joint detection framework that combines trigger information from multiple detectors and assigns each candidate a joint association probability, $p_{\\text{joint}}$, as a function of the individual detector signal-to-noise ratios. We apply this framework to archival Fermi/GBM and Swift/BAT rates data from 2013-2025. The method effectively separates coincident signals from accidental background associations, suppressing inconsistent coincidences while enhancing the significance of faint events observed by both instruments. We find that, under optimal conditions, a two-mission search can increase the accessible volume for short gamma-ray bursts by up to $60\\%$. This framework provides a practical foundation for generalized multi-mission searches, enabling more sensitive exploration of the faint high-energy transient sky and improving the prospects for future multi-messenger discoveries.",
+      "arxiv_id": "2609.25672",
       "authors": [
         "Perera, Ariel",
         "Zackay, Barak",
         "Venumadhav, Tejaswi"
       ],
-      "bibcode": "2026MNRAS.551g1592P",
-      "citation_count": 2,
-      "doctype": "article",
-      "doi": "10.1093/mnras/stag1592",
-      "inspire_recid": "3163133",
-      "page": "stag1592",
-      "pub": "Monthly Notices of the Royal Astronomical Society",
-      "pub_raw": "Monthly Notices of the Royal Astronomical Society, Volume 551, Issue 3, id.stag1592, 18 pp.",
+      "bibcode": "2026arXiv260925672P",
+      "citation_count": 0,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2609.25672",
+      "inspire_recid": "3206129",
+      "page": "arXiv:2609.25672",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2609.25672",
       "pubdate": "2026-09-00",
-      "title": "Expanding the population of short gamma-ray transients with a coherent Fermi/GBM search: a 13-yr catalogue of short GRBs",
+      "title": "A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample",
       "topic_confidence": 1.0,
       "topic_source": "manual_override",
       "topics": [
         "Gamma ray bursts",
-        "Neutron stars"
+        "Neutron stars",
+        "Gravitational waves"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "551",
+      "volume": "",
       "year": 2026
     },
     {
@@ -157,6 +158,34 @@
       "year": 2026
     },
     {
+      "abstract": "In this paper, we present an archival search for short gamma-ray bursts (sGRBs) over 13 yr (2013--2025) of Fermi/GBM (Gamma-ray Burst Monitor) data using a Poisson matched-filter pipeline that performs a fully coherent analysis across all detectors and energy channels, significantly improving sensitivity relative to the onboard triggering algorithms. A central component of the analysis is the empirical estimation of trigger significance using `timeslided' data, allowing each candidate to be assigned a probability of astrophysical origin. We also developed a new parameter-estimation framework based on the Poisson matched filter, which uses the global structure of the detected event across spectral, temporal, and spatial parameter spaces. This enables us to systematically classify bursts and distinguish between GRBs, soft gamma repeaters, terrestrial gamma-ray flashes, and solar flares. We identify 549 new GRB candidates with high confidence and thousands of magnetar bursts, significantly expanding the known short transient population in GBM data. To further strengthen the significance of the GRB candidates, we performed a targeted follow-up search in Swift/BAT rate data. Applying the follow-up to all of our triggers -- including triggers below the detection threshold yielded 1736 temporally coincident events with association probability above 90 per cent. The resulting probabilistically ranked catalogue substantially expands the population of short transients detected in GBM data and provides a statistically robust framework for multimessenger searches.",
+      "arxiv_id": "2605.31554",
+      "authors": [
+        "Perera, Ariel",
+        "Zackay, Barak",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2026MNRAS.551g1592P",
+      "citation_count": 2,
+      "doctype": "article",
+      "doi": "10.1093/mnras/stag1592",
+      "inspire_recid": "3163133",
+      "page": "stag1592",
+      "pub": "Monthly Notices of the Royal Astronomical Society",
+      "pub_raw": "Monthly Notices of the Royal Astronomical Society, Volume 551, Issue 3, id.stag1592, 18 pp.",
+      "pubdate": "2026-09-00",
+      "title": "Expanding the population of short gamma-ray transients with a coherent Fermi/GBM search: a 13-yr catalogue of short GRBs",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
+      "topics": [
+        "Gamma ray bursts",
+        "Neutron stars"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "551",
+      "year": 2026
+    },
+    {
       "abstract": "Galactic magnetars are a rare class of neutron stars with extreme magnetic fields, with only about 30 known sources. Their short hard X-ray and soft gamma-ray bursts provide an important channel for discovering magnetar activity. Wide-field instruments such as the Fermi Gamma-ray Burst Monitor (GBM) are well suited to detecting these bursts, but their broad localization uncertainties make it difficult to associate individual bursts with specific sources. Coded-aperture telescopes, in contrast, provide arcminute-scale localizations but have narrower fields of view. We search for previously unidentified magnetars and construct a magnetar burst catalog by combining a broad sample of short, soft triggers from our coherent GBM detection pipeline over 2013-2025 with targeted searches of archival Swift/BAT images. We develop a statistical association framework that uses BAT detections to localize GBM bursts to arcminute precision, together with a spatio-temporal clustering framework that associates poorly localized bursts with common sources. Together, these methods identify 1720 magnetar bursts, of which 1170 are confidently associated with 11 known magnetars. The remaining 550 bursts could not be assigned to specific sources. We identify seven candidate new magnetars through three complementary discovery channels. The catalog, composed of the associated bursts, extends to the lowest fluences observed by GBM. We also provide spectral and temporal analyses of the catalog. The new candidate sources provide targets for X-ray follow-up that could reveal previously unidentified Galactic magnetars. More broadly, this work demonstrates how combining instruments with complementary capabilities can maximize the scientific return of high-energy transient observations.",
       "arxiv_id": "2609.26897",
       "authors": [
@@ -181,63 +210,6 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
-      "year": 2026
-    },
-    {
-      "abstract": "The detection of faint high-energy transients is becoming increasingly important in time-domain and multi-messenger astronomy, particularly for identifying electromagnetic counterparts to binary neutron star mergers, high-energy neutrino events, and other weak transient phenomena. At present, the sensitivity of gamma-ray and hard X-ray searches is often limited by the detection threshold of individual instruments, leaving a population of faint transients inaccessible to single-mission analyses. To address this limitation, we develop a joint detection framework that combines trigger information from multiple detectors and assigns each candidate a joint association probability, $p_{\\text{joint}}$, as a function of the individual detector signal-to-noise ratios. We apply this framework to archival Fermi/GBM and Swift/BAT rates data from 2013-2025. The method effectively separates coincident signals from accidental background associations, suppressing inconsistent coincidences while enhancing the significance of faint events observed by both instruments. We find that, under optimal conditions, a two-mission search can increase the accessible volume for short gamma-ray bursts by up to $60\\%$. This framework provides a practical foundation for generalized multi-mission searches, enabling more sensitive exploration of the faint high-energy transient sky and improving the prospects for future multi-messenger discoveries.",
-      "arxiv_id": "2609.25672",
-      "authors": [
-        "Perera, Ariel",
-        "Zackay, Barak",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2026arXiv260925672P",
-      "citation_count": 0,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2609.25672",
-      "inspire_recid": "3206129",
-      "page": "arXiv:2609.25672",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2609.25672",
-      "pubdate": "2026-09-00",
-      "title": "A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample",
-      "topic_confidence": 1.0,
-      "topic_source": "manual_override",
-      "topics": [
-        "Gamma ray bursts",
-        "Neutron stars",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2026
-    },
-    {
-      "abstract": "Using a combination of Hubble Space Telescope and James Webb Space Telescope imaging, a runaway supermassive black hole was recently identified with an inferred velocity of <inline-formula><mml:math><mml:mrow><mml:msubsup><mml:mrow><mml:mn>954</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>126</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>110</mml:mn></mml:mrow></mml:msubsup><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>km</mml:mi><mml:mtext> </mml:mtext><mml:msup><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>, likely ejected from a compact star-forming galaxy at <inline-formula><mml:math><mml:mi>z</mml:mi><mml:mo>\u224d</mml:mo><mml:mn>0.96</mml:mn></mml:math></inline-formula>. Assuming the runaway black hole originated from a gravitational-wave-driven merger of two supermassive black holes (SMBHs), we combine its measured recoil velocity with gravitational-wave recoil predictions from numerical relativity and black-hole perturbation theory to constrain the mass ratio and spin configuration of the progenitor binary that overcame the final-parsec problem and merged <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>70</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Myr</mml:mi></mml:math></inline-formula> ago. We find that the progenitor binary must have been precessing, with a mass ratio <inline-formula><mml:math><mml:msub><mml:mi>m</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>\u2272</mml:mo><mml:mn>6</mml:mn></mml:math></inline-formula>, and that the more massive SMBH likely possessed a high dimensionless spin magnitude (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>0.75</mml:mn></mml:math></inline-formula>) in order to generate a recoil of this magnitude. Such SMBH mergers could represent an interesting source population for the upcoming Laser Interferometer Space Antenna mission, with characteristic signal-to-noise ratios of order <inline-formula><mml:math><mml:mo>\u2273</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>3</mml:mn></mml:msup></mml:math></inline-formula>. Furthermore, the inferred progenitor SMBH properties suggest that the compact galaxy likely originated from a major, gas-rich (\"wet\") merger between two galaxies of comparable mass, with a mass ratio <inline-formula><mml:math><mml:mo>\u2272</mml:mo><mml:mn>4</mml:mn></mml:math></inline-formula>.",
-      "arxiv_id": "2601.18986",
-      "authors": [
-        "Islam, Tousif",
-        "Venumadhav, Tejaswi",
-        "Wadekar, Digvijay"
-      ],
-      "bibcode": "2026PhRvL.137c1404I",
-      "citation_count": 3,
-      "doctype": "article",
-      "doi": "10.1103/fm3n-sy3f",
-      "inspire_recid": "3112068",
-      "page": "031404",
-      "pub": "Physical Review Letters",
-      "pub_raw": "Physical Review Letters, Volume 137, Issue 3, id.031404, 8 pp.",
-      "pubdate": "2026-07-00",
-      "title": "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Black holes",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "137",
       "year": 2026
     },
     {
@@ -308,6 +280,66 @@
       "year": 2026
     },
     {
+      "abstract": "Using a combination of Hubble Space Telescope and James Webb Space Telescope imaging, a runaway supermassive black hole was recently identified with an inferred velocity of <inline-formula><mml:math><mml:mrow><mml:msubsup><mml:mrow><mml:mn>954</mml:mn></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>126</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>110</mml:mn></mml:mrow></mml:msubsup><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>km</mml:mi><mml:mtext> </mml:mtext><mml:msup><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math></inline-formula>, likely ejected from a compact star-forming galaxy at <inline-formula><mml:math><mml:mi>z</mml:mi><mml:mo>\u224d</mml:mo><mml:mn>0.96</mml:mn></mml:math></inline-formula>. Assuming the runaway black hole originated from a gravitational-wave-driven merger of two supermassive black holes (SMBHs), we combine its measured recoil velocity with gravitational-wave recoil predictions from numerical relativity and black-hole perturbation theory to constrain the mass ratio and spin configuration of the progenitor binary that overcame the final-parsec problem and merged <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>70</mml:mn><mml:mtext> </mml:mtext><mml:mtext> </mml:mtext><mml:mi>Myr</mml:mi></mml:math></inline-formula> ago. We find that the progenitor binary must have been precessing, with a mass ratio <inline-formula><mml:math><mml:msub><mml:mi>m</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>\u2272</mml:mo><mml:mn>6</mml:mn></mml:math></inline-formula>, and that the more massive SMBH likely possessed a high dimensionless spin magnitude (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>0.75</mml:mn></mml:math></inline-formula>) in order to generate a recoil of this magnitude. Such SMBH mergers could represent an interesting source population for the upcoming Laser Interferometer Space Antenna mission, with characteristic signal-to-noise ratios of order <inline-formula><mml:math><mml:mo>\u2273</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>3</mml:mn></mml:msup></mml:math></inline-formula>. Furthermore, the inferred progenitor SMBH properties suggest that the compact galaxy likely originated from a major, gas-rich (\"wet\") merger between two galaxies of comparable mass, with a mass ratio <inline-formula><mml:math><mml:mo>\u2272</mml:mo><mml:mn>4</mml:mn></mml:math></inline-formula>.",
+      "arxiv_id": "2601.18986",
+      "authors": [
+        "Islam, Tousif",
+        "Venumadhav, Tejaswi",
+        "Wadekar, Digvijay"
+      ],
+      "bibcode": "2026PhRvL.137c1404I",
+      "citation_count": 3,
+      "doctype": "article",
+      "doi": "10.1103/fm3n-sy3f",
+      "inspire_recid": "3112068",
+      "page": "031404",
+      "pub": "Physical Review Letters",
+      "pub_raw": "Physical Review Letters, Volume 137, Issue 3, id.031404, 8 pp.",
+      "pubdate": "2026-07-00",
+      "title": "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Black holes",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "137",
+      "year": 2026
+    },
+    {
+      "abstract": "Fast surrogate models for expensive simulations are now essential across the sciences, yet they typically operate as black boxes. We present \\texttt{GWAgent}, a large language model (LLM)-based workflow that constructs interpretable analytic surrogates directly from simulation data. Surrogate modeling is well suited to agentic workflows because candidate models can be quantitatively validated against ground-truth simulations at each iteration. As a demonstration, we build a surrogate for gravitational waveforms from eccentric binary black hole mergers. We show that providing the agent with a physics-informed domain ansatz substantially improves output model accuracy. The resulting analytic surrogate attains a median Advanced LIGO mismatch of $6.9\\times10^{-4}$ together with an $\\sim 8.4\\times$ speedup in waveform evaluation, surpassing both symbolic regression and conventional machine learning baselines. Beyond producing an accurate model, the workflow identifies compact physical structure from the learned representation. As an astrophysical application, we use \\texttt{GWAgent} to analyze the eccentricity of GW200129 and infer $e_{20\\mathrm{Hz}}=0.099^{+0.063}_{-0.044}$. These results show that validation-constrained agentic workflows can produce accurate, fast, and interpretable surrogates for scientific simulations and inference.",
+      "arxiv_id": "2605.11280",
+      "authors": [
+        "Islam, Tousif",
+        "Wadekar, Digvijay",
+        "Venumadhav, Tejaswi",
+        "Zaldarriaga, Matias",
+        "Mehta, Ajit Kumar",
+        "Roulet, Javier",
+        "Zackay, Barak"
+      ],
+      "bibcode": "2026arXiv260511280I",
+      "citation_count": 4,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2605.11280",
+      "inspire_recid": "3154806",
+      "page": "arXiv:2605.11280",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2605.11280",
+      "pubdate": "2026-05-00",
+      "title": "Discovery of Interpretable Surrogates via Agentic AI: Application to Gravitational Waves",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
+      "year": 2026
+    },
+    {
       "abstract": "A small fraction of gravitational-wave (GW) signals from binary black holes (BBHs) will be gravitationally lensed by intervening galaxies and galaxy clusters. Strong lensing will produce multiple identical copies of the GW signal arriving at different times. Jana et al. [Phys. Rev. Lett. 130, 261401 (2023)PRLTAO0031-900710.1103/PhysRevLett.130.261401] recently proposed a method to constrain cosmological parameters using strongly lensed GW events detected by next-generation (XG) detectors. The idea is that the number of strongly lensed GW events and the distribution of their lensing time delays encode imprints of the cosmological parameters. From the observed number of lensed GW events (tens of thousands) and their time delay distribution, this method can provide a new probe of cosmology, obtaining information at intermediate redshifts. In this work, we explore the possibility of doing lensing cosmography using upcoming observations of the upgraded LIGO-Virgo-KAGRA (LVK) network. This requires incorporating the detector network selection effects in the analysis, which was neglected earlier. We expect dozens of lensed GW events to be detected by upgraded LVK detectors, potentially enabling modest constraints on cosmological parameters. Even with relatively modest numbers of lensed detections, we demonstrate the potential of lensing cosmography. For XG detectors, our revised forecasts are consistent with the earlier forecasts that neglected the selection effects.",
       "arxiv_id": "2512.15168",
       "authors": [
@@ -337,38 +369,6 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "113",
-      "year": 2026
-    },
-    {
-      "abstract": "Fast surrogate models for expensive simulations are now essential across the sciences, yet they typically operate as black boxes. We present \\texttt{GWAgent}, a large language model (LLM)-based workflow that constructs interpretable analytic surrogates directly from simulation data. Surrogate modeling is well suited to agentic workflows because candidate models can be quantitatively validated against ground-truth simulations at each iteration. As a demonstration, we build a surrogate for gravitational waveforms from eccentric binary black hole mergers. We show that providing the agent with a physics-informed domain ansatz substantially improves output model accuracy. The resulting analytic surrogate attains a median Advanced LIGO mismatch of $6.9\\times10^{-4}$ together with an $\\sim 8.4\\times$ speedup in waveform evaluation, surpassing both symbolic regression and conventional machine learning baselines. Beyond producing an accurate model, the workflow identifies compact physical structure from the learned representation. As an astrophysical application, we use \\texttt{GWAgent} to analyze the eccentricity of GW200129 and infer $e_{20\\mathrm{Hz}}=0.099^{+0.063}_{-0.044}$. These results show that validation-constrained agentic workflows can produce accurate, fast, and interpretable surrogates for scientific simulations and inference.",
-      "arxiv_id": "2605.11280",
-      "authors": [
-        "Islam, Tousif",
-        "Wadekar, Digvijay",
-        "Venumadhav, Tejaswi",
-        "Zaldarriaga, Matias",
-        "Mehta, Ajit Kumar",
-        "Roulet, Javier",
-        "Zackay, Barak"
-      ],
-      "bibcode": "2026arXiv260511280I",
-      "citation_count": 3,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2605.11280",
-      "inspire_recid": "3154806",
-      "page": "arXiv:2605.11280",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2605.11280",
-      "pubdate": "2026-05-00",
-      "title": "Discovery of Interpretable Surrogates via Agentic AI: Application to Gravitational Waves",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational waves",
-        "Black holes"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
       "year": 2026
     },
     {
@@ -541,6 +541,33 @@
       "year": 2025
     },
     {
+      "abstract": "Characterizing eccentricity in gravitational waveforms in a consistent manner is crucial to facilitate parameter estimation, astrophysical population studies, as well as searches for these rare systems. We present a framework to characterize eccentricity directly from gravitational waveforms for nonprecessing eccentric binary black hole mergers using common modulations that eccentricity induces in all spherical harmonic modes of the signals. Our framework is in the spirit of existing methods that use frequency modulations in the waveforms, but we refine the approach by connecting it with state-of-the-art post-Newtonian calculations of the time evolution of the eccentricity. Using 39 numerical relativity (NR) simulations from the SXS and RIT catalogs, as well as waveforms obtained from the post-Newtonian approximation and effective-one-body formalism, we show that our framework provides eccentricity estimates that connect smoothly into the relativistic regime (even up to <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>2</mml:mn><mml:mi>M</mml:mi></mml:math></inline-formula> before merger). We also find that it is necessary to carry existing post-Newtonian calculations to an extra 0.5 post-Newtonian order to adequately characterize existing NR simulations, and provide fits to the extra coefficient for existing simulations. We make the framework publicly available through the PYTHON-based GWMODELS package.",
+      "arxiv_id": "2502.02739",
+      "authors": [
+        "Islam, Tousif",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2025PhRvD.112j4039I",
+      "citation_count": 18,
+      "doctype": "article",
+      "doi": "10.1103/b7vg-s75b",
+      "inspire_recid": "2876700",
+      "page": "104039",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 112, Issue 10, id.104039, 18 pp.",
+      "pubdate": "2025-11-00",
+      "title": "Post-Newtonian theory-inspired framework for characterizing eccentricity in gravitational waveforms",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational waves",
+        "Black holes"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "112",
+      "year": 2025
+    },
+    {
       "abstract": "In this paper, we present the development and the results of a new search pipeline for short gamma-ray bursts (sGRBs) in the publicly available data from the Gamma-Ray Burst Monitor (GBM) on board the Fermi satellite. This pipeline uses rigorous statistical methods that are designed to maximize the information extracted from the Fermi/GBM detectors. Our approach differs substantially from existing search efforts in several aspects: the pipeline includes the construction of template banks, Poisson matched filtering, background estimation, background misestimation correction, automatic routines to filter contaminants, statistical estimation of the signal location, and a quantitative estimator of the signal probability of being of cosmological, terrestrial, or solar origin. Our analysis also includes operating the pipeline on \"time-slid\" copies of the data, which allows exact significance assessment and p<SUB>astro</SUB> computation, akin to the state-of-the-art gravitational-wave (GW) data analysis pipelines. Depending on the spectral properties of the bursts, our pipeline achieves a signal-to-noise ratio improvement by a factor of 2\u250015 over the onboard GBM triggering algorithm. This enhancement increases the detectable volume for sGRBs and results in an approximately 50% increase in sGRB detections in the 2014 GBM data set. As a further consequence of the sensitivity increase, we detect hundreds of soft gamma-ray flares of Galactic origin. This improved sensitivity enhances the chances of detecting fainter, off-axis gamma-ray bursts that would likely fall below the standard triggering thresholds. Applying this pipeline to the full GBM archive is expected to expand further the joint sGRB\u2500GW detection volume.",
       "arxiv_id": "2507.05739",
       "authors": [
@@ -582,7 +609,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2025PhRvD.112j4025M",
-      "citation_count": 7,
+      "citation_count": 6,
       "doctype": "article",
       "doi": "10.1103/vqj2-7qpz",
       "inspire_recid": "2952995",
@@ -602,30 +629,36 @@
       "year": 2025
     },
     {
-      "abstract": "Characterizing eccentricity in gravitational waveforms in a consistent manner is crucial to facilitate parameter estimation, astrophysical population studies, as well as searches for these rare systems. We present a framework to characterize eccentricity directly from gravitational waveforms for nonprecessing eccentric binary black hole mergers using common modulations that eccentricity induces in all spherical harmonic modes of the signals. Our framework is in the spirit of existing methods that use frequency modulations in the waveforms, but we refine the approach by connecting it with state-of-the-art post-Newtonian calculations of the time evolution of the eccentricity. Using 39 numerical relativity (NR) simulations from the SXS and RIT catalogs, as well as waveforms obtained from the post-Newtonian approximation and effective-one-body formalism, we show that our framework provides eccentricity estimates that connect smoothly into the relativistic regime (even up to <inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>2</mml:mn><mml:mi>M</mml:mi></mml:math></inline-formula> before merger). We also find that it is necessary to carry existing post-Newtonian calculations to an extra 0.5 post-Newtonian order to adequately characterize existing NR simulations, and provide fits to the extra coefficient for existing simulations. We make the framework publicly available through the PYTHON-based GWMODELS package.",
-      "arxiv_id": "2502.02739",
+      "abstract": "Next-generation ground-based gravitational-wave (GW) detectors are expected to detect millions of binary black hole mergers during their operation period. A small fraction (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>0.1</mml:mn><mml:mi>\u2500</mml:mi><mml:mn>1</mml:mn><mml:mo>%</mml:mo></mml:math></inline-formula>) of them will be strongly lensed by intervening galaxies and clusters, producing multiple copies of the GW signals. The expected number of lensed events and the distribution of the time delay between lensed images will depend on the mass distribution of the lenses at different redshifts. Warm dark matter and fuzzy dark matter models predict lower abundances of low-mass dark matter halos as compared to the standard cold dark matter. This will result in a reduction in the number of strongly lensed GW events, especially with small time delays. Using the number of lensed events and the lensing time delay distribution, we will be able to put a lower bound on the mass of the warm and fuzzy dark matter particles from a catalog of lensed GW events. Our first forecasts suggest that the expected bounds from GW strong lensing from next-generation detectors are better than the current constraints.",
+      "arxiv_id": "2408.05290",
       "authors": [
-        "Islam, Tousif",
-        "Venumadhav, Tejaswi"
+        "Jana, Souvik",
+        "Kapadia, Shasvath J.",
+        "Venumadhav, Tejaswi",
+        "More, Surhud",
+        "Ajith, Parameswaran"
       ],
-      "bibcode": "2025PhRvD.112j4039I",
-      "citation_count": 19,
+      "bibcode": "2025PhRvL.135k1402J",
+      "citation_count": 24,
       "doctype": "article",
-      "doi": "10.1103/b7vg-s75b",
-      "inspire_recid": "2876700",
-      "page": "104039",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 112, Issue 10, id.104039, 18 pp.",
-      "pubdate": "2025-11-00",
-      "title": "Post-Newtonian theory-inspired framework for characterizing eccentricity in gravitational waveforms",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
+      "doi": "10.1103/7q31-3qwz",
+      "inspire_recid": "2817357",
+      "page": "111402",
+      "pub": "Physical Review Letters",
+      "pub_raw": "Physical Review Letters, Volume 135, Issue 11, id.111402, 9 pp.",
+      "pubdate": "2025-09-00",
+      "title": "Probing the Nature of Dark Matter Using Strongly Lensed Gravitational Waves from Binary Black Holes",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
       "topics": [
+        "Gravitational lensing",
         "Gravitational waves",
-        "Black holes"
+        "Black holes",
+        "Dark matter",
+        "Cosmology"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "112",
+      "volume": "135",
       "year": 2025
     },
     {
@@ -660,39 +693,6 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
-      "year": 2025
-    },
-    {
-      "abstract": "Next-generation ground-based gravitational-wave (GW) detectors are expected to detect millions of binary black hole mergers during their operation period. A small fraction (<inline-formula><mml:math><mml:mo>\u223c</mml:mo><mml:mn>0.1</mml:mn><mml:mi>\u2500</mml:mi><mml:mn>1</mml:mn><mml:mo>%</mml:mo></mml:math></inline-formula>) of them will be strongly lensed by intervening galaxies and clusters, producing multiple copies of the GW signals. The expected number of lensed events and the distribution of the time delay between lensed images will depend on the mass distribution of the lenses at different redshifts. Warm dark matter and fuzzy dark matter models predict lower abundances of low-mass dark matter halos as compared to the standard cold dark matter. This will result in a reduction in the number of strongly lensed GW events, especially with small time delays. Using the number of lensed events and the lensing time delay distribution, we will be able to put a lower bound on the mass of the warm and fuzzy dark matter particles from a catalog of lensed GW events. Our first forecasts suggest that the expected bounds from GW strong lensing from next-generation detectors are better than the current constraints.",
-      "arxiv_id": "2408.05290",
-      "authors": [
-        "Jana, Souvik",
-        "Kapadia, Shasvath J.",
-        "Venumadhav, Tejaswi",
-        "More, Surhud",
-        "Ajith, Parameswaran"
-      ],
-      "bibcode": "2025PhRvL.135k1402J",
-      "citation_count": 24,
-      "doctype": "article",
-      "doi": "10.1103/7q31-3qwz",
-      "inspire_recid": "2817357",
-      "page": "111402",
-      "pub": "Physical Review Letters",
-      "pub_raw": "Physical Review Letters, Volume 135, Issue 11, id.111402, 9 pp.",
-      "pubdate": "2025-09-00",
-      "title": "Probing the Nature of Dark Matter Using Strongly Lensed Gravitational Waves from Binary Black Holes",
-      "topic_confidence": 1.0,
-      "topic_source": "manual_override",
-      "topics": [
-        "Gravitational lensing",
-        "Gravitational waves",
-        "Black holes",
-        "Dark matter",
-        "Cosmology"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "135",
       "year": 2025
     },
     {
@@ -984,34 +984,6 @@
       "year": 2024
     },
     {
-      "abstract": "Neutron stars in coalescing binaries deform due to the tidal gravitational fields generated by their companions. During the inspiral phase, the tidal deformation is dominated by the fundamental oscillation ($f$-) mode of the stars. The tide also has sub-dominant gravity ($g$-) modes that are resonantly excited when the linear tidal forcing sweeps through their eigenfrequencies. Beyond the linear order in perturbed fluid displacement, the $g$-modes are anharmonic, i.e., their oscillation frequencies depend on the mode energy. For the lowest-order $g$-mode, we show that when the tidal forcing reaches its linear eigenfrequency, the mode starts to dynamically adjust its energy so that its nonlinearly shifted oscillation frequency always matches that of the driving field. This phenomenon, which we term `resonance locking', persists through the rest of the inspiral, and hence, the mode grows to substantially larger energies than in the linear theory. Using a $1.4$--$1.4\\, M_{\\odot}$ binary neutron star system with the SLy4 equation of state, we find this results in an extra correction to the frequency-domain gravitational wave (GW) phase of $|\\Delta \\Psi|\\approx 3\\,{\\rm rad}$ accumulated from the onset of resonance locking at the GW frequency of $94\\,{\\rm Hz}$ to the merger at $1.05\\,{\\rm kHz}$. This effect probes details of the internal structure of merging neutron stars beyond their bulk properties such as tidal deformability.",
-      "arxiv_id": "2410.03831",
-      "authors": [
-        "Kwon, K. J.",
-        "Yu, Hang",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2024arXiv241003831K",
-      "citation_count": 20,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2410.03831",
-      "inspire_recid": "2837623",
-      "page": "arXiv:2410.03831",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2410.03831",
-      "pubdate": "2024-10-00",
-      "title": "Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Neutron stars",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2024
-    },
-    {
       "abstract": "Searches for gravitational wave events use models, or templates, for the signals of interest. The templates used in current searches in the LIGO-Virgo-KAGRA data model the dominant quadrupole mode <inline-formula><mml:math display=\"inline\"><mml:mo stretchy=\"false\">(</mml:mo><mml:mo>\u2113</mml:mo><mml:mo>,</mml:mo><mml:mo stretchy=\"false\">|</mml:mo><mml:mi>m</mml:mi><mml:mo stretchy=\"false\">|</mml:mo><mml:mo stretchy=\"false\">)</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy=\"false\">(</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mo stretchy=\"false\">)</mml:mo></mml:math></inline-formula> of the signals and omit subdominant higher-order modes (HMs) such as <inline-formula><mml:math display=\"inline\"><mml:mo stretchy=\"false\">(</mml:mo><mml:mo>\u2113</mml:mo><mml:mo>,</mml:mo><mml:mo stretchy=\"false\">|</mml:mo><mml:mi>m</mml:mi><mml:mo stretchy=\"false\">|</mml:mo><mml:mo stretchy=\"false\">)</mml:mo><mml:mo>=</mml:mo><mml:mo stretchy=\"false\">(</mml:mo><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mn>3</mml:mn><mml:mo stretchy=\"false\">)</mml:mo></mml:math></inline-formula>, (4, 4), which are predicted by general relativity. This omission reduces search sensitivity to black hole mergers in interesting parts of parameter space, such as systems with high masses and asymmetric-mass ratios. We develop a new strategy to include HMs in template banks: instead of making templates containing a combination of different modes, we separately store normalized templates corresponding to (2, 2), (3, 3), and (4, 4) modes. To model aligned-spin (3, 3), (4, 4) waveforms corresponding to a given (2, 2) waveform, we use a combination of post-Newtonian formulas and machine learning tools. In the matched-filtering stage, one can filter each mode separately with the data and collect the time series of signal-to-noise ratios (SNRs). This leads to a HM template bank whose matched-filtering cost is just <inline-formula><mml:math display=\"inline\"><mml:mo>\u2248</mml:mo><mml:mn>3</mml:mn><mml:mo>\u00d7</mml:mo></mml:math></inline-formula> that of a quadrupole-only search (as opposed to <inline-formula><mml:math display=\"inline\"><mml:mo>\u2248</mml:mo><mml:mn>100</mml:mn><mml:mo>\u00d7</mml:mo></mml:math></inline-formula> in previously proposed HM search methods). Our method is effectual and generally applicable for template banks constructed with either stochastic or geometric placement techniques. New gravitational wave candidate events that we detect using our HM banks and details for combining the different SNR mode time series are presented in accompanying papers [D. Wadekar et al., arXiv:2312.06631; D. Wadekar et al., Phys. Rev. D 110, 044063 (2024)PRVDAQ2470-001010.1103/PhysRevD.110.044063]. Additionally, we discuss nonlinear compression of (2, 2)-only geometric placement template banks using machine learning algorithms.",
       "arxiv_id": "2310.15233",
       "authors": [
@@ -1025,7 +997,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2024PhRvD.110h4035W",
-      "citation_count": 27,
+      "citation_count": 26,
       "doctype": "article",
       "doi": "10.1103/PhysRevD.110.084035",
       "inspire_recid": "2713962",
@@ -1042,6 +1014,34 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "110",
+      "year": 2024
+    },
+    {
+      "abstract": "Neutron stars in coalescing binaries deform due to the tidal gravitational fields generated by their companions. During the inspiral phase, the tidal deformation is dominated by the fundamental oscillation ($f$-) mode of the stars. The tide also has sub-dominant gravity ($g$-) modes that are resonantly excited when the linear tidal forcing sweeps through their eigenfrequencies. Beyond the linear order in perturbed fluid displacement, the $g$-modes are anharmonic, i.e., their oscillation frequencies depend on the mode energy. For the lowest-order $g$-mode, we show that when the tidal forcing reaches its linear eigenfrequency, the mode starts to dynamically adjust its energy so that its nonlinearly shifted oscillation frequency always matches that of the driving field. This phenomenon, which we term `resonance locking', persists through the rest of the inspiral, and hence, the mode grows to substantially larger energies than in the linear theory. Using a $1.4$--$1.4\\, M_{\\odot}$ binary neutron star system with the SLy4 equation of state, we find this results in an extra correction to the frequency-domain gravitational wave (GW) phase of $|\\Delta \\Psi|\\approx 3\\,{\\rm rad}$ accumulated from the onset of resonance locking at the GW frequency of $94\\,{\\rm Hz}$ to the merger at $1.05\\,{\\rm kHz}$. This effect probes details of the internal structure of merging neutron stars beyond their bulk properties such as tidal deformability.",
+      "arxiv_id": "2410.03831",
+      "authors": [
+        "Kwon, K. J.",
+        "Yu, Hang",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2024arXiv241003831K",
+      "citation_count": 19,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.2410.03831",
+      "inspire_recid": "2837623",
+      "page": "arXiv:2410.03831",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:2410.03831",
+      "pubdate": "2024-10-00",
+      "title": "Resonance Locking of Anharmonic $g$-Modes in Coalescing Neutron Star Binaries",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Neutron stars",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
       "year": 2024
     },
     {
@@ -1091,7 +1091,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2024PhRvD.110d4010R",
-      "citation_count": 30,
+      "citation_count": 29,
       "doctype": "article",
       "doi": "10.1103/PhysRevD.110.044010",
       "inspire_recid": "2773795",
@@ -1124,7 +1124,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2024PhRvD.110d4063W",
-      "citation_count": 35,
+      "citation_count": 34,
       "doctype": "article",
       "doi": "10.48550/arXiv.2405.17400",
       "inspire_recid": "2790880",
@@ -1151,7 +1151,7 @@
         "Venumadhav, Tejaswi"
       ],
       "bibcode": "2024ARNPS..74..207R",
-      "citation_count": 13,
+      "citation_count": 12,
       "doctype": "article",
       "doi": "10.1146/annurev-nucl-121423-100725",
       "inspire_recid": "2759569",
@@ -1185,7 +1185,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2023arXiv231206631W",
-      "citation_count": 95,
+      "citation_count": 94,
       "doctype": "eprint",
       "doi": "10.48550/arXiv.2312.06631",
       "inspire_recid": "2734793",
@@ -1308,7 +1308,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2022PhRvD.106l3015R",
-      "citation_count": 63,
+      "citation_count": 61,
       "doctype": "article",
       "doi": "10.48550/arXiv.2207.03508",
       "inspire_recid": "2107899",
@@ -1336,7 +1336,7 @@
         "Venumadhav, Tejaswi"
       ],
       "bibcode": "2022arXiv221016278I",
-      "citation_count": 32,
+      "citation_count": 30,
       "doctype": "eprint",
       "doi": "10.48550/arXiv.2210.16278",
       "inspire_recid": "2173111",
@@ -1368,7 +1368,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2022PhRvD.106d3009O",
-      "citation_count": 212,
+      "citation_count": 211,
       "doctype": "article",
       "doi": "10.48550/arXiv.2201.02252",
       "inspire_recid": "2005596",
@@ -1401,7 +1401,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2022PhRvD.106b4009C",
-      "citation_count": 28,
+      "citation_count": 27,
       "doctype": "article",
       "doi": "10.1103/PhysRevD.106.024009",
       "inspire_recid": "1863310",
@@ -1506,7 +1506,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2021PhRvD.104h3036O",
-      "citation_count": 28,
+      "citation_count": 27,
       "doctype": "article",
       "doi": "10.48550/arXiv.2106.13821",
       "inspire_recid": "1870522",
@@ -1565,7 +1565,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2021PhRvD.104f3030Z",
-      "citation_count": 162,
+      "citation_count": 161,
       "doctype": "article",
       "doi": "10.48550/arXiv.1910.09528",
       "inspire_recid": "1759933",
@@ -1595,7 +1595,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2020PhRvD.102l3022R",
-      "citation_count": 77,
+      "citation_count": 76,
       "doctype": "article",
       "doi": "10.48550/arXiv.2008.07014",
       "inspire_recid": "1811939",
@@ -1690,7 +1690,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2020PhRvD.101h3030V",
-      "citation_count": 384,
+      "citation_count": 383,
       "doctype": "article",
       "doi": "10.48550/arXiv.1904.07214",
       "inspire_recid": "1729794",
@@ -1707,40 +1707,6 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "101",
-      "year": 2020
-    },
-    {
-      "abstract": "We study the highly magnified arc SGAS J122651.3+215220 caused by a star-forming galaxy at z<SUB>s</SUB> = 2.93 crossing the lensing caustic cast by the galaxy cluster SDSS J1226+2152 (z<SUB>l</SUB> = 0.43), using Hubble Space Telescope observations. We report in the arc several asymmetric surface brightness features whose angular separations are a fraction of an arcsecond from the lensing critical curve and appear to be highly but unequally magnified image pairs of underlying compact sources, with one brightest pair having clear asymmetry consistently across four filters. One explanation of unequal magnification is microlensing by intracluster stars, which induces independent flux variations in the images of individual or groups of source stars in the lensed galaxy. For a second possibility, intracluster dark matter subhaloes invisible to telescopes effectively perturb lensing magnifications near the critical curve and give rise to persistently unequal image pairs. Our modelling suggests, at least for the most prominent identified image pair, that the microlensing hypothesis is in tension with the absence of notable asymmetry variation over a six-year baseline, while subhaloes of \u223c10<SUP>6</SUP>-10<SUP>8</SUP> M<SUB>\u2299</SUB> anticipated from structure formation with cold dark matter typically produce stationary and sizable asymmetries. We judge that observations at additional times and more precise lens models are necessary to stringently constrain temporal variability and robustly distinguish between the two explanations. The arc under this study is a scheduled target of a Director's Discretionary Early Release Science program of the James Webb Space Telescope, which will provide deep images and a high-resolution view with integral field spectroscopy.",
-      "arxiv_id": "2001.00261",
-      "authors": [
-        "Dai, Liang",
-        "Kaurov, Alexander A.",
-        "Sharon, Keren",
-        "Florian, Michael",
-        "Miralda-Escud\u00e9, Jordi",
-        "Venumadhav, Tejaswi",
-        "Frye, Brenda",
-        "Rigby, Jane R.",
-        "Bayliss, Matthew"
-      ],
-      "bibcode": "2020MNRAS.495.3192D",
-      "citation_count": 40,
-      "doctype": "article",
-      "doi": "10.1093/mnras/staa1355",
-      "inspire_recid": "1773877",
-      "page": "3192",
-      "pub": "Monthly Notices of the Royal Astronomical Society",
-      "pub_raw": "Monthly Notices of the Royal Astronomical Society, Volume 495, Issue 3, pp.3192-3208",
-      "pubdate": "2020-01-00",
-      "title": "Asymmetric surface brightness structure of caustic crossing arc in SDSS J1226+2152: a case for dark matter substructure",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational lensing",
-        "Dark matter"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "495",
       "year": 2020
     },
     {
@@ -1802,7 +1768,7 @@
         "Gaensler, B. M."
       ],
       "bibcode": "2020PASA...37....2W",
-      "citation_count": 507,
+      "citation_count": 499,
       "doctype": "article",
       "doi": "10.48550/arXiv.1810.02680",
       "inspire_recid": "1697132",
@@ -1821,6 +1787,40 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "37",
+      "year": 2020
+    },
+    {
+      "abstract": "We study the highly magnified arc SGAS J122651.3+215220 caused by a star-forming galaxy at z<SUB>s</SUB> = 2.93 crossing the lensing caustic cast by the galaxy cluster SDSS J1226+2152 (z<SUB>l</SUB> = 0.43), using Hubble Space Telescope observations. We report in the arc several asymmetric surface brightness features whose angular separations are a fraction of an arcsecond from the lensing critical curve and appear to be highly but unequally magnified image pairs of underlying compact sources, with one brightest pair having clear asymmetry consistently across four filters. One explanation of unequal magnification is microlensing by intracluster stars, which induces independent flux variations in the images of individual or groups of source stars in the lensed galaxy. For a second possibility, intracluster dark matter subhaloes invisible to telescopes effectively perturb lensing magnifications near the critical curve and give rise to persistently unequal image pairs. Our modelling suggests, at least for the most prominent identified image pair, that the microlensing hypothesis is in tension with the absence of notable asymmetry variation over a six-year baseline, while subhaloes of \u223c10<SUP>6</SUP>-10<SUP>8</SUP> M<SUB>\u2299</SUB> anticipated from structure formation with cold dark matter typically produce stationary and sizable asymmetries. We judge that observations at additional times and more precise lens models are necessary to stringently constrain temporal variability and robustly distinguish between the two explanations. The arc under this study is a scheduled target of a Director's Discretionary Early Release Science program of the James Webb Space Telescope, which will provide deep images and a high-resolution view with integral field spectroscopy.",
+      "arxiv_id": "2001.00261",
+      "authors": [
+        "Dai, Liang",
+        "Kaurov, Alexander A.",
+        "Sharon, Keren",
+        "Florian, Michael",
+        "Miralda-Escud\u00e9, Jordi",
+        "Venumadhav, Tejaswi",
+        "Frye, Brenda",
+        "Rigby, Jane R.",
+        "Bayliss, Matthew"
+      ],
+      "bibcode": "2020MNRAS.495.3192D",
+      "citation_count": 40,
+      "doctype": "article",
+      "doi": "10.1093/mnras/staa1355",
+      "inspire_recid": "1773877",
+      "page": "3192",
+      "pub": "Monthly Notices of the Royal Astronomical Society",
+      "pub_raw": "Monthly Notices of the Royal Astronomical Society, Volume 495, Issue 3, pp.3192-3208",
+      "pubdate": "2020-01-00",
+      "title": "Asymmetric surface brightness structure of caustic crossing arc in SDSS J1226+2152: a case for dark matter substructure",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational lensing",
+        "Dark matter"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "495",
       "year": 2020
     },
     {
@@ -1867,7 +1867,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2019PhRvD.100b3011V",
-      "citation_count": 195,
+      "citation_count": 194,
       "doctype": "article",
       "doi": "10.48550/arXiv.1902.10341",
       "inspire_recid": "1722254",
@@ -1897,7 +1897,7 @@
         "Frye, Brenda"
       ],
       "bibcode": "2019ApJ...880...58K",
-      "citation_count": 77,
+      "citation_count": 76,
       "doctype": "article",
       "doi": "10.3847/1538-4357/ab2888",
       "inspire_recid": "1722101",
@@ -1927,7 +1927,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2019PhRvD.100b3007Z",
-      "citation_count": 204,
+      "citation_count": 203,
       "doctype": "article",
       "doi": "10.1103/PhysRevD.100.023007",
       "inspire_recid": "1722266",
@@ -1957,7 +1957,7 @@
         "Zaldarriaga, Matias"
       ],
       "bibcode": "2019PhRvD..99l3022R",
-      "citation_count": 52,
+      "citation_count": 50,
       "doctype": "article",
       "doi": "10.1103/PhysRevD.99.123022",
       "inspire_recid": "1727964",
@@ -2005,34 +2005,6 @@
       "year": 2019
     },
     {
-      "abstract": "The intergalactic medium is expected to be at its coldest point before the formation of the first stars in the Universe. Motivated by recent results from the EDGES experiment, we revisit the standard calculation of the kinetic temperature of the neutral gas through this period. When the first ultraviolet (UV) sources turn on, photons redshift into the Lyman lines of neutral hydrogen and repeatedly scatter within the Lyman-\u03b1 line. They heat the gas via atomic recoils, and, through the Wouthuysen-Field effect, set the spin temperature of the 21-cm hyperfine (spin-flip) line of atomic hydrogen in competition with the resonant cosmic microwave background (CMB) photons. We show that the Lyman-\u03b1 photons also mediate energy transfer between the CMB photons and the thermal motions of the hydrogen atoms. In the absence of x-ray heating, this new mechanism is the major correction to the temperature of the adiabatically cooling gas (\u223c10 % at z =17 ), and is several times the size of the heating rate found in previous calculations. We also find that the effect is more dramatic in nonstandard scenarios that either enhance the radio background above the CMB or invoke new physics to cool the gas in order to explain the EDGES results. The coupling with the radio background can reduce the depth of the 21-cm absorption feature by almost a factor of 2 relative to the case with no sources of heating, and prevent the feature from developing a flattened bottom. As an inevitable consequence of the UV background that generates the absorption feature, this heating should be accounted for in any theoretical prediction.",
-      "arxiv_id": "1804.02406",
-      "authors": [
-        "Venumadhav, Tejaswi",
-        "Dai, Liang",
-        "Kaurov, Alexander",
-        "Zaldarriaga, Matias"
-      ],
-      "bibcode": "2018PhRvD..98j3513V",
-      "citation_count": 88,
-      "doctype": "article",
-      "doi": "10.48550/arXiv.1804.02406",
-      "inspire_recid": "1666883",
-      "page": "103513",
-      "pub": "Physical Review D",
-      "pub_raw": "Physical Review D, Volume 98, Issue 10, id.103513",
-      "pubdate": "2018-11-00",
-      "title": "Heating of the intergalactic medium by the cosmic microwave background during cosmic dawn",
-      "topic_confidence": 0.9,
-      "topic_source": "llm",
-      "topics": [
-        "Reionization"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "98",
-      "year": 2018
-    },
-    {
       "abstract": "Luminous stars in background galaxies straddling the lensing caustic of a foreground galaxy cluster can be individually detected due to extreme magnification factors of \u223c10<SUP>2</SUP>-10<SUP>3</SUP>, as recently observed in deep HST images. We propose a direct method to probe the presence of dark matter subhalos in galaxy clusters by measuring the astrometric perturbation they induce on the image positions of magnified stars or bright clumps: lensing by subhalos breaks the symmetry of a smooth critical curve, traced by the midpoints of close image pairs. For the giant arc at z = 0.725 behind the lensing cluster Abell 370 at z = 0.375, a promising target for detecting image pairs of stars, we find that subhalos of masses in the range of 10<SUP>6</SUP>-10<SUP>8</SUP> M <SUB>\u2299</SUB> with the abundance predicted in the cold dark matter theory should typically imprint astrometric distortions at the level of 20-80 mas. We estimate that \u223c10 hr integrations with JWST at \u223c1-3 \u03bcm may uncover several magnified stars whose image doublets will reveal the subhalo-induced structures of the critical curve. This method can probe a dynamic range in the subhalo-to-cluster halo mass ratio of m/M \u223c 10<SUP>-7</SUP>-10<SUP>-9</SUP>, thereby placing new constraints on the nature of dark matter.",
       "arxiv_id": "1804.03149",
       "authors": [
@@ -2042,7 +2014,7 @@
         "Miralda-Escud, Jordi"
       ],
       "bibcode": "2018ApJ...867...24D",
-      "citation_count": 65,
+      "citation_count": 62,
       "doctype": "article",
       "doi": "10.48550/arXiv.1804.03149",
       "inspire_recid": "1667093",
@@ -2060,6 +2032,34 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "867",
+      "year": 2018
+    },
+    {
+      "abstract": "The intergalactic medium is expected to be at its coldest point before the formation of the first stars in the Universe. Motivated by recent results from the EDGES experiment, we revisit the standard calculation of the kinetic temperature of the neutral gas through this period. When the first ultraviolet (UV) sources turn on, photons redshift into the Lyman lines of neutral hydrogen and repeatedly scatter within the Lyman-\u03b1 line. They heat the gas via atomic recoils, and, through the Wouthuysen-Field effect, set the spin temperature of the 21-cm hyperfine (spin-flip) line of atomic hydrogen in competition with the resonant cosmic microwave background (CMB) photons. We show that the Lyman-\u03b1 photons also mediate energy transfer between the CMB photons and the thermal motions of the hydrogen atoms. In the absence of x-ray heating, this new mechanism is the major correction to the temperature of the adiabatically cooling gas (\u223c10 % at z =17 ), and is several times the size of the heating rate found in previous calculations. We also find that the effect is more dramatic in nonstandard scenarios that either enhance the radio background above the CMB or invoke new physics to cool the gas in order to explain the EDGES results. The coupling with the radio background can reduce the depth of the 21-cm absorption feature by almost a factor of 2 relative to the case with no sources of heating, and prevent the feature from developing a flattened bottom. As an inevitable consequence of the UV background that generates the absorption feature, this heating should be accounted for in any theoretical prediction.",
+      "arxiv_id": "1804.02406",
+      "authors": [
+        "Venumadhav, Tejaswi",
+        "Dai, Liang",
+        "Kaurov, Alexander",
+        "Zaldarriaga, Matias"
+      ],
+      "bibcode": "2018PhRvD..98j3513V",
+      "citation_count": 87,
+      "doctype": "article",
+      "doi": "10.48550/arXiv.1804.02406",
+      "inspire_recid": "1666883",
+      "page": "103513",
+      "pub": "Physical Review D",
+      "pub_raw": "Physical Review D, Volume 98, Issue 10, id.103513",
+      "pubdate": "2018-11-00",
+      "title": "Heating of the intergalactic medium by the cosmic microwave background during cosmic dawn",
+      "topic_confidence": 0.9,
+      "topic_source": "llm",
+      "topics": [
+        "Reionization"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "98",
       "year": 2018
     },
     {
@@ -2101,7 +2101,7 @@
         "Ajith, Parameswaran"
       ],
       "bibcode": "2018arXiv180707062H",
-      "citation_count": 155,
+      "citation_count": 154,
       "doctype": "eprint",
       "doi": "10.48550/arXiv.1807.07062",
       "inspire_recid": "1683034",
@@ -2130,7 +2130,7 @@
         "Venumadhav, Tejaswi"
       ],
       "bibcode": "2018arXiv180608792Z",
-      "citation_count": 210,
+      "citation_count": 205,
       "doctype": "eprint",
       "doi": "10.48550/arXiv.1806.08792",
       "inspire_recid": "1679399",
@@ -2216,7 +2216,7 @@
         "Miralda-Escud\u00e9, Jordi"
       ],
       "bibcode": "2017ApJ...850...49V",
-      "citation_count": 103,
+      "citation_count": 102,
       "doctype": "article",
       "doi": "10.3847/1538-4357/aa9575",
       "inspire_recid": "1608328",
@@ -2298,6 +2298,33 @@
       "year": 2017
     },
     {
+      "abstract": "Strong lensing by intervening galaxies can produce multiple images of gravitational waves from sources at cosmological distances. These images acquire additional phase-shifts as the over-focused wavefront passes through itself along the line of sight. Time domain waveforms of Type-II images (associated with saddle points of the time delay) exhibit a non-trivial distortion from the unlensed waveforms. This phenomenon is in addition to the usual frequency-independent magnification, and happens even in the geometric limit where the wavelength is much shorter than the deflector's gravitational length scale. Similarly, Type-III images preserve the original waveform's shape but exhibit a sign flip. We show that for non-precessing binaries undergoing circular inspiral and merger, these distortions are equivalent to rotating the line of sight about the normal to the orbital plane by $45^\\circ$ (Type II) and $90^\\circ$ (Type III). This effect will enable us to distinguish between the different topological types among a set of multiple images, and give us valuable insight into the lens model. Furthermore, we show that for eccentric binaries, the waveform of a Type-II image is distorted in a manner that is inequivalent to a change of the source's orbital parameters.",
+      "arxiv_id": "1702.04724",
+      "authors": [
+        "Dai, Liang",
+        "Venumadhav, Tejaswi"
+      ],
+      "bibcode": "2017arXiv170204724D",
+      "citation_count": 159,
+      "doctype": "eprint",
+      "doi": "10.48550/arXiv.1702.04724",
+      "inspire_recid": "1513760",
+      "page": "arXiv:1702.04724",
+      "pub": "arXiv e-prints",
+      "pub_raw": "eprint arXiv:1702.04724",
+      "pubdate": "2017-02-00",
+      "title": "On the waveforms of gravitationally lensed gravitational waves",
+      "topic_confidence": 0.95,
+      "topic_source": "llm",
+      "topics": [
+        "Gravitational lensing",
+        "Gravitational waves"
+      ],
+      "topics_classified_with": "56b28aa0a1fdaaf7",
+      "volume": "",
+      "year": 2017
+    },
+    {
       "abstract": "The recent detection of gravitational waves indicates that stellar-mass black hole binaries are likely to be a key population of sources for forthcoming observations. With future upgrades, ground-based detectors could detect merging black hole binaries out to cosmological distances. Gravitational-wave bursts from high redshifts (z \u22731 ) can be strongly magnified by gravitational lensing due to intervening galaxies along the line of sight. In the absence of electromagnetic counterparts, the mergers' intrinsic mass scale and redshift are degenerate with the unknown magnification factor \u03bc . Hence, strongly magnified low-mass mergers from high redshifts appear as higher-mass mergers from lower redshifts. We assess the impact of this degeneracy on the mass-redshift distribution of observable events for generic models of binary black hole formation from normal stellar evolution, Pop III star remnants, or a primordial black hole population. We find that strong magnification (\u03bc \u22733 ) generally creates a heavy tail of apparently massive mergers in the event distribution from a given detector. For LIGO and its future upgrades, this tail may dominate the population of intrinsically massive, but unlensed mergers in binary black hole formation models involving normal stellar evolution or primordial black holes. Modeling the statistics of lensing magnification can help account for this magnification bias when testing astrophysical scenarios of black hole binary formation and evolution.",
       "arxiv_id": "1605.09398",
       "authors": [
@@ -2323,33 +2350,6 @@
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "95",
-      "year": 2017
-    },
-    {
-      "abstract": "Strong lensing by intervening galaxies can produce multiple images of gravitational waves from sources at cosmological distances. These images acquire additional phase-shifts as the over-focused wavefront passes through itself along the line of sight. Time domain waveforms of Type-II images (associated with saddle points of the time delay) exhibit a non-trivial distortion from the unlensed waveforms. This phenomenon is in addition to the usual frequency-independent magnification, and happens even in the geometric limit where the wavelength is much shorter than the deflector's gravitational length scale. Similarly, Type-III images preserve the original waveform's shape but exhibit a sign flip. We show that for non-precessing binaries undergoing circular inspiral and merger, these distortions are equivalent to rotating the line of sight about the normal to the orbital plane by $45^\\circ$ (Type II) and $90^\\circ$ (Type III). This effect will enable us to distinguish between the different topological types among a set of multiple images, and give us valuable insight into the lens model. Furthermore, we show that for eccentric binaries, the waveform of a Type-II image is distorted in a manner that is inequivalent to a change of the source's orbital parameters.",
-      "arxiv_id": "1702.04724",
-      "authors": [
-        "Dai, Liang",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2017arXiv170204724D",
-      "citation_count": 160,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.1702.04724",
-      "inspire_recid": "1513760",
-      "page": "arXiv:1702.04724",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:1702.04724",
-      "pubdate": "2017-02-00",
-      "title": "On the waveforms of gravitationally lensed gravitational waves",
-      "topic_confidence": 0.95,
-      "topic_source": "llm",
-      "topics": [
-        "Gravitational lensing",
-        "Gravitational waves"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
       "year": 2017
     },
     {
@@ -2475,7 +2475,7 @@
         "Zemcov, Mike"
       ],
       "bibcode": "2014arXiv1412.4872D",
-      "citation_count": 712,
+      "citation_count": 703,
       "doctype": "eprint",
       "doi": "10.48550/arXiv.1412.4872",
       "inspire_recid": "1334478",
