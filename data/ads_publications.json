@@ -2,7 +2,7 @@
   "papers": [
     {
       "abstract": "The detection of faint high-energy transients is becoming increasingly important in time-domain and multimessenger astronomy, particularly for identifying electromagnetic counterparts to binary neutron star mergers, high-energy neutrino events, and other weak transient phenomena. At present, the sensitivity of gamma-ray and hard X-ray searches is often limited by the detection threshold of individual instruments, leaving a population of faint transients inaccessible to single-mission analyses. To address this limitation, we develop a joint detection framework that combines trigger information from multiple detectors and assigns each candidate a joint association probability, p<SUB>joint</SUB>, as a function of the individual detector signal-to-noise ratios. We apply this framework to archival Fermi/GBM and Swift/BAT rates data from 2013 to 2025. The method effectively separates coincident signals from accidental background associations, suppressing inconsistent coincidences while enhancing the significance of faint events observed by both instruments. We find that, under optimal conditions, a two-mission search can increase the accessible volume for short gamma-ray bursts by up to 60%. This framework provides a practical foundation for generalized multimission searches, enabling more sensitive exploration of the faint high-energy transient sky and improving the prospects for future multimessenger discoveries.",
-      "arxiv_id": null,
+      "arxiv_id": "2609.25672",
       "authors": [
         "Perera, Ariel",
         "Zackay, Barak",
@@ -11,17 +11,19 @@
       "bibcode": "2026ApJ..1012..139P",
       "citation_count": 0,
       "doctype": "article",
-      "doi": "10.3847/1538-4357/aeb7e5",
+      "doi": "10.48550/arXiv.2609.25672",
       "inspire_recid": "3206129",
       "page": "139",
       "pub": "The Astrophysical Journal",
       "pub_raw": "The Astrophysical Journal, Volume 1012, Issue 1, id.139, 15 pp.",
       "pubdate": "2026-11-00",
       "title": "A Multimission Detection Framework for High-energy Transients: Application to a 13 yr Fermi/GBM and Swift/BAT Sample",
-      "topic_confidence": 0.99,
-      "topic_source": "llm",
+      "topic_confidence": 1.0,
+      "topic_source": "manual_override",
       "topics": [
-        "Gamma ray bursts"
+        "Gamma ray bursts",
+        "Neutron stars",
+        "Gravitational waves"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "1012",
@@ -87,35 +89,6 @@
       "topic_source": "llm",
       "topics": [
         "Neutron stars"
-      ],
-      "topics_classified_with": "56b28aa0a1fdaaf7",
-      "volume": "",
-      "year": 2026
-    },
-    {
-      "abstract": "The detection of faint high-energy transients is becoming increasingly important in time-domain and multi-messenger astronomy, particularly for identifying electromagnetic counterparts to binary neutron star mergers, high-energy neutrino events, and other weak transient phenomena. At present, the sensitivity of gamma-ray and hard X-ray searches is often limited by the detection threshold of individual instruments, leaving a population of faint transients inaccessible to single-mission analyses. To address this limitation, we develop a joint detection framework that combines trigger information from multiple detectors and assigns each candidate a joint association probability, $p_{\\text{joint}}$, as a function of the individual detector signal-to-noise ratios. We apply this framework to archival Fermi/GBM and Swift/BAT rates data from 2013-2025. The method effectively separates coincident signals from accidental background associations, suppressing inconsistent coincidences while enhancing the significance of faint events observed by both instruments. We find that, under optimal conditions, a two-mission search can increase the accessible volume for short gamma-ray bursts by up to $60\\%$. This framework provides a practical foundation for generalized multi-mission searches, enabling more sensitive exploration of the faint high-energy transient sky and improving the prospects for future multi-messenger discoveries.",
-      "arxiv_id": "2609.25672",
-      "authors": [
-        "Perera, Ariel",
-        "Zackay, Barak",
-        "Venumadhav, Tejaswi"
-      ],
-      "bibcode": "2026arXiv260925672P",
-      "citation_count": 0,
-      "doctype": "eprint",
-      "doi": "10.48550/arXiv.2609.25672",
-      "inspire_recid": "3206129",
-      "page": "arXiv:2609.25672",
-      "pub": "arXiv e-prints",
-      "pub_raw": "eprint arXiv:2609.25672",
-      "pubdate": "2026-09-00",
-      "title": "A Multi-Mission Detection Framework for High-Energy Transients: Application to a 13-year Fermi/GBM and Swift/BAT Sample",
-      "topic_confidence": 1.0,
-      "topic_source": "manual_override",
-      "topics": [
-        "Gamma ray bursts",
-        "Neutron stars",
-        "Gravitational waves"
       ],
       "topics_classified_with": "56b28aa0a1fdaaf7",
       "volume": "",
